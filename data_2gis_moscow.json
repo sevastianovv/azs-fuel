@@ -404,7 +404,7 @@
       "address": "Москва, Полуярославская набережная, вл1",
       "lat": 55.750829,
       "lng": 37.658437,
-      "last_transaction_at": "2026-07-14T17:35:59Z",
+      "last_transaction_at": "2026-07-14T18:34:14Z",
       "created_at": "2026-07-10T15:38:40.516189Z",
       "updated_at": "2026-07-10T15:38:40.516189Z",
       "schedule": {
@@ -525,7 +525,7 @@
         "last_report_at": "2026-07-14T00:58:57.292648Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -1083,7 +1083,7 @@
         "last_report_at": "2026-07-13T10:19:35.272023Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -1243,7 +1243,7 @@
       "address": "Москва, Рочдельская улица, 14",
       "lat": 55.757213,
       "lng": 37.567694,
-      "last_transaction_at": "2026-07-14T18:18:03Z",
+      "last_transaction_at": "2026-07-14T18:34:08Z",
       "created_at": "2026-07-10T15:38:36.945912Z",
       "updated_at": "2026-07-10T15:38:36.945912Z",
       "schedule": {
@@ -2912,7 +2912,7 @@
       "address": "Москва, Жуков проезд, вл15а",
       "lat": 55.723532,
       "lng": 37.638213,
-      "last_transaction_at": "2026-07-14T17:54:28Z",
+      "last_transaction_at": "2026-07-14T18:32:56Z",
       "created_at": "2026-07-10T15:38:35.40237Z",
       "updated_at": "2026-07-10T15:38:35.40237Z",
       "schedule": {
@@ -3033,7 +3033,7 @@
         "last_report_at": "2026-07-14T14:41:48.997428Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -4456,7 +4456,7 @@
       "address": "Москва, Рижская площадь, вл3",
       "lat": 55.793286,
       "lng": 37.633939,
-      "last_transaction_at": "2026-07-14T17:03:41Z",
+      "last_transaction_at": "2026-07-14T18:16:15Z",
       "created_at": "2026-07-10T15:38:38.711379Z",
       "updated_at": "2026-07-10T15:38:38.711379Z",
       "schedule": {
@@ -4610,7 +4610,7 @@
         "last_report_at": "2026-07-13T16:33:09.798199Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -6487,7 +6487,7 @@
       "address": "Москва, Рубцовская набережная, 2а ст1",
       "lat": 55.770275,
       "lng": 37.692615,
-      "last_transaction_at": "2026-07-14T17:47:06Z",
+      "last_transaction_at": "2026-07-14T18:32:20Z",
       "created_at": "2026-07-10T15:38:41.675691Z",
       "updated_at": "2026-07-10T15:38:41.675691Z",
       "schedule": {
@@ -6595,7 +6595,7 @@
         "last_report_at": "2026-07-12T15:52:57.098725Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -8471,7 +8471,7 @@
       "address": "Москва, Старообрядческая улица, вл36",
       "lat": 55.741527,
       "lng": 37.700159,
-      "last_transaction_at": "2026-07-14T16:18:16Z",
+      "last_transaction_at": "2026-07-14T18:28:19Z",
       "created_at": "2026-07-10T15:38:38.142755Z",
       "updated_at": "2026-07-10T15:38:38.142755Z",
       "schedule": {
@@ -8592,7 +8592,7 @@
         "last_report_at": "2026-07-14T00:56:43.148979Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -9091,7 +9091,32 @@
       "pay_sbp": true,
       "timezone_offset": 3
     },
-    "fuel_statuses": null,
+    "fuel_statuses": [
+      {
+        "station_id": "70000001066023312",
+        "fuel_type": "AI_95",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 1,
+        "last_report_at": "2026-07-14T18:55:35.500916Z"
+      },
+      {
+        "station_id": "70000001066023312",
+        "fuel_type": "AI_92",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 1,
+        "last_report_at": "2026-07-14T18:55:35.500916Z"
+      },
+      {
+        "station_id": "70000001066023312",
+        "fuel_type": "DT",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 1,
+        "last_report_at": "2026-07-14T18:55:35.500916Z"
+      }
+    ],
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
@@ -11353,7 +11378,7 @@
       "address": "Москва, 1-й Угрешский проезд, вл10",
       "lat": 55.716881,
       "lng": 37.689959,
-      "last_transaction_at": "2026-07-14T17:31:24Z",
+      "last_transaction_at": "2026-07-14T18:33:02Z",
       "created_at": "2026-07-10T15:38:40.1997Z",
       "updated_at": "2026-07-10T15:38:40.1997Z",
       "schedule": {
@@ -11425,7 +11450,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -12516,7 +12541,7 @@
       "address": "Москва, Маломосковская улица, вл18",
       "lat": 55.812671,
       "lng": 37.649954,
-      "last_transaction_at": "2026-07-14T17:56:25Z",
+      "last_transaction_at": "2026-07-14T18:32:43Z",
       "created_at": "2026-07-10T15:38:40.22992Z",
       "updated_at": "2026-07-10T15:38:40.22992Z",
       "schedule": {
@@ -14933,7 +14958,7 @@
         "last_report_at": "2026-07-13T08:13:08.366574Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -16445,7 +16470,7 @@
       "address": "Москва, Волгоградский проспект, 39 ст1",
       "lat": 55.715745,
       "lng": 37.712843,
-      "last_transaction_at": "2026-07-14T17:55:45Z",
+      "last_transaction_at": "2026-07-14T18:30:55Z",
       "created_at": "2026-07-10T15:38:41.545461Z",
       "updated_at": "2026-07-10T15:38:41.545461Z",
       "schedule": {
@@ -18375,7 +18400,7 @@
         "last_report_at": "2026-07-13T15:08:28.139725Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
