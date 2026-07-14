@@ -4,7 +4,7 @@ import json
 import argparse
 import urllib.request
 import urllib.parse
-from datetime import datetime
+from datetime import datetime, timezone
 
 # Bounding boxes and parameters for cities
 CITIES = {
@@ -141,7 +141,7 @@ try:
         except Exception:
             pass
             
-    now_str = datetime.now().isoformat()
+    now_str = datetime.now(timezone.utc).isoformat()
     if source == 'scheduler':
         status_data['last_scheduler_update'] = now_str
     else:
