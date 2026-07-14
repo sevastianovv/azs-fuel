@@ -1,0 +1,139 @@
+import os
+import sys
+import json
+import argparse
+import urllib.request
+import urllib.parse
+from datetime import datetime
+
+# Default parameters
+LAT = 55.761745
+LNG = 49.18308
+RADIUS = 25000
+LIMIT = 200
+
+# Bounding box for T-Bank (covers entire Kazan metropolitan area)
+MIN_LAT = LAT - 0.18
+MAX_LAT = LAT + 0.18
+MIN_LON = LNG - 0.28
+MAX_LON = LNG + 0.28
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Referer': 'https://2gis.ru/',
+    'Origin': 'https://2gis.ru'
+}
+
+# Parse source argument
+parser = argparse.ArgumentParser()
+parser.add_argument("--source", type=str, default="manual", help="Trigger source (manual, scheduler, web_button)")
+args = parser.parse_known_args()[0]
+
+source = args.source
+if source == "manual" and sys.platform.startswith('linux'):
+    try:
+        import getpass
+        if getpass.getuser() != 'http':
+            source = "scheduler"
+    except Exception:
+        pass
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+output_2gis = os.path.join(script_dir, 'data_2gis.json')
+output_tbank = os.path.join(script_dir, 'data_tbank.json')
+log_file = os.path.join(script_dir, 'update.log')
+status_file = os.path.join(script_dir, 'status.json')
+
+# Helper to log to file
+def write_log(message):
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    log_entry = f"[{timestamp}] [Source: {source.upper()}] {message}\n"
+    print(log_entry.strip())
+    try:
+        with open(log_file, 'a', encoding='utf-8') as f:
+            f.write(log_entry)
+        try:
+            os.chmod(log_file, 0o666)
+        except Exception:
+            pass
+    except Exception as e:
+        print(f"Failed to write to log file: {e}", file=sys.stderr)
+
+count_2gis = 0
+count_tbank = 0
+status_2gis = "failed"
+status_tbank = "failed"
+
+# 1. Fetch 2GIS
+url_2gis = f"https://benzin.api.2gis.ru/api/v1/stations/nearby?lat={LAT}&lng={LNG}&radius={RADIUS}&limit={LIMIT}"
+try:
+    req = urllib.request.Request(url_2gis, headers=headers)
+    with urllib.request.urlopen(req) as response:
+        stations = json.loads(response.read().decode('utf-8'))
+        count_2gis = len(stations)
+    with open(output_2gis, 'w', encoding='utf-8') as f:
+        json.dump(stations, f, indent=2, ensure_ascii=False)
+    try:
+        os.chmod(output_2gis, 0o666)
+    except Exception:
+        pass
+    status_2gis = "success"
+except Exception as e:
+    status_2gis = f"error ({e})"
+
+# 2. Fetch T-Bank
+tbank_params = {
+    "minLat": round(MIN_LAT, 4),
+    "maxLat": round(MAX_LAT, 4),
+    "minLon": round(MIN_LON, 4),
+    "maxLon": round(MAX_LON, 4)
+}
+url_tbank = "https://toplivo.tbank.ru/api/v1/stations?" + urllib.parse.urlencode(tbank_params)
+tbank_headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Referer': 'https://toplivo.tbank.ru/',
+    'Origin': 'https://toplivo.tbank.ru'
+}
+try:
+    req = urllib.request.Request(url_tbank, headers=tbank_headers)
+    with urllib.request.urlopen(req) as response:
+        res = json.loads(response.read().decode('utf-8'))
+        stations = res.get('payload', [])
+        count_tbank = len(stations)
+    with open(output_tbank, 'w', encoding='utf-8') as f:
+        json.dump(stations, f, indent=2, ensure_ascii=False)
+    try:
+        os.chmod(output_tbank, 0o666)
+    except Exception:
+        pass
+    status_tbank = "success"
+except Exception as e:
+    status_tbank = f"error ({e})"
+
+# Log summary
+write_log(f"2GIS: {status_2gis} ({count_2gis} st) | T-Bank: {status_tbank} ({count_tbank} st)")
+
+# Save status.json with both auto and manual timestamps
+try:
+    status_data = {}
+    if os.path.exists(status_file):
+        try:
+            with open(status_file, 'r', encoding='utf-8') as f:
+                status_data = json.load(f)
+        except Exception:
+            pass
+            
+    now_str = datetime.now().isoformat()
+    if source == 'scheduler':
+        status_data['last_scheduler_update'] = now_str
+    else:
+        status_data['last_manual_update'] = now_str
+        
+    with open(status_file, 'w', encoding='utf-8') as f:
+        json.dump(status_data, f, indent=2, ensure_ascii=False)
+    try:
+        os.chmod(status_file, 0o666)
+    except Exception:
+        pass
+except Exception as e:
+    print(f"Failed to write status.json: {e}", file=sys.stderr)
