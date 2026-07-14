@@ -1,0 +1,33 @@
+name: Update Fuel Data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # Запуск каждые 30 минут
+  workflow_dispatch:        # Возможность ручного запуска кнопкой в интерфейсе GitHub
+
+permissions:
+  contents: write           # Разрешение коммитить обновленные файлы обратно в репозиторий
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Update Script
+        run: python update_fuel.py --source scheduler
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data_*.json status.json update.log
+          # Коммитим только если файлы изменились
+          git diff-index --quiet HEAD || git commit -m "Auto-update fuel data: $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
