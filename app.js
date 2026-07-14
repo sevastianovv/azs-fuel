@@ -172,6 +172,32 @@ document.addEventListener('DOMContentLoaded', () => {
                 manualUpdateTimeEl.innerText = 'Ручное обновление: нет данных';
             }
             
+            // Post-process: If a fuel has a price in the 'prices' array but availability is null/undefined, set available = true!
+            allStations.forEach(s => {
+                const prices = s.prices || [];
+                const fuels = s.fuel_statuses || [];
+                
+                prices.forEach(p => {
+                    let f = fuels.find(x => x.fuel_type === p.fuel_type);
+                    if (!f) {
+                        f = {
+                            station_id: s.station?.id,
+                            fuel_type: p.fuel_type,
+                            available: true,
+                            queue_level: 'NONE',
+                            last_report_at: p.updated_at
+                        };
+                        fuels.push(f);
+                    } else if (f.available === null || f.available === undefined) {
+                        f.available = true;
+                        if (!f.last_report_at) {
+                            f.last_report_at = p.updated_at;
+                        }
+                    }
+                });
+                s.fuel_statuses = fuels;
+            });
+
             calculateStats(allStations);
             filterAndRender();
         } catch (error) {
@@ -454,6 +480,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Highlight the row if it matches the active filter
                     const isHighlightedClass = f.fuel_type === activeFuelFilter ? 'fuel-highlighted' : '';
                     
+                    // Extract price if it exists
+                    const priceItem = (s.prices || []).find(p => p.fuel_type === f.fuel_type);
+                    const priceHtml = priceItem ? `<span class="fuel-price">${priceItem.price} ₽</span>` : '';
+                    
                     let detailsHtml = '';
                     if (f.available === true) {
                         const queueText = QUEUE_LABELS[f.queue_level] || f.queue_level;
@@ -471,6 +501,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="fuel-status-row ${availClass} ${isHighlightedClass}">
                             <span class="fuel-type-label">${label}</span>
                             <div class="fuel-details">
+                                ${priceHtml}
                                 ${detailsHtml}
                                 <span class="fuel-availability-dot"></span>
                             </div>
