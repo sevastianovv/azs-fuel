@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // City selector
     citySelect.addEventListener('change', (e) => {
         currentCity = e.target.value;
-        const cityName = currentCity === 'spb' ? 'Санкт-Петербурга' : 'Казани';
+        const cityName = currentCity === 'spb' ? 'Санкт-Петербурга' : (currentCity === 'moscow' ? 'Москвы' : 'Казани');
         document.title = `Мониторинг АЗС ${cityName} | Топливо`;
         document.getElementById('footer-text').innerHTML = 'Мониторинг АЗС © 2026. Разработано на основе открытых данных 2ГИС и Т-Банк Топливо.';
         fetchData();
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.warn('Could not load status.json:', statusErr);
             }
 
-            const suffix = currentCity === 'spb' ? '_spb' : '_kazan';
+            const suffix = currentCity === 'spb' ? '_spb' : (currentCity === 'moscow' ? '_moscow' : '_kazan');
             if (currentSource === 'combined') {
                 const [res2gis, resTbank] = await Promise.all([
                     fetch(`data_2gis${suffix}.json?t=${Date.now()}`),
