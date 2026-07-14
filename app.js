@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentCity = e.target.value;
         const cityName = currentCity === 'spb' ? 'Санкт-Петербурга' : 'Казани';
         document.title = `Мониторинг АЗС ${cityName} | Топливо`;
-        document.getElementById('footer-text').innerHTML = `Мониторинг АЗС ${cityName} © 2026. Разработано на основе открытых данных 2ГИС Топливо.`;
+        document.getElementById('footer-text').innerHTML = 'Мониторинг АЗС © 2026. Разработано на основе открытых данных 2ГИС и Т-Банк Топливо.';
         fetchData();
     });
 
