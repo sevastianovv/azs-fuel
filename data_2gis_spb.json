@@ -8,7 +8,7 @@
       "address": "Санкт-Петербург, Театральная площадь, 7 лит А",
       "lat": 59.926765,
       "lng": 30.298239,
-      "last_transaction_at": "2026-07-15T04:43:23Z",
+      "last_transaction_at": "2026-07-15T07:00:16Z",
       "created_at": "2026-07-10T15:34:46.673742Z",
       "updated_at": "2026-07-10T15:34:46.673742Z",
       "schedule": {
@@ -163,7 +163,7 @@
       "address": "Санкт-Петербург, Александровский парк, 8 лит А",
       "lat": 59.953209,
       "lng": 30.322097,
-      "last_transaction_at": "2026-07-15T04:48:35Z",
+      "last_transaction_at": "2026-07-15T05:44:41Z",
       "created_at": "2026-07-10T15:34:46.256086Z",
       "updated_at": "2026-07-10T15:34:46.256086Z",
       "schedule": {
@@ -238,7 +238,7 @@
       {
         "station_id": "5348552838739674",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 39,
         "last_report_at": "2026-07-14T12:22:20.071917Z"
@@ -246,7 +246,7 @@
       {
         "station_id": "5348552838739674",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 16,
         "last_report_at": "2026-07-14T12:22:20.071917Z"
@@ -254,7 +254,7 @@
       {
         "station_id": "5348552838739674",
         "fuel_type": "GAS",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 14,
         "last_report_at": "2026-07-14T12:22:20.071917Z"
@@ -262,7 +262,7 @@
       {
         "station_id": "5348552838739674",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 22,
         "last_report_at": "2026-07-14T12:22:20.071917Z"
@@ -270,7 +270,7 @@
       {
         "station_id": "5348552838739674",
         "fuel_type": "AI_98",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 16,
         "last_report_at": "2026-07-14T12:22:20.071917Z"
@@ -278,14 +278,14 @@
       {
         "station_id": "5348552838739674",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 18,
         "last_report_at": "2026-07-14T15:28:35.881355Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
-    "closed": false,
+    "status": "NOT_AVAILABLE",
+    "closed": true,
     "closed_by_schedule": false,
     "prices": [
       {
@@ -311,7 +311,7 @@
       "address": "Санкт-Петербург, проспект Добролюбова, 20 к6",
       "lat": 59.949726,
       "lng": 30.288496,
-      "last_transaction_at": "2026-07-14T21:50:46Z",
+      "last_transaction_at": "2026-07-15T07:08:58Z",
       "created_at": "2026-07-10T15:34:42.785494Z",
       "updated_at": "2026-07-10T15:34:42.785494Z",
       "schedule": {
@@ -432,7 +432,7 @@
         "last_report_at": "2026-07-13T21:56:55.741878Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -471,7 +471,7 @@
       "address": "Санкт-Петербург, Ждановская улица, 2а",
       "lat": 59.955054,
       "lng": 30.284205,
-      "last_transaction_at": "2026-07-15T04:53:45Z",
+      "last_transaction_at": "2026-07-15T07:09:29Z",
       "created_at": "2026-07-10T15:34:45.314532Z",
       "updated_at": "2026-07-10T15:34:45.314532Z",
       "schedule": {
@@ -608,7 +608,7 @@
       {
         "station_id": "5348552838656752",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 3,
         "last_report_at": "2026-07-14T21:41:59.119476Z"
@@ -623,7 +623,7 @@
         "last_report_at": "2026-07-14T02:25:32.580242Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -761,7 +761,7 @@
       "address": "Санкт-Петербург, Боровая улица, 43 лит А",
       "lat": 59.91553,
       "lng": 30.344046,
-      "last_transaction_at": "2026-07-14T12:16:33Z",
+      "last_transaction_at": "2026-07-15T07:04:03Z",
       "created_at": "2026-07-10T15:34:43.967418Z",
       "updated_at": "2026-07-10T15:34:43.967418Z",
       "schedule": {
@@ -909,7 +909,7 @@
         "last_report_at": "2026-07-13T19:58:22.544568Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -1033,7 +1033,7 @@
         "last_report_at": "2026-07-14T03:40:01.86645Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -1391,7 +1391,7 @@
       "address": "Санкт-Петербург, Железноводская улица, 1а",
       "lat": 59.952864,
       "lng": 30.261897,
-      "last_transaction_at": "2026-07-15T04:54:12Z",
+      "last_transaction_at": "2026-07-15T06:04:38Z",
       "created_at": "2026-07-10T15:34:41.782871Z",
       "updated_at": "2026-07-10T15:34:41.782871Z",
       "schedule": {
@@ -1512,7 +1512,7 @@
         "last_report_at": "2026-07-12T19:35:31.170466Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -1672,7 +1672,7 @@
         "last_report_at": "2026-07-14T05:29:54.917696Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -2041,7 +2041,7 @@
       "address": "Санкт-Петербург, Миргородская улица, 1а",
       "lat": 59.924867,
       "lng": 30.371958,
-      "last_transaction_at": "2026-07-15T04:32:05Z",
+      "last_transaction_at": "2026-07-15T06:56:35Z",
       "created_at": "2026-07-10T15:34:48.510706Z",
       "updated_at": "2026-07-10T15:34:48.510706Z",
       "schedule": {
@@ -2116,7 +2116,7 @@
       {
         "station_id": "5348552838739670",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 4,
         "last_report_at": "2026-07-14T18:56:01.453644Z"
@@ -2124,7 +2124,7 @@
       {
         "station_id": "5348552838739670",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 4,
         "last_report_at": "2026-07-14T18:56:01.453644Z"
@@ -2132,7 +2132,7 @@
       {
         "station_id": "5348552838739670",
         "fuel_type": "AI_98",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T18:56:01.453644Z"
@@ -2140,7 +2140,7 @@
       {
         "station_id": "5348552838739670",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T18:56:01.453644Z"
@@ -2148,7 +2148,7 @@
       {
         "station_id": "5348552838739670",
         "fuel_type": "GAS",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T18:56:01.453644Z"
@@ -2156,13 +2156,13 @@
       {
         "station_id": "5348552838739670",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 4,
         "last_report_at": "2026-07-14T18:56:01.453644Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -2195,7 +2195,7 @@
       "address": "Санкт-Петербург, Левашовский проспект, 19 лит А",
       "lat": 59.967,
       "lng": 30.283861,
-      "last_transaction_at": "2026-07-15T04:55:05Z",
+      "last_transaction_at": "2026-07-15T05:56:32Z",
       "created_at": "2026-07-10T15:34:47.889344Z",
       "updated_at": "2026-07-10T15:34:47.889344Z",
       "schedule": {
@@ -2349,7 +2349,7 @@
       "address": "Санкт-Петербург, Средний проспект В.О., 91 к2",
       "lat": 59.935214,
       "lng": 30.250203,
-      "last_transaction_at": "2026-07-15T04:51:21Z",
+      "last_transaction_at": "2026-07-15T07:09:19Z",
       "created_at": "2026-07-10T15:34:50.476692Z",
       "updated_at": "2026-07-10T15:34:50.476692Z",
       "schedule": {
@@ -2470,7 +2470,7 @@
         "last_report_at": "2026-07-13T11:35:14.683667Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -2503,7 +2503,7 @@
       "address": "Санкт-Петербург, набережная Обводного канала, 34",
       "lat": 59.913274,
       "lng": 30.358594,
-      "last_transaction_at": "2026-07-15T04:54:58Z",
+      "last_transaction_at": "2026-07-15T07:05:06Z",
       "created_at": "2026-07-10T15:34:48.656769Z",
       "updated_at": "2026-07-10T15:34:48.656769Z",
       "schedule": {
@@ -2584,7 +2584,7 @@
         "last_report_at": "2026-07-11T07:01:03.247511Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -2617,7 +2617,7 @@
       "address": "Санкт-Петербург, Малый В.О. проспект, 68 к1",
       "lat": 59.938758,
       "lng": 30.246386,
-      "last_transaction_at": "2026-07-15T04:55:27Z",
+      "last_transaction_at": "2026-07-15T07:08:12Z",
       "created_at": "2026-07-10T15:34:43.165026Z",
       "updated_at": "2026-07-10T15:34:43.165026Z",
       "schedule": {
@@ -2691,22 +2691,30 @@
     "fuel_statuses": [
       {
         "station_id": "5348552838603549",
-        "fuel_type": "AI_95",
-        "available": null,
-        "queue_level": "NONE",
+        "fuel_type": "AI_92",
+        "available": true,
+        "queue_level": "UP_TO_30_MIN",
         "reports_count": 1,
-        "last_report_at": "2026-07-12T13:16:15.549618Z"
+        "last_report_at": "2026-07-15T06:39:53.564434Z"
+      },
+      {
+        "station_id": "5348552838603549",
+        "fuel_type": "AI_95",
+        "available": true,
+        "queue_level": "UP_TO_30_MIN",
+        "reports_count": 2,
+        "last_report_at": "2026-07-15T06:39:53.564434Z"
       },
       {
         "station_id": "5348552838603549",
         "fuel_type": "DT",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 2,
-        "last_report_at": "2026-07-13T16:47:54.37841Z"
+        "available": true,
+        "queue_level": "UP_TO_30_MIN",
+        "reports_count": 3,
+        "last_report_at": "2026-07-15T06:39:53.564434Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -2745,7 +2753,7 @@
       "address": "Санкт-Петербург, Малый В.О. проспект, 61",
       "lat": 59.938991,
       "lng": 30.24525,
-      "last_transaction_at": "2026-07-15T04:45:28Z",
+      "last_transaction_at": "2026-07-15T06:59:48Z",
       "created_at": "2026-07-10T15:34:43.539137Z",
       "updated_at": "2026-07-10T15:34:43.539137Z",
       "schedule": {
@@ -2869,7 +2877,7 @@
         "last_report_at": "2026-07-12T00:42:07.673105Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -2987,7 +2995,7 @@
       "address": "Санкт-Петербург, Песочная набережная, 30 лит А",
       "lat": 59.970395,
       "lng": 30.285234,
-      "last_transaction_at": "2026-07-15T04:52:51Z",
+      "last_transaction_at": "2026-07-15T06:57:39Z",
       "created_at": "2026-07-10T15:34:47.704554Z",
       "updated_at": "2026-07-10T15:34:47.704554Z",
       "schedule": {
@@ -3108,7 +3116,7 @@
         "last_report_at": "2026-07-13T13:16:33.710157Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -3220,7 +3228,7 @@
       {
         "station_id": "70000001099962187",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 3,
         "last_report_at": "2026-07-14T11:23:12.772634Z"
@@ -3228,13 +3236,13 @@
       {
         "station_id": "70000001099962187",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 4,
         "last_report_at": "2026-07-14T09:54:22.504719Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -3331,7 +3339,7 @@
       "address": "Санкт-Петербург, Таврический переулок, 13",
       "lat": 59.950125,
       "lng": 30.384415,
-      "last_transaction_at": "2026-07-15T04:55:16Z",
+      "last_transaction_at": "2026-07-15T07:02:53Z",
       "created_at": "2026-07-10T15:34:42.487537Z",
       "updated_at": "2026-07-10T15:34:42.487537Z",
       "schedule": {
@@ -3455,7 +3463,7 @@
         "last_report_at": "2026-07-12T19:22:29.64392Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -3587,7 +3595,7 @@
       "address": "Санкт-Петербург, улица Розенштейна, 37",
       "lat": 59.904248,
       "lng": 30.286447,
-      "last_transaction_at": "2026-07-15T04:53:46Z",
+      "last_transaction_at": "2026-07-15T07:05:52Z",
       "created_at": "2026-07-10T15:34:45.968199Z",
       "updated_at": "2026-07-10T15:34:45.968199Z",
       "schedule": {
@@ -3676,7 +3684,7 @@
         "last_report_at": "2026-07-11T14:49:21.380993Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -3709,7 +3717,7 @@
       "address": "Санкт-Петербург, Черниговская улица, 25",
       "lat": 59.903328,
       "lng": 30.336858,
-      "last_transaction_at": "2026-07-15T04:54:38Z",
+      "last_transaction_at": "2026-07-15T07:08:17Z",
       "created_at": "2026-07-10T15:34:49.511247Z",
       "updated_at": "2026-07-10T15:34:49.511247Z",
       "schedule": {
@@ -3790,7 +3798,7 @@
         "last_report_at": "2026-07-12T10:09:05.697769Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -3829,7 +3837,7 @@
       "address": "Санкт-Петербург, Херсонский проезд, 4",
       "lat": 59.928857,
       "lng": 30.385809,
-      "last_transaction_at": "2026-07-15T04:54:58Z",
+      "last_transaction_at": "2026-07-15T07:11:01Z",
       "created_at": "2026-07-10T15:34:47.625443Z",
       "updated_at": "2026-07-10T15:34:47.625443Z",
       "schedule": {
@@ -3910,7 +3918,7 @@
         "last_report_at": "2026-07-11T13:25:19.684735Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -4034,7 +4042,7 @@
       "address": "Санкт-Петербург, Днепропетровская улица, 20",
       "lat": 59.907451,
       "lng": 30.356114,
-      "last_transaction_at": "2026-07-15T04:51:25Z",
+      "last_transaction_at": "2026-07-15T06:46:41Z",
       "created_at": "2026-07-10T15:34:43.214283Z",
       "updated_at": "2026-07-10T15:34:43.214283Z",
       "schedule": {
@@ -4165,7 +4173,7 @@
       "address": "Санкт-Петербург, Кожевенная линия, 43",
       "lat": 59.926505,
       "lng": 30.241018,
-      "last_transaction_at": "2026-07-15T04:49:29Z",
+      "last_transaction_at": "2026-07-15T06:55:22Z",
       "created_at": "2026-07-10T15:34:48.739785Z",
       "updated_at": "2026-07-10T15:34:48.739785Z",
       "schedule": {
@@ -4246,7 +4254,7 @@
         "last_report_at": "2026-07-13T15:56:59.950838Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -4389,7 +4397,7 @@
       "address": "Санкт-Петербург, Выборгская набережная, 18",
       "lat": 59.977149,
       "lng": 30.327627,
-      "last_transaction_at": "2026-07-15T00:24:37Z",
+      "last_transaction_at": "2026-07-15T06:45:47Z",
       "created_at": "2026-07-10T15:34:47.904452Z",
       "updated_at": "2026-07-10T15:34:47.904452Z",
       "schedule": {
@@ -4461,7 +4469,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -4599,7 +4607,7 @@
       "address": "Санкт-Петербург, Минеральная улица, 16 лит А",
       "lat": 59.965234,
       "lng": 30.372402,
-      "last_transaction_at": "2026-07-15T04:25:39Z",
+      "last_transaction_at": "2026-07-15T06:37:43Z",
       "created_at": "2026-07-10T15:34:41.733595Z",
       "updated_at": "2026-07-10T15:34:41.733595Z",
       "schedule": {
@@ -4847,7 +4855,7 @@
       "address": "Санкт-Петербург, АГЗС",
       "lat": 59.912747,
       "lng": 30.375219,
-      "last_transaction_at": "2026-07-15T01:16:49Z",
+      "last_transaction_at": "2026-07-15T06:48:54Z",
       "created_at": "2026-07-10T15:34:50.412578Z",
       "updated_at": "2026-07-10T15:34:50.412578Z",
       "schedule": {
@@ -4919,7 +4927,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -5053,7 +5061,7 @@
         "last_report_at": "2026-07-13T06:12:54.401946Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -5092,7 +5100,7 @@
       "address": "Санкт-Петербург, Бумажная улица, 13",
       "lat": 59.905874,
       "lng": 30.267777,
-      "last_transaction_at": "2026-07-14T17:16:23Z",
+      "last_transaction_at": "2026-07-15T06:48:39Z",
       "created_at": "2026-07-10T15:34:47.394332Z",
       "updated_at": "2026-07-10T15:34:47.394332Z",
       "schedule": {
@@ -5164,7 +5172,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -5197,7 +5205,7 @@
       "address": "Санкт-Петербург, проспект КИМа, 32а",
       "lat": 59.9556,
       "lng": 30.241396,
-      "last_transaction_at": "2026-07-15T04:49:09Z",
+      "last_transaction_at": "2026-07-15T05:49:45Z",
       "created_at": "2026-07-10T15:34:47.770205Z",
       "updated_at": "2026-07-10T15:34:47.770205Z",
       "schedule": {
@@ -5348,7 +5356,7 @@
       "address": "Санкт-Петербург, Глиняная улица, 23/1",
       "lat": 59.912767,
       "lng": 30.375646,
-      "last_transaction_at": "2026-07-14T19:29:20Z",
+      "last_transaction_at": "2026-07-15T06:56:58Z",
       "created_at": "2026-07-10T15:34:48.126777Z",
       "updated_at": "2026-07-10T15:34:48.126777Z",
       "schedule": {
@@ -5496,7 +5504,7 @@
         "last_report_at": "2026-07-13T06:49:09.777462Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -5622,7 +5630,7 @@
       "address": "Санкт-Петербург, Лиговский проспект, 246т",
       "lat": 59.899531,
       "lng": 30.339406,
-      "last_transaction_at": "2026-07-15T04:50:20Z",
+      "last_transaction_at": "2026-07-15T07:05:07Z",
       "created_at": "2026-07-10T15:34:45.877528Z",
       "updated_at": "2026-07-10T15:34:45.877528Z",
       "schedule": {
@@ -5737,14 +5745,14 @@
       {
         "station_id": "5348552838608486",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 5,
         "last_report_at": "2026-07-14T12:29:52.196828Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -5893,7 +5901,7 @@
       "address": "Санкт-Петербург, Балтийская улица, 43а",
       "lat": 59.899363,
       "lng": 30.288476,
-      "last_transaction_at": "2026-07-15T04:37:46Z",
+      "last_transaction_at": "2026-07-15T06:42:12Z",
       "created_at": "2026-07-10T15:34:42.943738Z",
       "updated_at": "2026-07-10T15:34:42.943738Z",
       "schedule": {
@@ -5988,7 +5996,7 @@
       "address": "Санкт-Петербург, Малый В.О. проспект, 79",
       "lat": 59.938602,
       "lng": 30.231483,
-      "last_transaction_at": "2026-07-14T22:18:44Z",
+      "last_transaction_at": "2026-07-15T07:06:58Z",
       "created_at": "2026-07-10T15:34:47.8206Z",
       "updated_at": "2026-07-10T15:34:47.8206Z",
       "schedule": {
@@ -6060,7 +6068,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -6153,7 +6161,7 @@
         "last_report_at": "2026-07-12T16:11:01.340384Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -6192,7 +6200,7 @@
       "address": "Санкт-Петербург, Московский проспект, 102 лит А",
       "lat": 59.897174,
       "lng": 30.319732,
-      "last_transaction_at": "2026-07-15T04:51:59Z",
+      "last_transaction_at": "2026-07-15T07:08:46Z",
       "created_at": "2026-07-10T15:34:46.492076Z",
       "updated_at": "2026-07-10T15:34:46.492076Z",
       "schedule": {
@@ -6291,7 +6299,7 @@
       {
         "station_id": "70000001051224071",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T09:14:20.632871Z"
@@ -6313,7 +6321,7 @@
         "last_report_at": "2026-07-13T13:20:18.754008Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -6352,7 +6360,7 @@
       "address": "Санкт-Петербург, Литовская улица, 5 к2 лит А",
       "lat": 59.977428,
       "lng": 30.346752,
-      "last_transaction_at": "2026-07-15T04:46:58Z",
+      "last_transaction_at": "2026-07-15T07:03:28Z",
       "created_at": "2026-07-10T15:34:45.608121Z",
       "updated_at": "2026-07-10T15:34:45.608121Z",
       "schedule": {
@@ -6426,14 +6434,6 @@
     "fuel_statuses": [
       {
         "station_id": "5348552838605878",
-        "fuel_type": "AI_92",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 3,
-        "last_report_at": "2026-07-11T16:39:31.56084Z"
-      },
-      {
-        "station_id": "5348552838605878",
         "fuel_type": "AI_98",
         "available": null,
         "queue_level": "NONE",
@@ -6466,14 +6466,22 @@
       },
       {
         "station_id": "5348552838605878",
+        "fuel_type": "AI_92",
+        "available": true,
+        "queue_level": "NONE",
+        "reports_count": 4,
+        "last_report_at": "2026-07-15T07:09:48.783336Z"
+      },
+      {
+        "station_id": "5348552838605878",
         "fuel_type": "DT",
-        "available": null,
-        "queue_level": "UP_TO_30_MIN",
-        "reports_count": 2,
-        "last_report_at": "2026-07-12T15:56:08.160774Z"
+        "available": true,
+        "queue_level": "NONE",
+        "reports_count": 3,
+        "last_report_at": "2026-07-15T07:09:48.783336Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -6663,7 +6671,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -6748,8 +6756,8 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NO_DATA",
-    "closed": false,
+    "status": "NOT_AVAILABLE",
+    "closed": true,
     "closed_by_schedule": false,
     "prices": [
       {
@@ -6781,7 +6789,7 @@
       "address": "Санкт-Петербург, Малоохтинский проспект, 59а",
       "lat": 59.930641,
       "lng": 30.400149,
-      "last_transaction_at": "2026-07-15T04:52:10Z",
+      "last_transaction_at": "2026-07-15T07:09:27Z",
       "created_at": "2026-07-10T15:34:44.276924Z",
       "updated_at": "2026-07-10T15:34:44.276924Z",
       "schedule": {
@@ -6902,7 +6910,7 @@
         "last_report_at": "2026-07-11T21:00:54.124756Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -6960,7 +6968,7 @@
       "address": "Санкт-Петербург, улица Нахимова, 18 лит А",
       "lat": 59.94088,
       "lng": 30.226523,
-      "last_transaction_at": "2026-07-15T04:46:26Z",
+      "last_transaction_at": "2026-07-15T07:04:19Z",
       "created_at": "2026-07-10T15:34:49.485447Z",
       "updated_at": "2026-07-10T15:34:49.485447Z",
       "schedule": {
@@ -7190,7 +7198,7 @@
       {
         "station_id": "5348552838735514",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 4,
         "last_report_at": "2026-07-14T16:16:27.201022Z"
@@ -7212,7 +7220,7 @@
         "last_report_at": "2026-07-13T10:38:03.174227Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -7320,7 +7328,7 @@
       {
         "station_id": "70000001035573879",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-14T15:13:50.814827Z"
@@ -7328,13 +7336,13 @@
       {
         "station_id": "70000001035573879",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T15:13:50.814827Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -7367,7 +7375,7 @@
       "address": "Санкт-Петербург, проспект Обуховской Обороны, 3 лит А",
       "lat": 59.920208,
       "lng": 30.394682,
-      "last_transaction_at": "2026-07-15T04:52:09Z",
+      "last_transaction_at": "2026-07-15T07:05:58Z",
       "created_at": "2026-07-10T15:34:41.102507Z",
       "updated_at": "2026-07-10T15:34:41.102507Z",
       "schedule": {
@@ -7458,7 +7466,7 @@
       {
         "station_id": "5348552838739672",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 2,
@@ -7467,7 +7475,7 @@
       {
         "station_id": "5348552838739672",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 2,
@@ -7476,14 +7484,14 @@
       {
         "station_id": "5348552838739672",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 2,
         "last_report_at": "2026-07-14T18:33:16.621762Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -7516,7 +7524,7 @@
       "address": "Санкт-Петербург, АГЗС",
       "lat": 59.894678,
       "lng": 30.301669,
-      "last_transaction_at": "2026-07-14T18:01:33Z",
+      "last_transaction_at": "2026-07-15T06:33:06Z",
       "created_at": "2026-07-10T15:34:43.63886Z",
       "updated_at": "2026-07-10T15:34:43.63886Z",
       "schedule": {
@@ -7588,7 +7596,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -7673,7 +7681,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -8005,7 +8013,7 @@
         "last_report_at": "2026-07-12T17:58:50.372473Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -8044,7 +8052,7 @@
       "address": "Санкт-Петербург, Шотландская улица, 14",
       "lat": 59.909061,
       "lng": 30.239521,
-      "last_transaction_at": "2026-07-15T04:34:58Z",
+      "last_transaction_at": "2026-07-15T07:09:38Z",
       "created_at": "2026-07-10T15:34:43.022016Z",
       "updated_at": "2026-07-10T15:34:43.022016Z",
       "schedule": {
@@ -8276,7 +8284,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -8381,7 +8389,7 @@
       "address": "Санкт-Петербург, Замшина улица, 2",
       "lat": 59.967864,
       "lng": 30.392682,
-      "last_transaction_at": "2026-07-15T04:45:09Z",
+      "last_transaction_at": "2026-07-15T07:00:30Z",
       "created_at": "2026-07-10T15:34:45.593519Z",
       "updated_at": "2026-07-10T15:34:45.593519Z",
       "schedule": {
@@ -8571,7 +8579,7 @@
       "address": "Санкт-Петербург, Полюстровский проспект, 73 лит А",
       "lat": 59.979889,
       "lng": 30.367514,
-      "last_transaction_at": "2026-07-15T04:50:20Z",
+      "last_transaction_at": "2026-07-15T07:09:16Z",
       "created_at": "2026-07-10T15:34:48.475311Z",
       "updated_at": "2026-07-10T15:34:48.475311Z",
       "schedule": {
@@ -8682,7 +8690,7 @@
       {
         "station_id": "5348552840479712",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 3,
@@ -8691,14 +8699,14 @@
       {
         "station_id": "5348552840479712",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 3,
         "last_report_at": "2026-07-14T09:08:28.253746Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -8803,7 +8811,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -8896,7 +8904,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -8909,7 +8917,7 @@
       "address": "Санкт-Петербург, Свердловская набережная, 58 к4 лит А",
       "lat": 59.954985,
       "lng": 30.407892,
-      "last_transaction_at": "2026-07-15T04:36:46Z",
+      "last_transaction_at": "2026-07-15T07:06:15Z",
       "created_at": "2026-07-10T15:34:49.572391Z",
       "updated_at": "2026-07-10T15:34:49.572391Z",
       "schedule": {
@@ -8998,7 +9006,7 @@
         "last_report_at": "2026-07-12T14:44:59.853357Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -9252,7 +9260,7 @@
       "address": "Санкт-Петербург, Смоляная улица, 11 лит А",
       "lat": 59.907647,
       "lng": 30.393961,
-      "last_transaction_at": "2026-07-15T03:24:31Z",
+      "last_transaction_at": "2026-07-15T07:10:13Z",
       "created_at": "2026-07-10T15:34:46.729781Z",
       "updated_at": "2026-07-10T15:34:46.729781Z",
       "schedule": {
@@ -9350,7 +9358,7 @@
         "last_report_at": "2026-07-13T06:23:10.240592Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -9383,7 +9391,7 @@
       "address": "Санкт-Петербург, улица Маршала Говорова, 35 к3",
       "lat": 59.890693,
       "lng": 30.280032,
-      "last_transaction_at": "2026-07-15T00:17:13Z",
+      "last_transaction_at": "2026-07-15T05:59:56Z",
       "created_at": "2026-07-10T15:34:42.545284Z",
       "updated_at": "2026-07-10T15:34:42.545284Z",
       "schedule": {
@@ -9467,7 +9475,7 @@
       {
         "station_id": "70000001045498994",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 3,
         "last_report_at": "2026-07-14T13:23:40.676487Z"
@@ -9475,14 +9483,14 @@
       {
         "station_id": "70000001045498994",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 2,
         "last_report_at": "2026-07-14T14:24:25.842071Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -9719,24 +9727,24 @@
     "fuel_statuses": [
       {
         "station_id": "70000001050784848",
+        "fuel_type": "AI_92",
+        "available": true,
+        "queue_level": "NONE",
+        "reports_count": 5,
+        "last_report_at": "2026-07-15T07:27:27.351943Z"
+      },
+      {
+        "station_id": "70000001050784848",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-15T05:03:44.80985Z"
       },
       {
         "station_id": "70000001050784848",
-        "fuel_type": "AI_92",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 4,
-        "last_report_at": "2026-07-15T05:03:44.80985Z"
-      },
-      {
-        "station_id": "70000001050784848",
         "fuel_type": "AI_98",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-15T05:03:44.80985Z"
@@ -9744,7 +9752,7 @@
       {
         "station_id": "70000001050784848",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-15T05:03:44.80985Z"
@@ -9752,21 +9760,21 @@
       {
         "station_id": "70000001050784848",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
-        "reports_count": 3,
-        "last_report_at": "2026-07-15T05:03:44.80985Z"
+        "reports_count": 4,
+        "last_report_at": "2026-07-15T07:27:27.351943Z"
       },
       {
         "station_id": "70000001050784848",
         "fuel_type": "GAS",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-15T05:03:44.80985Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -9799,7 +9807,7 @@
       "address": "Санкт-Петербург, Волковский проспект, 61",
       "lat": 59.890609,
       "lng": 30.354627,
-      "last_transaction_at": "2026-07-15T04:52:12Z",
+      "last_transaction_at": "2026-07-15T07:01:43Z",
       "created_at": "2026-07-10T15:34:48.087581Z",
       "updated_at": "2026-07-10T15:34:48.087581Z",
       "schedule": {
@@ -10034,7 +10042,7 @@
       "address": "Санкт-Петербург, Торжковская улица, 19 лит А",
       "lat": 59.991537,
       "lng": 30.319897,
-      "last_transaction_at": "2026-07-15T04:32:45Z",
+      "last_transaction_at": "2026-07-15T07:02:35Z",
       "created_at": "2026-07-10T15:34:42.249616Z",
       "updated_at": "2026-07-10T15:34:42.249616Z",
       "schedule": {
@@ -10176,13 +10184,13 @@
       {
         "station_id": "70000001017234649",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 7,
         "last_report_at": "2026-07-14T13:37:54.157613Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -10221,7 +10229,7 @@
       "address": "Санкт-Петербург, проспект Маршала Блюхера, 2 к1",
       "lat": 59.986972,
       "lng": 30.35913,
-      "last_transaction_at": "2026-07-15T04:48:55Z",
+      "last_transaction_at": "2026-07-15T05:44:48Z",
       "created_at": "2026-07-10T15:34:44.640338Z",
       "updated_at": "2026-07-10T15:34:44.640338Z",
       "schedule": {
@@ -10323,13 +10331,13 @@
       {
         "station_id": "5348552838656751",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T18:51:40.706617Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -10453,7 +10461,7 @@
       "address": "Санкт-Петербург, Большой Сампсониевский проспект, 89 лит А",
       "lat": 59.991318,
       "lng": 30.333158,
-      "last_transaction_at": "2026-07-15T04:46:41Z",
+      "last_transaction_at": "2026-07-15T06:36:14Z",
       "created_at": "2026-07-10T15:34:49.92784Z",
       "updated_at": "2026-07-10T15:34:49.92784Z",
       "schedule": {
@@ -10528,13 +10536,13 @@
       {
         "station_id": "5348552841241564",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T14:16:21.050878Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -10573,7 +10581,7 @@
       "address": "Санкт-Петербург, проспект Маршала Блюхера, 2 к7",
       "lat": 59.986574,
       "lng": 30.362286,
-      "last_transaction_at": "2026-07-15T04:42:19Z",
+      "last_transaction_at": "2026-07-15T06:50:15Z",
       "created_at": "2026-07-10T15:34:48.046718Z",
       "updated_at": "2026-07-10T15:34:48.046718Z",
       "schedule": {
@@ -10647,11 +10655,51 @@
     "fuel_statuses": [
       {
         "station_id": "5348552838603996",
+        "fuel_type": "AI_92",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 1,
+        "last_report_at": "2026-07-15T06:53:20.636104Z"
+      },
+      {
+        "station_id": "5348552838603996",
+        "fuel_type": "AI_95",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 1,
+        "last_report_at": "2026-07-15T06:53:20.636104Z"
+      },
+      {
+        "station_id": "5348552838603996",
+        "fuel_type": "AI_98",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 1,
+        "last_report_at": "2026-07-15T06:53:20.636104Z"
+      },
+      {
+        "station_id": "5348552838603996",
+        "fuel_type": "AI_100",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 1,
+        "last_report_at": "2026-07-15T06:53:20.636104Z"
+      },
+      {
+        "station_id": "5348552838603996",
         "fuel_type": "DT",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 2,
-        "last_report_at": "2026-07-14T17:38:13.969429Z"
+        "reports_count": 3,
+        "last_report_at": "2026-07-15T06:53:20.636104Z"
+      },
+      {
+        "station_id": "5348552838603996",
+        "fuel_type": "GAS",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 1,
+        "last_report_at": "2026-07-15T06:53:20.636104Z"
       }
     ],
     "status": "PARTIALLY_AVAILABLE",
@@ -10784,7 +10832,7 @@
         "last_report_at": "2026-07-11T20:58:55.394462Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -10805,7 +10853,7 @@
       "address": "Санкт-Петербург, Полюстровский проспект, 93",
       "lat": 59.9891,
       "lng": 30.354163,
-      "last_transaction_at": "2026-07-15T04:11:28Z",
+      "last_transaction_at": "2026-07-15T06:53:51Z",
       "created_at": "2026-07-10T15:34:48.493524Z",
       "updated_at": "2026-07-10T15:34:48.493524Z",
       "schedule": {
@@ -10879,13 +10927,13 @@
       {
         "station_id": "5348552841241565",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-14T14:37:34.591575Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -11114,7 +11162,7 @@
       "address": "Санкт-Петербург, Бухарестская улица, 12",
       "lat": 59.889809,
       "lng": 30.362204,
-      "last_transaction_at": "2026-07-15T04:06:12Z",
+      "last_transaction_at": "2026-07-15T06:37:38Z",
       "created_at": "2026-07-10T15:34:41.913025Z",
       "updated_at": "2026-07-10T15:34:41.913025Z",
       "schedule": {
@@ -11235,7 +11283,7 @@
         "last_report_at": "2026-07-11T21:14:51.431337Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -11274,7 +11322,7 @@
       "address": "Санкт-Петербург, Лабораторный проспект, 21",
       "lat": 59.98026,
       "lng": 30.384575,
-      "last_transaction_at": "2026-07-15T04:11:49Z",
+      "last_transaction_at": "2026-07-15T07:09:17Z",
       "created_at": "2026-07-10T15:34:49.800736Z",
       "updated_at": "2026-07-10T15:34:49.800736Z",
       "schedule": {
@@ -11356,22 +11404,6 @@
       },
       {
         "station_id": "70000001051224326",
-        "fuel_type": "AI_92",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 2,
-        "last_report_at": "2026-07-14T18:50:41.421785Z"
-      },
-      {
-        "station_id": "70000001051224326",
-        "fuel_type": "AI_95",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 2,
-        "last_report_at": "2026-07-13T06:42:24.16905Z"
-      },
-      {
-        "station_id": "70000001051224326",
         "fuel_type": "AI_98",
         "available": null,
         "queue_level": "NONE",
@@ -11393,9 +11425,25 @@
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-13T06:42:24.16905Z"
+      },
+      {
+        "station_id": "70000001051224326",
+        "fuel_type": "AI_92",
+        "available": true,
+        "queue_level": "NONE",
+        "reports_count": 3,
+        "last_report_at": "2026-07-15T07:11:26.530594Z"
+      },
+      {
+        "station_id": "70000001051224326",
+        "fuel_type": "AI_95",
+        "available": true,
+        "queue_level": "NONE",
+        "reports_count": 3,
+        "last_report_at": "2026-07-15T07:11:26.530594Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -11428,7 +11476,7 @@
       "address": "Санкт-Петербург, улица Трефолева, 42 к3 лит А",
       "lat": 59.891566,
       "lng": 30.258893,
-      "last_transaction_at": "2026-07-15T03:25:15Z",
+      "last_transaction_at": "2026-07-15T05:19:11Z",
       "created_at": "2026-07-10T15:34:49.337884Z",
       "updated_at": "2026-07-10T15:34:49.337884Z",
       "schedule": {
@@ -11503,7 +11551,7 @@
       {
         "station_id": "5348552840479725",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 1,
@@ -11512,7 +11560,7 @@
       {
         "station_id": "5348552840479725",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 1,
@@ -11521,13 +11569,13 @@
       {
         "station_id": "5348552840479725",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T13:08:05.425354Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -11560,7 +11608,7 @@
       "address": "Санкт-Петербург, улица Кондратенко, 6",
       "lat": 59.885873,
       "lng": 30.342547,
-      "last_transaction_at": "2026-07-15T04:43:17Z",
+      "last_transaction_at": "2026-07-15T06:31:26Z",
       "created_at": "2026-07-10T15:34:49.239729Z",
       "updated_at": "2026-07-10T15:34:49.239729Z",
       "schedule": {
@@ -11665,7 +11713,7 @@
       "address": "Санкт-Петербург, Хрустальная улица, 22а",
       "lat": 59.907444,
       "lng": 30.405027,
-      "last_transaction_at": "2026-07-15T04:31:09Z",
+      "last_transaction_at": "2026-07-15T07:01:26Z",
       "created_at": "2026-07-10T15:34:49.906247Z",
       "updated_at": "2026-07-10T15:34:49.906247Z",
       "schedule": {
@@ -11864,7 +11912,7 @@
       {
         "station_id": "5348552838629485",
         "fuel_type": "AI_98",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-11T12:22:17.200111Z"
@@ -11872,7 +11920,7 @@
       {
         "station_id": "5348552838629485",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-11T12:22:17.200111Z"
@@ -11880,7 +11928,7 @@
       {
         "station_id": "5348552838629485",
         "fuel_type": "GAS",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-11T12:22:17.200111Z"
@@ -11888,7 +11936,7 @@
       {
         "station_id": "5348552838629485",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "UP_TO_30_MIN",
         "reports_count": 3,
         "last_report_at": "2026-07-14T06:55:21.623684Z"
@@ -11896,7 +11944,7 @@
       {
         "station_id": "5348552838629485",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": false,
         "queue_level": "UP_TO_30_MIN",
         "reports_count": 4,
         "last_report_at": "2026-07-14T06:55:21.623684Z"
@@ -11904,14 +11952,14 @@
       {
         "station_id": "5348552838629485",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": false,
         "queue_level": "UP_TO_30_MIN",
         "reports_count": 3,
         "last_report_at": "2026-07-14T06:55:21.623684Z"
       }
     ],
-    "status": "NO_DATA",
-    "closed": false,
+    "status": "NOT_AVAILABLE",
+    "closed": true,
     "closed_by_schedule": false,
     "prices": [
       {
@@ -12089,7 +12137,7 @@
       "address": "Санкт-Петербург, улица Седова, 12 к2 лит А",
       "lat": 59.902496,
       "lng": 30.399033,
-      "last_transaction_at": "2026-07-15T04:48:05Z",
+      "last_transaction_at": "2026-07-15T07:06:24Z",
       "created_at": "2026-07-10T15:34:41.623335Z",
       "updated_at": "2026-07-10T15:34:41.623335Z",
       "schedule": {
@@ -12170,7 +12218,7 @@
         "last_report_at": "2026-07-11T07:01:00.941141Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -12209,7 +12257,7 @@
       "address": "Санкт-Петербург, Октябрьская набережная, 2а",
       "lat": 59.916597,
       "lng": 30.417085,
-      "last_transaction_at": "2026-07-15T04:50:00Z",
+      "last_transaction_at": "2026-07-15T07:06:46Z",
       "created_at": "2026-07-10T15:34:47.917616Z",
       "updated_at": "2026-07-10T15:34:47.917616Z",
       "schedule": {
@@ -12597,7 +12645,7 @@
       "address": "Санкт-Петербург, Московский проспект, 156а лит А",
       "lat": 59.881504,
       "lng": 30.321076,
-      "last_transaction_at": "2026-07-15T04:37:54Z",
+      "last_transaction_at": "2026-07-15T07:08:01Z",
       "created_at": "2026-07-10T15:34:43.768246Z",
       "updated_at": "2026-07-10T15:34:43.768246Z",
       "schedule": {
@@ -12687,7 +12735,7 @@
         "last_report_at": "2026-07-12T14:47:49.262916Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -12798,7 +12846,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -12811,7 +12859,7 @@
       "address": "Санкт-Петербург, улица Савушкина, 106",
       "lat": 59.984242,
       "lng": 30.244433,
-      "last_transaction_at": "2026-07-15T04:52:31Z",
+      "last_transaction_at": "2026-07-15T07:07:44Z",
       "created_at": "2026-07-10T15:34:42.754463Z",
       "updated_at": "2026-07-10T15:34:42.754463Z",
       "schedule": {
@@ -12927,7 +12975,7 @@
         "last_report_at": "2026-07-12T01:30:54.096515Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -12966,7 +13014,7 @@
       "address": "Санкт-Петербург, Политехническая улица, 4 к3 лит Б",
       "lat": 59.99242,
       "lng": 30.35487,
-      "last_transaction_at": "2026-07-15T04:45:10Z",
+      "last_transaction_at": "2026-07-15T07:07:57Z",
       "created_at": "2026-07-10T15:34:45.097792Z",
       "updated_at": "2026-07-10T15:34:45.097792Z",
       "schedule": {
@@ -13090,7 +13138,7 @@
         "last_report_at": "2026-07-11T07:01:03.409679Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -13129,7 +13177,7 @@
       "address": "Санкт-Петербург, улица Генерала Хрулёва, 2",
       "lat": 59.995649,
       "lng": 30.298618,
-      "last_transaction_at": "2026-07-15T04:49:25Z",
+      "last_transaction_at": "2026-07-15T06:43:49Z",
       "created_at": "2026-07-10T15:34:48.153553Z",
       "updated_at": "2026-07-10T15:34:48.153553Z",
       "schedule": {
@@ -13204,13 +13252,13 @@
       {
         "station_id": "5348552838608500",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T14:38:11.498398Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -13318,7 +13366,7 @@
       {
         "station_id": "5348552840479692",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 3,
         "last_report_at": "2026-07-14T09:45:03.7464Z"
@@ -13326,7 +13374,7 @@
       {
         "station_id": "5348552840479692",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T09:45:03.7464Z"
@@ -13334,7 +13382,7 @@
       {
         "station_id": "5348552840479692",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 6,
@@ -13343,7 +13391,7 @@
       {
         "station_id": "5348552840479692",
         "fuel_type": "GAS",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T09:45:03.7464Z"
@@ -13351,7 +13399,7 @@
       {
         "station_id": "5348552840479692",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 4,
@@ -13360,13 +13408,13 @@
       {
         "station_id": "5348552840479692",
         "fuel_type": "AI_98",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T09:45:03.7464Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -13399,7 +13447,7 @@
       "address": "Санкт-Петербург, Дальневосточный проспект, 1а",
       "lat": 59.918215,
       "lng": 30.422435,
-      "last_transaction_at": "2026-07-15T04:44:43Z",
+      "last_transaction_at": "2026-07-15T06:46:43Z",
       "created_at": "2026-07-10T15:34:46.586294Z",
       "updated_at": "2026-07-10T15:34:46.586294Z",
       "schedule": {
@@ -13547,7 +13595,7 @@
       "address": "Санкт-Петербург, улица Седова, 11а лит А",
       "lat": 59.90014,
       "lng": 30.401955,
-      "last_transaction_at": "2026-07-15T04:53:05Z",
+      "last_transaction_at": "2026-07-15T07:01:35Z",
       "created_at": "2026-07-10T15:34:46.755588Z",
       "updated_at": "2026-07-10T15:34:46.755588Z",
       "schedule": {
@@ -13694,7 +13742,7 @@
       "address": "Санкт-Петербург, Новороссийская улица, 15",
       "lat": 59.993991,
       "lng": 30.354662,
-      "last_transaction_at": "2026-07-14T18:37:36Z",
+      "last_transaction_at": "2026-07-15T05:27:40Z",
       "created_at": "2026-07-10T15:34:42.638646Z",
       "updated_at": "2026-07-10T15:34:42.638646Z",
       "schedule": {
@@ -13796,13 +13844,13 @@
       {
         "station_id": "70000001018390554",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-14T14:50:24.822526Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -13917,7 +13965,7 @@
       {
         "station_id": "70000001078725517",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T10:31:06.945891Z"
@@ -13925,7 +13973,7 @@
       {
         "station_id": "70000001078725517",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T10:31:06.945891Z"
@@ -13933,7 +13981,7 @@
       {
         "station_id": "70000001078725517",
         "fuel_type": "AI_98",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T10:31:06.945891Z"
@@ -13941,7 +13989,7 @@
       {
         "station_id": "70000001078725517",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T10:31:06.945891Z"
@@ -13949,7 +13997,7 @@
       {
         "station_id": "70000001078725517",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 3,
         "last_report_at": "2026-07-14T10:31:06.945891Z"
@@ -13957,7 +14005,7 @@
       {
         "station_id": "70000001078725517",
         "fuel_type": "GAS",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T10:31:06.945891Z"
@@ -13996,7 +14044,7 @@
       "address": "Санкт-Петербург, улица Салова, 55",
       "lat": 59.888272,
       "lng": 30.376736,
-      "last_transaction_at": "2026-07-15T04:53:11Z",
+      "last_transaction_at": "2026-07-15T06:57:32Z",
       "created_at": "2026-07-10T15:34:47.303265Z",
       "updated_at": "2026-07-10T15:34:47.303265Z",
       "schedule": {
@@ -14071,7 +14119,7 @@
       {
         "station_id": "5348552840479720",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 3,
         "last_report_at": "2026-07-14T20:28:30.592923Z"
@@ -14095,7 +14143,7 @@
       {
         "station_id": "5348552840479720",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 4,
         "last_report_at": "2026-07-14T20:28:30.592923Z"
@@ -14111,13 +14159,13 @@
       {
         "station_id": "5348552840479720",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 5,
         "last_report_at": "2026-07-14T20:28:30.592923Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -14150,7 +14198,7 @@
       "address": "Санкт-Петербург, Магнитогорская улица, 34 лит А",
       "lat": 59.940738,
       "lng": 30.432602,
-      "last_transaction_at": "2026-07-14T16:37:42Z",
+      "last_transaction_at": "2026-07-15T04:12:49Z",
       "created_at": "2026-07-10T15:34:45.338258Z",
       "updated_at": "2026-07-10T15:34:45.338258Z",
       "schedule": {
@@ -14222,7 +14270,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -14261,7 +14309,7 @@
       "address": "Санкт-Петербург, Полевая Сабировская улица, 48 к2 лит А",
       "lat": 59.994305,
       "lng": 30.272864,
-      "last_transaction_at": "2026-07-15T03:16:43Z",
+      "last_transaction_at": "2026-07-15T06:49:28Z",
       "created_at": "2026-07-10T15:34:49.390744Z",
       "updated_at": "2026-07-10T15:34:49.390744Z",
       "schedule": {
@@ -14333,7 +14381,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -14366,7 +14414,7 @@
       "address": "Санкт-Петербург, Рощинская улица, 46а",
       "lat": 59.881083,
       "lng": 30.343475,
-      "last_transaction_at": "2026-07-15T04:45:23Z",
+      "last_transaction_at": "2026-07-15T06:55:35Z",
       "created_at": "2026-07-10T15:34:49.584497Z",
       "updated_at": "2026-07-10T15:34:49.584497Z",
       "schedule": {
@@ -14441,7 +14489,7 @@
       {
         "station_id": "5348552840479717",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T18:08:10.316993Z"
@@ -14449,7 +14497,7 @@
       {
         "station_id": "5348552840479717",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 4,
         "last_report_at": "2026-07-14T18:08:10.316993Z"
@@ -14457,7 +14505,7 @@
       {
         "station_id": "5348552840479717",
         "fuel_type": "AI_98",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-14T18:08:10.316993Z"
@@ -14465,7 +14513,7 @@
       {
         "station_id": "5348552840479717",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-14T18:08:10.316993Z"
@@ -14473,7 +14521,7 @@
       {
         "station_id": "5348552840479717",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 3,
         "last_report_at": "2026-07-14T18:08:10.316993Z"
@@ -14481,13 +14529,13 @@
       {
         "station_id": "5348552840479717",
         "fuel_type": "GAS",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-14T18:08:10.316993Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -14591,7 +14639,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -14624,7 +14672,7 @@
       "address": "Санкт-Петербург, Пискарёвский проспект, 27",
       "lat": 59.971712,
       "lng": 30.414073,
-      "last_transaction_at": "2026-07-15T04:49:56Z",
+      "last_transaction_at": "2026-07-15T06:47:59Z",
       "created_at": "2026-07-10T15:34:50.613376Z",
       "updated_at": "2026-07-10T15:34:50.613376Z",
       "schedule": {
@@ -14784,7 +14832,7 @@
       "address": "Санкт-Петербург, Софийская улица, 1",
       "lat": 59.888185,
       "lng": 30.38088,
-      "last_transaction_at": "2026-07-15T04:18:31Z",
+      "last_transaction_at": "2026-07-15T06:21:01Z",
       "created_at": "2026-07-10T15:34:44.301552Z",
       "updated_at": "2026-07-10T15:34:44.301552Z",
       "schedule": {
@@ -14964,7 +15012,7 @@
       {
         "station_id": "5348552840479703",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 5,
         "last_report_at": "2026-07-14T15:00:12.065504Z"
@@ -14972,7 +15020,7 @@
       {
         "station_id": "5348552840479703",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 5,
         "last_report_at": "2026-07-14T15:00:12.065504Z"
@@ -14980,7 +15028,7 @@
       {
         "station_id": "5348552840479703",
         "fuel_type": "AI_98",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T15:00:12.065504Z"
@@ -14988,7 +15036,7 @@
       {
         "station_id": "5348552840479703",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T15:00:12.065504Z"
@@ -14996,7 +15044,7 @@
       {
         "station_id": "5348552840479703",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 3,
         "last_report_at": "2026-07-14T15:00:12.065504Z"
@@ -15004,13 +15052,13 @@
       {
         "station_id": "5348552840479703",
         "fuel_type": "GAS",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T15:00:12.065504Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -15043,7 +15091,7 @@
       "address": "Санкт-Петербург, Партизанская улица, 15 к2",
       "lat": 59.947195,
       "lng": 30.434156,
-      "last_transaction_at": "2026-07-14T19:24:19Z",
+      "last_transaction_at": "2026-07-15T06:58:57Z",
       "created_at": "2026-07-10T15:34:50.342453Z",
       "updated_at": "2026-07-10T15:34:50.342453Z",
       "schedule": {
@@ -15115,7 +15163,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -15288,7 +15336,7 @@
       "address": "Санкт-Петербург, Коломяжский проспект, 15Б",
       "lat": 59.999097,
       "lng": 30.300453,
-      "last_transaction_at": "2026-07-15T04:35:08Z",
+      "last_transaction_at": "2026-07-15T07:05:19Z",
       "created_at": "2026-07-10T15:34:49.5588Z",
       "updated_at": "2026-07-10T15:34:49.5588Z",
       "schedule": {
@@ -15363,7 +15411,7 @@
       {
         "station_id": "5348552840757195",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 4,
         "last_report_at": "2026-07-14T09:21:35.725865Z"
@@ -15371,7 +15419,7 @@
       {
         "station_id": "5348552840757195",
         "fuel_type": "AI_98",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T09:21:35.725865Z"
@@ -15379,7 +15427,7 @@
       {
         "station_id": "5348552840757195",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T09:21:35.725865Z"
@@ -15387,7 +15435,7 @@
       {
         "station_id": "5348552840757195",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 4,
         "last_report_at": "2026-07-14T09:21:35.725865Z"
@@ -15395,7 +15443,7 @@
       {
         "station_id": "5348552840757195",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T09:21:35.725865Z"
@@ -15403,13 +15451,13 @@
       {
         "station_id": "5348552840757195",
         "fuel_type": "GAS",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T09:21:35.725865Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -15442,7 +15490,7 @@
       "address": "Санкт-Петербург, Приморский проспект, 56 лит А",
       "lat": 59.983137,
       "lng": 30.231042,
-      "last_transaction_at": "2026-07-14T17:54:03Z",
+      "last_transaction_at": "2026-07-15T05:47:44Z",
       "created_at": "2026-07-10T15:34:46.532084Z",
       "updated_at": "2026-07-10T15:34:46.532084Z",
       "schedule": {
@@ -15525,7 +15573,7 @@
       {
         "station_id": "5348552838739680",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 5,
         "last_report_at": "2026-07-14T11:00:48.217412Z"
@@ -15539,7 +15587,7 @@
         "last_report_at": "2026-07-13T11:38:52.96118Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -15572,7 +15620,7 @@
       "address": "Санкт-Петербург, Октябрьская набережная, 12а",
       "lat": 59.911492,
       "lng": 30.423027,
-      "last_transaction_at": "2026-07-15T04:55:32Z",
+      "last_transaction_at": "2026-07-15T07:04:25Z",
       "created_at": "2026-07-10T15:34:50.540717Z",
       "updated_at": "2026-07-10T15:34:50.540717Z",
       "schedule": {
@@ -15647,14 +15695,14 @@
       {
         "station_id": "70000001051224171",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 1,
         "last_report_at": "2026-07-14T12:53:36.439984Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -15799,7 +15847,7 @@
       "address": "Санкт-Петербург, Торфяная дорога, 10 лит А",
       "lat": 59.992227,
       "lng": 30.25446,
-      "last_transaction_at": "2026-07-14T16:49:07Z",
+      "last_transaction_at": "2026-07-15T06:58:43Z",
       "created_at": "2026-07-10T15:34:47.664896Z",
       "updated_at": "2026-07-10T15:34:47.664896Z",
       "schedule": {
@@ -15871,7 +15919,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -16044,7 +16092,7 @@
       "address": "Санкт-Петербург, Витебский проспект, 10а",
       "lat": 59.879481,
       "lng": 30.348487,
-      "last_transaction_at": "2026-07-15T04:53:13Z",
+      "last_transaction_at": "2026-07-15T07:09:04Z",
       "created_at": "2026-07-10T15:34:47.432216Z",
       "updated_at": "2026-07-10T15:34:47.432216Z",
       "schedule": {
@@ -16116,7 +16164,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -16288,7 +16336,7 @@
       "address": "Санкт-Петербург, улица Салова, 74 к1",
       "lat": 59.882615,
       "lng": 30.366816,
-      "last_transaction_at": "2026-07-15T04:53:51Z",
+      "last_transaction_at": "2026-07-15T06:59:11Z",
       "created_at": "2026-07-10T15:34:49.403512Z",
       "updated_at": "2026-07-10T15:34:49.403512Z",
       "schedule": {
@@ -16360,7 +16408,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -16688,7 +16736,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -16832,7 +16880,7 @@
       "address": "Санкт-Петербург, Благодатная улица, 10а",
       "lat": 59.876187,
       "lng": 30.306632,
-      "last_transaction_at": "2026-07-15T04:05:42Z",
+      "last_transaction_at": "2026-07-15T07:09:23Z",
       "created_at": "2026-07-10T15:34:45.136541Z",
       "updated_at": "2026-07-10T15:34:45.136541Z",
       "schedule": {
@@ -16915,7 +16963,7 @@
       {
         "station_id": "5348552838608490",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 3,
         "last_report_at": "2026-07-14T11:42:53.151742Z"
@@ -16953,7 +17001,7 @@
         "last_report_at": "2026-07-12T13:38:13.214878Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -17335,7 +17383,7 @@
         "last_report_at": "2026-07-13T09:20:22.10354Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -17723,7 +17771,7 @@
       {
         "station_id": "5348552841674354",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 5,
@@ -17732,7 +17780,7 @@
       {
         "station_id": "5348552841674354",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 6,
@@ -17741,14 +17789,14 @@
       {
         "station_id": "5348552841674354",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 8,
         "last_report_at": "2026-07-14T18:51:53.385696Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -17781,7 +17829,7 @@
       "address": "Санкт-Петербург, Заневский проспект, 75",
       "lat": 59.934296,
       "lng": 30.441918,
-      "last_transaction_at": "2026-07-15T04:36:32Z",
+      "last_transaction_at": "2026-07-15T05:14:35Z",
       "created_at": "2026-07-10T15:34:42.588626Z",
       "updated_at": "2026-07-10T15:34:42.588626Z",
       "schedule": {
@@ -18145,7 +18193,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -18341,7 +18389,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -18513,7 +18561,7 @@
       {
         "station_id": "5348552840268770",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 5,
         "last_report_at": "2026-07-14T20:21:12.018868Z"
@@ -18521,7 +18569,7 @@
       {
         "station_id": "5348552840268770",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 4,
         "last_report_at": "2026-07-14T17:41:26.025387Z"
@@ -18529,7 +18577,7 @@
       {
         "station_id": "5348552840268770",
         "fuel_type": "AI_98",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T17:41:26.025387Z"
@@ -18537,7 +18585,7 @@
       {
         "station_id": "5348552840268770",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T17:41:26.025387Z"
@@ -18545,7 +18593,7 @@
       {
         "station_id": "5348552840268770",
         "fuel_type": "GAS",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-07-14T17:41:26.025387Z"
@@ -18553,13 +18601,13 @@
       {
         "station_id": "5348552840268770",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 3,
         "last_report_at": "2026-07-14T17:41:26.025387Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -18592,7 +18640,7 @@
       "address": "Санкт-Петербург, проспект Непокорённых, 15 лит А",
       "lat": 59.995319,
       "lng": 30.380603,
-      "last_transaction_at": "2026-07-15T04:33:16Z",
+      "last_transaction_at": "2026-07-15T05:48:49Z",
       "created_at": "2026-07-10T15:34:48.932957Z",
       "updated_at": "2026-07-10T15:34:48.932957Z",
       "schedule": {
@@ -18697,7 +18745,7 @@
       "address": "Санкт-Петербург, улица Фучика, 23 к1 лит А",
       "lat": 59.883437,
       "lng": 30.385553,
-      "last_transaction_at": "2026-07-15T04:24:16Z",
+      "last_transaction_at": "2026-07-15T07:03:39Z",
       "created_at": "2026-07-10T15:34:42.96015Z",
       "updated_at": "2026-07-10T15:34:42.96015Z",
       "schedule": {
@@ -18887,7 +18935,7 @@
       "address": "Санкт-Петербург, Витебский проспект, 9 к2",
       "lat": 59.875269,
       "lng": 30.350985,
-      "last_transaction_at": "2026-07-14T23:41:33Z",
+      "last_transaction_at": "2026-07-15T05:27:06Z",
       "created_at": "2026-07-10T15:34:41.874047Z",
       "updated_at": "2026-07-10T15:34:41.874047Z",
       "schedule": {
@@ -18959,7 +19007,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -19097,7 +19145,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -19267,7 +19315,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -19288,7 +19336,7 @@
       "address": "Санкт-Петербург, улица Фучика, 6 к3",
       "lat": 59.878671,
       "lng": 30.370365,
-      "last_transaction_at": "2026-07-15T04:39:37Z",
+      "last_transaction_at": "2026-07-15T06:45:05Z",
       "created_at": "2026-07-10T15:34:47.691401Z",
       "updated_at": "2026-07-10T15:34:47.691401Z",
       "schedule": {
@@ -19390,29 +19438,29 @@
       {
         "station_id": "5348552838656768",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
-        "reports_count": 1,
-        "last_report_at": "2026-07-11T07:01:05.491161Z"
+        "reports_count": 2,
+        "last_report_at": "2026-07-15T05:28:03.675761Z"
       },
       {
         "station_id": "5348552838656768",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
-        "reports_count": 2,
-        "last_report_at": "2026-07-11T07:16:50.323023Z"
+        "reports_count": 3,
+        "last_report_at": "2026-07-15T05:28:03.675761Z"
       },
       {
         "station_id": "5348552838656768",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
-        "reports_count": 2,
-        "last_report_at": "2026-07-11T07:16:50.323023Z"
+        "reports_count": 3,
+        "last_report_at": "2026-07-15T05:28:03.675761Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -19550,7 +19598,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -19577,7 +19625,7 @@
       "address": "Санкт-Петербург, улица Оптиков, 1 к2",
       "lat": 59.99713,
       "lng": 30.250556,
-      "last_transaction_at": "2026-07-15T04:54:47Z",
+      "last_transaction_at": "2026-07-15T07:09:09Z",
       "created_at": "2026-07-10T15:34:42.40414Z",
       "updated_at": "2026-07-10T15:34:42.40414Z",
       "schedule": {
@@ -19652,39 +19700,39 @@
       {
         "station_id": "70000001062822050",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "reports_count": 3,
         "last_report_at": "2026-07-14T16:08:20.491719Z"
       },
       {
         "station_id": "70000001062822050",
+        "fuel_type": "AI_98",
+        "available": true,
+        "queue_level": "NONE",
+        "reports_count": 2,
+        "last_report_at": "2026-07-15T05:15:31.326156Z"
+      },
+      {
+        "station_id": "70000001062822050",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "reports_count": 2,
         "last_report_at": "2026-07-14T16:08:20.491719Z"
       },
       {
         "station_id": "70000001062822050",
-        "fuel_type": "AI_98",
-        "available": null,
-        "queue_level": "UP_TO_30_MIN",
-        "reports_count": 1,
-        "last_report_at": "2026-07-14T16:08:20.491719Z"
-      },
-      {
-        "station_id": "70000001062822050",
         "fuel_type": "AI_100",
-        "available": null,
-        "queue_level": "UP_TO_30_MIN",
-        "reports_count": 1,
-        "last_report_at": "2026-07-14T16:08:20.491719Z"
+        "available": true,
+        "queue_level": "NONE",
+        "reports_count": 2,
+        "last_report_at": "2026-07-15T05:15:31.326156Z"
       },
       {
         "station_id": "70000001062822050",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "reports_count": 2,
         "last_report_at": "2026-07-14T16:08:20.491719Z"
@@ -19692,13 +19740,13 @@
       {
         "station_id": "70000001062822050",
         "fuel_type": "GAS",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "reports_count": 1,
         "last_report_at": "2026-07-14T16:08:20.491719Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -19971,7 +20019,7 @@
       "address": "Санкт-Петербург, улица Ворошилова, 10",
       "lat": 59.924881,
       "lng": 30.445423,
-      "last_transaction_at": "2026-07-15T04:35:59Z",
+      "last_transaction_at": "2026-07-15T07:03:26Z",
       "created_at": "2026-07-10T15:34:47.731659Z",
       "updated_at": "2026-07-10T15:34:47.731659Z",
       "schedule": {
@@ -20069,7 +20117,7 @@
         "last_report_at": "2026-07-13T20:35:28.97837Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -20327,7 +20375,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -20340,7 +20388,7 @@
       "address": "Санкт-Петербург, Богатырский проспект, 17",
       "lat": 60.000887,
       "lng": 30.261885,
-      "last_transaction_at": "2026-07-15T03:21:29Z",
+      "last_transaction_at": "2026-07-15T07:09:52Z",
       "created_at": "2026-07-10T15:34:43.798435Z",
       "updated_at": "2026-07-10T15:34:43.798435Z",
       "schedule": {
@@ -20431,7 +20479,7 @@
       {
         "station_id": "5348552838608503",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 6,
         "last_report_at": "2026-07-14T09:58:10.735824Z"
@@ -20461,7 +20509,7 @@
         "last_report_at": "2026-07-13T09:37:04.512526Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -20702,7 +20750,7 @@
       "address": "Санкт-Петербург, проспект Косыгина, 2 лит А",
       "lat": 59.940038,
       "lng": 30.450155,
-      "last_transaction_at": "2026-07-14T11:07:18Z",
+      "last_transaction_at": "2026-07-15T06:55:31Z",
       "created_at": "2026-07-10T15:34:47.418764Z",
       "updated_at": "2026-07-10T15:34:47.418764Z",
       "schedule": {
@@ -20783,7 +20831,7 @@
         "last_report_at": "2026-07-13T11:06:10.843214Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -20881,7 +20929,7 @@
     "fuel_statuses": null,
     "status": "NO_DATA",
     "closed": false,
-    "closed_by_schedule": true
+    "closed_by_schedule": false
   },
   {
     "station": {
@@ -20892,7 +20940,7 @@
       "address": "Санкт-Петербург, Кузнецовская улица, 35",
       "lat": 59.87186,
       "lng": 30.345642,
-      "last_transaction_at": "2026-07-15T04:53:29Z",
+      "last_transaction_at": "2026-07-15T07:04:05Z",
       "created_at": "2026-07-10T15:34:44.356967Z",
       "updated_at": "2026-07-10T15:34:44.356967Z",
       "schedule": {
@@ -20967,7 +21015,7 @@
       {
         "station_id": "5348552839763921",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "reports_count": 3,
         "last_report_at": "2026-07-14T16:35:31.45904Z"
@@ -20999,7 +21047,7 @@
       {
         "station_id": "5348552839763921",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 3,
@@ -21008,14 +21056,14 @@
       {
         "station_id": "5348552839763921",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
         "reports_count": 3,
         "last_report_at": "2026-07-14T16:28:50.165488Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -21048,7 +21096,7 @@
       "address": "Санкт-Петербург, Коломяжский проспект, 19д",
       "lat": 60.007014,
       "lng": 30.297821,
-      "last_transaction_at": "2026-07-15T04:23:04Z",
+      "last_transaction_at": "2026-07-15T05:09:46Z",
       "created_at": "2026-07-10T15:34:44.69709Z",
       "updated_at": "2026-07-10T15:34:44.69709Z",
       "schedule": {
@@ -21312,7 +21360,7 @@
       "address": "Санкт-Петербург, шоссе Революции, 67",
       "lat": 59.96071,
       "lng": 30.445258,
-      "last_transaction_at": "2026-07-14T16:52:58Z",
+      "last_transaction_at": "2026-07-15T06:50:41Z",
       "created_at": "2026-07-10T15:34:47.860873Z",
       "updated_at": "2026-07-10T15:34:47.860873Z",
       "schedule": {
@@ -21386,7 +21434,7 @@
       {
         "station_id": "5348552840836180",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-14T14:07:45.370809Z"
@@ -21394,7 +21442,7 @@
       {
         "station_id": "5348552840836180",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-14T14:07:45.370809Z"
@@ -21402,7 +21450,7 @@
       {
         "station_id": "5348552840836180",
         "fuel_type": "AI_98",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-14T14:07:45.370809Z"
@@ -21410,7 +21458,7 @@
       {
         "station_id": "5348552840836180",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-14T14:07:45.370809Z"
@@ -21418,7 +21466,7 @@
       {
         "station_id": "5348552840836180",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-14T14:07:45.370809Z"
@@ -21426,7 +21474,7 @@
       {
         "station_id": "5348552840836180",
         "fuel_type": "GAS",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-07-14T14:07:45.370809Z"
@@ -21445,7 +21493,7 @@
       "address": "Санкт-Петербург, улица Стасовой, 13",
       "lat": 59.968242,
       "lng": 30.439871,
-      "last_transaction_at": "2026-07-15T04:40:37Z",
+      "last_transaction_at": "2026-07-15T06:50:29Z",
       "created_at": "2026-07-10T15:34:50.137022Z",
       "updated_at": "2026-07-10T15:34:50.137022Z",
       "schedule": {
@@ -21536,14 +21584,14 @@
       {
         "station_id": "5348552840479721",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 3,
         "last_report_at": "2026-07-14T17:59:58.251496Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -21576,7 +21624,7 @@
       "address": "Санкт-Петербург, Витебский проспект, 17 к2",
       "lat": 59.871691,
       "lng": 30.352505,
-      "last_transaction_at": "2026-07-14T16:46:17Z",
+      "last_transaction_at": "2026-07-15T07:06:39Z",
       "created_at": "2026-07-10T15:34:41.797705Z",
       "updated_at": "2026-07-10T15:34:41.797705Z",
       "schedule": {
@@ -21648,7 +21696,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -22006,7 +22054,7 @@
       "address": "Санкт-Петербург, Пискарёвский проспект, 43 к2",
       "lat": 59.982826,
       "lng": 30.425546,
-      "last_transaction_at": "2026-07-15T04:37:10Z",
+      "last_transaction_at": "2026-07-15T06:52:43Z",
       "created_at": "2026-07-10T15:34:44.831731Z",
       "updated_at": "2026-07-10T15:34:44.831731Z",
       "schedule": {
@@ -22198,7 +22246,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -22752,7 +22800,7 @@
       "address": "Санкт-Петербург, Софийская улица, 18 лит А",
       "lat": 59.878956,
       "lng": 30.397749,
-      "last_transaction_at": "2026-07-15T04:53:42Z",
+      "last_transaction_at": "2026-07-15T07:09:33Z",
       "created_at": "2026-07-10T15:34:50.677353Z",
       "updated_at": "2026-07-10T15:34:50.677353Z",
       "schedule": {
@@ -22873,7 +22921,7 @@
         "last_report_at": "2026-07-11T05:11:01.647863Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -23109,7 +23157,7 @@
         "last_report_at": "2026-07-14T06:02:29.158674Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -23521,7 +23569,7 @@
       "address": "Санкт-Петербург, проспект Сизова, 19",
       "lat": 60.01115,
       "lng": 30.276477,
-      "last_transaction_at": "2026-07-14T16:54:53Z",
+      "last_transaction_at": "2026-07-15T06:50:35Z",
       "created_at": "2026-07-10T15:34:48.221889Z",
       "updated_at": "2026-07-10T15:34:48.221889Z",
       "schedule": {
@@ -23643,7 +23691,7 @@
         "last_report_at": "2026-07-13T14:35:26.563238Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -23756,7 +23804,7 @@
       {
         "station_id": "5348553839138950",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 5,
         "last_report_at": "2026-07-14T11:25:22.081499Z"
@@ -23804,7 +23852,7 @@
         "last_report_at": "2026-07-12T18:52:42.336516Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -23837,7 +23885,7 @@
       "address": "Санкт-Петербург, Пискарёвский проспект, 46/1 лит А",
       "lat": 59.988407,
       "lng": 30.428674,
-      "last_transaction_at": "2026-07-15T04:02:40Z",
+      "last_transaction_at": "2026-07-15T06:55:59Z",
       "created_at": "2026-07-10T15:34:48.642711Z",
       "updated_at": "2026-07-10T15:34:48.642711Z",
       "schedule": {
@@ -23917,7 +23965,7 @@
         "last_report_at": "2026-07-11T07:01:06.036162Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -23956,7 +24004,7 @@
       "address": "Санкт-Петербург, Школьная улица, 77",
       "lat": 59.992852,
       "lng": 30.207866,
-      "last_transaction_at": "2026-07-15T04:55:26Z",
+      "last_transaction_at": "2026-07-15T07:09:59Z",
       "created_at": "2026-07-10T15:34:50.213887Z",
       "updated_at": "2026-07-10T15:34:50.213887Z",
       "schedule": {
@@ -24084,7 +24132,7 @@
         "last_report_at": "2026-07-12T05:37:42.281108Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
