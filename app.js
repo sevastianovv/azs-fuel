@@ -268,7 +268,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         f1.available_tbank = f2.available_tbank;
                         
                         // Conflict check: if both sources disagree (one is true, the other is false)
-                        if (f1.available_2gis !== null && f1.available_tbank !== null && f1.available_2gis !== f1.available_tbank) {
+                        if (f1.available_2gis !== null && f1.available_2gis !== undefined &&
+                            f1.available_tbank !== null && f1.available_tbank !== undefined &&
+                            f1.available_2gis !== f1.available_tbank) {
                             f1.conflict = true;
                             f1.available = 'conflict';
                             f1.queue_level = f2.queue_level;
@@ -466,9 +468,6 @@ document.addEventListener('DOMContentLoaded', () => {
         stations.forEach(s => {
             const st = s.station || {};
             const fuels = s.fuel_statuses || [];
-            
-            const hasAvail = fuels.some(f => f.available === true);
-            const hasUnavail = fuels.some(f => f.available === false);
             
             let statusClass = 'status-nodata';
             let statusText = 'Нет отчетов';
