@@ -388,6 +388,7 @@ body {
 
 .station-card.status-available .station-status-strip { background-color: var(--green-bright); }
 .station-card.status-unavailable .station-status-strip { background-color: var(--red-bright); }
+.station-card.status-conflict .station-status-strip { background-color: var(--yellow-bright); }
 
 .station-header {
     display: flex;
@@ -428,6 +429,7 @@ body {
 .badge-green { background-color: var(--green-bg); color: var(--green-bright); border: 1px solid var(--green-border); }
 .badge-red { background-color: var(--red-bg); color: var(--red-bright); border: 1px solid var(--red-border); }
 .badge-gray { background-color: var(--gray-bg); color: var(--gray-bright); border: 1px solid var(--gray-border); }
+.badge-orange { background-color: var(--yellow-bg); color: var(--yellow-bright); border: 1px solid var(--yellow-border); }
 
 .station-address {
     font-size: 13px;
@@ -473,6 +475,7 @@ body {
 
 .fuel-avail-true .fuel-availability-dot { background-color: var(--green-bright); }
 .fuel-avail-false .fuel-availability-dot { background-color: var(--red-bright); }
+.fuel-avail-conflict .fuel-availability-dot { background-color: var(--yellow-bright); }
 
 .fuel-queue-text {
     font-size: 11px;

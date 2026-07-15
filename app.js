@@ -114,13 +114,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.warn('Could not load status.json:', statusErr);
             }
 
+            const init2gis = (list) => {
+                list.forEach(s => {
+                    (s.fuel_statuses || []).forEach(f => {
+                        f.available_2gis = f.available;
+                        f.available_tbank = null;
+                    });
+                });
+                return list;
+            };
+
             const suffix = currentCity === 'spb' ? '_spb' : (currentCity === 'moscow' ? '_moscow' : '_kazan');
             if (currentSource === 'combined') {
                 const [res2gis, resTbank] = await Promise.all([
                     fetch(`data_2gis${suffix}.json?t=${Date.now()}`),
                     fetch(`data_tbank${suffix}.json?t=${Date.now()}`)
                 ]);
-                const data2gis = res2gis.ok ? await res2gis.json() : [];
+                let data2gis = res2gis.ok ? await res2gis.json() : [];
+                data2gis = init2gis(data2gis);
                 const rawTbank = resTbank.ok ? await resTbank.json() : [];
                 const dataTbank = normalizeTBankData(rawTbank);
                 allStations = mergeDataSources(data2gis, dataTbank);
@@ -131,12 +142,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (!response.ok) {
                     throw new Error(`Не удалось загрузить ${filename}`);
                 }
-                const rawData = await response.json();
+                let rawData = await response.json();
                 
                 if (currentSource === 'tbank') {
                     allStations = normalizeTBankData(rawData);
                 } else {
-                    allStations = rawData;
+                    allStations = init2gis(rawData);
                 }
             }
 
@@ -150,9 +161,15 @@ document.addEventListener('DOMContentLoaded', () => {
                         const reportTime = new Date(f.last_report_at);
                         if (now - reportTime > THREE_HOURS_MS) {
                             f.available = null;
+                            f.available_2gis = null;
+                            f.available_tbank = null;
+                            f.conflict = false;
                         }
                     } else {
                         f.available = null;
+                        f.available_2gis = null;
+                        f.available_tbank = null;
+                        f.conflict = false;
                     }
                 });
             });
@@ -248,12 +265,24 @@ document.addEventListener('DOMContentLoaded', () => {
                         const time1 = f1.last_report_at ? new Date(f1.last_report_at) : new Date(0);
                         const time2 = f2.last_report_at ? new Date(f2.last_report_at) : new Date(0);
                         
-                        // Prefer confirmed status or newer report
-                        if (f2.available !== null && (f1.available === null || time2 > time1)) {
-                            f1.available = f2.available;
+                        f1.available_tbank = f2.available_tbank;
+                        
+                        // Conflict check: if both sources disagree (one is true, the other is false)
+                        if (f1.available_2gis !== null && f1.available_tbank !== null && f1.available_2gis !== f1.available_tbank) {
+                            f1.conflict = true;
+                            f1.available = 'conflict';
                             f1.queue_level = f2.queue_level;
-                            f1.last_report_at = f2.last_report_at;
+                            f1.last_report_at = time2 > time1 ? f2.last_report_at : f1.last_report_at;
+                        } else {
+                            f1.conflict = false;
+                            // Prefer confirmed status or newer report
+                            if (f2.available !== null && (f1.available === null || time2 > time1)) {
+                                f1.available = f2.available;
+                                f1.queue_level = f2.queue_level;
+                                f1.last_report_at = f2.last_report_at;
+                            }
                         }
+                        
                         if (f2.limit_liters && !f1.limit_liters) {
                             f1.limit_liters = f2.limit_liters;
                         }
@@ -294,6 +323,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 return {
                     fuel_type: mappedType,
                     available: available,
+                    available_tbank: available,
+                    available_2gis: null,
                     queue_level: queue_level,
                     last_report_at: s.lastTransactionAt
                 };
@@ -443,7 +474,15 @@ document.addEventListener('DOMContentLoaded', () => {
             let statusText = 'Нет отчетов';
             let badgeClass = 'badge-gray';
 
-            if (hasAvail) {
+            const hasConflict = fuels.some(f => f.available === 'conflict');
+            const hasAvail = fuels.some(f => f.available === true);
+            const hasUnavail = fuels.some(f => f.available === false);
+
+            if (hasConflict) {
+                statusClass = 'status-conflict';
+                statusText = 'Разные данные';
+                badgeClass = 'badge-orange';
+            } else if (hasAvail) {
                 statusClass = 'status-available';
                 statusText = 'Есть топливо';
                 badgeClass = 'badge-green';
@@ -471,7 +510,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 sortedFuels.forEach(f => {
                     const label = FUEL_LABELS[f.fuel_type] || f.fuel_type;
-                    const availClass = f.available === true ? 'fuel-avail-true' : (f.available === false ? 'fuel-avail-false' : 'fuel-avail-none');
+                    const availClass = f.available === true ? 'fuel-avail-true' : (f.available === false ? 'fuel-avail-false' : (f.available === 'conflict' ? 'fuel-avail-conflict' : 'fuel-avail-none'));
                     
                     // Highlight the row if it matches the active filter
                     const isHighlightedClass = f.fuel_type === activeFuelFilter ? 'fuel-highlighted' : '';
@@ -481,7 +520,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     const priceHtml = priceItem ? `<span class="fuel-price">${priceItem.price} ₽</span>` : '';
                     
                     let detailsHtml = '';
-                    if (f.available === true) {
+                    if (f.available === 'conflict') {
+                        const status2gisText = f.available_2gis === true ? 'есть' : (f.available_2gis === false ? 'нет' : 'нет данных');
+                        const statusTbankText = f.available_tbank === true ? 'есть' : (f.available_tbank === false ? 'нет' : 'нет данных');
+                        detailsHtml += `<span class="fuel-queue-text" style="color: var(--yellow-bright); background: rgba(245,158,11,0.1)">⚠️ 2ГИС: ${status2gisText}, Т-Банк: ${statusTbankText}</span>`;
+                    } else if (f.available === true) {
                         const queueText = QUEUE_LABELS[f.queue_level] || f.queue_level;
                         detailsHtml += `<span class="fuel-queue-text">${queueText}</span>`;
                         if (f.limit_liters && f.limit_liters > 0) {
@@ -680,15 +723,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
             
-            contentDiv.innerHTML = '<div class="reports-loading-spinner"><div class="mini-spinner"></div>Загрузка подтверждений...</div>';
-            
             try {
-                const response = await fetch(`https://benzin.api.2gis.ru/api/v1/stations/${stationId}`);
-                if (!response.ok) {
-                    throw new Error('Ошибка API');
-                }
-                const data = await response.json();
-                const reports = data.recent_reports || [];
+                // Find the station in local array
+                const localStation = allStations.find(s => s.station?.id === stationId);
+                const reports = localStation ? (localStation.recent_reports || []) : [];
                 
                 if (reports.length === 0) {
                     contentDiv.innerHTML = '<div class="reports-empty">Нет недавних подтверждений</div>';

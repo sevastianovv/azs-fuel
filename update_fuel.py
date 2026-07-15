@@ -4,6 +4,7 @@ import json
 import argparse
 import urllib.request
 import urllib.parse
+import concurrent.futures
 from datetime import datetime, timezone
 
 # Bounding boxes and parameters for cities
@@ -78,6 +79,20 @@ def write_log(message):
     except Exception as e:
         print(f"Failed to write to log file: {e}", file=sys.stderr)
 
+def fetch_details_for_station(item):
+    station_id = item.get('station', {}).get('id')
+    if not station_id:
+        return item
+    url = f"https://benzin.api.2gis.ru/api/v1/stations/{station_id}"
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=5) as response:
+            details = json.loads(response.read().decode('utf-8'))
+            item['recent_reports'] = details.get('recent_reports', [])
+    except Exception:
+        item['recent_reports'] = []
+    return item
+
 results = []
 
 for city, coords in CITIES.items():
@@ -95,7 +110,12 @@ for city, coords in CITIES.items():
         req = urllib.request.Request(url_2gis, headers=headers)
         with urllib.request.urlopen(req) as response:
             stations = json.loads(response.read().decode('utf-8'))
-            count_2gis = len(stations)
+            
+        # Concurrently fetch details for all stations to get recent_reports
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+            stations = list(executor.map(fetch_details_for_station, stations))
+            
+        count_2gis = len(stations)
         with open(output_2gis, 'w', encoding='utf-8') as f:
             json.dump(stations, f, indent=2, ensure_ascii=False)
         try:
