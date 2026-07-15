@@ -93,6 +93,17 @@ def fetch_details_for_station(item):
         item['recent_reports'] = []
     return item
 
+def is_valid_azs(name):
+    name_lower = name.lower()
+    # If it explicitly says AZS, AGZS, or Zapravka, it's valid
+    if any(x in name_lower for x in ['азс', 'агзс', 'заправка']):
+        return True
+    # If it contains non-azs keywords, filter it out
+    non_azs_keywords = ['техосмотр', 'мойка', 'автосервис', 'шиномонтаж', 'детейлинг', 'зарядная станция', 'электрозаправка', 'сто ', 'зарядка']
+    if any(k in name_lower for k in non_azs_keywords):
+        return False
+    return True
+
 results = []
 
 for city, coords in CITIES.items():
@@ -110,6 +121,7 @@ for city, coords in CITIES.items():
         req = urllib.request.Request(url_2gis, headers=headers)
         with urllib.request.urlopen(req) as response:
             stations = json.loads(response.read().decode('utf-8'))
+            stations = [s for s in stations if is_valid_azs(s.get('station', {}).get('name', ''))]
             
         # Concurrently fetch details for all stations to get recent_reports
         with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
@@ -144,6 +156,7 @@ for city, coords in CITIES.items():
         with urllib.request.urlopen(req) as response:
             res = json.loads(response.read().decode('utf-8'))
             stations = res.get('payload', [])
+            stations = [s for s in stations if is_valid_azs(s.get('name', ''))]
             count_tbank = len(stations)
         with open(output_tbank, 'w', encoding='utf-8') as f:
             json.dump(stations, f, indent=2, ensure_ascii=False)
