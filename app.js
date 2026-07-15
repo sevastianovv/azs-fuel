@@ -172,7 +172,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 manualUpdateTimeEl.innerText = 'Ручное обновление: нет данных';
             }
             
-            // Post-process: If a fuel has a price in the 'prices' array but availability is null/undefined, set available = true!
+            // Post-process: If a fuel has a price in the 'prices' array but is missing from fuel_statuses, add it as no-data.
+            // We do NOT override available to true for null/undefined statuses to avoid masking expired reports.
             allStations.forEach(s => {
                 const prices = s.prices || [];
                 const fuels = s.fuel_statuses || [];
@@ -183,16 +184,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         f = {
                             station_id: s.station?.id,
                             fuel_type: p.fuel_type,
-                            available: true,
+                            available: null,
                             queue_level: 'NONE',
                             last_report_at: p.updated_at
                         };
                         fuels.push(f);
-                    } else if (f.available === null || f.available === undefined) {
-                        f.available = true;
-                        if (!f.last_report_at) {
-                            f.last_report_at = p.updated_at;
-                        }
                     }
                 });
                 s.fuel_statuses = fuels;
@@ -524,6 +520,23 @@ document.addEventListener('DOMContentLoaded', () => {
             // Map link
             const mapLink = st.lat ? `https://2gis.ru/search/АЗС/geo/${st.lng}%2C${st.lat}` : '#';
 
+            let reportsToggleHtml = '';
+            if (st.id) {
+                reportsToggleHtml = `
+                    <div class="reports-toggle-container">
+                        <button class="btn-reports-toggle" data-station-id="${st.id}">
+                            <span class="btn-reports-text">💬 Подтверждения и отзывы</span>
+                            <svg class="chevron-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                                <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="reports-collapsible" id="reports-${st.id}" style="display: none;">
+                        <div class="reports-content"></div>
+                    </div>
+                `;
+            }
+
             card.innerHTML = `
                 <div class="station-status-strip"></div>
                 <div class="station-header">
@@ -545,6 +558,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${fuelsHtml}
                 </div>
 
+                ${reportsToggleHtml}
+
                 <div class="station-footer">
                     <span>Обновлено: ${newestReport}</span>
                     <a href="${mapLink}" target="_blank" class="station-link">
@@ -556,6 +571,146 @@ document.addEventListener('DOMContentLoaded', () => {
             container.appendChild(card);
         });
     }
+
+    const REPORT_FUEL_LABELS = {
+        "AI_92": "92",
+        "AI_95": "95",
+        "AI_98": "98",
+        "AI_100": "100",
+        "DT": "ДТ",
+        "GAS": "Газ"
+    };
+
+    function renderSingleReport(r) {
+        const reportDate = new Date(r.created_at);
+        const timeStr = reportDate.toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' });
+        
+        const today = new Date();
+        const yesterday = new Date();
+        yesterday.setDate(today.getDate() - 1);
+        
+        let dateStr = '';
+        if (reportDate.toDateString() === today.toDateString()) {
+            dateStr = timeStr;
+        } else if (reportDate.toDateString() === yesterday.toDateString()) {
+            dateStr = `Вчера в ${timeStr}`;
+        } else {
+            dateStr = `${reportDate.toLocaleDateString('ru-RU', { day: '2-digit', month: '2-digit' })} в ${timeStr}`;
+        }
+        
+        const isUgc = r.source === 'UGC';
+        let title = '';
+        let metaText = '';
+        let sourceIcon = '';
+        let itemClass = '';
+        
+        if (!isUgc) {
+            title = 'Покупка на АЗС';
+            metaText = 'Карта Сбер';
+            sourceIcon = '✓';
+            itemClass = 'report-transaction';
+        } else {
+            sourceIcon = '+';
+            itemClass = 'report-ugc';
+            
+            if (r.station_closed) {
+                title = 'АЗС не работает';
+                metaText = 'Отзыв';
+                itemClass += ' report-closed';
+            } else if (r.available === false) {
+                title = 'Нет топлива';
+                let fuelsText = '';
+                if (r.fuel_types && r.fuel_types.length > 0) {
+                    fuelsText = r.fuel_types.map(f => REPORT_FUEL_LABELS[f] || f).join(' • ');
+                }
+                metaText = fuelsText ? `Отзыв • ${fuelsText}` : 'Отзыв';
+                itemClass += ' report-no-fuel';
+            } else {
+                title = 'Топливо в наличии';
+                let details = [];
+                if (r.fuel_types && r.fuel_types.length > 0) {
+                    const fuelsText = r.fuel_types.map(f => REPORT_FUEL_LABELS[f] || f).join(' • ');
+                    details.push(fuelsText);
+                }
+                if (r.queue_level && r.queue_level !== 'NONE') {
+                    const queueText = QUEUE_LABELS[r.queue_level] || r.queue_level;
+                    details.push(queueText);
+                }
+                if (r.limit_liters) {
+                    details.push(`Лимит ${r.limit_liters}л`);
+                }
+                metaText = details.length > 0 ? `Отзыв • ${details.join(' • ')}` : 'Отзыв';
+                itemClass += ' report-available';
+            }
+        }
+        
+        return `
+            <div class="report-item ${itemClass}">
+                <div class="report-main">
+                    <span class="report-title">${title}</span>
+                    <span class="report-time">${dateStr}</span>
+                </div>
+                <div class="report-meta">
+                    <span class="report-source-icon">${sourceIcon}</span>
+                    <span class="report-meta-text">${metaText}</span>
+                </div>
+            </div>
+        `;
+    }
+
+    // Event delegation on container for toggling reviews
+    container.addEventListener('click', async (e) => {
+        const toggleBtn = e.target.closest('.btn-reports-toggle');
+        if (!toggleBtn) return;
+        
+        const stationId = toggleBtn.getAttribute('data-station-id');
+        const collapsible = document.getElementById(`reports-${stationId}`);
+        if (!collapsible) return;
+        
+        const isCollapsed = collapsible.style.display === 'none';
+        const chevron = toggleBtn.querySelector('.chevron-icon');
+        
+        if (isCollapsed) {
+            collapsible.style.display = 'block';
+            chevron.style.transform = 'rotate(180deg)';
+            
+            const contentDiv = collapsible.querySelector('.reports-content');
+            
+            if (contentDiv.getAttribute('data-loaded') === 'true') {
+                return;
+            }
+            
+            contentDiv.innerHTML = '<div class="reports-loading-spinner"><div class="mini-spinner"></div>Загрузка подтверждений...</div>';
+            
+            try {
+                const response = await fetch(`https://benzin.api.2gis.ru/api/v1/stations/${stationId}`);
+                if (!response.ok) {
+                    throw new Error('Ошибка API');
+                }
+                const data = await response.json();
+                const reports = data.recent_reports || [];
+                
+                if (reports.length === 0) {
+                    contentDiv.innerHTML = '<div class="reports-empty">Нет недавних подтверждений</div>';
+                } else {
+                    const latestReports = reports.slice(0, 5);
+                    let listHtml = '<div class="reports-feed">';
+                    latestReports.forEach(r => {
+                        listHtml += renderSingleReport(r);
+                    });
+                    listHtml += '</div>';
+                    contentDiv.innerHTML = listHtml;
+                }
+                contentDiv.setAttribute('data-loaded', 'true');
+            } catch (err) {
+                console.error(err);
+                contentDiv.innerHTML = '<div class="reports-error">⚠️ Не удалось загрузить данные</div>';
+            }
+        } else {
+            collapsible.style.display = 'none';
+            chevron.style.transform = 'rotate(0deg)';
+        }
+    });
 
     // Initial Fetch
     fetchData();
