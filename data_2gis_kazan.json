@@ -168,7 +168,7 @@
       "address": "Казань, Отрадная улица, 5а",
       "lat": 55.766203,
       "lng": 49.170023,
-      "last_transaction_at": "2026-07-14T17:30:30Z",
+      "last_transaction_at": "2026-07-14T23:15:21Z",
       "created_at": "2026-07-10T15:39:59.92579Z",
       "updated_at": "2026-07-10T15:39:59.92579Z",
       "schedule": {
@@ -289,7 +289,7 @@
         "last_report_at": "2026-07-14T18:18:09.660515Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -316,7 +316,7 @@
       "address": "Казань, улица Карбышева, 68",
       "lat": 55.75218,
       "lng": 49.176585,
-      "last_transaction_at": "2026-07-14T22:17:36Z",
+      "last_transaction_at": "2026-07-14T23:06:18Z",
       "created_at": "2026-07-10T15:40:00.266865Z",
       "updated_at": "2026-07-10T15:40:00.266865Z",
       "schedule": {
@@ -497,7 +497,7 @@
       "address": "Казань, Гвардейская улица, 54Б",
       "lat": 55.771599,
       "lng": 49.1746,
-      "last_transaction_at": "2026-07-14T22:35:29Z",
+      "last_transaction_at": "2026-07-14T23:29:56Z",
       "created_at": "2026-07-10T15:39:58.406314Z",
       "updated_at": "2026-07-10T15:39:58.406314Z",
       "schedule": {
@@ -663,7 +663,7 @@
       "address": "Казань, улица Братьев Касимовых, 41 к1",
       "lat": 55.75706,
       "lng": 49.200839,
-      "last_transaction_at": "2026-07-14T20:51:27Z",
+      "last_transaction_at": "2026-07-14T23:33:26Z",
       "created_at": "2026-07-10T15:39:59.637992Z",
       "updated_at": "2026-07-10T15:39:59.637992Z",
       "schedule": {
@@ -811,7 +811,7 @@
         "last_report_at": "2026-07-14T19:28:34.954905Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -992,7 +992,7 @@
       "address": "Казань, улица Родины, 7а",
       "lat": 55.772933,
       "lng": 49.197352,
-      "last_transaction_at": "2026-07-14T21:16:08Z",
+      "last_transaction_at": "2026-07-14T23:11:19Z",
       "created_at": "2026-07-10T15:39:59.912224Z",
       "updated_at": "2026-07-10T15:39:59.912224Z",
       "schedule": {
@@ -1120,7 +1120,7 @@
         "last_report_at": "2026-07-14T21:27:56.948089Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -1447,7 +1447,7 @@
       "address": "Казань, улица Аделя Кутуя, 160Б",
       "lat": 55.77695,
       "lng": 49.19094,
-      "last_transaction_at": "2026-07-14T22:28:10Z",
+      "last_transaction_at": "2026-07-14T22:55:25Z",
       "created_at": "2026-07-10T15:39:59.25028Z",
       "updated_at": "2026-07-10T15:39:59.25028Z",
       "schedule": {
@@ -1851,7 +1851,7 @@
         "last_report_at": "2026-07-11T18:28:22.165377Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -1962,7 +1962,7 @@
       "timezone_offset": 3
     },
     "fuel_statuses": null,
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -2257,7 +2257,7 @@
         "last_report_at": "2026-07-14T15:59:55.25727Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -2430,7 +2430,7 @@
       "address": "Казань, проспект Победы, 69 лит А",
       "lat": 55.760623,
       "lng": 49.217868,
-      "last_transaction_at": "2026-07-14T18:29:08Z",
+      "last_transaction_at": "2026-07-14T22:55:29Z",
       "created_at": "2026-07-10T15:39:58.5969Z",
       "updated_at": "2026-07-10T15:39:58.5969Z",
       "schedule": {
@@ -2557,7 +2557,7 @@
         "last_report_at": "2026-07-14T21:28:50.09281Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -3117,7 +3117,7 @@
         "last_report_at": "2026-07-14T15:53:08.352589Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -3563,8 +3563,9 @@
         "fuel_type": "AI_95",
         "available": true,
         "queue_level": "OVER_30_MIN",
-        "reports_count": 20,
-        "last_report_at": "2026-07-14T22:52:09.266216Z"
+        "limit_liters": 30,
+        "reports_count": 22,
+        "last_report_at": "2026-07-14T23:38:57.915737Z"
       },
       {
         "station_id": "2956015536662194",
@@ -3587,8 +3588,9 @@
         "fuel_type": "DT",
         "available": true,
         "queue_level": "OVER_30_MIN",
-        "reports_count": 14,
-        "last_report_at": "2026-07-14T22:52:09.266216Z"
+        "limit_liters": 30,
+        "reports_count": 15,
+        "last_report_at": "2026-07-14T23:38:57.915737Z"
       },
       {
         "station_id": "2956015536662194",
@@ -4016,49 +4018,49 @@
         "station_id": "70000001036756400",
         "fuel_type": "AI_92",
         "available": true,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 27,
-        "last_report_at": "2026-07-14T22:51:53.24894Z"
+        "queue_level": "NONE",
+        "reports_count": 29,
+        "last_report_at": "2026-07-14T23:45:58.243938Z"
       },
       {
         "station_id": "70000001036756400",
         "fuel_type": "AI_95",
         "available": true,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 28,
-        "last_report_at": "2026-07-14T22:51:53.24894Z"
+        "queue_level": "NONE",
+        "reports_count": 32,
+        "last_report_at": "2026-07-14T23:45:58.243938Z"
       },
       {
         "station_id": "70000001036756400",
         "fuel_type": "AI_98",
-        "available": true,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 13,
-        "last_report_at": "2026-07-14T22:51:53.24894Z"
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 14,
+        "last_report_at": "2026-07-14T23:45:58.243938Z"
       },
       {
         "station_id": "70000001036756400",
         "fuel_type": "DT",
         "available": true,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 20,
-        "last_report_at": "2026-07-14T22:51:53.24894Z"
+        "queue_level": "UP_TO_30_MIN",
+        "reports_count": 23,
+        "last_report_at": "2026-07-14T23:52:35.23848Z"
       },
       {
         "station_id": "70000001036756400",
         "fuel_type": "AI_100",
-        "available": true,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 12,
-        "last_report_at": "2026-07-14T22:51:53.24894Z"
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 13,
+        "last_report_at": "2026-07-14T23:45:58.243938Z"
       },
       {
         "station_id": "70000001036756400",
         "fuel_type": "GAS",
-        "available": true,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 14,
-        "last_report_at": "2026-07-14T22:51:53.24894Z"
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 15,
+        "last_report_at": "2026-07-14T23:45:58.243938Z"
       }
     ],
     "status": "AVAILABLE",
@@ -4094,7 +4096,7 @@
       "address": "Казань, 33-й военный городок, 7а",
       "lat": 55.738797,
       "lng": 49.161142,
-      "last_transaction_at": "2026-07-14T19:02:07Z",
+      "last_transaction_at": "2026-07-14T22:47:19Z",
       "created_at": "2026-07-10T15:39:59.529007Z",
       "updated_at": "2026-07-10T15:39:59.529007Z",
       "schedule": {
@@ -4215,7 +4217,7 @@
         "last_report_at": "2026-07-14T20:00:33.798272Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -4236,7 +4238,7 @@
       "address": "Казань, проспект Победы, 141Б",
       "lat": 55.779453,
       "lng": 49.217145,
-      "last_transaction_at": "2026-07-14T20:38:37Z",
+      "last_transaction_at": "2026-07-14T23:09:47Z",
       "created_at": "2026-07-10T15:40:00.715976Z",
       "updated_at": "2026-07-10T15:40:00.715976Z",
       "schedule": {
@@ -4311,7 +4313,7 @@
       {
         "station_id": "2956015536648076",
         "fuel_type": "AI_98",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 30,
         "last_report_at": "2026-07-14T20:22:49.745556Z"
@@ -4319,7 +4321,7 @@
       {
         "station_id": "2956015536648076",
         "fuel_type": "AI_100",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 37,
         "last_report_at": "2026-07-14T20:22:49.745556Z"
@@ -4357,7 +4359,7 @@
         "last_report_at": "2026-07-14T20:22:49.745556Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -4504,7 +4506,7 @@
       {
         "station_id": "2956015536648078",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 23,
@@ -4538,7 +4540,7 @@
       "address": "Казань, улица Марселя Салимжанова, 29",
       "lat": 55.774125,
       "lng": 49.138343,
-      "last_transaction_at": "2026-07-14T22:38:15Z",
+      "last_transaction_at": "2026-07-14T23:31:51Z",
       "created_at": "2026-07-10T15:39:59.88645Z",
       "updated_at": "2026-07-10T15:39:59.88645Z",
       "schedule": {
@@ -4613,7 +4615,7 @@
       {
         "station_id": "2956015536551605",
         "fuel_type": "AI_92",
-        "available": true,
+        "available": null,
         "queue_level": "OVER_30_MIN",
         "limit_liters": 30,
         "reports_count": 32,
@@ -4622,7 +4624,7 @@
       {
         "station_id": "2956015536551605",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "OVER_30_MIN",
         "limit_liters": 30,
         "reports_count": 31,
@@ -4665,7 +4667,7 @@
         "last_report_at": "2026-07-14T19:44:13.748635Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -5334,7 +5336,7 @@
       "address": "Казань, Техническая улица, 27",
       "lat": 55.754854,
       "lng": 49.129971,
-      "last_transaction_at": "2026-07-14T21:37:23Z",
+      "last_transaction_at": "2026-07-14T23:26:28Z",
       "created_at": "2026-07-10T15:39:59.613135Z",
       "updated_at": "2026-07-10T15:39:59.613135Z",
       "schedule": {
@@ -5455,7 +5457,7 @@
         "last_report_at": "2026-07-14T16:41:17.73413Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -5871,51 +5873,51 @@
     "fuel_statuses": [
       {
         "station_id": "70000001036232483",
-        "fuel_type": "AI_92",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 24,
-        "last_report_at": "2026-07-14T09:46:33.868551Z"
-      },
-      {
-        "station_id": "70000001036232483",
-        "fuel_type": "AI_95",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 21,
-        "last_report_at": "2026-07-14T09:46:33.868551Z"
-      },
-      {
-        "station_id": "70000001036232483",
-        "fuel_type": "AI_98",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 15,
-        "last_report_at": "2026-07-14T09:46:33.868551Z"
-      },
-      {
-        "station_id": "70000001036232483",
         "fuel_type": "AI_100",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 15,
-        "last_report_at": "2026-07-14T09:46:33.868551Z"
+        "reports_count": 17,
+        "last_report_at": "2026-07-14T23:27:31.118901Z"
       },
       {
         "station_id": "70000001036232483",
         "fuel_type": "DT",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 23,
-        "last_report_at": "2026-07-14T09:46:33.868551Z"
+        "reports_count": 25,
+        "last_report_at": "2026-07-14T23:27:31.118901Z"
       },
       {
         "station_id": "70000001036232483",
         "fuel_type": "GAS",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 16,
-        "last_report_at": "2026-07-14T09:46:33.868551Z"
+        "reports_count": 18,
+        "last_report_at": "2026-07-14T23:27:31.118901Z"
+      },
+      {
+        "station_id": "70000001036232483",
+        "fuel_type": "AI_92",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 26,
+        "last_report_at": "2026-07-14T23:27:31.118901Z"
+      },
+      {
+        "station_id": "70000001036232483",
+        "fuel_type": "AI_95",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 23,
+        "last_report_at": "2026-07-14T23:27:31.118901Z"
+      },
+      {
+        "station_id": "70000001036232483",
+        "fuel_type": "AI_98",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 17,
+        "last_report_at": "2026-07-14T23:27:31.118901Z"
       }
     ],
     "status": "NO_DATA",
@@ -5951,7 +5953,7 @@
       "address": "Казань, Ноксинский спуск, 14Б",
       "lat": 55.768376,
       "lng": 49.237303,
-      "last_transaction_at": "2026-07-14T19:34:52Z",
+      "last_transaction_at": "2026-07-14T23:14:49Z",
       "created_at": "2026-07-10T15:39:58.679221Z",
       "updated_at": "2026-07-10T15:39:58.679221Z",
       "schedule": {
@@ -6072,7 +6074,7 @@
         "last_report_at": "2026-07-14T12:11:31.990995Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -6341,50 +6343,49 @@
         "station_id": "2956015536551798",
         "fuel_type": "AI_95",
         "available": true,
-        "queue_level": "OVER_30_MIN",
-        "limit_liters": 30,
-        "reports_count": 25,
-        "last_report_at": "2026-07-14T22:52:39.944827Z"
+        "queue_level": "NONE",
+        "reports_count": 26,
+        "last_report_at": "2026-07-14T23:27:08.116256Z"
       },
       {
         "station_id": "2956015536551798",
         "fuel_type": "AI_92",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 20,
-        "last_report_at": "2026-07-14T21:35:08.637613Z"
+        "reports_count": 21,
+        "last_report_at": "2026-07-14T23:27:08.116256Z"
       },
       {
         "station_id": "2956015536551798",
         "fuel_type": "AI_98",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 11,
-        "last_report_at": "2026-07-14T21:35:08.637613Z"
+        "reports_count": 12,
+        "last_report_at": "2026-07-14T23:27:08.116256Z"
       },
       {
         "station_id": "2956015536551798",
         "fuel_type": "AI_100",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 11,
-        "last_report_at": "2026-07-14T21:35:08.637613Z"
+        "reports_count": 12,
+        "last_report_at": "2026-07-14T23:27:08.116256Z"
       },
       {
         "station_id": "2956015536551798",
         "fuel_type": "DT",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 15,
-        "last_report_at": "2026-07-14T21:35:08.637613Z"
+        "reports_count": 16,
+        "last_report_at": "2026-07-14T23:27:08.116256Z"
       },
       {
         "station_id": "2956015536551798",
         "fuel_type": "GAS",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 11,
-        "last_report_at": "2026-07-14T21:35:08.637613Z"
+        "reports_count": 12,
+        "last_report_at": "2026-07-14T23:27:08.116256Z"
       }
     ],
     "status": "NO_DATA",
@@ -6630,9 +6631,10 @@
         "station_id": "2956015536551593",
         "fuel_type": "DT",
         "available": null,
-        "queue_level": "NONE",
-        "reports_count": 47,
-        "last_report_at": "2026-07-14T12:47:32.847685Z"
+        "queue_level": "OVER_30_MIN",
+        "limit_liters": 30,
+        "reports_count": 48,
+        "last_report_at": "2026-07-14T23:09:43.176553Z"
       },
       {
         "station_id": "2956015536551593",
@@ -6653,18 +6655,20 @@
       {
         "station_id": "2956015536551593",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "OVER_30_MIN",
-        "reports_count": 51,
-        "last_report_at": "2026-07-14T20:23:27.752432Z"
+        "limit_liters": 30,
+        "reports_count": 52,
+        "last_report_at": "2026-07-14T23:09:43.176553Z"
       },
       {
         "station_id": "2956015536551593",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "OVER_30_MIN",
-        "reports_count": 48,
-        "last_report_at": "2026-07-14T20:23:27.752432Z"
+        "limit_liters": 30,
+        "reports_count": 49,
+        "last_report_at": "2026-07-14T23:09:43.176553Z"
       },
       {
         "station_id": "2956015536551593",
@@ -6675,7 +6679,7 @@
         "last_report_at": "2026-07-14T04:33:16.655335Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -6874,7 +6878,7 @@
       "address": "Казань, улица Космонавтов, 48а",
       "lat": 55.794199,
       "lng": 49.199349,
-      "last_transaction_at": "2026-07-14T19:20:28Z",
+      "last_transaction_at": "2026-07-14T23:26:55Z",
       "created_at": "2026-07-10T15:39:58.053579Z",
       "updated_at": "2026-07-10T15:39:58.053579Z",
       "schedule": {
@@ -6949,7 +6953,7 @@
       {
         "station_id": "2956015536681999",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 31,
         "last_report_at": "2026-07-14T20:07:40.715522Z"
@@ -6957,7 +6961,7 @@
       {
         "station_id": "2956015536681999",
         "fuel_type": "AI_100",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 16,
         "last_report_at": "2026-07-14T20:07:40.715522Z"
@@ -6965,7 +6969,7 @@
       {
         "station_id": "2956015536681999",
         "fuel_type": "DT",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 37,
         "last_report_at": "2026-07-14T20:07:40.715522Z"
@@ -6973,7 +6977,7 @@
       {
         "station_id": "2956015536681999",
         "fuel_type": "GAS",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 17,
         "last_report_at": "2026-07-14T20:07:40.715522Z"
@@ -6981,7 +6985,7 @@
       {
         "station_id": "2956015536681999",
         "fuel_type": "AI_98",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 16,
         "last_report_at": "2026-07-14T20:07:40.715522Z"
@@ -6989,13 +6993,13 @@
       {
         "station_id": "2956015536681999",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 21,
         "last_report_at": "2026-07-14T20:07:40.715522Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -7467,7 +7471,7 @@
       "address": "Казань, улица Сары Садыковой, 65",
       "lat": 55.769646,
       "lng": 49.122359,
-      "last_transaction_at": "2026-07-14T22:36:15Z",
+      "last_transaction_at": "2026-07-14T23:31:28Z",
       "created_at": "2026-07-10T15:40:00.122795Z",
       "updated_at": "2026-07-10T15:40:00.122795Z",
       "schedule": {
@@ -7549,19 +7553,19 @@
       },
       {
         "station_id": "2956015536467720",
+        "fuel_type": "AI_92",
+        "available": true,
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 38,
+        "last_report_at": "2026-07-14T23:47:04.828443Z"
+      },
+      {
+        "station_id": "2956015536467720",
         "fuel_type": "AI_100",
         "available": null,
         "queue_level": "NONE",
         "reports_count": 17,
         "last_report_at": "2026-07-14T21:41:21.556627Z"
-      },
-      {
-        "station_id": "2956015536467720",
-        "fuel_type": "AI_92",
-        "available": null,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 37,
-        "last_report_at": "2026-07-14T22:19:58.694776Z"
       },
       {
         "station_id": "2956015536467720",
@@ -7574,10 +7578,10 @@
       {
         "station_id": "2956015536467720",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "OVER_30_MIN",
-        "reports_count": 29,
-        "last_report_at": "2026-07-14T22:19:58.694776Z"
+        "reports_count": 30,
+        "last_report_at": "2026-07-14T23:47:04.828443Z"
       },
       {
         "station_id": "2956015536467720",
@@ -7588,7 +7592,7 @@
         "last_report_at": "2026-07-14T22:19:58.694776Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -7972,7 +7976,7 @@
       {
         "station_id": "70000001017222005",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 24,
         "last_report_at": "2026-07-14T19:35:55.888339Z"
@@ -7980,7 +7984,7 @@
       {
         "station_id": "70000001017222005",
         "fuel_type": "AI_98",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 11,
         "last_report_at": "2026-07-14T19:35:55.888339Z"
@@ -7988,7 +7992,7 @@
       {
         "station_id": "70000001017222005",
         "fuel_type": "DT",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 35,
         "last_report_at": "2026-07-14T19:58:27.245126Z"
@@ -7996,7 +8000,7 @@
       {
         "station_id": "70000001017222005",
         "fuel_type": "AI_100",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 11,
         "last_report_at": "2026-07-14T19:35:55.888339Z"
@@ -8004,7 +8008,7 @@
       {
         "station_id": "70000001017222005",
         "fuel_type": "GAS",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 11,
         "last_report_at": "2026-07-14T19:35:55.888339Z"
@@ -8012,13 +8016,13 @@
       {
         "station_id": "70000001017222005",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 14,
         "last_report_at": "2026-07-14T19:35:55.888339Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -8352,7 +8356,7 @@
       "address": "Казань, проспект Победы, 194а",
       "lat": 55.793245,
       "lng": 49.220364,
-      "last_transaction_at": "2026-07-14T21:28:10Z",
+      "last_transaction_at": "2026-07-14T22:31:56Z",
       "created_at": "2026-07-10T15:39:58.418843Z",
       "updated_at": "2026-07-10T15:39:58.418843Z",
       "schedule": {
@@ -8443,10 +8447,11 @@
       {
         "station_id": "2956015536583242",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
-        "reports_count": 22,
-        "last_report_at": "2026-07-14T22:16:31.411805Z"
+        "limit_liters": 0,
+        "reports_count": 23,
+        "last_report_at": "2026-07-14T23:23:03.805826Z"
       },
       {
         "station_id": "2956015536583242",
@@ -8473,7 +8478,7 @@
         "last_report_at": "2026-07-14T19:54:55.76285Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -8851,7 +8856,7 @@
       {
         "station_id": "2956015536551569",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "OVER_30_MIN",
         "limit_liters": 30,
         "reports_count": 22,
@@ -8860,7 +8865,7 @@
       {
         "station_id": "2956015536551569",
         "fuel_type": "AI_92",
-        "available": true,
+        "available": null,
         "queue_level": "OVER_30_MIN",
         "limit_liters": 30,
         "reports_count": 21,
@@ -8899,7 +8904,7 @@
         "last_report_at": "2026-07-14T19:10:04.577121Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -9012,51 +9017,51 @@
     "fuel_statuses": [
       {
         "station_id": "2956015536551595",
-        "fuel_type": "AI_98",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 7,
-        "last_report_at": "2026-07-14T18:29:24.452657Z"
-      },
-      {
-        "station_id": "2956015536551595",
         "fuel_type": "AI_92",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 19,
-        "last_report_at": "2026-07-14T18:29:24.452657Z"
+        "reports_count": 20,
+        "last_report_at": "2026-07-14T23:00:42.936825Z"
       },
       {
         "station_id": "2956015536551595",
         "fuel_type": "AI_95",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 17,
-        "last_report_at": "2026-07-14T18:29:24.452657Z"
+        "reports_count": 18,
+        "last_report_at": "2026-07-14T23:00:42.936825Z"
+      },
+      {
+        "station_id": "2956015536551595",
+        "fuel_type": "AI_98",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 8,
+        "last_report_at": "2026-07-14T23:00:42.936825Z"
       },
       {
         "station_id": "2956015536551595",
         "fuel_type": "AI_100",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 7,
-        "last_report_at": "2026-07-14T18:29:24.452657Z"
+        "reports_count": 8,
+        "last_report_at": "2026-07-14T23:00:42.936825Z"
       },
       {
         "station_id": "2956015536551595",
         "fuel_type": "DT",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 9,
-        "last_report_at": "2026-07-14T18:29:24.452657Z"
+        "reports_count": 10,
+        "last_report_at": "2026-07-14T23:00:42.936825Z"
       },
       {
         "station_id": "2956015536551595",
         "fuel_type": "GAS",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 9,
-        "last_report_at": "2026-07-14T18:29:24.452657Z"
+        "reports_count": 10,
+        "last_report_at": "2026-07-14T23:00:42.936825Z"
       }
     ],
     "status": "NO_DATA",
@@ -9146,52 +9151,51 @@
     "fuel_statuses": [
       {
         "station_id": "2956015536848904",
-        "fuel_type": "AI_98",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 10,
-        "last_report_at": "2026-07-14T01:10:18.603767Z"
-      },
-      {
-        "station_id": "2956015536848904",
         "fuel_type": "AI_100",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 10,
-        "last_report_at": "2026-07-14T01:10:18.603767Z"
+        "reports_count": 11,
+        "last_report_at": "2026-07-14T23:05:08.883494Z"
       },
       {
         "station_id": "2956015536848904",
         "fuel_type": "DT",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 10,
-        "last_report_at": "2026-07-14T01:10:18.603767Z"
-      },
-      {
-        "station_id": "2956015536848904",
-        "fuel_type": "AI_92",
-        "available": null,
-        "queue_level": "NONE",
-        "limit_liters": 30,
-        "reports_count": 37,
-        "last_report_at": "2026-07-14T15:40:13.328498Z"
+        "reports_count": 11,
+        "last_report_at": "2026-07-14T23:05:08.883494Z"
       },
       {
         "station_id": "2956015536848904",
         "fuel_type": "GAS",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 10,
-        "last_report_at": "2026-07-14T01:10:18.603767Z"
+        "reports_count": 11,
+        "last_report_at": "2026-07-14T23:05:08.883494Z"
+      },
+      {
+        "station_id": "2956015536848904",
+        "fuel_type": "AI_98",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 11,
+        "last_report_at": "2026-07-14T23:05:08.883494Z"
+      },
+      {
+        "station_id": "2956015536848904",
+        "fuel_type": "AI_92",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 38,
+        "last_report_at": "2026-07-14T23:05:08.883494Z"
       },
       {
         "station_id": "2956015536848904",
         "fuel_type": "AI_95",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 29,
-        "last_report_at": "2026-07-14T01:10:18.603767Z"
+        "reports_count": 30,
+        "last_report_at": "2026-07-14T23:05:08.883494Z"
       }
     ],
     "status": "NOT_AVAILABLE",
@@ -9684,20 +9688,11 @@
     "fuel_statuses": [
       {
         "station_id": "2956015536579443",
-        "fuel_type": "AI_92",
-        "available": true,
-        "queue_level": "OVER_30_MIN",
-        "limit_liters": 30,
-        "reports_count": 20,
-        "last_report_at": "2026-07-14T20:05:49.272439Z"
-      },
-      {
-        "station_id": "2956015536579443",
         "fuel_type": "AI_98",
         "available": null,
-        "queue_level": "NONE",
-        "reports_count": 7,
-        "last_report_at": "2026-07-14T14:40:03.718014Z"
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 8,
+        "last_report_at": "2026-07-14T23:32:52.75315Z"
       },
       {
         "station_id": "2956015536579443",
@@ -9709,29 +9704,35 @@
       },
       {
         "station_id": "2956015536579443",
-        "fuel_type": "GAS",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 11,
-        "last_report_at": "2026-07-14T14:40:03.718014Z"
-      },
-      {
-        "station_id": "2956015536579443",
         "fuel_type": "AI_95",
         "available": true,
         "queue_level": "OVER_30_MIN",
-        "limit_liters": 30,
-        "reports_count": 21,
-        "last_report_at": "2026-07-14T20:05:49.272439Z"
+        "reports_count": 23,
+        "last_report_at": "2026-07-14T23:32:52.75315Z"
       },
       {
         "station_id": "2956015536579443",
         "fuel_type": "DT",
         "available": true,
         "queue_level": "OVER_30_MIN",
-        "limit_liters": 30,
-        "reports_count": 17,
-        "last_report_at": "2026-07-14T20:05:49.272439Z"
+        "reports_count": 18,
+        "last_report_at": "2026-07-14T22:55:59.636752Z"
+      },
+      {
+        "station_id": "2956015536579443",
+        "fuel_type": "AI_92",
+        "available": true,
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 22,
+        "last_report_at": "2026-07-14T23:32:52.75315Z"
+      },
+      {
+        "station_id": "2956015536579443",
+        "fuel_type": "GAS",
+        "available": true,
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 13,
+        "last_report_at": "2026-07-14T23:32:52.75315Z"
       }
     ],
     "status": "AVAILABLE",
@@ -9932,7 +9933,7 @@
       "address": "Казань, проспект Победы, 214 к1",
       "lat": 55.804517,
       "lng": 49.207659,
-      "last_transaction_at": "2026-07-14T22:25:19Z",
+      "last_transaction_at": "2026-07-14T23:20:05Z",
       "created_at": "2026-07-10T15:39:58.667323Z",
       "updated_at": "2026-07-10T15:39:58.667323Z",
       "schedule": {
@@ -10193,54 +10194,54 @@
     "fuel_statuses": [
       {
         "station_id": "2956015536530687",
+        "fuel_type": "GAS",
+        "available": false,
+        "queue_level": "NONE",
+        "reports_count": 26,
+        "last_report_at": "2026-07-14T23:29:06.443533Z"
+      },
+      {
+        "station_id": "2956015536530687",
         "fuel_type": "AI_95",
         "available": false,
-        "queue_level": "UP_TO_30_MIN",
-        "reports_count": 38,
-        "last_report_at": "2026-07-14T21:44:01.458233Z"
+        "queue_level": "NONE",
+        "reports_count": 39,
+        "last_report_at": "2026-07-14T23:29:06.443533Z"
       },
       {
         "station_id": "2956015536530687",
         "fuel_type": "AI_100",
         "available": false,
-        "queue_level": "UP_TO_30_MIN",
-        "reports_count": 25,
-        "last_report_at": "2026-07-14T21:44:01.458233Z"
+        "queue_level": "NONE",
+        "reports_count": 26,
+        "last_report_at": "2026-07-14T23:29:06.443533Z"
       },
       {
         "station_id": "2956015536530687",
         "fuel_type": "AI_92",
         "available": false,
-        "queue_level": "UP_TO_30_MIN",
-        "reports_count": 43,
-        "last_report_at": "2026-07-14T21:44:01.458233Z"
+        "queue_level": "NONE",
+        "reports_count": 44,
+        "last_report_at": "2026-07-14T23:29:06.443533Z"
       },
       {
         "station_id": "2956015536530687",
         "fuel_type": "AI_98",
         "available": false,
-        "queue_level": "UP_TO_30_MIN",
-        "reports_count": 27,
-        "last_report_at": "2026-07-14T21:44:01.458233Z"
+        "queue_level": "NONE",
+        "reports_count": 28,
+        "last_report_at": "2026-07-14T23:29:06.443533Z"
       },
       {
         "station_id": "2956015536530687",
         "fuel_type": "DT",
         "available": false,
-        "queue_level": "UP_TO_30_MIN",
-        "reports_count": 33,
-        "last_report_at": "2026-07-14T21:44:01.458233Z"
-      },
-      {
-        "station_id": "2956015536530687",
-        "fuel_type": "GAS",
-        "available": false,
-        "queue_level": "UP_TO_30_MIN",
-        "reports_count": 25,
-        "last_report_at": "2026-07-14T21:44:01.458233Z"
+        "queue_level": "NONE",
+        "reports_count": 34,
+        "last_report_at": "2026-07-14T23:29:06.443533Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -10394,7 +10395,7 @@
         "last_report_at": "2026-07-13T09:43:04.482142Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -10415,7 +10416,7 @@
       "address": "Казань, улица Николая Столбова, 1/1",
       "lat": 55.78613,
       "lng": 49.112402,
-      "last_transaction_at": "2026-07-14T22:38:49Z",
+      "last_transaction_at": "2026-07-14T23:30:42Z",
       "created_at": "2026-07-10T15:39:58.027503Z",
       "updated_at": "2026-07-10T15:39:58.027503Z",
       "schedule": {
@@ -10606,7 +10607,7 @@
       "address": "Казань, Магистральная улица, 86 к1",
       "lat": 55.748537,
       "lng": 49.103391,
-      "last_transaction_at": "2026-07-14T20:58:39Z",
+      "last_transaction_at": "2026-07-14T22:52:20Z",
       "created_at": "2026-07-10T15:40:00.501568Z",
       "updated_at": "2026-07-10T15:40:00.501568Z",
       "schedule": {
@@ -11846,7 +11847,7 @@
       "address": "Казань, Мамадышский тракт, 52",
       "lat": 55.800132,
       "lng": 49.255456,
-      "last_transaction_at": "2026-07-14T22:37:25Z",
+      "last_transaction_at": "2026-07-14T23:33:47Z",
       "created_at": "2026-07-10T15:39:58.326324Z",
       "updated_at": "2026-07-10T15:39:58.326324Z",
       "schedule": {
@@ -11991,8 +11992,8 @@
         "fuel_type": "AI_92",
         "available": true,
         "queue_level": "NONE",
-        "reports_count": 26,
-        "last_report_at": "2026-07-14T21:50:43.570976Z"
+        "reports_count": 28,
+        "last_report_at": "2026-07-14T23:30:28.894381Z"
       }
     ],
     "status": "PARTIALLY_AVAILABLE",
@@ -12034,7 +12035,7 @@
       "address": "Казань, улица Ташаяк, 4",
       "lat": 55.794354,
       "lng": 49.096422,
-      "last_transaction_at": "2026-07-14T22:38:52Z",
+      "last_transaction_at": "2026-07-14T23:23:02Z",
       "created_at": "2026-07-10T15:39:58.352732Z",
       "updated_at": "2026-07-10T15:39:58.352732Z",
       "schedule": {
@@ -12110,9 +12111,9 @@
         "station_id": "70000001099286750",
         "fuel_type": "AI_92",
         "available": true,
-        "queue_level": "NONE",
-        "reports_count": 50,
-        "last_report_at": "2026-07-14T21:56:34.798739Z"
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 53,
+        "last_report_at": "2026-07-14T23:43:38.07954Z"
       },
       {
         "station_id": "70000001099286750",
@@ -12142,17 +12143,18 @@
         "station_id": "70000001099286750",
         "fuel_type": "DT",
         "available": true,
-        "queue_level": "NONE",
-        "reports_count": 32,
-        "last_report_at": "2026-07-14T21:56:34.798739Z"
+        "queue_level": "OVER_30_MIN",
+        "limit_liters": 30,
+        "reports_count": 34,
+        "last_report_at": "2026-07-14T23:26:54.686263Z"
       },
       {
         "station_id": "70000001099286750",
         "fuel_type": "AI_95",
         "available": true,
-        "queue_level": "NONE",
-        "reports_count": 45,
-        "last_report_at": "2026-07-14T21:56:34.798739Z"
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 48,
+        "last_report_at": "2026-07-14T23:43:38.07954Z"
       }
     ],
     "status": "AVAILABLE",
@@ -12273,7 +12275,7 @@
       "address": "Казань, улица Фатыха Амирхана, 1д",
       "lat": 55.815612,
       "lng": 49.134568,
-      "last_transaction_at": "2026-07-14T22:37:30Z",
+      "last_transaction_at": "2026-07-14T23:32:59Z",
       "created_at": "2026-07-10T15:39:58.393287Z",
       "updated_at": "2026-07-10T15:39:58.393287Z",
       "schedule": {
@@ -12356,7 +12358,7 @@
       {
         "station_id": "70000001007255511",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "OVER_30_MIN",
         "reports_count": 58,
         "last_report_at": "2026-07-14T22:38:51.668161Z"
@@ -12554,7 +12556,7 @@
         "last_report_at": "2026-07-14T16:45:51.905681Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -12956,54 +12958,54 @@
     "fuel_statuses": [
       {
         "station_id": "70000001040206548",
-        "fuel_type": "AI_92",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 27,
-        "last_report_at": "2026-07-14T22:37:38.793812Z"
-      },
-      {
-        "station_id": "70000001040206548",
-        "fuel_type": "AI_95",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 29,
-        "last_report_at": "2026-07-14T22:37:38.793812Z"
-      },
-      {
-        "station_id": "70000001040206548",
         "fuel_type": "AI_98",
         "available": null,
-        "queue_level": "NONE",
-        "reports_count": 14,
-        "last_report_at": "2026-07-14T16:17:38.105014Z"
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 15,
+        "last_report_at": "2026-07-14T23:28:09.365127Z"
       },
       {
         "station_id": "70000001040206548",
         "fuel_type": "AI_100",
         "available": null,
-        "queue_level": "NONE",
-        "reports_count": 15,
-        "last_report_at": "2026-07-14T16:17:38.105014Z"
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 16,
+        "last_report_at": "2026-07-14T23:28:09.365127Z"
       },
       {
         "station_id": "70000001040206548",
         "fuel_type": "DT",
         "available": null,
-        "queue_level": "NONE",
-        "reports_count": 21,
-        "last_report_at": "2026-07-14T18:35:37.987502Z"
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 22,
+        "last_report_at": "2026-07-14T23:28:09.365127Z"
       },
       {
         "station_id": "70000001040206548",
         "fuel_type": "GAS",
         "available": null,
-        "queue_level": "NONE",
-        "reports_count": 18,
-        "last_report_at": "2026-07-14T16:17:38.105014Z"
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 19,
+        "last_report_at": "2026-07-14T23:28:09.365127Z"
+      },
+      {
+        "station_id": "70000001040206548",
+        "fuel_type": "AI_92",
+        "available": true,
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 28,
+        "last_report_at": "2026-07-14T23:28:09.365127Z"
+      },
+      {
+        "station_id": "70000001040206548",
+        "fuel_type": "AI_95",
+        "available": true,
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 30,
+        "last_report_at": "2026-07-14T23:28:09.365127Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -13461,7 +13463,7 @@
       "address": "Казань, улица Фатыха Амирхана, 21а",
       "lat": 55.824495,
       "lng": 49.132574,
-      "last_transaction_at": "2026-07-14T22:18:56Z",
+      "last_transaction_at": "2026-07-14T23:32:30Z",
       "created_at": "2026-07-10T15:39:59.236542Z",
       "updated_at": "2026-07-10T15:39:59.236542Z",
       "schedule": {
@@ -13563,25 +13565,26 @@
         "available": null,
         "queue_level": "OVER_30_MIN",
         "limit_liters": 30,
-        "reports_count": 66,
-        "last_report_at": "2026-07-14T22:37:57.830418Z"
+        "reports_count": 67,
+        "last_report_at": "2026-07-14T23:33:33.146522Z"
       },
       {
         "station_id": "2956015536530686",
         "fuel_type": "AI_92",
-        "available": null,
-        "queue_level": "OVER_30_MIN",
+        "available": true,
+        "queue_level": "NONE",
         "limit_liters": 30,
-        "reports_count": 76,
-        "last_report_at": "2026-07-14T22:37:57.830418Z"
+        "reports_count": 78,
+        "last_report_at": "2026-07-14T23:52:17.520667Z"
       },
       {
         "station_id": "2956015536530686",
         "fuel_type": "DT",
-        "available": false,
-        "queue_level": "NONE",
-        "reports_count": 55,
-        "last_report_at": "2026-07-14T22:14:18.435652Z"
+        "available": null,
+        "queue_level": "OVER_30_MIN",
+        "limit_liters": 30,
+        "reports_count": 56,
+        "last_report_at": "2026-07-14T23:33:33.146522Z"
       }
     ],
     "status": "PARTIALLY_AVAILABLE",
@@ -13758,7 +13761,7 @@
       "address": "Казань, Сибирский тракт, 44",
       "lat": 55.8324,
       "lng": 49.19358,
-      "last_transaction_at": "2026-07-14T22:37:26Z",
+      "last_transaction_at": "2026-07-14T23:32:53Z",
       "created_at": "2026-07-10T15:39:58.535114Z",
       "updated_at": "2026-07-10T15:39:58.535114Z",
       "schedule": {
@@ -14006,10 +14009,9 @@
         "station_id": "2956015536734687",
         "fuel_type": "AI_92",
         "available": true,
-        "queue_level": "OVER_30_MIN",
-        "limit_liters": 30,
-        "reports_count": 19,
-        "last_report_at": "2026-07-14T22:01:41.049223Z"
+        "queue_level": "UP_TO_30_MIN",
+        "reports_count": 20,
+        "last_report_at": "2026-07-14T23:33:57.922868Z"
       },
       {
         "station_id": "2956015536734687",
@@ -14023,10 +14025,9 @@
         "station_id": "2956015536734687",
         "fuel_type": "AI_95",
         "available": true,
-        "queue_level": "OVER_30_MIN",
-        "limit_liters": 30,
-        "reports_count": 17,
-        "last_report_at": "2026-07-14T22:01:41.049223Z"
+        "queue_level": "UP_TO_30_MIN",
+        "reports_count": 18,
+        "last_report_at": "2026-07-14T23:33:57.922868Z"
       }
     ],
     "status": "AVAILABLE",
@@ -14136,15 +14137,6 @@
     "fuel_statuses": [
       {
         "station_id": "2956015536551802",
-        "fuel_type": "AI_95",
-        "available": true,
-        "queue_level": "OVER_30_MIN",
-        "limit_liters": 30,
-        "reports_count": 29,
-        "last_report_at": "2026-07-14T22:43:41.580284Z"
-      },
-      {
-        "station_id": "2956015536551802",
         "fuel_type": "GAS",
         "available": null,
         "queue_level": "NONE",
@@ -14169,12 +14161,21 @@
       },
       {
         "station_id": "2956015536551802",
+        "fuel_type": "AI_95",
+        "available": true,
+        "queue_level": "OVER_30_MIN",
+        "limit_liters": 30,
+        "reports_count": 30,
+        "last_report_at": "2026-07-14T23:32:59.342759Z"
+      },
+      {
+        "station_id": "2956015536551802",
         "fuel_type": "AI_92",
         "available": true,
         "queue_level": "OVER_30_MIN",
         "limit_liters": 30,
-        "reports_count": 34,
-        "last_report_at": "2026-07-14T22:43:41.580284Z"
+        "reports_count": 35,
+        "last_report_at": "2026-07-14T23:32:59.342759Z"
       },
       {
         "station_id": "2956015536551802",
@@ -14224,7 +14225,7 @@
       "address": "АЗС",
       "lat": 55.690785,
       "lng": 49.216521,
-      "last_transaction_at": "2026-07-14T22:37:30Z",
+      "last_transaction_at": "2026-07-14T23:20:54Z",
       "created_at": "2026-07-10T15:33:44.174393Z",
       "updated_at": "2026-07-10T15:33:44.174393Z",
       "schedule": {
@@ -14411,7 +14412,7 @@
       "address": "Казань, улица Гаврилова, 19",
       "lat": 55.834797,
       "lng": 49.160116,
-      "last_transaction_at": "2026-07-14T21:32:18Z",
+      "last_transaction_at": "2026-07-14T22:52:02Z",
       "created_at": "2026-07-10T15:40:00.680172Z",
       "updated_at": "2026-07-10T15:40:00.680172Z",
       "schedule": {
@@ -14485,52 +14486,51 @@
     "fuel_statuses": [
       {
         "station_id": "70000001021813224",
-        "fuel_type": "AI_100",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 8,
-        "last_report_at": "2026-07-14T21:40:23.225213Z"
+        "fuel_type": "GAS",
+        "available": false,
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 9,
+        "last_report_at": "2026-07-14T23:29:38.423701Z"
       },
       {
         "station_id": "70000001021813224",
-        "fuel_type": "GAS",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 8,
-        "last_report_at": "2026-07-14T21:40:23.225213Z"
+        "fuel_type": "AI_95",
+        "available": false,
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 10,
+        "last_report_at": "2026-07-14T23:29:38.423701Z"
+      },
+      {
+        "station_id": "70000001021813224",
+        "fuel_type": "AI_98",
+        "available": false,
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 9,
+        "last_report_at": "2026-07-14T23:29:38.423701Z"
+      },
+      {
+        "station_id": "70000001021813224",
+        "fuel_type": "AI_92",
+        "available": false,
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 10,
+        "last_report_at": "2026-07-14T23:29:38.423701Z"
+      },
+      {
+        "station_id": "70000001021813224",
+        "fuel_type": "AI_100",
+        "available": false,
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 9,
+        "last_report_at": "2026-07-14T23:29:38.423701Z"
       },
       {
         "station_id": "70000001021813224",
         "fuel_type": "DT",
         "available": null,
-        "queue_level": "NONE",
-        "limit_liters": 0,
-        "reports_count": 23,
-        "last_report_at": "2026-07-14T22:04:16.255685Z"
-      },
-      {
-        "station_id": "70000001021813224",
-        "fuel_type": "AI_95",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 9,
-        "last_report_at": "2026-07-14T21:40:23.225213Z"
-      },
-      {
-        "station_id": "70000001021813224",
-        "fuel_type": "AI_98",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 8,
-        "last_report_at": "2026-07-14T21:40:23.225213Z"
-      },
-      {
-        "station_id": "70000001021813224",
-        "fuel_type": "AI_92",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 9,
-        "last_report_at": "2026-07-14T21:40:23.225213Z"
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 24,
+        "last_report_at": "2026-07-14T23:29:38.423701Z"
       }
     ],
     "status": "NO_DATA",
@@ -14646,54 +14646,60 @@
     "fuel_statuses": [
       {
         "station_id": "2956015536530690",
-        "fuel_type": "AI_92",
-        "available": null,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 49,
-        "last_report_at": "2026-07-14T21:53:28.143527Z"
-      },
-      {
-        "station_id": "2956015536530690",
-        "fuel_type": "AI_98",
-        "available": null,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 31,
-        "last_report_at": "2026-07-14T21:53:28.143527Z"
-      },
-      {
-        "station_id": "2956015536530690",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": false,
         "queue_level": "OVER_30_MIN",
-        "reports_count": 30,
-        "last_report_at": "2026-07-14T21:53:28.143527Z"
-      },
-      {
-        "station_id": "2956015536530690",
-        "fuel_type": "DT",
-        "available": null,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 36,
-        "last_report_at": "2026-07-14T21:53:28.143527Z"
+        "limit_liters": 30,
+        "reports_count": 31,
+        "last_report_at": "2026-07-14T23:28:30.606714Z"
       },
       {
         "station_id": "2956015536530690",
         "fuel_type": "GAS",
-        "available": null,
+        "available": false,
         "queue_level": "OVER_30_MIN",
-        "reports_count": 29,
-        "last_report_at": "2026-07-14T21:53:28.143527Z"
+        "limit_liters": 30,
+        "reports_count": 30,
+        "last_report_at": "2026-07-14T23:28:30.606714Z"
+      },
+      {
+        "station_id": "2956015536530690",
+        "fuel_type": "AI_92",
+        "available": false,
+        "queue_level": "OVER_30_MIN",
+        "limit_liters": 30,
+        "reports_count": 50,
+        "last_report_at": "2026-07-14T23:28:30.606714Z"
+      },
+      {
+        "station_id": "2956015536530690",
+        "fuel_type": "AI_98",
+        "available": false,
+        "queue_level": "OVER_30_MIN",
+        "limit_liters": 30,
+        "reports_count": 32,
+        "last_report_at": "2026-07-14T23:28:30.606714Z"
+      },
+      {
+        "station_id": "2956015536530690",
+        "fuel_type": "DT",
+        "available": false,
+        "queue_level": "OVER_30_MIN",
+        "limit_liters": 30,
+        "reports_count": 37,
+        "last_report_at": "2026-07-14T23:28:30.606714Z"
       },
       {
         "station_id": "2956015536530690",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": false,
         "queue_level": "OVER_30_MIN",
-        "reports_count": 45,
-        "last_report_at": "2026-07-14T21:53:28.143527Z"
+        "limit_liters": 30,
+        "reports_count": 46,
+        "last_report_at": "2026-07-14T23:28:30.606714Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -14720,7 +14726,7 @@
       "address": "Казань, проспект Ямашева, 41",
       "lat": 55.826319,
       "lng": 49.11703,
-      "last_transaction_at": "2026-07-14T21:36:59Z",
+      "last_transaction_at": "2026-07-14T23:33:01Z",
       "created_at": "2026-07-10T15:39:58.957648Z",
       "updated_at": "2026-07-10T15:39:58.957648Z",
       "schedule": {
@@ -14821,54 +14827,54 @@
     "fuel_statuses": [
       {
         "station_id": "70000001024499902",
-        "fuel_type": "AI_95",
-        "available": false,
-        "queue_level": "NONE",
-        "reports_count": 36,
-        "last_report_at": "2026-07-14T19:46:56.348341Z"
-      },
-      {
-        "station_id": "70000001024499902",
         "fuel_type": "GAS",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
-        "reports_count": 28,
-        "last_report_at": "2026-07-14T19:46:56.348341Z"
+        "reports_count": 29,
+        "last_report_at": "2026-07-14T23:38:47.519573Z"
       },
       {
         "station_id": "70000001024499902",
         "fuel_type": "AI_98",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
-        "reports_count": 28,
-        "last_report_at": "2026-07-14T19:46:56.348341Z"
+        "reports_count": 29,
+        "last_report_at": "2026-07-14T23:38:47.519573Z"
+      },
+      {
+        "station_id": "70000001024499902",
+        "fuel_type": "AI_95",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 37,
+        "last_report_at": "2026-07-14T23:38:47.519573Z"
       },
       {
         "station_id": "70000001024499902",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
-        "reports_count": 34,
-        "last_report_at": "2026-07-14T19:46:56.348341Z"
+        "reports_count": 35,
+        "last_report_at": "2026-07-14T23:38:47.519573Z"
       },
       {
         "station_id": "70000001024499902",
         "fuel_type": "AI_100",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
-        "reports_count": 28,
-        "last_report_at": "2026-07-14T19:46:56.348341Z"
+        "reports_count": 29,
+        "last_report_at": "2026-07-14T23:38:47.519573Z"
       },
       {
         "station_id": "70000001024499902",
         "fuel_type": "DT",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 38,
-        "last_report_at": "2026-07-14T19:46:56.348341Z"
+        "reports_count": 39,
+        "last_report_at": "2026-07-14T23:38:47.519573Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -15209,7 +15215,7 @@
       "address": "Казань, улица Гаврилова, 30д",
       "lat": 55.836792,
       "lng": 49.160045,
-      "last_transaction_at": "2026-07-14T22:33:48Z",
+      "last_transaction_at": "2026-07-14T23:30:27Z",
       "created_at": "2026-07-10T15:39:59.696948Z",
       "updated_at": "2026-07-10T15:39:59.696948Z",
       "schedule": {
@@ -15286,51 +15292,48 @@
         "fuel_type": "AI_92",
         "available": true,
         "queue_level": "OVER_30_MIN",
-        "limit_liters": 30,
-        "reports_count": 20,
-        "last_report_at": "2026-07-14T22:37:16.862978Z"
-      },
-      {
-        "station_id": "2956015537044333",
-        "fuel_type": "AI_100",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 13,
-        "last_report_at": "2026-07-14T18:54:52.216904Z"
+        "reports_count": 21,
+        "last_report_at": "2026-07-14T23:27:55.893046Z"
       },
       {
         "station_id": "2956015537044333",
         "fuel_type": "GAS",
         "available": null,
-        "queue_level": "NONE",
-        "reports_count": 13,
-        "last_report_at": "2026-07-14T18:54:52.216904Z"
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 14,
+        "last_report_at": "2026-07-14T23:27:55.893046Z"
       },
       {
         "station_id": "2956015537044333",
         "fuel_type": "AI_98",
         "available": null,
-        "queue_level": "NONE",
-        "reports_count": 13,
-        "last_report_at": "2026-07-14T18:54:52.216904Z"
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 14,
+        "last_report_at": "2026-07-14T23:27:55.893046Z"
       },
       {
         "station_id": "2956015537044333",
-        "fuel_type": "AI_95",
-        "available": true,
+        "fuel_type": "AI_100",
+        "available": null,
         "queue_level": "OVER_30_MIN",
-        "limit_liters": 30,
-        "reports_count": 20,
-        "last_report_at": "2026-07-14T22:52:33.673084Z"
+        "reports_count": 14,
+        "last_report_at": "2026-07-14T23:27:55.893046Z"
       },
       {
         "station_id": "2956015537044333",
         "fuel_type": "DT",
         "available": true,
         "queue_level": "OVER_30_MIN",
-        "limit_liters": 30,
-        "reports_count": 15,
-        "last_report_at": "2026-07-14T22:37:16.862978Z"
+        "reports_count": 16,
+        "last_report_at": "2026-07-14T23:27:55.893046Z"
+      },
+      {
+        "station_id": "2956015537044333",
+        "fuel_type": "AI_95",
+        "available": true,
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 21,
+        "last_report_at": "2026-07-14T23:27:55.893046Z"
       }
     ],
     "status": "AVAILABLE",
@@ -16357,17 +16360,19 @@
         "station_id": "2956015536574837",
         "fuel_type": "AI_92",
         "available": true,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 16,
-        "last_report_at": "2026-07-14T21:48:39.165118Z"
+        "queue_level": "UP_TO_30_MIN",
+        "limit_liters": 30,
+        "reports_count": 18,
+        "last_report_at": "2026-07-14T23:48:29.58759Z"
       },
       {
         "station_id": "2956015536574837",
         "fuel_type": "AI_95",
         "available": true,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 15,
-        "last_report_at": "2026-07-14T21:48:39.165118Z"
+        "queue_level": "UP_TO_30_MIN",
+        "limit_liters": 30,
+        "reports_count": 17,
+        "last_report_at": "2026-07-14T23:48:29.58759Z"
       },
       {
         "station_id": "2956015536574837",
@@ -16433,7 +16438,7 @@
       "address": "Казань, проспект Ибрагимова, 50",
       "lat": 55.82291,
       "lng": 49.094407,
-      "last_transaction_at": "2026-07-14T22:01:00Z",
+      "last_transaction_at": "2026-07-14T23:27:35Z",
       "created_at": "2026-07-10T15:39:59.571455Z",
       "updated_at": "2026-07-10T15:39:59.571455Z",
       "schedule": {
@@ -16896,8 +16901,8 @@
         "fuel_type": "DT",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 17,
-        "last_report_at": "2026-07-14T14:51:34.117024Z"
+        "reports_count": 18,
+        "last_report_at": "2026-07-14T23:15:42.540108Z"
       },
       {
         "station_id": "70000001036821384",
@@ -16916,7 +16921,7 @@
         "last_report_at": "2026-07-13T19:33:14.548261Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -17089,7 +17094,7 @@
       "address": "Казань, улица Маршала Чуйкова, 6в",
       "lat": 55.834618,
       "lng": 49.105778,
-      "last_transaction_at": "2026-07-14T22:36:41Z",
+      "last_transaction_at": "2026-07-14T23:30:42Z",
       "created_at": "2026-07-10T15:40:00.728262Z",
       "updated_at": "2026-07-10T15:40:00.728262Z",
       "schedule": {
@@ -17303,51 +17308,57 @@
     "fuel_statuses": [
       {
         "station_id": "2956015536647767",
-        "fuel_type": "DT",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 17,
-        "last_report_at": "2026-07-14T10:33:27.112502Z"
-      },
-      {
-        "station_id": "2956015536647767",
         "fuel_type": "AI_92",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 22,
-        "last_report_at": "2026-07-14T10:33:27.112502Z"
+        "limit_liters": 0,
+        "reports_count": 23,
+        "last_report_at": "2026-07-14T23:27:41.884576Z"
       },
       {
         "station_id": "2956015536647767",
         "fuel_type": "AI_95",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 22,
-        "last_report_at": "2026-07-14T10:33:27.112502Z"
+        "limit_liters": 0,
+        "reports_count": 23,
+        "last_report_at": "2026-07-14T23:27:41.884576Z"
       },
       {
         "station_id": "2956015536647767",
         "fuel_type": "AI_98",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 15,
-        "last_report_at": "2026-07-14T10:33:27.112502Z"
+        "limit_liters": 0,
+        "reports_count": 16,
+        "last_report_at": "2026-07-14T23:27:41.884576Z"
       },
       {
         "station_id": "2956015536647767",
         "fuel_type": "AI_100",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 15,
-        "last_report_at": "2026-07-14T10:33:27.112502Z"
+        "limit_liters": 0,
+        "reports_count": 16,
+        "last_report_at": "2026-07-14T23:27:41.884576Z"
+      },
+      {
+        "station_id": "2956015536647767",
+        "fuel_type": "DT",
+        "available": null,
+        "queue_level": "NONE",
+        "limit_liters": 0,
+        "reports_count": 18,
+        "last_report_at": "2026-07-14T23:27:41.884576Z"
       },
       {
         "station_id": "2956015536647767",
         "fuel_type": "GAS",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 17,
-        "last_report_at": "2026-07-14T10:33:27.112502Z"
+        "limit_liters": 0,
+        "reports_count": 18,
+        "last_report_at": "2026-07-14T23:27:41.884576Z"
       }
     ],
     "status": "NO_DATA",
@@ -17463,51 +17474,52 @@
     "fuel_statuses": [
       {
         "station_id": "2956015536551602",
+        "fuel_type": "AI_100",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 9,
+        "last_report_at": "2026-07-14T23:22:28.041233Z"
+      },
+      {
+        "station_id": "2956015536551602",
         "fuel_type": "AI_95",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 10,
-        "last_report_at": "2026-07-14T16:15:37.045589Z"
+        "reports_count": 12,
+        "last_report_at": "2026-07-14T23:22:28.041233Z"
       },
       {
         "station_id": "2956015536551602",
         "fuel_type": "GAS",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
-        "reports_count": 12,
-        "last_report_at": "2026-07-14T21:48:09.825486Z"
+        "limit_liters": 0,
+        "reports_count": 15,
+        "last_report_at": "2026-07-14T23:28:49.072521Z"
       },
       {
         "station_id": "2956015536551602",
         "fuel_type": "AI_92",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 10,
-        "last_report_at": "2026-07-14T16:15:37.045589Z"
+        "reports_count": 12,
+        "last_report_at": "2026-07-14T23:22:28.041233Z"
       },
       {
         "station_id": "2956015536551602",
         "fuel_type": "AI_98",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 7,
-        "last_report_at": "2026-07-14T16:15:37.045589Z"
-      },
-      {
-        "station_id": "2956015536551602",
-        "fuel_type": "AI_100",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 7,
-        "last_report_at": "2026-07-14T16:15:37.045589Z"
+        "reports_count": 9,
+        "last_report_at": "2026-07-14T23:22:28.041233Z"
       },
       {
         "station_id": "2956015536551602",
         "fuel_type": "DT",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 8,
-        "last_report_at": "2026-07-14T16:15:37.045589Z"
+        "reports_count": 10,
+        "last_report_at": "2026-07-14T23:22:28.041233Z"
       }
     ],
     "status": "NO_DATA",
@@ -17543,7 +17555,7 @@
       "address": "Казань, улица Адоратского, 50в",
       "lat": 55.845606,
       "lng": 49.148276,
-      "last_transaction_at": "2026-07-14T22:30:36Z",
+      "last_transaction_at": "2026-07-14T23:28:19Z",
       "created_at": "2026-07-10T15:39:58.163495Z",
       "updated_at": "2026-07-10T15:39:58.163495Z",
       "schedule": {
@@ -17785,48 +17797,48 @@
         "fuel_type": "AI_100",
         "available": true,
         "queue_level": "NONE",
-        "reports_count": 29,
-        "last_report_at": "2026-07-14T22:42:53.244102Z"
+        "reports_count": 30,
+        "last_report_at": "2026-07-14T23:25:24.44154Z"
       },
       {
         "station_id": "70000001038012968",
         "fuel_type": "GAS",
         "available": true,
         "queue_level": "NONE",
-        "reports_count": 29,
-        "last_report_at": "2026-07-14T22:42:53.244102Z"
+        "reports_count": 30,
+        "last_report_at": "2026-07-14T23:25:24.44154Z"
       },
       {
         "station_id": "70000001038012968",
         "fuel_type": "AI_92",
         "available": true,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 52,
-        "last_report_at": "2026-07-14T22:48:06.183758Z"
+        "queue_level": "NONE",
+        "reports_count": 53,
+        "last_report_at": "2026-07-14T23:25:24.44154Z"
       },
       {
         "station_id": "70000001038012968",
         "fuel_type": "AI_98",
         "available": true,
         "queue_level": "NONE",
-        "reports_count": 29,
-        "last_report_at": "2026-07-14T22:42:53.244102Z"
+        "reports_count": 30,
+        "last_report_at": "2026-07-14T23:25:24.44154Z"
       },
       {
         "station_id": "70000001038012968",
         "fuel_type": "AI_95",
         "available": true,
-        "queue_level": "OVER_30_MIN",
-        "reports_count": 58,
-        "last_report_at": "2026-07-14T22:48:06.183758Z"
+        "queue_level": "NONE",
+        "reports_count": 59,
+        "last_report_at": "2026-07-14T23:25:24.44154Z"
       },
       {
         "station_id": "70000001038012968",
         "fuel_type": "DT",
         "available": true,
         "queue_level": "NONE",
-        "reports_count": 38,
-        "last_report_at": "2026-07-14T22:42:53.244102Z"
+        "reports_count": 39,
+        "last_report_at": "2026-07-14T23:25:24.44154Z"
       }
     ],
     "status": "AVAILABLE",
@@ -17862,7 +17874,7 @@
       "address": "Казань, улица Фатыха Амирхана, 101а",
       "lat": 55.84403,
       "lng": 49.132913,
-      "last_transaction_at": "2026-07-14T21:34:21Z",
+      "last_transaction_at": "2026-07-14T23:08:56Z",
       "created_at": "2026-07-10T15:39:59.222566Z",
       "updated_at": "2026-07-10T15:39:59.222566Z",
       "schedule": {
@@ -17963,14 +17975,6 @@
     "fuel_statuses": [
       {
         "station_id": "70000001037567088",
-        "fuel_type": "DT",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 12,
-        "last_report_at": "2026-07-13T18:53:21.912507Z"
-      },
-      {
-        "station_id": "70000001037567088",
         "fuel_type": "AI_95",
         "available": null,
         "queue_level": "NONE",
@@ -17995,6 +17999,15 @@
       },
       {
         "station_id": "70000001037567088",
+        "fuel_type": "DT",
+        "available": null,
+        "queue_level": "NONE",
+        "limit_liters": 30,
+        "reports_count": 13,
+        "last_report_at": "2026-07-14T23:24:53.344826Z"
+      },
+      {
+        "station_id": "70000001037567088",
         "fuel_type": "AI_92",
         "available": null,
         "queue_level": "NONE",
@@ -18010,7 +18023,7 @@
         "last_report_at": "2026-07-13T18:53:21.912507Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -18184,7 +18197,7 @@
       "address": "Казань, улица Батыршина, 55а",
       "lat": 55.821013,
       "lng": 49.066753,
-      "last_transaction_at": "2026-07-14T21:33:58Z",
+      "last_transaction_at": "2026-07-14T23:31:20Z",
       "created_at": "2026-07-10T15:39:58.47017Z",
       "updated_at": "2026-07-10T15:39:58.47017Z",
       "schedule": {
@@ -18259,7 +18272,7 @@
       {
         "station_id": "2956015536648074",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 26,
         "last_report_at": "2026-07-14T19:58:48.701211Z"
@@ -18267,7 +18280,7 @@
       {
         "station_id": "2956015536648074",
         "fuel_type": "AI_100",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 18,
         "last_report_at": "2026-07-14T19:58:48.701211Z"
@@ -18275,7 +18288,7 @@
       {
         "station_id": "2956015536648074",
         "fuel_type": "DT",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 19,
         "last_report_at": "2026-07-14T19:58:48.701211Z"
@@ -18292,7 +18305,7 @@
       {
         "station_id": "2956015536648074",
         "fuel_type": "AI_98",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 17,
         "last_report_at": "2026-07-14T19:58:48.701211Z"
@@ -18307,7 +18320,7 @@
         "last_report_at": "2026-07-14T20:07:18.784831Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -18746,7 +18759,7 @@
         "last_report_at": "2026-07-12T12:33:05.103178Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -18880,7 +18893,7 @@
         "last_report_at": "2026-07-14T17:38:29.762532Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -19028,7 +19041,7 @@
         "last_report_at": "2026-07-14T19:01:44.544354Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -19975,7 +19988,7 @@
       "address": "Казань, М7 829 километр, 2",
       "lat": 55.806612,
       "lng": 49.3439,
-      "last_transaction_at": "2026-07-14T22:34:03Z",
+      "last_transaction_at": "2026-07-14T23:32:04Z",
       "created_at": "2026-07-10T15:39:58.299692Z",
       "updated_at": "2026-07-10T15:39:58.299692Z",
       "schedule": {
@@ -20135,7 +20148,7 @@
       "address": "Казань, улица Васильченко, 1в",
       "lat": 55.835278,
       "lng": 49.059139,
-      "last_transaction_at": "2026-07-14T21:35:59Z",
+      "last_transaction_at": "2026-07-14T23:29:57Z",
       "created_at": "2026-07-10T15:39:58.64205Z",
       "updated_at": "2026-07-10T15:39:58.64205Z",
       "schedule": {
@@ -20211,17 +20224,17 @@
         "station_id": "2956015536530688",
         "fuel_type": "DT",
         "available": null,
-        "queue_level": "NONE",
-        "reports_count": 29,
-        "last_report_at": "2026-07-14T22:02:18.823476Z"
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 30,
+        "last_report_at": "2026-07-14T23:09:49.53305Z"
       },
       {
         "station_id": "2956015536530688",
         "fuel_type": "AI_92",
         "available": null,
-        "queue_level": "NONE",
-        "reports_count": 34,
-        "last_report_at": "2026-07-14T22:02:18.823476Z"
+        "queue_level": "OVER_30_MIN",
+        "reports_count": 35,
+        "last_report_at": "2026-07-14T23:09:49.53305Z"
       },
       {
         "station_id": "2956015536530688",
@@ -20256,7 +20269,7 @@
         "last_report_at": "2026-07-14T22:02:18.823476Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -20370,50 +20383,50 @@
       {
         "station_id": "70000001080141269",
         "fuel_type": "AI_100",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 11,
-        "last_report_at": "2026-07-14T21:51:00.626146Z"
-      },
-      {
-        "station_id": "70000001080141269",
-        "fuel_type": "AI_95",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 16,
-        "last_report_at": "2026-07-14T21:51:00.626146Z"
-      },
-      {
-        "station_id": "70000001080141269",
-        "fuel_type": "AI_98",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 12,
-        "last_report_at": "2026-07-14T21:51:00.626146Z"
+        "last_report_at": "2026-07-14T23:00:27.917836Z"
       },
       {
         "station_id": "70000001080141269",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
-        "reports_count": 17,
-        "last_report_at": "2026-07-14T21:51:00.626146Z"
+        "reports_count": 18,
+        "last_report_at": "2026-07-14T23:00:27.917836Z"
       },
       {
         "station_id": "70000001080141269",
         "fuel_type": "GAS",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 17,
-        "last_report_at": "2026-07-14T21:51:00.626146Z"
+        "reports_count": 18,
+        "last_report_at": "2026-07-14T23:00:27.917836Z"
       },
       {
         "station_id": "70000001080141269",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
-        "reports_count": 11,
-        "last_report_at": "2026-07-14T21:51:00.626146Z"
+        "reports_count": 12,
+        "last_report_at": "2026-07-14T23:00:27.917836Z"
+      },
+      {
+        "station_id": "70000001080141269",
+        "fuel_type": "AI_95",
+        "available": false,
+        "queue_level": "NONE",
+        "reports_count": 17,
+        "last_report_at": "2026-07-14T23:00:27.917836Z"
+      },
+      {
+        "station_id": "70000001080141269",
+        "fuel_type": "AI_98",
+        "available": false,
+        "queue_level": "NONE",
+        "reports_count": 13,
+        "last_report_at": "2026-07-14T23:00:27.917836Z"
       }
     ],
     "status": "NO_DATA",
@@ -20665,8 +20678,8 @@
         "fuel_type": "DT",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 9,
-        "last_report_at": "2026-07-14T21:49:53.418349Z"
+        "reports_count": 10,
+        "last_report_at": "2026-07-14T23:00:59.600309Z"
       },
       {
         "station_id": "70000001091858179",
@@ -21157,7 +21170,7 @@
         "last_report_at": "2026-07-14T13:34:48.607611Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -22352,7 +22365,7 @@
       {
         "station_id": "2956015536647764",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 18,
         "last_report_at": "2026-07-14T20:12:22.745776Z"
@@ -22360,7 +22373,7 @@
       {
         "station_id": "2956015536647764",
         "fuel_type": "AI_98",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 12,
         "last_report_at": "2026-07-14T20:12:22.745776Z"
@@ -22368,7 +22381,7 @@
       {
         "station_id": "2956015536647764",
         "fuel_type": "DT",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 13,
         "last_report_at": "2026-07-14T20:12:22.745776Z"
@@ -22376,7 +22389,7 @@
       {
         "station_id": "2956015536647764",
         "fuel_type": "GAS",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 12,
         "last_report_at": "2026-07-14T20:12:22.745776Z"
@@ -22384,7 +22397,7 @@
       {
         "station_id": "2956015536647764",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 26,
         "last_report_at": "2026-07-14T20:12:22.745776Z"
@@ -22392,7 +22405,7 @@
       {
         "station_id": "2956015536647764",
         "fuel_type": "AI_100",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 12,
         "last_report_at": "2026-07-14T20:12:22.745776Z"
@@ -22552,7 +22565,7 @@
         "last_report_at": "2026-07-14T22:43:43.985584Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -22591,7 +22604,7 @@
       "address": "Казань, Хлебозаводская улица, 1/2",
       "lat": 55.849123,
       "lng": 49.050522,
-      "last_transaction_at": "2026-07-14T22:32:33Z",
+      "last_transaction_at": "2026-07-14T23:30:49Z",
       "created_at": "2026-07-10T15:39:59.59799Z",
       "updated_at": "2026-07-10T15:39:59.59799Z",
       "schedule": {
@@ -22926,7 +22939,7 @@
       {
         "station_id": "2956015536662188",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 40,
         "last_report_at": "2026-07-14T19:55:43.110906Z"
@@ -22934,7 +22947,7 @@
       {
         "station_id": "2956015536662188",
         "fuel_type": "AI_100",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 24,
         "last_report_at": "2026-07-14T19:55:43.110906Z"
@@ -22942,7 +22955,7 @@
       {
         "station_id": "2956015536662188",
         "fuel_type": "DT",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 24,
         "last_report_at": "2026-07-14T19:55:43.110906Z"
@@ -22950,7 +22963,7 @@
       {
         "station_id": "2956015536662188",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 38,
         "last_report_at": "2026-07-14T19:55:43.110906Z"
@@ -22958,7 +22971,7 @@
       {
         "station_id": "2956015536662188",
         "fuel_type": "AI_98",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 25,
         "last_report_at": "2026-07-14T19:55:43.110906Z"
@@ -22966,7 +22979,7 @@
       {
         "station_id": "2956015536662188",
         "fuel_type": "GAS",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 24,
         "last_report_at": "2026-07-14T19:55:43.110906Z"
@@ -23298,7 +23311,7 @@
     ],
     "status": "NOT_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false
+    "closed_by_schedule": true
   },
   {
     "station": {
@@ -23382,51 +23395,51 @@
     "fuel_statuses": [
       {
         "station_id": "70000001100891841",
+        "fuel_type": "AI_100",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 3,
+        "last_report_at": "2026-07-14T23:17:24.611263Z"
+      },
+      {
+        "station_id": "70000001100891841",
         "fuel_type": "AI_92",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 4,
-        "last_report_at": "2026-07-14T22:25:56.927639Z"
+        "reports_count": 5,
+        "last_report_at": "2026-07-14T23:17:24.611263Z"
       },
       {
         "station_id": "70000001100891841",
         "fuel_type": "AI_95",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 3,
-        "last_report_at": "2026-07-14T22:25:56.927639Z"
+        "reports_count": 4,
+        "last_report_at": "2026-07-14T23:17:24.611263Z"
       },
       {
         "station_id": "70000001100891841",
         "fuel_type": "AI_98",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 2,
-        "last_report_at": "2026-07-13T22:45:21.322213Z"
-      },
-      {
-        "station_id": "70000001100891841",
-        "fuel_type": "AI_100",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 2,
-        "last_report_at": "2026-07-13T22:45:21.322213Z"
+        "reports_count": 3,
+        "last_report_at": "2026-07-14T23:17:24.611263Z"
       },
       {
         "station_id": "70000001100891841",
         "fuel_type": "DT",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 2,
-        "last_report_at": "2026-07-13T22:45:21.322213Z"
+        "reports_count": 3,
+        "last_report_at": "2026-07-14T23:17:24.611263Z"
       },
       {
         "station_id": "70000001100891841",
         "fuel_type": "GAS",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 2,
-        "last_report_at": "2026-07-13T22:45:21.322213Z"
+        "reports_count": 3,
+        "last_report_at": "2026-07-14T23:17:24.611263Z"
       }
     ],
     "status": "NO_DATA",
@@ -23745,7 +23758,7 @@
       "address": "Казань, М7 817 километр, 2",
       "lat": 55.876094,
       "lng": 49.273253,
-      "last_transaction_at": "2026-07-14T18:27:57Z",
+      "last_transaction_at": "2026-07-14T22:19:20Z",
       "created_at": "2026-07-10T15:39:59.409531Z",
       "updated_at": "2026-07-10T15:39:59.409531Z",
       "schedule": {
@@ -23866,7 +23879,7 @@
         "last_report_at": "2026-07-14T12:22:35.037783Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -24180,7 +24193,7 @@
         "last_report_at": "2026-07-14T13:47:24.244312Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -24379,7 +24392,7 @@
       "address": "Песчаные Ковали (Песчано-Ковалинское СП, Лаишевский район), Октябрьская улица, АЗС",
       "lat": 55.63325,
       "lng": 49.130365,
-      "last_transaction_at": "2026-07-14T22:20:00Z",
+      "last_transaction_at": "2026-07-14T23:33:00Z",
       "created_at": "2026-07-10T15:39:20.335544Z",
       "updated_at": "2026-07-10T15:39:20.335544Z",
       "schedule": {
@@ -24899,7 +24912,7 @@
         "last_report_at": "2026-07-14T16:38:26.098793Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -25175,7 +25188,7 @@
         "last_report_at": "2026-07-14T18:59:57.929295Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -25825,7 +25838,7 @@
       "address": "Казань, М7 812 километр, 3",
       "lat": 55.903825,
       "lng": 49.189177,
-      "last_transaction_at": "2026-07-14T21:13:14Z",
+      "last_transaction_at": "2026-07-14T23:12:50Z",
       "created_at": "2026-07-10T15:39:59.872613Z",
       "updated_at": "2026-07-10T15:39:59.872613Z",
       "schedule": {
@@ -25934,14 +25947,6 @@
       },
       {
         "station_id": "70000001027798235",
-        "fuel_type": "DT",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 7,
-        "last_report_at": "2026-07-13T17:08:24.365882Z"
-      },
-      {
-        "station_id": "70000001027798235",
         "fuel_type": "AI_92",
         "available": null,
         "queue_level": "NONE",
@@ -25971,9 +25976,17 @@
         "queue_level": "NONE",
         "reports_count": 3,
         "last_report_at": "2026-07-13T17:08:24.365882Z"
+      },
+      {
+        "station_id": "70000001027798235",
+        "fuel_type": "DT",
+        "available": null,
+        "queue_level": "NONE",
+        "reports_count": 8,
+        "last_report_at": "2026-07-14T23:50:32.996442Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -26115,16 +26128,16 @@
         "fuel_type": "GAS",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 4,
-        "last_report_at": "2026-07-13T17:11:41.635216Z"
+        "reports_count": 5,
+        "last_report_at": "2026-07-14T23:50:02.023183Z"
       },
       {
         "station_id": "2956016536555705",
         "fuel_type": "DT",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 6,
-        "last_report_at": "2026-07-13T17:11:41.635216Z"
+        "reports_count": 7,
+        "last_report_at": "2026-07-14T23:50:02.023183Z"
       }
     ],
     "status": "NOT_AVAILABLE",
@@ -27188,8 +27201,8 @@
         "fuel_type": "DT",
         "available": null,
         "queue_level": "NONE",
-        "reports_count": 5,
-        "last_report_at": "2026-07-14T03:27:35.411529Z"
+        "reports_count": 6,
+        "last_report_at": "2026-07-14T23:48:41.569477Z"
       },
       {
         "station_id": "2956015537226104",
@@ -27740,7 +27753,7 @@
         "last_report_at": "2026-07-13T22:47:32.143221Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -27779,7 +27792,7 @@
       "address": "Высокая Гора (Высокогорское СП, Высокогорский район), улица Тагира Биккинеева, 36а",
       "lat": 55.902421,
       "lng": 49.323802,
-      "last_transaction_at": "2026-07-14T22:21:20Z",
+      "last_transaction_at": "2026-07-14T23:32:42Z",
       "created_at": "2026-07-10T15:36:48.38761Z",
       "updated_at": "2026-07-10T15:36:48.38761Z",
       "schedule": {
@@ -27966,50 +27979,50 @@
       {
         "station_id": "70000001027842879",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
-        "reports_count": 6,
-        "last_report_at": "2026-07-14T21:54:53.170298Z"
+        "reports_count": 7,
+        "last_report_at": "2026-07-14T23:43:48.502027Z"
       },
       {
         "station_id": "70000001027842879",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
-        "reports_count": 4,
-        "last_report_at": "2026-07-14T21:54:53.170298Z"
-      },
-      {
-        "station_id": "70000001027842879",
-        "fuel_type": "AI_98",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 4,
-        "last_report_at": "2026-07-14T21:54:53.170298Z"
+        "reports_count": 5,
+        "last_report_at": "2026-07-14T23:43:48.502027Z"
       },
       {
         "station_id": "70000001027842879",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
-        "reports_count": 6,
-        "last_report_at": "2026-07-14T21:54:53.170298Z"
+        "reports_count": 7,
+        "last_report_at": "2026-07-14T23:43:48.502027Z"
+      },
+      {
+        "station_id": "70000001027842879",
+        "fuel_type": "AI_98",
+        "available": false,
+        "queue_level": "NONE",
+        "reports_count": 5,
+        "last_report_at": "2026-07-14T23:43:48.502027Z"
       },
       {
         "station_id": "70000001027842879",
         "fuel_type": "GAS",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
-        "reports_count": 4,
-        "last_report_at": "2026-07-14T21:54:53.170298Z"
+        "reports_count": 5,
+        "last_report_at": "2026-07-14T23:43:48.502027Z"
       },
       {
         "station_id": "70000001027842879",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
-        "reports_count": 7,
-        "last_report_at": "2026-07-14T21:54:53.170298Z"
+        "reports_count": 8,
+        "last_report_at": "2026-07-14T23:43:48.502027Z"
       }
     ],
     "status": "NOT_AVAILABLE",
@@ -28282,7 +28295,7 @@
       "address": "Казань, Залесная улица, 2в",
       "lat": 55.846281,
       "lng": 48.916241,
-      "last_transaction_at": "2026-07-14T22:01:50Z",
+      "last_transaction_at": "2026-07-14T23:17:01Z",
       "created_at": "2026-07-10T15:39:58.445083Z",
       "updated_at": "2026-07-10T15:39:58.445083Z",
       "schedule": {
@@ -28357,7 +28370,7 @@
       {
         "station_id": "2956015536648079",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "OVER_30_MIN",
         "reports_count": 48,
         "last_report_at": "2026-07-14T20:12:42.795089Z"
@@ -28365,7 +28378,7 @@
       {
         "station_id": "2956015536648079",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "OVER_30_MIN",
         "reports_count": 49,
         "last_report_at": "2026-07-14T20:12:42.795089Z"
@@ -28373,7 +28386,7 @@
       {
         "station_id": "2956015536648079",
         "fuel_type": "DT",
-        "available": false,
+        "available": null,
         "queue_level": "OVER_30_MIN",
         "reports_count": 55,
         "last_report_at": "2026-07-14T20:12:42.795089Z"
@@ -28381,7 +28394,7 @@
       {
         "station_id": "2956015536648079",
         "fuel_type": "AI_100",
-        "available": false,
+        "available": null,
         "queue_level": "OVER_30_MIN",
         "reports_count": 31,
         "last_report_at": "2026-07-14T20:12:42.795089Z"
@@ -28389,7 +28402,7 @@
       {
         "station_id": "2956015536648079",
         "fuel_type": "AI_98",
-        "available": false,
+        "available": null,
         "queue_level": "OVER_30_MIN",
         "reports_count": 31,
         "last_report_at": "2026-07-14T20:12:42.795089Z"
@@ -28397,7 +28410,7 @@
       {
         "station_id": "2956015536648079",
         "fuel_type": "GAS",
-        "available": false,
+        "available": null,
         "queue_level": "OVER_30_MIN",
         "reports_count": 48,
         "last_report_at": "2026-07-14T20:12:42.795089Z"
@@ -28557,7 +28570,7 @@
         "last_report_at": "2026-07-14T21:20:37.251002Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -28596,7 +28609,7 @@
       "address": "Казань, М7 843 километр, 1",
       "lat": 55.717736,
       "lng": 49.492711,
-      "last_transaction_at": "2026-07-14T22:34:54Z",
+      "last_transaction_at": "2026-07-14T23:23:21Z",
       "created_at": "2026-07-10T15:39:58.082193Z",
       "updated_at": "2026-07-10T15:39:58.082193Z",
       "schedule": {
@@ -28730,7 +28743,7 @@
       "address": "Казань, М7 843 километр, 1Б",
       "lat": 55.717104,
       "lng": 49.494465,
-      "last_transaction_at": "2026-07-14T19:52:24Z",
+      "last_transaction_at": "2026-07-14T23:16:35Z",
       "created_at": "2026-07-10T15:39:58.175188Z",
       "updated_at": "2026-07-10T15:39:58.175188Z",
       "schedule": {
@@ -28878,7 +28891,7 @@
         "last_report_at": "2026-07-14T10:54:46.038056Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false
   },
@@ -29002,7 +29015,7 @@
       {
         "station_id": "2956015536551809",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "OVER_30_MIN",
         "limit_liters": 0,
         "reports_count": 28,
@@ -29018,7 +29031,7 @@
         "last_report_at": "2026-07-14T21:10:34.856175Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -29210,7 +29223,7 @@
       "address": "Старое Шигалеево (Шигалеевское СП, Пестречинский район), Центральная улица, 40а/1",
       "lat": 55.822086,
       "lng": 49.496657,
-      "last_transaction_at": "2026-07-14T22:35:49Z",
+      "last_transaction_at": "2026-07-14T23:35:17Z",
       "created_at": "2026-07-10T15:34:10.854764Z",
       "updated_at": "2026-07-10T15:34:10.854764Z",
       "schedule": {
@@ -29285,11 +29298,11 @@
       {
         "station_id": "2956015536686324",
         "fuel_type": "AI_95",
-        "available": null,
-        "queue_level": "OVER_30_MIN",
+        "available": true,
+        "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
-        "reports_count": 18,
-        "last_report_at": "2026-07-14T21:25:56.975453Z"
+        "reports_count": 20,
+        "last_report_at": "2026-07-14T23:36:23.547241Z"
       },
       {
         "station_id": "2956015536686324",
@@ -29303,9 +29316,10 @@
         "station_id": "2956015536686324",
         "fuel_type": "GAS",
         "available": null,
-        "queue_level": "NONE",
-        "reports_count": 10,
-        "last_report_at": "2026-07-14T12:28:34.034207Z"
+        "queue_level": "UP_TO_30_MIN",
+        "limit_liters": 30,
+        "reports_count": 11,
+        "last_report_at": "2026-07-14T23:36:23.547241Z"
       },
       {
         "station_id": "2956015536686324",
@@ -29318,23 +29332,23 @@
       {
         "station_id": "2956015536686324",
         "fuel_type": "AI_92",
-        "available": null,
-        "queue_level": "OVER_30_MIN",
+        "available": true,
+        "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
-        "reports_count": 20,
-        "last_report_at": "2026-07-14T21:25:56.975453Z"
+        "reports_count": 22,
+        "last_report_at": "2026-07-14T23:36:23.547241Z"
       },
       {
         "station_id": "2956015536686324",
         "fuel_type": "DT",
-        "available": null,
-        "queue_level": "OVER_30_MIN",
+        "available": true,
+        "queue_level": "UP_TO_30_MIN",
         "limit_liters": 30,
-        "reports_count": 22,
-        "last_report_at": "2026-07-14T21:25:56.975453Z"
+        "reports_count": 24,
+        "last_report_at": "2026-07-14T23:36:23.547241Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -29669,7 +29683,7 @@
         "last_report_at": "2026-07-14T17:16:23.065029Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
