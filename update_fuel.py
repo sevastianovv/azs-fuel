@@ -109,11 +109,14 @@ results = []
 for city, coords in CITIES.items():
     count_2gis = 0
     count_tbank = 0
+    count_gdebenz = 0
     status_2gis = "failed"
     status_tbank = "failed"
+    status_gdebenz = "failed"
     
     output_2gis = os.path.join(script_dir, f'data_2gis_{city}.json')
     output_tbank = os.path.join(script_dir, f'data_tbank_{city}.json')
+    output_gdebenz = os.path.join(script_dir, f'data_gdebenz_{city}.json')
     
     # 1. Fetch 2GIS
     url_2gis = f"https://benzin.api.2gis.ru/api/v1/stations/nearby?lat={coords['lat']}&lng={coords['lng']}&radius={coords['radius']}&limit={LIMIT}"
@@ -168,7 +171,38 @@ for city, coords in CITIES.items():
     except Exception as e:
         status_tbank = f"error ({e})"
         
-    results.append(f"{city.upper()}: 2GIS {status_2gis} ({count_2gis} st) | T-Bank {status_tbank} ({count_tbank} st)")
+    # 3. Fetch GdeBenz
+    url_gdebenz = f"https://gdebenz.org/api/nearby?lat={coords['lat']}&lon={coords['lng']}&radius_km={int(coords['radius'] // 1000)}"
+    gdebenz_headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'Accept-Encoding': 'gzip, deflate'
+    }
+    try:
+        import gzip
+        import io
+        req = urllib.request.Request(url_gdebenz, headers=gdebenz_headers)
+        with urllib.request.urlopen(req, timeout=30) as response:
+            content = response.read()
+            if response.info().get('Content-Encoding') == 'gzip':
+                buf = io.BytesIO(content)
+                gf = gzip.GzipFile(fileobj=buf)
+                content = gf.read()
+            res = json.loads(content.decode('utf-8'))
+            stations = res.get('stations', [])
+            stations = [s for s in stations if is_valid_azs(s.get('name', ''))]
+            count_gdebenz = len(stations)
+        with open(output_gdebenz, 'w', encoding='utf-8') as f:
+            json.dump(stations, f, indent=2, ensure_ascii=False)
+        try:
+            os.chmod(output_gdebenz, 0o666)
+        except Exception:
+            pass
+        status_gdebenz = "success"
+    except Exception as e:
+        status_gdebenz = f"error ({e})"
+        
+    results.append(f"{city.upper()}: 2GIS {status_2gis} ({count_2gis} st) | T-Bank {status_tbank} ({count_tbank} st) | GdeBenz {status_gdebenz} ({count_gdebenz} st)")
 
 # Log summary
 write_log(" | ".join(results))

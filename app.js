@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentCity = e.target.value;
         const cityName = currentCity === 'spb' ? 'Санкт-Петербурга' : (currentCity === 'moscow' ? 'Москвы' : 'Казани');
         document.title = `Мониторинг АЗС ${cityName} | Топливо`;
-        document.getElementById('footer-text').innerHTML = 'Мониторинг АЗС © 2026. Разработано на основе открытых данных 2ГИС и Т-Банк Топливо.';
+        document.getElementById('footer-text').innerHTML = 'Мониторинг АЗС © 2026. Разработано на основе открытых данных 2ГИС, Т-Банк Топливо и ГдеБЕНЗ.';
         fetchData();
     });
 
@@ -119,6 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     (s.fuel_statuses || []).forEach(f => {
                         f.available_2gis = f.available;
                         f.available_tbank = null;
+                        f.available_gdebenz = null;
                     });
                 });
                 return list;
@@ -126,17 +127,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const suffix = currentCity === 'spb' ? '_spb' : (currentCity === 'moscow' ? '_moscow' : '_kazan');
             if (currentSource === 'combined') {
-                const [res2gis, resTbank] = await Promise.all([
+                const [res2gis, resTbank, resGdebenz] = await Promise.all([
                     fetch(`data_2gis${suffix}.json?t=${Date.now()}`),
-                    fetch(`data_tbank${suffix}.json?t=${Date.now()}`)
+                    fetch(`data_tbank${suffix}.json?t=${Date.now()}`),
+                    fetch(`data_gdebenz${suffix}.json?t=${Date.now()}`)
                 ]);
                 let data2gis = res2gis.ok ? await res2gis.json() : [];
                 data2gis = init2gis(data2gis);
                 const rawTbank = resTbank.ok ? await resTbank.json() : [];
                 const dataTbank = normalizeTBankData(rawTbank);
-                allStations = mergeDataSources(data2gis, dataTbank);
+                const rawGdebenz = resGdebenz.ok ? await resGdebenz.json() : [];
+                const dataGdebenz = normalizeGdeBenzData(rawGdebenz);
+                
+                let merged = mergeDataSources(data2gis, dataTbank, 'tbank');
+                allStations = mergeDataSources(merged, dataGdebenz, 'gdebenz');
             } else {
-                const prefix = currentSource === 'tbank' ? 'data_tbank' : 'data_2gis';
+                const prefix = currentSource === 'tbank' ? 'data_tbank' : (currentSource === 'gdebenz' ? 'data_gdebenz' : 'data_2gis');
                 const filename = `${prefix}${suffix}.json`;
                 const response = await fetch(`${filename}?t=${Date.now()}`);
                 if (!response.ok) {
@@ -146,6 +152,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 if (currentSource === 'tbank') {
                     allStations = normalizeTBankData(rawData);
+                } else if (currentSource === 'gdebenz') {
+                    allStations = normalizeGdeBenzData(rawData);
                 } else {
                     allStations = init2gis(rawData);
                 }
@@ -240,14 +248,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Merge list1 (2gis) and list2 (tbank) by geographical proximity (within 150m)
-    function mergeDataSources(list1, list2) {
-        // Deep copy list1 (2gis) to start with
+    function mergeDataSources(list1, list2, providerName) {
         const merged = JSON.parse(JSON.stringify(list1));
 
         list2.forEach(s2 => {
             const st2 = s2.station || {};
             
-            // Find if there is a matching station in list1
             const match = merged.find(s1 => {
                 const st1 = s1.station || {};
                 const dist = getDistanceMeters(st1.lat, st1.lng, st2.lat, st2.lng);
@@ -265,19 +271,29 @@ document.addEventListener('DOMContentLoaded', () => {
                         const time1 = f1.last_report_at ? new Date(f1.last_report_at) : new Date(0);
                         const time2 = f2.last_report_at ? new Date(f2.last_report_at) : new Date(0);
                         
-                        f1.available_tbank = f2.available_tbank;
+                        // Set provider availability
+                        if (providerName === 'tbank') {
+                            f1.available_tbank = f2.available_tbank;
+                        } else if (providerName === 'gdebenz') {
+                            f1.available_gdebenz = f2.available_gdebenz;
+                        }
                         
-                        // Conflict check: if both sources disagree (one is true, the other is false)
-                        if (f1.available_2gis !== null && f1.available_2gis !== undefined &&
-                            f1.available_tbank !== null && f1.available_tbank !== undefined &&
-                            f1.available_2gis !== f1.available_tbank) {
+                        // Conflict check: if sources disagree
+                        const valids = [];
+                        if (f1.available_2gis !== null && f1.available_2gis !== undefined) valids.push({ val: f1.available_2gis });
+                        if (f1.available_tbank !== null && f1.available_tbank !== undefined) valids.push({ val: f1.available_tbank });
+                        if (f1.available_gdebenz !== null && f1.available_gdebenz !== undefined) valids.push({ val: f1.available_gdebenz });
+                        
+                        const hasTrue = valids.some(v => v.val === true);
+                        const hasFalse = valids.some(v => v.val === false);
+                        
+                        if (hasTrue && hasFalse) {
                             f1.conflict = true;
                             f1.available = 'conflict';
                             f1.queue_level = f2.queue_level;
                             f1.last_report_at = time2 > time1 ? f2.last_report_at : f1.last_report_at;
                         } else {
                             f1.conflict = false;
-                            // Prefer confirmed status or newer report
                             if (f2.available !== null && (f1.available === null || time2 > time1)) {
                                 f1.available = f2.available;
                                 f1.queue_level = f2.queue_level;
@@ -292,6 +308,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         fuels1.push(f2);
                     }
                 });
+
+                // Merge recent reports/comments
+                if (s2.recent_reports && s2.recent_reports.length > 0) {
+                    if (!match.recent_reports) match.recent_reports = [];
+                    match.recent_reports = [...match.recent_reports, ...s2.recent_reports];
+                }
             } else {
                 merged.push(s2);
             }
@@ -327,6 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     available: available,
                     available_tbank: available,
                     available_2gis: null,
+                    available_gdebenz: null,
                     queue_level: queue_level,
                     last_report_at: s.lastTransactionAt
                 };
@@ -351,6 +374,114 @@ document.addEventListener('DOMContentLoaded', () => {
                     lng: s.lon
                 },
                 fuel_statuses: fuels
+            };
+        });
+    }
+
+    // Normalize GdeBenz JSON structure to match 2GIS schema
+    function normalizeGdeBenzData(gdebenzStations) {
+        return gdebenzStations.map(s => {
+            const fuelsNowStr = (s.fuels_now || '').toLowerCase();
+            const detailStr = (s.detail || '').toLowerCase();
+            
+            const standardFuels = [
+                { type: 'AI_92', keys: ['92'] },
+                { type: 'AI_95', keys: ['95'] },
+                { type: 'AI_98', keys: ['98'] },
+                { type: 'AI_100', keys: ['100'] },
+                { type: 'DT', keys: ['дт', 'дизель', 'diesel'] },
+                { type: 'GAS', keys: ['газ', 'gas'] }
+            ];
+            
+            const fuels = [];
+            
+            let globalStatusAvail = null;
+            if (s.status === 'yes' || s.status === 'low' || s.status === 'queue') {
+                globalStatusAvail = true;
+            } else if (s.status === 'no') {
+                globalStatusAvail = false;
+            }
+            
+            let queueLevel = 'NONE';
+            if (s.status === 'queue' || detailStr.includes('очередь')) {
+                if (detailStr.includes('>30') || detailStr.includes('более 30') || detailStr.includes('50–100') || detailStr.includes('100+')) {
+                    queueLevel = 'OVER_30_MIN';
+                } else {
+                    queueLevel = 'UP_TO_30_MIN';
+                }
+            }
+            
+            let limitLiters = null;
+            const limitMatch = detailStr.match(/лимит\s*(\d+)\s*л/);
+            if (limitMatch) {
+                limitLiters = parseInt(limitMatch[1], 10);
+            }
+            
+            standardFuels.forEach(fInfo => {
+                let isAvail = null;
+                
+                if (globalStatusAvail === false) {
+                    isAvail = false;
+                } else if (globalStatusAvail === true) {
+                    const inFuelsNow = fInfo.keys.some(k => fuelsNowStr.includes(k));
+                    const inDetail = fInfo.keys.some(k => detailStr.includes(k));
+                    
+                    if (fuelsNowStr) {
+                        isAvail = inFuelsNow;
+                    } else if (detailStr) {
+                        isAvail = inDetail ? true : null;
+                    } else {
+                        isAvail = true;
+                    }
+                }
+                
+                fuels.push({
+                    fuel_type: fInfo.type,
+                    available: isAvail,
+                    available_gdebenz: isAvail,
+                    available_2gis: null,
+                    available_tbank: null,
+                    queue_level: queueLevel,
+                    last_report_at: s.last_at,
+                    limit_liters: limitLiters
+                });
+            });
+            
+            let brand = s.brand;
+            const brandUpper = (brand || '').toUpperCase();
+            if (brandUpper === 'ТАИФ-НК' || brandUpper === 'ТАИФ') brand = 'Таиф-НК';
+            else if (brandUpper === 'ТАТНЕФТЬ') brand = 'Татнефть';
+            else if (brandUpper === 'ГАЗПРОМНЕФТЬ') brand = 'Газпромнефть';
+            else if (brandUpper === 'TEBOIL') brand = 'Teboil';
+            else if (brandUpper === 'IRBIS') brand = 'Irbis';
+            else if (brandUpper === 'ЛУКОЙЛ') brand = 'Лукойл';
+            
+            const recent_reports = [];
+            if (s.detail) {
+                recent_reports.push({
+                    id: s.osm_id + '_report',
+                    source: 'UGC',
+                    created_at: s.last_at,
+                    available: globalStatusAvail,
+                    queue_level: queueLevel,
+                    limit_liters: limitLiters,
+                    fuel_types: fuels.filter(f => f.available === true).map(f => f.fuel_type),
+                    station_closed: s.status === 'no',
+                    text: s.detail
+                });
+            }
+            
+            return {
+                station: {
+                    id: s.osm_id,
+                    name: s.name,
+                    brand: brand,
+                    address: s.addr || 'Адрес не указан',
+                    lat: s.lat,
+                    lng: s.lon
+                },
+                fuel_statuses: fuels,
+                recent_reports: recent_reports
             };
         });
     }
@@ -518,11 +649,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     const priceItem = (s.prices || []).find(p => p.fuel_type === f.fuel_type);
                     const priceHtml = priceItem ? `<span class="fuel-price">${priceItem.price} ₽</span>` : '';
                     
-                    let detailsHtml = '';
                     if (f.available === 'conflict') {
-                        const status2gisText = f.available_2gis === true ? 'есть' : (f.available_2gis === false ? 'нет' : 'нет данных');
-                        const statusTbankText = f.available_tbank === true ? 'есть' : (f.available_tbank === false ? 'нет' : 'нет данных');
-                        detailsHtml += `<span class="fuel-queue-text" style="color: var(--yellow-bright); background: rgba(245,158,11,0.1)">⚠️ 2ГИС: ${status2gisText}, Т-Банк: ${statusTbankText}</span>`;
+                        const status2gisStr = f.available_2gis === null || f.available_2gis === undefined ? '' : `2ГИС: ${f.available_2gis === true ? 'есть' : 'нет'}`;
+                        const statusTbankStr = f.available_tbank === null || f.available_tbank === undefined ? '' : `Т-Банк: ${f.available_tbank === true ? 'есть' : 'нет'}`;
+                        const statusGdebenzStr = f.available_gdebenz === null || f.available_gdebenz === undefined ? '' : `ГдеБЕНЗ: ${f.available_gdebenz === true ? 'есть' : 'нет'}`;
+                        
+                        const parts = [status2gisStr, statusTbankStr, statusGdebenzStr].filter(Boolean);
+                        detailsHtml += `<span class="fuel-queue-text" style="color: var(--yellow-bright); background: rgba(245,158,11,0.1)">⚠️ ${parts.join(', ')}</span>`;
                     } else if (f.available === true) {
                         const queueText = QUEUE_LABELS[f.queue_level] || f.queue_level;
                         detailsHtml += `<span class="fuel-queue-text">${queueText}</span>`;
@@ -686,6 +819,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
         
+        let textHtml = '';
+        if (r.text) {
+            textHtml = `<div class="report-comment" style="margin-top: 5px; font-size: 13px; color: var(--text-secondary); font-style: italic; border-left: 2px solid var(--border); padding-left: 8px;">"${r.text}"</div>`;
+        }
+
         return `
             <div class="report-item ${itemClass}">
                 <div class="report-main">
@@ -696,6 +834,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span class="report-source-icon">${sourceIcon}</span>
                     <span class="report-meta-text">${metaText}</span>
                 </div>
+                ${textHtml}
             </div>
         `;
     }
