@@ -121,6 +121,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         f.available_tbank = null;
                         f.available_gdebenz = null;
                     });
+                    (s.recent_reports || []).forEach(r => {
+                        r.provider = '2gis';
+                    });
                 });
                 return list;
             };
@@ -461,6 +464,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 recent_reports.push({
                     id: s.osm_id + '_report',
                     source: 'UGC',
+                    provider: 'gdebenz',
                     created_at: s.last_at,
                     available: globalStatusAvail,
                     queue_level: queueLevel,
@@ -819,6 +823,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
         
+        const providerName = r.provider === 'gdebenz' ? 'ГдеБЕНЗ' : '2ГИС';
+        const providerClass = r.provider === 'gdebenz' ? 'provider-gdebenz' : 'provider-2gis';
+        
         let textHtml = '';
         if (r.text) {
             textHtml = `<div class="report-comment" style="margin-top: 5px; font-size: 13px; color: var(--text-secondary); font-style: italic; border-left: 2px solid var(--border); padding-left: 8px;">"${r.text}"</div>`;
@@ -833,6 +840,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="report-meta">
                     <span class="report-source-icon">${sourceIcon}</span>
                     <span class="report-meta-text">${metaText}</span>
+                    <span class="report-provider-badge ${providerClass}">${providerName}</span>
                 </div>
                 ${textHtml}
             </div>
