@@ -12,29 +12,17 @@ CITIES = {
     'kazan': {
         'lat': 55.761745,
         'lng': 49.18308,
-        'radius': 25000,
-        'min_lat': 55.761745 - 0.18,
-        'max_lat': 55.761745 + 0.18,
-        'min_lon': 49.18308 - 0.28,
-        'max_lon': 49.18308 + 0.28
+        'radius': 25000
     },
     'spb': {
         'lat': 59.93863,
         'lng': 30.31413,
-        'radius': 30000,
-        'min_lat': 59.93863 - 0.25,
-        'max_lat': 59.93863 + 0.25,
-        'min_lon': 30.31413 - 0.45,
-        'max_lon': 30.31413 + 0.45
+        'radius': 30000
     },
     'moscow': {
         'lat': 55.755826,
         'lng': 37.617299,
-        'radius': 35000,
-        'min_lat': 55.755826 - 0.3,
-        'max_lat': 55.755826 + 0.3,
-        'min_lon': 37.617299 - 0.45,
-        'max_lon': 37.617299 + 0.45
+        'radius': 35000
     }
 }
 
@@ -108,14 +96,11 @@ results = []
 
 for city, coords in CITIES.items():
     count_2gis = 0
-    count_tbank = 0
     count_gdebenz = 0
     status_2gis = "failed"
-    status_tbank = "failed"
     status_gdebenz = "failed"
     
     output_2gis = os.path.join(script_dir, f'data_2gis_{city}.json')
-    output_tbank = os.path.join(script_dir, f'data_tbank_{city}.json')
     output_gdebenz = os.path.join(script_dir, f'data_gdebenz_{city}.json')
     
     # 1. Fetch 2GIS
@@ -141,37 +126,7 @@ for city, coords in CITIES.items():
     except Exception as e:
         status_2gis = f"error ({e})"
         
-    # 2. Fetch T-Bank
-    tbank_params = {
-        "minLat": round(coords['min_lat'], 4),
-        "maxLat": round(coords['max_lat'], 4),
-        "minLon": round(coords['min_lon'], 4),
-        "maxLon": round(coords['max_lon'], 4)
-    }
-    url_tbank = "https://toplivo.tbank.ru/api/v1/stations?" + urllib.parse.urlencode(tbank_params)
-    tbank_headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Referer': 'https://toplivo.tbank.ru/',
-        'Origin': 'https://toplivo.tbank.ru'
-    }
-    try:
-        req = urllib.request.Request(url_tbank, headers=tbank_headers)
-        with urllib.request.urlopen(req, timeout=30) as response:
-            res = json.loads(response.read().decode('utf-8'))
-            stations = res.get('payload', [])
-            stations = [s for s in stations if is_valid_azs(s.get('name', ''))]
-            count_tbank = len(stations)
-        with open(output_tbank, 'w', encoding='utf-8') as f:
-            json.dump(stations, f, indent=2, ensure_ascii=False)
-        try:
-            os.chmod(output_tbank, 0o666)
-        except Exception:
-            pass
-        status_tbank = "success"
-    except Exception as e:
-        status_tbank = f"error ({e})"
-        
-    # 3. Fetch GdeBenz
+    # 2. Fetch GdeBenz
     url_gdebenz = f"https://gdebenz.org/api/nearby?lat={coords['lat']}&lon={coords['lng']}&radius_km={int(coords['radius'] // 1000)}"
     gdebenz_headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -202,7 +157,7 @@ for city, coords in CITIES.items():
     except Exception as e:
         status_gdebenz = f"error ({e})"
         
-    results.append(f"{city.upper()}: 2GIS {status_2gis} ({count_2gis} st) | T-Bank {status_tbank} ({count_tbank} st) | GdeBenz {status_gdebenz} ({count_gdebenz} st)")
+    results.append(f"{city.upper()}: 2GIS {status_2gis} ({count_2gis} st) | GdeBenz {status_gdebenz} ({count_gdebenz} st)")
 
 # Log summary
 write_log(" | ".join(results))

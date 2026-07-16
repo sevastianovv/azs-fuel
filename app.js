@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentCity = e.target.value;
         const cityName = currentCity === 'spb' ? 'Санкт-Петербурга' : (currentCity === 'moscow' ? 'Москвы' : 'Казани');
         document.title = `Мониторинг АЗС ${cityName} | Топливо`;
-        document.getElementById('footer-text').innerHTML = 'Мониторинг АЗС © 2026. Разработано на основе открытых данных 2ГИС, Т-Банк Топливо и ГдеБЕНЗ.';
+        document.getElementById('footer-text').innerHTML = 'Мониторинг АЗС © 2026. Разработано на основе открытых данных 2ГИС и ГдеБЕНЗ.';
         fetchData();
     });
 
@@ -118,7 +118,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 list.forEach(s => {
                     (s.fuel_statuses || []).forEach(f => {
                         f.available_2gis = f.available;
-                        f.available_tbank = null;
                         f.available_gdebenz = null;
                     });
                     (s.recent_reports || []).forEach(r => {
@@ -130,22 +129,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const suffix = currentCity === 'spb' ? '_spb' : (currentCity === 'moscow' ? '_moscow' : '_kazan');
             if (currentSource === 'combined') {
-                const [res2gis, resTbank, resGdebenz] = await Promise.all([
+                const [res2gis, resGdebenz] = await Promise.all([
                     fetch(`data_2gis${suffix}.json?t=${Date.now()}`),
-                    fetch(`data_tbank${suffix}.json?t=${Date.now()}`),
                     fetch(`data_gdebenz${suffix}.json?t=${Date.now()}`)
                 ]);
                 let data2gis = res2gis.ok ? await res2gis.json() : [];
                 data2gis = init2gis(data2gis);
-                const rawTbank = resTbank.ok ? await resTbank.json() : [];
-                const dataTbank = normalizeTBankData(rawTbank);
                 const rawGdebenz = resGdebenz.ok ? await resGdebenz.json() : [];
                 const dataGdebenz = normalizeGdeBenzData(rawGdebenz);
                 
-                let merged = mergeDataSources(data2gis, dataTbank, 'tbank');
-                allStations = mergeDataSources(merged, dataGdebenz, 'gdebenz');
+                allStations = mergeDataSources(data2gis, dataGdebenz, 'gdebenz');
             } else {
-                const prefix = currentSource === 'tbank' ? 'data_tbank' : (currentSource === 'gdebenz' ? 'data_gdebenz' : 'data_2gis');
+                const prefix = currentSource === 'gdebenz' ? 'data_gdebenz' : 'data_2gis';
                 const filename = `${prefix}${suffix}.json`;
                 const response = await fetch(`${filename}?t=${Date.now()}`);
                 if (!response.ok) {
@@ -153,9 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 let rawData = await response.json();
                 
-                if (currentSource === 'tbank') {
-                    allStations = normalizeTBankData(rawData);
-                } else if (currentSource === 'gdebenz') {
+                if (currentSource === 'gdebenz') {
                     allStations = normalizeGdeBenzData(rawData);
                 } else {
                     allStations = init2gis(rawData);
@@ -173,13 +166,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (now - reportTime > THREE_HOURS_MS) {
                             f.available = null;
                             f.available_2gis = null;
-                            f.available_tbank = null;
                             f.conflict = false;
                         }
                     } else {
                         f.available = null;
                         f.available_2gis = null;
-                        f.available_tbank = null;
                         f.conflict = false;
                     }
                 });
@@ -275,16 +266,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         const time2 = f2.last_report_at ? new Date(f2.last_report_at) : new Date(0);
                         
                         // Set provider availability
-                        if (providerName === 'tbank') {
-                            f1.available_tbank = f2.available_tbank;
-                        } else if (providerName === 'gdebenz') {
+                        if (providerName === 'gdebenz') {
                             f1.available_gdebenz = f2.available_gdebenz;
                         }
                         
                         // Conflict check: if sources disagree
                         const valids = [];
                         if (f1.available_2gis !== null && f1.available_2gis !== undefined) valids.push({ val: f1.available_2gis });
-                        if (f1.available_tbank !== null && f1.available_tbank !== undefined) valids.push({ val: f1.available_tbank });
                         if (f1.available_gdebenz !== null && f1.available_gdebenz !== undefined) valids.push({ val: f1.available_gdebenz });
                         
                         const hasTrue = valids.some(v => v.val === true);
@@ -325,61 +313,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return merged;
     }
 
-    // Normalize T-Bank JSON structure to match 2GIS schema
-    function normalizeTBankData(tbankStations) {
-        return tbankStations.map(s => {
-            const fuels = Object.entries(s.statusByFuelType || {}).map(([fType, status]) => {
-                const mappedType = fType === '92' ? 'AI_92' : 
-                                   (fType === '95' ? 'AI_95' : 
-                                   (fType === '98' ? 'AI_98' : 
-                                   (fType === '100' ? 'AI_100' : 
-                                   (fType === 'diesel' ? 'DT' : fType))));
-                
-                // Map status
-                let available = null;
-                let queue_level = 'NONE';
-                if (status === 'available') {
-                    available = true;
-                } else if (status === 'maybe_available') {
-                    available = true;
-                    queue_level = 'UP_TO_30_MIN'; // Guessing queue
-                } else if (status === 'not_available') {
-                    available = false;
-                }
-
-                return {
-                    fuel_type: mappedType,
-                    available: available,
-                    available_tbank: available,
-                    available_2gis: null,
-                    available_gdebenz: null,
-                    queue_level: queue_level,
-                    last_report_at: s.lastTransactionAt
-                };
-            });
-
-            // Extract brand name from the station name (first word) and normalize casing
-            let brand = s.name.split(/[\s,]+/)[0];
-            const brandUpper = brand.toUpperCase();
-            if (brandUpper === 'ТАИФ-НК' || brandUpper === 'ТАИФ') brand = 'Таиф-НК';
-            else if (brandUpper === 'ТАТНЕФТЬ') brand = 'Татнефть';
-            else if (brandUpper === 'ГАЗПРОМНЕФТЬ') brand = 'Газпромнефть';
-            else if (brandUpper === 'TEBOIL') brand = 'Teboil';
-            else if (brandUpper === 'IRBIS') brand = 'Irbis';
-            else if (brandUpper === 'ЛУКОЙЛ') brand = 'Лукойл';
-
-            return {
-                station: {
-                    name: s.name,
-                    brand: brand,
-                    address: s.addr,
-                    lat: s.lat,
-                    lng: s.lon
-                },
-                fuel_statuses: fuels
-            };
-        });
-    }
 
     // Normalize GdeBenz JSON structure to match 2GIS schema
     function normalizeGdeBenzData(gdebenzStations) {
