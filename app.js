@@ -648,7 +648,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Extract price if it exists
                     const priceItem = (s.prices || []).find(p => p.fuel_type === f.fuel_type);
                     const priceHtml = priceItem ? `<span class="fuel-price">${priceItem.price} ₽</span>` : '';
-                    
+                    let detailsHtml = '';
                     if (f.available === 'conflict') {
                         const status2gisStr = f.available_2gis === null || f.available_2gis === undefined ? '' : `2ГИС: ${f.available_2gis === true ? 'есть' : 'нет'}`;
                         const statusTbankStr = f.available_tbank === null || f.available_tbank === undefined ? '' : `Т-Банк: ${f.available_tbank === true ? 'есть' : 'нет'}`;
