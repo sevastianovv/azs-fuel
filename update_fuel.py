@@ -81,6 +81,32 @@ def fetch_details_for_station(item):
         item['recent_reports'] = []
     return item
 
+def fetch_gdebenz_comments(station):
+    osm_id = station.get('osm_id')
+    if not osm_id or not station.get('detail'):
+        station['recent_comments'] = []
+        return station
+
+    url = f"https://gdebenz.org/api/comments/{osm_id}/recent?limit=12"
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'Accept-Encoding': 'gzip, deflate'
+    }
+    try:
+        import gzip
+        import io
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as response:
+            content = response.read()
+            if response.info().get('Content-Encoding') == 'gzip':
+                content = gzip.decompress(content)
+            comments = json.loads(content.decode('utf-8'))
+            station['recent_comments'] = comments if isinstance(comments, list) else []
+    except Exception:
+        station['recent_comments'] = []
+    return station
+
 def is_valid_azs(name):
     name_lower = name.lower()
     # If it explicitly says AZS, AGZS, or Zapravka, it's valid
@@ -146,6 +172,10 @@ for city, coords in CITIES.items():
             res = json.loads(content.decode('utf-8'))
             stations = res.get('stations', [])
             stations = [s for s in stations if is_valid_azs(s.get('name', ''))]
+            
+            with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+                stations = list(executor.map(fetch_gdebenz_comments, stations))
+                
             count_gdebenz = len(stations)
         with open(output_gdebenz, 'w', encoding='utf-8') as f:
             json.dump(stations, f, indent=2, ensure_ascii=False)

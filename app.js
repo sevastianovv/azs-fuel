@@ -393,7 +393,54 @@ document.addEventListener('DOMContentLoaded', () => {
             else if (brandUpper === 'ЛУКОЙЛ') brand = 'Лукойл';
             
             const recent_reports = [];
-            if (s.detail) {
+            if (s.recent_comments && s.recent_comments.length > 0) {
+                s.recent_comments.forEach((r, rIdx) => {
+                    let rStatusAvail = null;
+                    if (r.status === 'yes' || r.status === 'low' || r.status === 'queue') {
+                        rStatusAvail = true;
+                    } else if (r.status === 'no') {
+                        rStatusAvail = false;
+                    }
+                    
+                    let rQueueLevel = 'NONE';
+                    const rDetailStr = (r.detail || '').toLowerCase();
+                    if (r.status === 'queue' || rDetailStr.includes('очередь')) {
+                        if (rDetailStr.includes('>30') || rDetailStr.includes('более 30') || rDetailStr.includes('50–100') || rDetailStr.includes('100+')) {
+                            rQueueLevel = 'OVER_30_MIN';
+                        } else {
+                            rQueueLevel = 'UP_TO_30_MIN';
+                        }
+                    }
+                    
+                    let rLimitLiters = null;
+                    const rLimitMatch = rDetailStr.match(/лимит\s*(\d+)\s*л/);
+                    if (rLimitMatch) {
+                        rLimitLiters = parseInt(rLimitMatch[1], 10);
+                    }
+
+                    const rFuelTypes = [];
+                    if (rStatusAvail) {
+                        standardFuels.forEach(fInfo => {
+                            if (fInfo.keys.some(k => rDetailStr.includes(k))) {
+                                rFuelTypes.push(fInfo.type);
+                            }
+                        });
+                    }
+
+                    recent_reports.push({
+                        id: s.osm_id + '_report_' + rIdx,
+                        source: 'UGC',
+                        provider: 'gdebenz',
+                        created_at: r.created_at ? (r.created_at.replace(' ', 'T') + 'Z') : null,
+                        available: rStatusAvail,
+                        queue_level: rQueueLevel,
+                        limit_liters: rLimitLiters,
+                        fuel_types: rFuelTypes,
+                        station_closed: r.status === 'no',
+                        text: r.detail
+                    });
+                });
+            } else if (s.detail) {
                 recent_reports.push({
                     id: s.osm_id + '_report',
                     source: 'UGC',
