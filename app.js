@@ -445,7 +445,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     available_2gis: null,
                     available_tbank: null,
                     queue_level: queueLevel,
-                    last_report_at: s.last_at,
+                    last_report_at: s.last_at ? (s.last_at.replace(' ', 'T') + 'Z') : null,
                     limit_liters: limitLiters
                 });
             });
@@ -465,7 +465,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     id: s.osm_id + '_report',
                     source: 'UGC',
                     provider: 'gdebenz',
-                    created_at: s.last_at,
+                    created_at: s.last_at ? (s.last_at.replace(' ', 'T') + 'Z') : null,
                     available: globalStatusAvail,
                     queue_level: queueLevel,
                     limit_liters: limitLiters,
