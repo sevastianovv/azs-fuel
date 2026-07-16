@@ -119,7 +119,7 @@ for city, coords in CITIES.items():
     url_2gis = f"https://benzin.api.2gis.ru/api/v1/stations/nearby?lat={coords['lat']}&lng={coords['lng']}&radius={coords['radius']}&limit={LIMIT}"
     try:
         req = urllib.request.Request(url_2gis, headers=headers)
-        with urllib.request.urlopen(req) as response:
+        with urllib.request.urlopen(req, timeout=30) as response:
             stations = json.loads(response.read().decode('utf-8'))
             stations = [s for s in stations if is_valid_azs(s.get('station', {}).get('name', ''))]
             
@@ -153,7 +153,7 @@ for city, coords in CITIES.items():
     }
     try:
         req = urllib.request.Request(url_tbank, headers=tbank_headers)
-        with urllib.request.urlopen(req) as response:
+        with urllib.request.urlopen(req, timeout=30) as response:
             res = json.loads(response.read().decode('utf-8'))
             stations = res.get('payload', [])
             stations = [s for s in stations if is_valid_azs(s.get('name', ''))]
