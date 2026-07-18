@@ -12,17 +12,20 @@ CITIES = {
     'kazan': {
         'lat': 55.761745,
         'lng': 49.18308,
-        'radius': 25000
+        'radius': 25000,
+        'yandex_url': 'https://yandex.ru/maps/43/kazan/search/%D0%90%D0%97%D0%A1/'
     },
     'spb': {
         'lat': 59.93863,
         'lng': 30.31413,
-        'radius': 30000
+        'radius': 30000,
+        'yandex_url': 'https://yandex.ru/maps/2/saint-petersburg/search/%D0%90%D0%97%D0%A1/'
     },
     'moscow': {
         'lat': 55.755826,
         'lng': 37.617299,
-        'radius': 35000
+        'radius': 35000,
+        'yandex_url': 'https://yandex.ru/maps/213/moscow/search/%D0%90%D0%97%D0%A1/'
     }
 }
 
@@ -107,6 +110,39 @@ def fetch_gdebenz_comments(station):
         station['recent_comments'] = []
     return station
 
+def fetch_yandex_fuel(url, output_file):
+    import re
+    yandex_headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept-Language': 'ru,en;q=0.9',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
+    }
+    try:
+        req = urllib.request.Request(url, headers=yandex_headers)
+        with urllib.request.urlopen(req, timeout=30) as response:
+            html = response.read().decode('utf-8', errors='ignore')
+        
+        matches = re.findall(r'<script[^>]*type="application/json"[^>]*>(.*?)</script>', html, re.DOTALL)
+        parsed_data = None
+        for m in matches:
+            if '"stack"' in m:
+                parsed_data = json.loads(m)
+                break
+                
+        if parsed_data:
+            items = parsed_data["stack"][0]["results"]["items"]
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(items, f, indent=2, ensure_ascii=False)
+            try:
+                os.chmod(output_file, 0o666)
+            except Exception:
+                pass
+            return "success", len(items)
+        else:
+            return "failed (JSON state not found)", 0
+    except Exception as e:
+        return f"error ({e})", 0
+
 def is_valid_azs(name):
     name_lower = name.lower()
     # If it explicitly says AZS, AGZS, or Zapravka, it's valid
@@ -123,11 +159,14 @@ results = []
 for city, coords in CITIES.items():
     count_2gis = 0
     count_gdebenz = 0
+    count_yandex = 0
     status_2gis = "failed"
     status_gdebenz = "failed"
+    status_yandex = "failed"
     
     output_2gis = os.path.join(script_dir, f'data_2gis_{city}.json')
     output_gdebenz = os.path.join(script_dir, f'data_gdebenz_{city}.json')
+    output_yandex = os.path.join(script_dir, f'data_yandex_{city}.json')
     
     # 1. Fetch 2GIS
     url_2gis = f"https://benzin.api.2gis.ru/api/v1/stations/nearby?lat={coords['lat']}&lng={coords['lng']}&radius={coords['radius']}&limit={LIMIT}"
@@ -187,7 +226,11 @@ for city, coords in CITIES.items():
     except Exception as e:
         status_gdebenz = f"error ({e})"
         
-    results.append(f"{city.upper()}: 2GIS {status_2gis} ({count_2gis} st) | GdeBenz {status_gdebenz} ({count_gdebenz} st)")
+    # 3. Fetch Yandex Maps
+    if coords.get('yandex_url'):
+        status_yandex, count_yandex = fetch_yandex_fuel(coords.get('yandex_url'), output_yandex)
+        
+    results.append(f"{city.upper()}: 2GIS {status_2gis} ({count_2gis} st) | GdeBenz {status_gdebenz} ({count_gdebenz} st) | Yandex {status_yandex} ({count_yandex} st)")
 
 # Log summary
 write_log(" | ".join(results))

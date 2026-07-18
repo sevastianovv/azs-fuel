@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentCity = e.target.value;
         const cityName = currentCity === 'spb' ? 'Санкт-Петербурга' : (currentCity === 'moscow' ? 'Москвы' : 'Казани');
         document.title = `Мониторинг АЗС ${cityName} | Топливо`;
-        document.getElementById('footer-text').innerHTML = 'Мониторинг АЗС © 2026. Разработано на основе открытых данных 2ГИС и ГдеБЕНЗ.';
+        document.getElementById('footer-text').innerHTML = 'Мониторинг АЗС © 2026. Разработано на основе данных 2ГИС, ГдеБЕНЗ и Яндекс Карт.';
         fetchData();
     });
 
@@ -119,6 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     (s.fuel_statuses || []).forEach(f => {
                         f.available_2gis = f.available;
                         f.available_gdebenz = null;
+                        f.available_yandex = null;
                     });
                     (s.recent_reports || []).forEach(r => {
                         r.provider = '2gis';
@@ -129,18 +130,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const suffix = currentCity === 'spb' ? '_spb' : (currentCity === 'moscow' ? '_moscow' : '_kazan');
             if (currentSource === 'combined') {
-                const [res2gis, resGdebenz] = await Promise.all([
+                const [res2gis, resGdebenz, resYandex] = await Promise.all([
                     fetch(`data_2gis${suffix}.json?t=${Date.now()}`),
-                    fetch(`data_gdebenz${suffix}.json?t=${Date.now()}`)
+                    fetch(`data_gdebenz${suffix}.json?t=${Date.now()}`),
+                    fetch(`data_yandex${suffix}.json?t=${Date.now()}`)
                 ]);
                 let data2gis = res2gis.ok ? await res2gis.json() : [];
                 data2gis = init2gis(data2gis);
                 const rawGdebenz = resGdebenz.ok ? await resGdebenz.json() : [];
                 const dataGdebenz = normalizeGdeBenzData(rawGdebenz);
+                const rawYandex = resYandex.ok ? await resYandex.json() : [];
+                const dataYandex = normalizeYandexData(rawYandex);
                 
-                allStations = mergeDataSources(data2gis, dataGdebenz, 'gdebenz');
+                let merged = mergeDataSources(data2gis, dataGdebenz, 'gdebenz');
+                allStations = mergeDataSources(merged, dataYandex, 'yandex');
             } else {
-                const prefix = currentSource === 'gdebenz' ? 'data_gdebenz' : 'data_2gis';
+                const prefix = currentSource === 'gdebenz' ? 'data_gdebenz' : (currentSource === 'yandex' ? 'data_yandex' : 'data_2gis');
                 const filename = `${prefix}${suffix}.json`;
                 const response = await fetch(`${filename}?t=${Date.now()}`);
                 if (!response.ok) {
@@ -150,6 +155,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 if (currentSource === 'gdebenz') {
                     allStations = normalizeGdeBenzData(rawData);
+                } else if (currentSource === 'yandex') {
+                    allStations = normalizeYandexData(rawData);
                 } else {
                     allStations = init2gis(rawData);
                 }
@@ -166,11 +173,15 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (now - reportTime > THREE_HOURS_MS) {
                             f.available = null;
                             f.available_2gis = null;
+                            f.available_gdebenz = null;
+                            f.available_yandex = null;
                             f.conflict = false;
                         }
                     } else {
                         f.available = null;
                         f.available_2gis = null;
+                        f.available_gdebenz = null;
+                        f.available_yandex = null;
                         f.conflict = false;
                     }
                 });
@@ -268,12 +279,15 @@ document.addEventListener('DOMContentLoaded', () => {
                         // Set provider availability
                         if (providerName === 'gdebenz') {
                             f1.available_gdebenz = f2.available_gdebenz;
+                        } else if (providerName === 'yandex') {
+                            f1.available_yandex = f2.available_yandex;
                         }
                         
                         // Conflict check: if sources disagree
                         const valids = [];
                         if (f1.available_2gis !== null && f1.available_2gis !== undefined) valids.push({ val: f1.available_2gis });
                         if (f1.available_gdebenz !== null && f1.available_gdebenz !== undefined) valids.push({ val: f1.available_gdebenz });
+                        if (f1.available_yandex !== null && f1.available_yandex !== undefined) valids.push({ val: f1.available_yandex });
                         
                         const hasTrue = valids.some(v => v.val === true);
                         const hasFalse = valids.some(v => v.val === false);
@@ -300,6 +314,24 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
 
+                // Merge prices
+                if (s2.prices && s2.prices.length > 0) {
+                    if (!match.prices) match.prices = [];
+                    s2.prices.forEach(p2 => {
+                        const p1 = match.prices.find(x => x.fuel_type === p2.fuel_type);
+                        if (p1) {
+                            const t1 = p1.updated_at ? new Date(p1.updated_at) : new Date(0);
+                            const t2 = p2.updated_at ? new Date(p2.updated_at) : new Date(0);
+                            if (t2 > t1) {
+                                p1.price = p2.price;
+                                p1.updated_at = p2.updated_at;
+                            }
+                        } else {
+                            match.prices.push(p2);
+                        }
+                    });
+                }
+
                 // Merge recent reports/comments
                 if (s2.recent_reports && s2.recent_reports.length > 0) {
                     if (!match.recent_reports) match.recent_reports = [];
@@ -313,6 +345,146 @@ document.addEventListener('DOMContentLoaded', () => {
         return merged;
     }
 
+
+    // Normalize Yandex Maps JSON structure to match 2GIS schema
+    function normalizeYandexData(yandexStations) {
+        return yandexStations.map(s => {
+            const title = s.title || 'АЗС';
+            let brand = s.shortTitle || title;
+            const brandUpper = brand.toUpperCase();
+            
+            if (brandUpper.includes('ТАИФ-НК') || brandUpper.includes('ТАИФ')) brand = 'Таиф-НК';
+            else if (brandUpper.includes('ТАТНЕФТЬ')) brand = 'Татнефть';
+            else if (brandUpper.includes('ГАЗПРОМНЕФТЬ')) brand = 'Газпромнефть';
+            else if (brandUpper.includes('TEBOIL')) brand = 'Teboil';
+            else if (brandUpper.includes('IRBIS')) brand = 'Irbis';
+            else if (brandUpper.includes('ЛУКОЙЛ')) brand = 'Лукойл';
+
+            const coords = s.coordinates || [];
+            const lng = coords[0] || 0;
+            const lat = coords[1] || 0;
+
+            const fuelAvail = s.fuelAvailability || {};
+            const queueStatus = fuelAvail.queueStatus || 'UNKNOWN';
+            
+            let queueLevel = 'NONE';
+            if (queueStatus === 'HIGH') {
+                queueLevel = 'OVER_30_MIN';
+            } else if (queueStatus === 'MEDIUM') {
+                queueLevel = 'UP_TO_30_MIN';
+            }
+
+            const yandexFuels = fuelAvail.fuel || [];
+            const standardFuels = [
+                { type: 'AI_92', keys: ['AI92', '92'] },
+                { type: 'AI_95', keys: ['AI95', '95'] },
+                { type: 'AI_98', keys: ['AI98', '98'] },
+                { type: 'AI_100', keys: ['AI100', '100'] },
+                { type: 'DT', keys: ['DIESEL', 'ДТ'] },
+                { type: 'GAS', keys: ['GAS', 'LPG', 'PROPANE', 'ПРОПАН'] }
+            ];
+
+            const fuels = standardFuels.map(fInfo => {
+                let isAvail = null;
+                const yFuel = yandexFuels.find(yf => {
+                    const yfType = (yf.fuelType || '').toUpperCase();
+                    const yfName = (yf.localizedName || '').toUpperCase();
+                    return fInfo.keys.some(k => yfType.includes(k) || yfName.includes(k));
+                });
+
+                if (yFuel) {
+                    if (yFuel.status === 'IN_STOCK') isAvail = true;
+                    else if (yFuel.status === 'OUT_OF_STOCK') isAvail = false;
+                }
+
+                const fuelInfo = s.fuelInfo || {};
+                const priceItems = fuelInfo.items || [];
+                const hasPrice = priceItems.some(p => {
+                    const pName = (p.name || '').toUpperCase();
+                    return fInfo.keys.some(k => pName.includes(k));
+                });
+                
+                if (isAvail === null && hasPrice) {
+                    isAvail = true; 
+                }
+
+                let lastReport = null;
+                if (fuelAvail.lastSignalTimestamp) {
+                    lastReport = new Date(fuelAvail.lastSignalTimestamp * 1000).toISOString();
+                } else if (fuelInfo.timestamp) {
+                    lastReport = new Date(fuelInfo.timestamp * 1000).toISOString();
+                }
+
+                return {
+                    fuel_type: fInfo.type,
+                    available: isAvail,
+                    available_yandex: isAvail,
+                    available_2gis: null,
+                    available_gdebenz: null,
+                    queue_level: queueLevel,
+                    last_report_at: lastReport,
+                    limit_liters: null
+                };
+            });
+
+            const prices = [];
+            const fuelInfo = s.fuelInfo || {};
+            const priceItems = fuelInfo.items || [];
+            priceItems.forEach(p => {
+                const pName = (p.name || '').toUpperCase();
+                let fType = null;
+                if (pName.includes('92')) fType = 'AI_92';
+                else if (pName.includes('95')) fType = 'AI_95';
+                else if (pName.includes('98')) fType = 'AI_98';
+                else if (pName.includes('100')) fType = 'AI_100';
+                else if (pName.includes('ДТ') || pName.includes('ДИЗЕЛЬ')) fType = 'DT';
+                else if (pName.includes('ПРОПАН') || pName.includes('ГАЗ')) fType = 'GAS';
+
+                if (fType && p.price) {
+                    prices.push({
+                        fuel_type: fType,
+                        price: p.price.value,
+                        updated_at: fuelInfo.timestamp ? new Date(fuelInfo.timestamp * 1000).toISOString() : null
+                    });
+                }
+            });
+
+            const recent_reports = [];
+            let lastReport = null;
+            if (fuelAvail.lastSignalTimestamp) {
+                lastReport = new Date(fuelAvail.lastSignalTimestamp * 1000).toISOString();
+            }
+            
+            if (fuelAvail.localizedQueueSize) {
+                recent_reports.push({
+                    id: s.id + '_report_queue',
+                    source: 'UGC',
+                    provider: 'yandex',
+                    created_at: lastReport,
+                    available: true,
+                    queue_level: queueLevel,
+                    limit_liters: null,
+                    fuel_types: [],
+                    station_closed: false,
+                    text: `Телеметрия очереди Яндекс: ${fuelAvail.localizedQueueSize}`
+                });
+            }
+
+            return {
+                station: {
+                    id: s.id,
+                    name: title,
+                    brand: brand,
+                    address: s.address || 'Адрес не указан',
+                    lat: lat,
+                    lng: lng
+                },
+                fuel_statuses: fuels,
+                prices: prices,
+                recent_reports: recent_reports
+            };
+        });
+    }
 
     // Normalize GdeBenz JSON structure to match 2GIS schema
     function normalizeGdeBenzData(gdebenzStations) {
@@ -635,10 +807,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     let detailsHtml = '';
                     if (f.available === 'conflict') {
                         const status2gisStr = f.available_2gis === null || f.available_2gis === undefined ? '' : `2ГИС: ${f.available_2gis === true ? 'есть' : 'нет'}`;
-                        const statusTbankStr = f.available_tbank === null || f.available_tbank === undefined ? '' : `Т-Банк: ${f.available_tbank === true ? 'есть' : 'нет'}`;
                         const statusGdebenzStr = f.available_gdebenz === null || f.available_gdebenz === undefined ? '' : `ГдеБЕНЗ: ${f.available_gdebenz === true ? 'есть' : 'нет'}`;
+                        const statusYandexStr = f.available_yandex === null || f.available_yandex === undefined ? '' : `Яндекс: ${f.available_yandex === true ? 'есть' : 'нет'}`;
                         
-                        const parts = [status2gisStr, statusTbankStr, statusGdebenzStr].filter(Boolean);
+                        const parts = [status2gisStr, statusGdebenzStr, statusYandexStr].filter(Boolean);
                         detailsHtml += `<span class="fuel-queue-text" style="color: var(--yellow-bright); background: rgba(245,158,11,0.1)">⚠️ ${parts.join(', ')}</span>`;
                     } else if (f.available === true) {
                         const queueText = QUEUE_LABELS[f.queue_level] || f.queue_level;
@@ -803,8 +975,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
         
-        const providerName = r.provider === 'gdebenz' ? 'ГдеБЕНЗ' : '2ГИС';
-        const providerClass = r.provider === 'gdebenz' ? 'provider-gdebenz' : 'provider-2gis';
+        const providerName = r.provider === 'gdebenz' ? 'ГдеБЕНЗ' : (r.provider === 'yandex' ? 'Яндекс' : '2ГИС');
+        const providerClass = r.provider === 'gdebenz' ? 'provider-gdebenz' : (r.provider === 'yandex' ? 'provider-yandex' : 'provider-2gis');
         
         let textHtml = '';
         if (r.text) {
