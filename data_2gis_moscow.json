@@ -100,11 +100,11 @@
         "available": false,
         "fuel_types": [
           "AI_100",
-          "AI_92",
-          "AI_95",
-          "AI_98",
+          "GAS",
           "DT",
-          "GAS"
+          "AI_98",
+          "AI_95",
+          "AI_92"
         ],
         "queue_level": "NONE",
         "source": "UGC",
@@ -210,12 +210,12 @@
         "station_closed": false,
         "available": true,
         "fuel_types": [
-          "AI_100",
-          "AI_92",
-          "AI_95",
+          "GAS",
           "AI_98",
-          "DT",
-          "GAS"
+          "AI_95",
+          "AI_92",
+          "AI_100",
+          "DT"
         ],
         "queue_level": "NONE",
         "source": "UGC",
@@ -228,12 +228,12 @@
         "station_closed": false,
         "available": true,
         "fuel_types": [
-          "AI_100",
           "AI_92",
           "AI_95",
           "AI_98",
+          "GAS",
           "DT",
-          "GAS"
+          "AI_100"
         ],
         "queue_level": "UP_TO_30_MIN",
         "limit_liters": 40,
@@ -294,8 +294,8 @@
         "fuel_type": "AI_92",
         "available": true,
         "queue_level": "NONE",
-        "reports_count": 142,
-        "last_report_at": "2026-07-17T22:20:57.079353Z"
+        "reports_count": 143,
+        "last_report_at": "2026-07-18T00:03:57.854851Z"
       },
       {
         "station_id": "4504127915778754",
@@ -310,6 +310,19 @@
     "closed": false,
     "closed_by_schedule": false,
     "recent_reports": [
+      {
+        "id": "149612",
+        "station_id": "4504127915778754",
+        "user_id": "a598e941-8851-4645-bcdc-55dc162dd6ea",
+        "station_closed": false,
+        "available": true,
+        "fuel_types": [
+          "AI_92"
+        ],
+        "queue_level": "NONE",
+        "source": "UGC",
+        "created_at": "2026-07-18T00:03:57.854851Z"
+      },
       {
         "id": "148525",
         "station_id": "4504127915778754",
@@ -459,19 +472,6 @@
         "queue_level": "NONE",
         "source": "UGC",
         "created_at": "2026-07-17T14:55:47.218481Z"
-      },
-      {
-        "id": "137290",
-        "station_id": "4504127915778754",
-        "user_id": "0a8bf88c-af1b-4e6b-bd79-9b218ac35ca7",
-        "station_closed": false,
-        "available": true,
-        "fuel_types": [
-          "AI_95"
-        ],
-        "queue_level": "NONE",
-        "source": "UGC",
-        "created_at": "2026-07-17T14:19:01.171965Z"
       }
     ]
   },
@@ -686,7 +686,7 @@
       "address": "Москва, Полуярославская набережная, вл1",
       "lat": 55.750829,
       "lng": 37.658437,
-      "last_transaction_at": "2026-07-17T22:09:32Z",
+      "last_transaction_at": "2026-07-17T23:11:02Z",
       "created_at": "2026-07-10T15:38:40.516189Z",
       "updated_at": "2026-07-15T15:34:38.517252Z",
       "has_shop": true,
@@ -777,6 +777,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3062433",
+        "station_id": "4504127912565521",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:11:02Z"
+      },
       {
         "id": "-3049797",
         "station_id": "4504127912565521",
@@ -869,16 +879,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T14:38:29Z"
-      },
-      {
-        "id": "-2923246",
-        "station_id": "4504127912565521",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T13:57:50Z"
       }
     ]
   },
@@ -1973,7 +1973,7 @@
       "address": "Москва, Рочдельская улица, 14",
       "lat": 55.757213,
       "lng": 37.567694,
-      "last_transaction_at": "2026-07-17T22:44:09Z",
+      "last_transaction_at": "2026-07-17T23:36:03Z",
       "created_at": "2026-07-10T15:38:36.945912Z",
       "updated_at": "2026-07-15T15:34:41.724585Z",
       "has_shop": true,
@@ -2059,6 +2059,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3067522",
+        "station_id": "4504127908591747",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:36:03Z"
+      },
+      {
+        "id": "-3061688",
+        "station_id": "4504127908591747",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:58:32Z"
+      },
+      {
         "id": "-3057397",
         "station_id": "4504127908591747",
         "station_closed": false,
@@ -2137,26 +2157,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:04:23Z"
-      },
-      {
-        "id": "-3009921",
-        "station_id": "4504127908591747",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:51:37Z"
-      },
-      {
-        "id": "-3006748",
-        "station_id": "4504127908591747",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:29:53Z"
       }
     ]
   },
@@ -2169,7 +2169,7 @@
       "address": "Москва, Олимпийский проспект, 5 ст1",
       "lat": 55.783893,
       "lng": 37.62287,
-      "last_transaction_at": "2026-07-17T22:40:34Z",
+      "last_transaction_at": "2026-07-17T23:44:55Z",
       "created_at": "2026-07-10T15:38:42.114141Z",
       "updated_at": "2026-07-15T15:34:41.958434Z",
       "has_shop": true,
@@ -2262,6 +2262,46 @@
     ],
     "recent_reports": [
       {
+        "id": "-3069499",
+        "station_id": "4504128908866298",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:44:55Z"
+      },
+      {
+        "id": "-3066117",
+        "station_id": "4504128908866298",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:34:03Z"
+      },
+      {
+        "id": "-3063407",
+        "station_id": "4504128908866298",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:16:58Z"
+      },
+      {
+        "id": "-3059878",
+        "station_id": "4504128908866298",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:57:46Z"
+      },
+      {
         "id": "-3055926",
         "station_id": "4504128908866298",
         "station_closed": false,
@@ -2328,46 +2368,6 @@
         "queue_level": "OVER_30_MIN",
         "source": "UGC",
         "created_at": "2026-07-17T21:35:45.791069Z"
-      },
-      {
-        "id": "-3042050",
-        "station_id": "4504128908866298",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T21:14:59Z"
-      },
-      {
-        "id": "-3037257",
-        "station_id": "4504128908866298",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:49:29Z"
-      },
-      {
-        "id": "-3033593",
-        "station_id": "4504128908866298",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:37:05Z"
-      },
-      {
-        "id": "-3031156",
-        "station_id": "4504128908866298",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:18:25Z"
       }
     ]
   },
@@ -2380,7 +2380,7 @@
       "address": "Москва, Наставнический переулок, вл17",
       "lat": 55.74864,
       "lng": 37.666243,
-      "last_transaction_at": "2026-07-17T21:43:47Z",
+      "last_transaction_at": "2026-07-17T23:47:26Z",
       "created_at": "2026-07-10T15:38:43.58962Z",
       "updated_at": "2026-07-15T15:34:37.780855Z",
       "has_shop": false,
@@ -2415,6 +2415,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3068753",
+        "station_id": "4504127908561106",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:47:26Z"
+      },
+      {
+        "id": "-3064198",
+        "station_id": "4504127908561106",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:07:48Z"
+      },
       {
         "id": "-3049068",
         "station_id": "4504127908561106",
@@ -2494,26 +2514,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:44:37Z"
-      },
-      {
-        "id": "-3021872",
-        "station_id": "4504127908561106",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:34:47Z"
-      },
-      {
-        "id": "-3015955",
-        "station_id": "4504127908561106",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:18:17Z"
       }
     ]
   },
@@ -2862,7 +2862,7 @@
       "address": "Москва, Костомаровская набережная, 29 ст6",
       "lat": 55.750269,
       "lng": 37.668971,
-      "last_transaction_at": "2026-07-17T20:26:03Z",
+      "last_transaction_at": "2026-07-17T23:35:06Z",
       "created_at": "2026-07-10T15:38:40.909635Z",
       "updated_at": "2026-07-15T15:34:44.596901Z",
       "has_shop": false,
@@ -2897,6 +2897,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3067947",
+        "station_id": "4504127915050818",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:35:06Z"
+      },
       {
         "id": "-3033174",
         "station_id": "4504127915050818",
@@ -2986,16 +2996,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:00:07Z"
-      },
-      {
-        "id": "-2961422",
-        "station_id": "4504127915050818",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T16:03:12Z"
       }
     ]
   },
@@ -3008,7 +3008,7 @@
       "address": "Москва, набережная Тараса Шевченко, 12а",
       "lat": 55.752362,
       "lng": 37.561095,
-      "last_transaction_at": "2026-07-17T22:40:17Z",
+      "last_transaction_at": "2026-07-17T22:59:19Z",
       "created_at": "2026-07-10T15:38:41.372298Z",
       "updated_at": "2026-07-15T15:34:47.281118Z",
       "has_shop": true,
@@ -3093,6 +3093,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3059808",
+        "station_id": "70000001066022766",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:59:19Z"
+      },
       {
         "id": "-3056065",
         "station_id": "70000001066022766",
@@ -3182,16 +3192,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:47:47Z"
-      },
-      {
-        "id": "-3020135",
-        "station_id": "70000001066022766",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:21:09Z"
       }
     ]
   },
@@ -3204,7 +3204,7 @@
       "address": "Москва, Шлюзовая набережная, вл14",
       "lat": 55.72948,
       "lng": 37.651,
-      "last_transaction_at": "2026-07-17T20:37:47Z",
+      "last_transaction_at": "2026-07-17T21:11:58Z",
       "created_at": "2026-07-10T15:38:38.061385Z",
       "updated_at": "2026-07-15T15:34:46.509022Z",
       "has_shop": true,
@@ -3246,6 +3246,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3061939",
+        "station_id": "4504127920027894",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T21:11:58Z"
+      },
       {
         "id": "-3035768",
         "station_id": "4504127920027894",
@@ -3335,16 +3345,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:16:13Z"
-      },
-      {
-        "id": "-2974405",
-        "station_id": "4504127920027894",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T16:53:26Z"
       }
     ]
   },
@@ -3357,7 +3357,7 @@
       "address": "Москва, Саввинская набережная, 7а",
       "lat": 55.737592,
       "lng": 37.569479,
-      "last_transaction_at": "2026-07-17T22:37:55Z",
+      "last_transaction_at": "2026-07-17T23:45:41Z",
       "created_at": "2026-07-10T15:38:36.615283Z",
       "updated_at": "2026-07-15T15:34:42.219671Z",
       "has_shop": true,
@@ -3445,6 +3445,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3068899",
+        "station_id": "70000001066022854",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:45:41Z"
+      },
+      {
+        "id": "-3063811",
+        "station_id": "70000001066022854",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:09:01Z"
+      },
+      {
         "id": "-3056116",
         "station_id": "70000001066022854",
         "station_closed": false,
@@ -3523,26 +3543,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:35:18Z"
-      },
-      {
-        "id": "-3030462",
-        "station_id": "70000001066022854",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:18:30Z"
-      },
-      {
-        "id": "-3026454",
-        "station_id": "70000001066022854",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:01:14Z"
       }
     ]
   },
@@ -4176,7 +4176,7 @@
       "address": "Москва, Жуков проезд, вл15а",
       "lat": 55.723532,
       "lng": 37.638213,
-      "last_transaction_at": "2026-07-17T22:11:59Z",
+      "last_transaction_at": "2026-07-17T23:07:21Z",
       "created_at": "2026-07-10T15:38:35.40237Z",
       "updated_at": "2026-07-15T15:34:42.170541Z",
       "has_shop": true,
@@ -4274,6 +4274,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3064126",
+        "station_id": "4504127912565502",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:07:21Z"
+      },
+      {
+        "id": "-3060319",
+        "station_id": "4504127912565502",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:04:26Z"
+      },
+      {
         "id": "-3050463",
         "station_id": "4504127912565502",
         "station_closed": false,
@@ -4352,26 +4372,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T18:45:36Z"
-      },
-      {
-        "id": "-3004068",
-        "station_id": "4504127912565502",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:31:02Z"
-      },
-      {
-        "id": "-2998955",
-        "station_id": "4504127912565502",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:03:03Z"
       }
     ]
   },
@@ -4580,7 +4580,7 @@
       "address": "Москва, Новосущёвская улица, 19",
       "lat": 55.791284,
       "lng": 37.603891,
-      "last_transaction_at": "2026-07-17T21:39:10Z",
+      "last_transaction_at": "2026-07-17T23:33:32Z",
       "created_at": "2026-07-10T15:38:33.507943Z",
       "updated_at": "2026-07-15T15:34:37.755662Z",
       "has_shop": true,
@@ -4673,6 +4673,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-3066770",
+        "station_id": "4504127908561107",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:33:32Z"
+      },
+      {
+        "id": "-3064407",
+        "station_id": "4504127908561107",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:18:41Z"
+      },
+      {
+        "id": "-3061203",
+        "station_id": "4504127908561107",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:58:13Z"
+      },
+      {
         "id": "-3048682",
         "station_id": "4504127908561107",
         "station_closed": false,
@@ -4741,36 +4771,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T18:58:45Z"
-      },
-      {
-        "id": "-3009813",
-        "station_id": "4504127908561107",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:45:51Z"
-      },
-      {
-        "id": "-3005035",
-        "station_id": "4504127908561107",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:29:52Z"
-      },
-      {
-        "id": "-3003178",
-        "station_id": "4504127908561107",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:17:45Z"
       }
     ]
   },
@@ -4996,7 +4996,7 @@
       "address": "Москва, Киевская улица, вл8а ст1",
       "lat": 55.741995,
       "lng": 37.555855,
-      "last_transaction_at": "2026-07-17T22:46:12Z",
+      "last_transaction_at": "2026-07-17T23:35:44Z",
       "created_at": "2026-07-10T15:38:37.137264Z",
       "updated_at": "2026-07-15T15:34:44.067549Z",
       "has_shop": true,
@@ -5088,6 +5088,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-3067562",
+        "station_id": "4504127908581806",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:35:44Z"
+      },
+      {
+        "id": "-3066537",
+        "station_id": "4504127908581806",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:19:58Z"
+      },
+      {
+        "id": "-3063991",
+        "station_id": "4504127908581806",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:13:18Z"
+      },
+      {
         "id": "-3057880",
         "station_id": "4504127908581806",
         "station_closed": false,
@@ -5156,36 +5186,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:29:21Z"
-      },
-      {
-        "id": "-3031723",
-        "station_id": "4504127908581806",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:15:00Z"
-      },
-      {
-        "id": "-3027212",
-        "station_id": "4504127908581806",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:59:40Z"
-      },
-      {
-        "id": "-3025148",
-        "station_id": "4504127908581806",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:47:58Z"
       }
     ]
   },
@@ -5372,7 +5372,7 @@
       "address": "Москва, улица 1905 года, 27 ст1",
       "lat": 55.770075,
       "lng": 37.555372,
-      "last_transaction_at": "2026-07-17T22:22:23Z",
+      "last_transaction_at": "2026-07-17T23:29:06Z",
       "created_at": "2026-07-10T15:38:41.729055Z",
       "updated_at": "2026-07-15T15:34:46.009Z",
       "has_shop": true,
@@ -5464,6 +5464,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3066803",
+        "station_id": "4504127918302266",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:29:06Z"
+      },
+      {
         "id": "-3052264",
         "station_id": "4504127918302266",
         "station_closed": false,
@@ -5552,16 +5562,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:05:43Z"
-      },
-      {
-        "id": "-2971739",
-        "station_id": "4504127918302266",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T16:37:56Z"
       }
     ]
   },
@@ -5642,7 +5642,7 @@
       "address": "Москва, улица Сущёвский Вал, 25",
       "lat": 55.793228,
       "lng": 37.603173,
-      "last_transaction_at": "2026-07-17T22:27:34Z",
+      "last_transaction_at": "2026-07-17T23:02:34Z",
       "created_at": "2026-07-10T15:38:37.671612Z",
       "updated_at": "2026-07-15T15:34:41.771917Z",
       "has_shop": true,
@@ -5742,6 +5742,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3059905",
+        "station_id": "70000001066023063",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:02:34Z"
+      },
+      {
         "id": "-3054941",
         "station_id": "70000001066023063",
         "station_closed": false,
@@ -5830,16 +5840,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:00:57Z"
-      },
-      {
-        "id": "-3010008",
-        "station_id": "70000001066023063",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:47:52Z"
       }
     ]
   },
@@ -6651,7 +6651,7 @@
       "address": "Москва, Новослободская улица, 64",
       "lat": 55.791894,
       "lng": 37.589387,
-      "last_transaction_at": "2026-07-17T22:01:29Z",
+      "last_transaction_at": "2026-07-17T23:06:16Z",
       "created_at": "2026-07-10T15:38:34.480411Z",
       "updated_at": "2026-07-15T15:34:47.92138Z",
       "has_shop": true,
@@ -6743,6 +6743,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3064524",
+        "station_id": "70000001089566840",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:06:16Z"
+      },
+      {
         "id": "-3051064",
         "station_id": "70000001089566840",
         "station_closed": false,
@@ -6831,16 +6841,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T13:16:32Z"
-      },
-      {
-        "id": "-2896449",
-        "station_id": "70000001089566840",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T12:53:10Z"
       }
     ]
   },
@@ -6942,7 +6942,7 @@
       "address": "Москва, проспект Мира, соор 94 ст4",
       "lat": 55.794703,
       "lng": 37.635016,
-      "last_transaction_at": "2026-07-17T21:02:44Z",
+      "last_transaction_at": "2026-07-17T23:41:30Z",
       "created_at": "2026-07-10T15:38:40.993468Z",
       "updated_at": "2026-07-15T15:34:44.48225Z",
       "has_shop": false,
@@ -7034,6 +7034,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3069651",
+        "station_id": "4504127908561094",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:41:30Z"
+      },
+      {
+        "id": "-3062055",
+        "station_id": "4504127908561094",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:54:11Z"
+      },
+      {
         "id": "-3038709",
         "station_id": "4504127908561094",
         "station_closed": false,
@@ -7112,26 +7132,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:18:29Z"
-      },
-      {
-        "id": "-2978636",
-        "station_id": "4504127908561094",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:11:33Z"
-      },
-      {
-        "id": "-2969369",
-        "station_id": "4504127908561094",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T16:38:56Z"
       }
     ]
   },
@@ -7339,7 +7339,7 @@
       "address": "Москва, Красногвардейский бульвар, 1а ст1",
       "lat": 55.757591,
       "lng": 37.544071,
-      "last_transaction_at": "2026-07-17T22:45:26Z",
+      "last_transaction_at": "2026-07-17T23:24:39Z",
       "created_at": "2026-07-10T15:38:40.700725Z",
       "updated_at": "2026-07-15T15:34:43.390715Z",
       "has_shop": true,
@@ -7382,6 +7382,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3065607",
+        "station_id": "4504127908591705",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:24:39Z"
+      },
+      {
+        "id": "-3060219",
+        "station_id": "4504127908591705",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:59:01Z"
+      },
       {
         "id": "-3057706",
         "station_id": "4504127908591705",
@@ -7461,26 +7481,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:46:18Z"
-      },
-      {
-        "id": "-3033131",
-        "station_id": "4504127908591705",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:34:51Z"
-      },
-      {
-        "id": "-3029419",
-        "station_id": "4504127908591705",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:19:05Z"
       }
     ]
   },
@@ -7493,7 +7493,7 @@
       "address": "Москва, Бутырская улица, 2а ст1",
       "lat": 55.792991,
       "lng": 37.585011,
-      "last_transaction_at": "2026-07-17T18:28:20Z",
+      "last_transaction_at": "2026-07-17T21:17:15Z",
       "created_at": "2026-07-10T15:38:42.229139Z",
       "updated_at": "2026-07-15T15:34:39.546094Z",
       "has_shop": false,
@@ -7577,6 +7577,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3061938",
+        "station_id": "70000001066024200",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T21:17:15Z"
+      },
       {
         "id": "-3007086",
         "station_id": "70000001066024200",
@@ -7667,7 +7677,7 @@
       "address": "Москва, 2-я Рыбинская улица, вл15 ст1",
       "lat": 55.791538,
       "lng": 37.654967,
-      "last_transaction_at": "2026-07-17T22:35:05Z",
+      "last_transaction_at": "2026-07-17T23:47:16Z",
       "created_at": "2026-07-10T15:38:38.241894Z",
       "updated_at": "2026-07-15T15:34:40.789363Z",
       "has_shop": true,
@@ -7709,6 +7719,36 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3068006",
+        "station_id": "70000001039179027",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:47:16Z"
+      },
+      {
+        "id": "-3062492",
+        "station_id": "70000001039179027",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:08:34Z"
+      },
+      {
+        "id": "-3060385",
+        "station_id": "70000001039179027",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:56:35Z"
+      },
       {
         "id": "-3055644",
         "station_id": "70000001039179027",
@@ -7778,36 +7818,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:23:29Z"
-      },
-      {
-        "id": "-3013930",
-        "station_id": "70000001039179027",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:55:17Z"
-      },
-      {
-        "id": "-3002695",
-        "station_id": "70000001039179027",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:17:40Z"
-      },
-      {
-        "id": "-2997664",
-        "station_id": "70000001039179027",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:01:05Z"
       }
     ]
   },
@@ -9085,7 +9095,7 @@
       "address": "Москва, Бутырская улица, 8а",
       "lat": 55.797079,
       "lng": 37.584845,
-      "last_transaction_at": "2026-07-17T22:30:11Z",
+      "last_transaction_at": "2026-07-17T23:36:34Z",
       "created_at": "2026-07-10T15:38:35.263926Z",
       "updated_at": "2026-07-15T15:34:36.907751Z",
       "has_shop": true,
@@ -9178,6 +9188,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-3069745",
+        "station_id": "4504127908603660",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:36:34Z"
+      },
+      {
+        "id": "-3066299",
+        "station_id": "4504127908603660",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:27:40Z"
+      },
+      {
+        "id": "-3062152",
+        "station_id": "4504127908603660",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:02:35Z"
+      },
+      {
         "id": "-3054787",
         "station_id": "4504127908603660",
         "station_closed": false,
@@ -9246,36 +9286,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:46:41Z"
-      },
-      {
-        "id": "-2978627",
-        "station_id": "4504127908603660",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:11:04Z"
-      },
-      {
-        "id": "-2973706",
-        "station_id": "4504127908603660",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T16:38:10Z"
-      },
-      {
-        "id": "-2943425",
-        "station_id": "4504127908603660",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T15:21:31Z"
       }
     ]
   },
@@ -9288,7 +9298,7 @@
       "address": "Москва, улица Симоновский Вал, вл28",
       "lat": 55.717656,
       "lng": 37.662901,
-      "last_transaction_at": "2026-07-17T22:54:37Z",
+      "last_transaction_at": "2026-07-17T23:46:05Z",
       "created_at": "2026-07-10T15:38:36.8198Z",
       "updated_at": "2026-07-15T15:34:41.138219Z",
       "has_shop": true,
@@ -9389,6 +9399,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-3068221",
+        "station_id": "4504127908640946",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:46:05Z"
+      },
+      {
+        "id": "-3065790",
+        "station_id": "4504127908640946",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:33:47Z"
+      },
+      {
+        "id": "-3062611",
+        "station_id": "4504127908640946",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:17:55Z"
+      },
+      {
         "id": "-3057902",
         "station_id": "4504127908640946",
         "station_closed": false,
@@ -9457,36 +9497,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T21:12:46Z"
-      },
-      {
-        "id": "-3040106",
-        "station_id": "4504127908640946",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T21:08:11Z"
-      },
-      {
-        "id": "-3037491",
-        "station_id": "4504127908640946",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:51:23Z"
-      },
-      {
-        "id": "-3032753",
-        "station_id": "4504127908640946",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:31:27Z"
       }
     ]
   },
@@ -9499,7 +9509,7 @@
       "address": "Москва, Госпитальная набережная, 2",
       "lat": 55.770929,
       "lng": 37.694984,
-      "last_transaction_at": "2026-07-17T22:43:05Z",
+      "last_transaction_at": "2026-07-17T23:48:08Z",
       "created_at": "2026-07-10T15:38:34.252121Z",
       "updated_at": "2026-07-15T15:34:49.787613Z",
       "has_shop": true,
@@ -9591,6 +9601,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-3067551",
+        "station_id": "4504127908583535",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:48:08Z"
+      },
+      {
+        "id": "-3064202",
+        "station_id": "4504127908583535",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:15:06Z"
+      },
+      {
+        "id": "-3061041",
+        "station_id": "4504127908583535",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:00:28Z"
+      },
+      {
         "id": "-3059278",
         "station_id": "4504127908583535",
         "station_closed": false,
@@ -9659,36 +9699,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T21:13:08Z"
-      },
-      {
-        "id": "-3039487",
-        "station_id": "4504127908583535",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T21:07:39Z"
-      },
-      {
-        "id": "-3036120",
-        "station_id": "4504127908583535",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:50:30Z"
-      },
-      {
-        "id": "-3032585",
-        "station_id": "4504127908583535",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:35:14Z"
       }
     ]
   },
@@ -9955,7 +9965,7 @@
       "address": "Москва, Комсомольский проспект, 51",
       "lat": 55.717184,
       "lng": 37.569489,
-      "last_transaction_at": "2026-07-17T22:28:00Z",
+      "last_transaction_at": "2026-07-17T23:00:54Z",
       "created_at": "2026-07-10T15:38:33.682952Z",
       "updated_at": "2026-07-15T15:34:47.719519Z",
       "has_shop": false,
@@ -10047,6 +10057,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3060305",
+        "station_id": "4504127915051868",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:00:54Z"
+      },
+      {
         "id": "-3055868",
         "station_id": "4504127915051868",
         "station_closed": false,
@@ -10135,16 +10155,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T18:16:28Z"
-      },
-      {
-        "id": "-2997560",
-        "station_id": "4504127915051868",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:03:30Z"
       }
     ]
   },
@@ -10563,7 +10573,7 @@
       "address": "Москва, Даниловская набережная, вл8Б",
       "lat": 55.709031,
       "lng": 37.633995,
-      "last_transaction_at": "2026-07-17T21:57:31Z",
+      "last_transaction_at": "2026-07-17T23:36:49Z",
       "created_at": "2026-07-10T15:38:41.969771Z",
       "updated_at": "2026-07-15T15:34:45.309868Z",
       "has_shop": true,
@@ -10666,6 +10676,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3069843",
+        "station_id": "4504127908573594",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:36:49Z"
+      },
+      {
+        "id": "-3063450",
+        "station_id": "4504127908573594",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:12:01Z"
+      },
+      {
         "id": "-3049393",
         "station_id": "4504127908573594",
         "station_closed": false,
@@ -10744,26 +10774,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:53:58Z"
-      },
-      {
-        "id": "-2989590",
-        "station_id": "4504127908573594",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:27:13Z"
-      },
-      {
-        "id": "-2984141",
-        "station_id": "4504127908573594",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:23:25Z"
       }
     ]
   },
@@ -10776,7 +10786,7 @@
       "address": "Москва, шоссе Энтузиастов, 6а",
       "lat": 55.747973,
       "lng": 37.70098,
-      "last_transaction_at": "2026-07-17T22:45:32Z",
+      "last_transaction_at": "2026-07-17T23:22:10Z",
       "created_at": "2026-07-10T15:38:43.890716Z",
       "updated_at": "2026-07-15T15:34:43.729967Z",
       "has_shop": true,
@@ -10868,6 +10878,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3065713",
+        "station_id": "70000001027869875",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:22:10Z"
+      },
+      {
+        "id": "-3064863",
+        "station_id": "70000001027869875",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:19:42Z"
+      },
+      {
         "id": "-3058058",
         "station_id": "70000001027869875",
         "station_closed": false,
@@ -10954,26 +10984,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T15:36:05Z"
-      },
-      {
-        "id": "-2933371",
-        "station_id": "70000001027869875",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T14:50:35Z"
-      },
-      {
-        "id": "-2923073",
-        "station_id": "70000001027869875",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T14:14:14Z"
       }
     ]
   },
@@ -11212,7 +11222,7 @@
       "address": "Москва, Шереметьевская улица, 22 ст1",
       "lat": 55.804299,
       "lng": 37.616567,
-      "last_transaction_at": "2026-07-17T22:51:46Z",
+      "last_transaction_at": "2026-07-17T23:42:10Z",
       "created_at": "2026-07-10T15:38:36.474353Z",
       "updated_at": "2026-07-15T15:34:50.456702Z",
       "has_shop": true,
@@ -11255,6 +11265,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3069784",
+        "station_id": "4504127908599595",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:42:10Z"
+      },
       {
         "id": "-3058827",
         "station_id": "4504127908599595",
@@ -11344,16 +11364,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T14:31:08Z"
-      },
-      {
-        "id": "-2920184",
-        "station_id": "4504127908599595",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T14:03:56Z"
       }
     ]
   },
@@ -11366,7 +11376,7 @@
       "address": "Москва, Старообрядческая улица, вл36",
       "lat": 55.741527,
       "lng": 37.700159,
-      "last_transaction_at": "2026-07-17T21:32:39Z",
+      "last_transaction_at": "2026-07-17T22:19:04Z",
       "created_at": "2026-07-10T15:38:38.142755Z",
       "updated_at": "2026-07-15T15:34:37.201471Z",
       "has_shop": true,
@@ -11458,6 +11468,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3062307",
+        "station_id": "4504127912565524",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:19:04Z"
+      },
+      {
         "id": "-3043758",
         "station_id": "4504127912565524",
         "station_closed": false,
@@ -11546,16 +11566,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T14:03:27Z"
-      },
-      {
-        "id": "-2874327",
-        "station_id": "4504127912565524",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T10:42:47Z"
       }
     ]
   },
@@ -11568,7 +11578,7 @@
       "address": "Москва, Лужнецкая набережная, 10 соор Б",
       "lat": 55.716129,
       "lng": 37.566445,
-      "last_transaction_at": "2026-07-17T21:48:25Z",
+      "last_transaction_at": "2026-07-17T23:17:33Z",
       "created_at": "2026-07-10T15:38:39.572127Z",
       "updated_at": "2026-07-15T15:34:39.446613Z",
       "has_shop": false,
@@ -11659,6 +11669,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3063065",
+        "station_id": "70000001033397812",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:17:33Z"
+      },
+      {
         "id": "-3049142",
         "station_id": "70000001033397812",
         "station_closed": false,
@@ -11747,16 +11767,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T18:31:59Z"
-      },
-      {
-        "id": "-2973959",
-        "station_id": "70000001033397812",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T16:25:57Z"
       }
     ]
   },
@@ -11973,7 +11983,7 @@
       "address": "Москва, улица Матросская Тишина, 9а ст1",
       "lat": 55.786093,
       "lng": 37.689354,
-      "last_transaction_at": "2026-07-17T22:39:57Z",
+      "last_transaction_at": "2026-07-17T23:13:52Z",
       "created_at": "2026-07-10T15:38:39.439151Z",
       "updated_at": "2026-07-15T15:34:49.960473Z",
       "has_shop": true,
@@ -12040,6 +12050,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3063242",
+        "station_id": "70000001066023312",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:13:52Z"
+      },
       {
         "id": "-3054899",
         "station_id": "70000001066023312",
@@ -12129,16 +12149,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:01:38Z"
-      },
-      {
-        "id": "-3011723",
-        "station_id": "70000001066023312",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:43:02Z"
       }
     ]
   },
@@ -12318,7 +12328,7 @@
       "address": "Москва, Автозаводская улица, вл24а",
       "lat": 55.705647,
       "lng": 37.633223,
-      "last_transaction_at": "2026-07-17T22:39:00Z",
+      "last_transaction_at": "2026-07-17T23:04:51Z",
       "created_at": "2026-07-10T15:38:35.694341Z",
       "updated_at": "2026-07-15T15:34:41.177972Z",
       "has_shop": true,
@@ -12410,6 +12420,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3063813",
+        "station_id": "4504128908375248",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:04:51Z"
+      },
+      {
         "id": "-3055261",
         "station_id": "4504128908375248",
         "station_closed": false,
@@ -12498,16 +12518,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:34:21Z"
-      },
-      {
-        "id": "-3030658",
-        "station_id": "4504128908375248",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:19:02Z"
       }
     ]
   },
@@ -12909,7 +12919,7 @@
       "address": "Москва, Малая Тульская улица, вл34 ст2",
       "lat": 55.702037,
       "lng": 37.615721,
-      "last_transaction_at": "2026-07-17T22:52:40Z",
+      "last_transaction_at": "2026-07-17T23:17:23Z",
       "created_at": "2026-07-10T15:38:33.295884Z",
       "updated_at": "2026-07-15T15:34:42.464163Z",
       "has_shop": true,
@@ -13014,6 +13024,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3062539",
+        "station_id": "70000001022638669",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:17:23Z"
+      },
+      {
         "id": "-3057658",
         "station_id": "70000001022638669",
         "station_closed": false,
@@ -13102,16 +13122,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:35:50Z"
-      },
-      {
-        "id": "-3031381",
-        "station_id": "70000001022638669",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:21:18Z"
       }
     ]
   },
@@ -13288,7 +13298,7 @@
       "address": "Москва, Шереметьевская улица, 47а",
       "lat": 55.810047,
       "lng": 37.612858,
-      "last_transaction_at": "2026-07-17T22:48:22Z",
+      "last_transaction_at": "2026-07-17T23:46:38Z",
       "created_at": "2026-07-10T15:38:43.658153Z",
       "updated_at": "2026-07-15T15:34:49.059675Z",
       "has_shop": true,
@@ -13381,6 +13391,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3068081",
+        "station_id": "4504127908583504",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:46:38Z"
+      },
+      {
         "id": "-3057695",
         "station_id": "4504127908583504",
         "station_closed": false,
@@ -13469,16 +13489,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:56:11Z"
-      },
-      {
-        "id": "-3022999",
-        "station_id": "4504127908583504",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:50:07Z"
       }
     ]
   },
@@ -13491,7 +13501,7 @@
       "address": "Москва, 2-я улица Машиностроения, 8",
       "lat": 55.716094,
       "lng": 37.684198,
-      "last_transaction_at": "2026-07-17T22:46:56Z",
+      "last_transaction_at": "2026-07-17T23:38:42Z",
       "created_at": "2026-07-10T15:38:42.611719Z",
       "updated_at": "2026-07-15T15:34:49.762822Z",
       "has_shop": true,
@@ -13583,6 +13593,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-3067693",
+        "station_id": "4504127912565511",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:38:42Z"
+      },
+      {
+        "id": "-3064878",
+        "station_id": "4504127912565511",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:34:35Z"
+      },
+      {
+        "id": "-3060483",
+        "station_id": "4504127912565511",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:59:52Z"
+      },
+      {
         "id": "-3058732",
         "station_id": "4504127912565511",
         "station_closed": false,
@@ -13651,36 +13691,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:17:06Z"
-      },
-      {
-        "id": "-3027099",
-        "station_id": "4504127912565511",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:05:31Z"
-      },
-      {
-        "id": "-3024022",
-        "station_id": "4504127912565511",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:43:34Z"
-      },
-      {
-        "id": "-3019039",
-        "station_id": "4504127912565511",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:32:38Z"
       }
     ]
   },
@@ -13693,7 +13703,7 @@
       "address": "Москва, Нижегородская улица, 27Б",
       "lat": 55.734955,
       "lng": 37.707238,
-      "last_transaction_at": "2026-07-17T22:06:27Z",
+      "last_transaction_at": "2026-07-17T23:37:58Z",
       "created_at": "2026-07-10T15:38:33.555896Z",
       "updated_at": "2026-07-15T15:34:48.401144Z",
       "has_shop": true,
@@ -13794,6 +13804,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3069270",
+        "station_id": "4504128908908071",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:37:58Z"
+      },
+      {
         "id": "-3052111",
         "station_id": "4504128908908071",
         "station_closed": false,
@@ -13882,147 +13902,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:03:45Z"
-      },
-      {
-        "id": "-3024558",
-        "station_id": "4504128908908071",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:43:35Z"
-      }
-    ]
-  },
-  {
-    "station": {
-      "id": "70000001100904922",
-      "region_id": 32,
-      "name": "Push.ka, АГЗС",
-      "brand": "Push.ka",
-      "address": "Москва, проезд Добролюбова, 2",
-      "lat": 55.809668,
-      "lng": 37.598423,
-      "last_transaction_at": "2026-07-17T22:50:58Z",
-      "created_at": "2026-07-10T15:38:41.835701Z",
-      "updated_at": "2026-07-15T15:34:43.539235Z",
-      "has_shop": false,
-      "has_cafe": false,
-      "has_toilet": false,
-      "has_car_wash": false,
-      "pay_card": true,
-      "pay_cash": true,
-      "pay_sbp": true,
-      "timezone_offset": 3,
-      "fuel_assortment": [
-        "GAS"
-      ]
-    },
-    "fuel_statuses": null,
-    "status": "PARTIALLY_AVAILABLE",
-    "closed": false,
-    "closed_by_schedule": true,
-    "recent_reports": [
-      {
-        "id": "-3059355",
-        "station_id": "70000001100904922",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T22:50:58Z"
-      },
-      {
-        "id": "-3046822",
-        "station_id": "70000001100904922",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T21:46:37Z"
-      },
-      {
-        "id": "-3045185",
-        "station_id": "70000001100904922",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T21:28:21Z"
-      },
-      {
-        "id": "-3033542",
-        "station_id": "70000001100904922",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:22:52Z"
-      },
-      {
-        "id": "-3026553",
-        "station_id": "70000001100904922",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:06:03Z"
-      },
-      {
-        "id": "-3022448",
-        "station_id": "70000001100904922",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:36:05Z"
-      },
-      {
-        "id": "-3010595",
-        "station_id": "70000001100904922",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:36:18Z"
-      },
-      {
-        "id": "-2972836",
-        "station_id": "70000001100904922",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T16:39:19Z"
-      },
-      {
-        "id": "-2962900",
-        "station_id": "70000001100904922",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T15:59:24Z"
-      },
-      {
-        "id": "-2953006",
-        "station_id": "70000001100904922",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T15:21:59Z"
       }
     ]
   },
@@ -14180,6 +14059,137 @@
   },
   {
     "station": {
+      "id": "70000001100904922",
+      "region_id": 32,
+      "name": "Push.ka, АГЗС",
+      "brand": "Push.ka",
+      "address": "Москва, проезд Добролюбова, 2",
+      "lat": 55.809668,
+      "lng": 37.598423,
+      "last_transaction_at": "2026-07-17T22:50:58Z",
+      "created_at": "2026-07-10T15:38:41.835701Z",
+      "updated_at": "2026-07-15T15:34:43.539235Z",
+      "has_shop": false,
+      "has_cafe": false,
+      "has_toilet": false,
+      "has_car_wash": false,
+      "pay_card": true,
+      "pay_cash": true,
+      "pay_sbp": true,
+      "timezone_offset": 3,
+      "fuel_assortment": [
+        "GAS"
+      ]
+    },
+    "fuel_statuses": null,
+    "status": "PARTIALLY_AVAILABLE",
+    "closed": false,
+    "closed_by_schedule": true,
+    "recent_reports": [
+      {
+        "id": "-3059355",
+        "station_id": "70000001100904922",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:50:58Z"
+      },
+      {
+        "id": "-3046822",
+        "station_id": "70000001100904922",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T21:46:37Z"
+      },
+      {
+        "id": "-3045185",
+        "station_id": "70000001100904922",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T21:28:21Z"
+      },
+      {
+        "id": "-3033542",
+        "station_id": "70000001100904922",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T20:22:52Z"
+      },
+      {
+        "id": "-3026553",
+        "station_id": "70000001100904922",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T20:06:03Z"
+      },
+      {
+        "id": "-3022448",
+        "station_id": "70000001100904922",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T19:36:05Z"
+      },
+      {
+        "id": "-3010595",
+        "station_id": "70000001100904922",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T18:36:18Z"
+      },
+      {
+        "id": "-2972836",
+        "station_id": "70000001100904922",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T16:39:19Z"
+      },
+      {
+        "id": "-2962900",
+        "station_id": "70000001100904922",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T15:59:24Z"
+      },
+      {
+        "id": "-2953006",
+        "station_id": "70000001100904922",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T15:21:59Z"
+      }
+    ]
+  },
+  {
+    "station": {
       "id": "4504127908583502",
       "region_id": 32,
       "name": "Лукойл, АЗС",
@@ -14187,7 +14197,7 @@
       "address": "Москва, 1-я Магистральная улица, 19/2",
       "lat": 55.769348,
       "lng": 37.522725,
-      "last_transaction_at": "2026-07-17T22:54:06Z",
+      "last_transaction_at": "2026-07-17T23:45:43Z",
       "created_at": "2026-07-10T15:38:42.486057Z",
       "updated_at": "2026-07-15T15:34:48.728692Z",
       "has_shop": true,
@@ -14285,6 +14295,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3067469",
+        "station_id": "4504127908583502",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:45:43Z"
+      },
+      {
+        "id": "-3060187",
+        "station_id": "4504127908583502",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:03:05Z"
+      },
+      {
         "id": "-3058113",
         "station_id": "4504127908583502",
         "station_closed": false,
@@ -14363,26 +14393,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:29:13Z"
-      },
-      {
-        "id": "-3029872",
-        "station_id": "4504127908583502",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:21:17Z"
-      },
-      {
-        "id": "-3026488",
-        "station_id": "4504127908583502",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:06:24Z"
       }
     ]
   },
@@ -14453,7 +14463,7 @@
       "address": "Москва, Загородное шоссе, вл2Б",
       "lat": 55.701258,
       "lng": 37.605012,
-      "last_transaction_at": "2026-07-17T21:30:58Z",
+      "last_transaction_at": "2026-07-17T23:30:30Z",
       "created_at": "2026-07-10T15:38:33.844605Z",
       "updated_at": "2026-07-15T15:34:41.937395Z",
       "has_shop": true,
@@ -14540,6 +14550,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3064959",
+        "station_id": "4504127914513279",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:30:30Z"
+      },
+      {
+        "id": "-3062197",
+        "station_id": "4504127914513279",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:57:46Z"
+      },
+      {
         "id": "-3043745",
         "station_id": "4504127914513279",
         "station_closed": false,
@@ -14618,26 +14648,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T13:06:33Z"
-      },
-      {
-        "id": "-2881142",
-        "station_id": "4504127914513279",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T12:12:56Z"
-      },
-      {
-        "id": "-2874730",
-        "station_id": "4504127914513279",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T12:03:52Z"
       }
     ]
   },
@@ -14650,7 +14660,7 @@
       "address": "Москва, Огородный проезд, 7 ст1",
       "lat": 55.810396,
       "lng": 37.604522,
-      "last_transaction_at": "2026-07-17T22:28:23Z",
+      "last_transaction_at": "2026-07-17T23:01:41Z",
       "created_at": "2026-07-10T15:38:36.916Z",
       "updated_at": "2026-07-15T15:34:50.519796Z",
       "timezone_offset": 3
@@ -14686,6 +14696,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3060185",
+        "station_id": "4504127920187906",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:01:41Z"
+      },
       {
         "id": "-3054746",
         "station_id": "4504127920187906",
@@ -14775,16 +14795,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T16:36:45Z"
-      },
-      {
-        "id": "-2964432",
-        "station_id": "4504127920187906",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T16:21:35Z"
       }
     ]
   },
@@ -15241,7 +15251,7 @@
       "address": "Москва, Волгоградский проспект, вл37",
       "lat": 55.722047,
       "lng": 37.698835,
-      "last_transaction_at": "2026-07-17T22:52:24Z",
+      "last_transaction_at": "2026-07-17T23:02:43Z",
       "created_at": "2026-07-10T15:38:35.428523Z",
       "updated_at": "2026-07-15T15:34:48.419059Z",
       "has_shop": true,
@@ -15343,6 +15353,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3061745",
+        "station_id": "4504127908583531",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:02:43Z"
+      },
+      {
         "id": "-3057270",
         "station_id": "4504127908583531",
         "station_closed": false,
@@ -15437,16 +15457,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:06:56Z"
-      },
-      {
-        "id": "-3023292",
-        "station_id": "4504127908583531",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:46:45Z"
       }
     ]
   },
@@ -15459,7 +15469,7 @@
       "address": "Москва, 2-я улица Машиностроения, вл14",
       "lat": 55.719245,
       "lng": 37.695781,
-      "last_transaction_at": "2026-07-17T20:27:11Z",
+      "last_transaction_at": "2026-07-17T22:59:26Z",
       "created_at": "2026-07-10T15:38:41.080646Z",
       "updated_at": "2026-07-15T15:34:50.587146Z",
       "has_shop": true,
@@ -15551,6 +15561,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3062057",
+        "station_id": "70000001023315480",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:59:26Z"
+      },
+      {
         "id": "-3032902",
         "station_id": "70000001023315480",
         "station_closed": false,
@@ -15639,16 +15659,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T15:57:05Z"
-      },
-      {
-        "id": "-2954554",
-        "station_id": "70000001023315480",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T15:44:06Z"
       }
     ]
   },
@@ -15661,7 +15671,7 @@
       "address": "Москва, Юрьевский переулок, вл17 ст1",
       "lat": 55.763343,
       "lng": 37.718943,
-      "last_transaction_at": "2026-07-17T21:16:20Z",
+      "last_transaction_at": "2026-07-17T23:46:52Z",
       "created_at": "2026-07-10T15:38:34.580873Z",
       "updated_at": "2026-07-15T15:34:48.116778Z",
       "has_shop": true,
@@ -15746,6 +15756,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-3068162",
+        "station_id": "4504127918434750",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:46:52Z"
+      },
+      {
+        "id": "-3065798",
+        "station_id": "4504127918434750",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:27:43Z"
+      },
+      {
+        "id": "-3062022",
+        "station_id": "4504127918434750",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:01:01Z"
+      },
+      {
         "id": "-3043106",
         "station_id": "4504127918434750",
         "station_closed": false,
@@ -15814,36 +15854,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:49:48Z"
-      },
-      {
-        "id": "-2987995",
-        "station_id": "4504127918434750",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:32:37Z"
-      },
-      {
-        "id": "-2985645",
-        "station_id": "4504127918434750",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:22:16Z"
-      },
-      {
-        "id": "-2979914",
-        "station_id": "4504127918434750",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:09:42Z"
       }
     ]
   },
@@ -15856,7 +15866,7 @@
       "address": "Москва, Новозаводская улица, 2Б",
       "lat": 55.746441,
       "lng": 37.515891,
-      "last_transaction_at": "2026-07-17T22:16:44Z",
+      "last_transaction_at": "2026-07-17T23:41:24Z",
       "created_at": "2026-07-10T15:38:33.333948Z",
       "updated_at": "2026-07-15T15:34:50.330216Z",
       "has_shop": true,
@@ -15876,6 +15886,26 @@
     "closed": false,
     "closed_by_schedule": false,
     "recent_reports": [
+      {
+        "id": "-3069498",
+        "station_id": "70000001017955475",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:41:24Z"
+      },
+      {
+        "id": "-3062861",
+        "station_id": "70000001017955475",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:16:03Z"
+      },
       {
         "id": "-3053620",
         "station_id": "70000001017955475",
@@ -15955,26 +15985,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T18:08:46Z"
-      },
-      {
-        "id": "-2998471",
-        "station_id": "70000001017955475",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:56:42Z"
-      },
-      {
-        "id": "-2994508",
-        "station_id": "70000001017955475",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:42:03Z"
       }
     ]
   },
@@ -16440,7 +16450,7 @@
       "address": "Москва, 1-я улица Энтузиастов, вл3а",
       "lat": 55.752324,
       "lng": 37.723175,
-      "last_transaction_at": "2026-07-17T21:10:01Z",
+      "last_transaction_at": "2026-07-17T23:14:14Z",
       "created_at": "2026-07-10T15:38:37.97135Z",
       "updated_at": "2026-07-15T15:34:43.375714Z",
       "has_shop": true,
@@ -16484,6 +16494,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3064277",
+        "station_id": "4504128908495326",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:14:14Z"
+      },
       {
         "id": "-3042362",
         "station_id": "4504128908495326",
@@ -16576,16 +16596,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:48:05Z"
-      },
-      {
-        "id": "-2988117",
-        "station_id": "4504128908495326",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:31:06Z"
       }
     ]
   },
@@ -16598,7 +16608,7 @@
       "address": "Москва, Маломосковская улица, вл18",
       "lat": 55.812671,
       "lng": 37.649954,
-      "last_transaction_at": "2026-07-17T22:46:52Z",
+      "last_transaction_at": "2026-07-17T23:15:31Z",
       "created_at": "2026-07-10T15:38:40.22992Z",
       "updated_at": "2026-07-15T15:34:40.451541Z",
       "has_shop": true,
@@ -16690,6 +16700,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3064835",
+        "station_id": "4504127908591715",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:15:31Z"
+      },
+      {
+        "id": "-3060831",
+        "station_id": "4504127908591715",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:02:10Z"
+      },
+      {
         "id": "-3059455",
         "station_id": "4504127908591715",
         "station_closed": false,
@@ -16768,26 +16798,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:51:25Z"
-      },
-      {
-        "id": "-3033175",
-        "station_id": "4504127908591715",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:36:04Z"
-      },
-      {
-        "id": "-3029993",
-        "station_id": "4504127908591715",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:19:09Z"
       }
     ]
   },
@@ -17512,7 +17522,7 @@
       "address": "Москва, улица Карьер, 4",
       "lat": 55.69514,
       "lng": 37.592995,
-      "last_transaction_at": "2026-07-17T22:11:23Z",
+      "last_transaction_at": "2026-07-17T23:11:36Z",
       "created_at": "2026-07-10T15:38:38.360195Z",
       "updated_at": "2026-07-15T15:34:41.757723Z",
       "has_shop": true,
@@ -17604,6 +17614,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3063410",
+        "station_id": "70000001020638417",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:11:36Z"
+      },
+      {
         "id": "-3050592",
         "station_id": "70000001020638417",
         "station_closed": false,
@@ -17692,16 +17712,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:25:00Z"
-      },
-      {
-        "id": "-2980691",
-        "station_id": "70000001020638417",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:10:55Z"
       }
     ]
   },
@@ -18429,25 +18439,48 @@
     "fuel_statuses": [
       {
         "station_id": "70000001103760704",
-        "fuel_type": "AI_95",
-        "available": null,
+        "fuel_type": "AI_92",
+        "available": true,
         "queue_level": "NONE",
-        "reports_count": 1,
-        "last_report_at": "2026-07-11T07:00:58.861444Z"
+        "reports_count": 2,
+        "last_report_at": "2026-07-18T00:11:14.074141Z"
       },
       {
         "station_id": "70000001103760704",
-        "fuel_type": "AI_92",
-        "available": null,
+        "fuel_type": "AI_95",
+        "available": true,
+        "queue_level": "NONE",
+        "reports_count": 2,
+        "last_report_at": "2026-07-18T00:11:14.074141Z"
+      },
+      {
+        "station_id": "70000001103760704",
+        "fuel_type": "DT",
+        "available": true,
         "queue_level": "NONE",
         "reports_count": 1,
-        "last_report_at": "2026-07-11T07:00:58.861444Z"
+        "last_report_at": "2026-07-18T00:11:14.074141Z"
       }
     ],
-    "status": "NO_DATA",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "recent_reports": [
+      {
+        "id": "149701",
+        "station_id": "70000001103760704",
+        "user_id": "d076f6e1-411a-42ea-b051-f514f5d3576a",
+        "station_closed": false,
+        "available": true,
+        "fuel_types": [
+          "AI_92",
+          "AI_95",
+          "DT"
+        ],
+        "queue_level": "NONE",
+        "source": "UGC",
+        "created_at": "2026-07-18T00:11:14.074141Z"
+      },
       {
         "id": "464",
         "station_id": "70000001103760704",
@@ -18675,7 +18708,7 @@
       "address": "Москва, Барклая улица, 1а",
       "lat": 55.737344,
       "lng": 37.509002,
-      "last_transaction_at": "2026-07-17T22:43:56Z",
+      "last_transaction_at": "2026-07-17T23:42:34Z",
       "created_at": "2026-07-10T15:38:35.566467Z",
       "updated_at": "2026-07-15T15:34:37.686411Z",
       "has_shop": true,
@@ -18711,6 +18744,36 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3068619",
+        "station_id": "4504127908583519",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:42:34Z"
+      },
+      {
+        "id": "-3063168",
+        "station_id": "4504127908583519",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:12:20Z"
+      },
+      {
+        "id": "-3061026",
+        "station_id": "4504127908583519",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:58:34Z"
+      },
       {
         "id": "-3058953",
         "station_id": "4504127908583519",
@@ -18780,36 +18843,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:00:20Z"
-      },
-      {
-        "id": "-3025168",
-        "station_id": "4504127908583519",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:44:45Z"
-      },
-      {
-        "id": "-3020380",
-        "station_id": "4504127908583519",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:35:12Z"
-      },
-      {
-        "id": "-3017932",
-        "station_id": "4504127908583519",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:20:45Z"
       }
     ]
   },
@@ -19032,7 +19065,7 @@
       "address": "Москва, Вернадского проспект, 3а",
       "lat": 55.703246,
       "lng": 37.550846,
-      "last_transaction_at": "2026-07-17T22:42:53Z",
+      "last_transaction_at": "2026-07-17T23:34:01Z",
       "created_at": "2026-07-10T15:38:39.011756Z",
       "updated_at": "2026-07-15T15:34:48.329241Z",
       "has_shop": false,
@@ -19101,6 +19134,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3066069",
+        "station_id": "4504127908591742",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:34:01Z"
+      },
+      {
+        "id": "-3063227",
+        "station_id": "4504127908591742",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:14:15Z"
+      },
       {
         "id": "-3058407",
         "station_id": "4504127908591742",
@@ -19180,26 +19233,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:34:59Z"
-      },
-      {
-        "id": "-2988782",
-        "station_id": "4504127908591742",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:31:22Z"
-      },
-      {
-        "id": "-2986842",
-        "station_id": "4504127908591742",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:14:42Z"
       }
     ]
   },
@@ -19569,7 +19602,7 @@
       "address": "Москва, улица Академика Королёва, вл13а",
       "lat": 55.82097,
       "lng": 37.6185,
-      "last_transaction_at": "2026-07-17T20:33:12Z",
+      "last_transaction_at": "2026-07-17T23:39:29Z",
       "created_at": "2026-07-10T15:38:43.383557Z",
       "updated_at": "2026-07-15T15:34:40.249181Z",
       "has_shop": true,
@@ -19655,6 +19688,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3067421",
+        "station_id": "70000001038198961",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:39:29Z"
+      },
+      {
+        "id": "-3061984",
+        "station_id": "70000001038198961",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:12:35Z"
+      },
+      {
         "id": "-3032234",
         "station_id": "70000001038198961",
         "station_closed": false,
@@ -19733,26 +19786,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:28:56Z"
-      },
-      {
-        "id": "-2963876",
-        "station_id": "70000001038198961",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T15:41:18Z"
-      },
-      {
-        "id": "-2948274",
-        "station_id": "70000001038198961",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T15:34:11Z"
       }
     ]
   },
@@ -19765,7 +19798,7 @@
       "address": "Москва, Огородный проезд, вл27а",
       "lat": 55.819678,
       "lng": 37.592332999999996,
-      "last_transaction_at": "2026-07-17T22:42:25Z",
+      "last_transaction_at": "2026-07-17T23:12:59Z",
       "created_at": "2026-07-10T15:38:33.651943Z",
       "updated_at": "2026-07-15T15:34:50.955815Z",
       "has_shop": true,
@@ -19800,6 +19833,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3063161",
+        "station_id": "70000001032440501",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:12:59Z"
+      },
       {
         "id": "-3057987",
         "station_id": "70000001032440501",
@@ -19889,16 +19932,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:14:33Z"
-      },
-      {
-        "id": "-3027577",
-        "station_id": "70000001032440501",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:58:35Z"
       }
     ]
   },
@@ -19911,7 +19944,7 @@
       "address": "Москва, проспект Мира, 142",
       "lat": 55.819833,
       "lng": 37.641222,
-      "last_transaction_at": "2026-07-17T22:42:06Z",
+      "last_transaction_at": "2026-07-17T23:32:53Z",
       "created_at": "2026-07-10T15:38:43.503241Z",
       "updated_at": "2026-07-15T15:34:37.242412Z",
       "has_shop": false,
@@ -20003,6 +20036,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3066017",
+        "station_id": "4504127908561095",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:32:53Z"
+      },
+      {
+        "id": "-3062472",
+        "station_id": "4504127908561095",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:12:31Z"
+      },
+      {
         "id": "-3059060",
         "station_id": "4504127908561095",
         "station_closed": false,
@@ -20081,26 +20134,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:32:22Z"
-      },
-      {
-        "id": "-3018650",
-        "station_id": "4504127908561095",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:15:25Z"
-      },
-      {
-        "id": "-3015301",
-        "station_id": "4504127908561095",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:01:58Z"
       }
     ]
   },
@@ -20113,7 +20146,7 @@
       "address": "Москва, Мосфильмовская улица, 46а",
       "lat": 55.719028,
       "lng": 37.520577,
-      "last_transaction_at": "2026-07-17T22:15:23Z",
+      "last_transaction_at": "2026-07-17T23:32:51Z",
       "created_at": "2026-07-10T15:38:41.530206Z",
       "updated_at": "2026-07-15T15:34:42.956844Z",
       "has_shop": true,
@@ -20204,6 +20237,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3065752",
+        "station_id": "4504127908591729",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:32:51Z"
+      },
+      {
+        "id": "-3062867",
+        "station_id": "4504127908591729",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:16:59Z"
+      },
+      {
         "id": "-3053669",
         "station_id": "4504127908591729",
         "station_closed": false,
@@ -20282,26 +20335,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:48:08Z"
-      },
-      {
-        "id": "-3022399",
-        "station_id": "4504127908591729",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:32:25Z"
-      },
-      {
-        "id": "-3016161",
-        "station_id": "4504127908591729",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:19:51Z"
       }
     ]
   },
@@ -21258,7 +21291,7 @@
       "address": "Москва, улица Преображенский Вал, вл5",
       "lat": 55.794092,
       "lng": 37.714977,
-      "last_transaction_at": "2026-07-17T22:55:14Z",
+      "last_transaction_at": "2026-07-17T23:31:56Z",
       "created_at": "2026-07-10T15:38:33.009718Z",
       "updated_at": "2026-07-15T15:34:49.2243Z",
       "has_shop": false,
@@ -21344,6 +21377,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3066659",
+        "station_id": "4504127915050816",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:31:56Z"
+      },
+      {
+        "id": "-3064062",
+        "station_id": "4504127915050816",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:04:53Z"
+      },
+      {
         "id": "-3059369",
         "station_id": "4504127915050816",
         "station_closed": false,
@@ -21422,26 +21475,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:43:11Z"
-      },
-      {
-        "id": "-3020009",
-        "station_id": "4504127915050816",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:32:01Z"
-      },
-      {
-        "id": "-3017146",
-        "station_id": "4504127915050816",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:15:00Z"
       }
     ]
   },
@@ -21454,7 +21487,7 @@
       "address": "Москва, Севастопольский проспект, 8 вл1",
       "lat": 55.689169,
       "lng": 37.604067,
-      "last_transaction_at": "2026-07-17T22:36:51Z",
+      "last_transaction_at": "2026-07-17T23:42:13Z",
       "created_at": "2026-07-10T15:38:36.995656Z",
       "updated_at": "2026-07-15T15:34:37.733358Z",
       "has_shop": true,
@@ -21491,6 +21524,46 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3067995",
+        "station_id": "4504127908603662",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:42:13Z"
+      },
+      {
+        "id": "-3067078",
+        "station_id": "4504127908603662",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:35:02Z"
+      },
+      {
+        "id": "-3064234",
+        "station_id": "4504127908603662",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:15:51Z"
+      },
+      {
+        "id": "-3061992",
+        "station_id": "4504127908603662",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:52:21Z"
+      },
       {
         "id": "-3054781",
         "station_id": "4504127908603662",
@@ -21550,46 +21623,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T18:35:39Z"
-      },
-      {
-        "id": "-2973774",
-        "station_id": "4504127908603662",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T16:07:21Z"
-      },
-      {
-        "id": "-2943400",
-        "station_id": "4504127908603662",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T15:21:39Z"
-      },
-      {
-        "id": "-2933274",
-        "station_id": "4504127908603662",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T14:52:00Z"
-      },
-      {
-        "id": "-2926058",
-        "station_id": "4504127908603662",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T14:21:34Z"
       }
     ]
   },
@@ -21602,7 +21635,7 @@
       "address": "Москва, Волгоградский проспект, 39 ст1",
       "lat": 55.715745,
       "lng": 37.712843,
-      "last_transaction_at": "2026-07-17T22:54:45Z",
+      "last_transaction_at": "2026-07-17T23:08:38Z",
       "created_at": "2026-07-10T15:38:41.545461Z",
       "updated_at": "2026-07-15T15:34:47.219242Z",
       "has_shop": true,
@@ -21657,6 +21690,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3063533",
+        "station_id": "4504127908583532",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:08:38Z"
+      },
+      {
+        "id": "-3061419",
+        "station_id": "4504127908583532",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:03:34Z"
+      },
       {
         "id": "-3058917",
         "station_id": "4504127908583532",
@@ -21736,26 +21789,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:48:41Z"
-      },
-      {
-        "id": "-3007805",
-        "station_id": "4504127908583532",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:30:28Z"
-      },
-      {
-        "id": "-3000406",
-        "station_id": "4504127908583532",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:18:56Z"
       }
     ]
   },
@@ -22768,7 +22801,7 @@
       "address": "Москва, Большая Оленья улица, 20",
       "lat": 55.811737,
       "lng": 37.689821,
-      "last_transaction_at": "2026-07-17T22:55:16Z",
+      "last_transaction_at": "2026-07-17T23:44:08Z",
       "created_at": "2026-07-10T15:38:40.478783Z",
       "updated_at": "2026-07-15T15:34:45.22153Z",
       "has_shop": true,
@@ -22860,6 +22893,46 @@
     ],
     "recent_reports": [
       {
+        "id": "-3069134",
+        "station_id": "4504127915787182",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:44:08Z"
+      },
+      {
+        "id": "-3067064",
+        "station_id": "4504127915787182",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:26:57Z"
+      },
+      {
+        "id": "-3063949",
+        "station_id": "4504127915787182",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:19:43Z"
+      },
+      {
+        "id": "-3060088",
+        "station_id": "4504127915787182",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:58:54Z"
+      },
+      {
         "id": "-3058225",
         "station_id": "4504127915787182",
         "station_closed": false,
@@ -22918,46 +22991,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:50:14Z"
-      },
-      {
-        "id": "-3033841",
-        "station_id": "4504127915787182",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:25:15Z"
-      },
-      {
-        "id": "-3018996",
-        "station_id": "4504127915787182",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:29:28Z"
-      },
-      {
-        "id": "-3009748",
-        "station_id": "4504127915787182",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:49:38Z"
-      },
-      {
-        "id": "-3004910",
-        "station_id": "4504127915787182",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:22:06Z"
       }
     ]
   },
@@ -23150,7 +23183,7 @@
       "address": "Москва, Варшавское шоссе, вл24а",
       "lat": 55.685927,
       "lng": 37.622311,
-      "last_transaction_at": "2026-07-17T22:26:45Z",
+      "last_transaction_at": "2026-07-17T23:34:39Z",
       "created_at": "2026-07-10T15:38:40.817029Z",
       "updated_at": "2026-07-15T15:34:37.184543Z",
       "has_shop": true,
@@ -23243,6 +23276,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-3067480",
+        "station_id": "4504127908583525",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:34:39Z"
+      },
+      {
+        "id": "-3065402",
+        "station_id": "4504127908583525",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:23:52Z"
+      },
+      {
+        "id": "-3061281",
+        "station_id": "4504127908583525",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:59:41Z"
+      },
+      {
         "id": "-3056740",
         "station_id": "4504127908583525",
         "station_closed": false,
@@ -23311,36 +23374,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:37:39Z"
-      },
-      {
-        "id": "-3032120",
-        "station_id": "4504127908583525",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:17:16Z"
-      },
-      {
-        "id": "-3028727",
-        "station_id": "4504127908583525",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:05:53Z"
-      },
-      {
-        "id": "-3024613",
-        "station_id": "4504127908583525",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:48:54Z"
       }
     ]
   },
@@ -23743,7 +23776,7 @@
       "address": "Москва, Южнопортовая улица, 17д",
       "lat": 55.704528,
       "lng": 37.702948,
-      "last_transaction_at": "2026-07-17T21:46:38Z",
+      "last_transaction_at": "2026-07-17T23:21:45Z",
       "created_at": "2026-07-10T15:38:40.543438Z",
       "updated_at": "2026-07-15T15:34:39.51862Z",
       "has_shop": false,
@@ -23773,6 +23806,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3067043",
+        "station_id": "70000001075459919",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:21:45Z"
+      },
       {
         "id": "-3049149",
         "station_id": "70000001075459919",
@@ -23862,16 +23905,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-15T15:01:09Z"
-      },
-      {
-        "id": "-2228981",
-        "station_id": "70000001075459919",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-15T13:23:24Z"
       }
     ]
   },
@@ -24133,7 +24166,7 @@
       "address": "Москва, Ростокинский проезд, вл11 ст1",
       "lat": 55.817949,
       "lng": 37.677871,
-      "last_transaction_at": "2026-07-17T22:04:07Z",
+      "last_transaction_at": "2026-07-17T23:04:33Z",
       "created_at": "2026-07-10T15:38:34.497281Z",
       "updated_at": "2026-07-15T15:34:46.088224Z",
       "has_shop": true,
@@ -24225,6 +24258,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3063269",
+        "station_id": "70000001083383280",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:04:33Z"
+      },
+      {
         "id": "-3051557",
         "station_id": "70000001083383280",
         "station_closed": false,
@@ -24313,16 +24356,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:02:44Z"
-      },
-      {
-        "id": "-3011941",
-        "station_id": "70000001083383280",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:41:15Z"
       }
     ]
   },
@@ -25173,7 +25206,7 @@
       "address": "Москва, Грайвороновская улица, 1",
       "lat": 55.71629,
       "lng": 37.725096,
-      "last_transaction_at": "2026-07-17T22:44:04Z",
+      "last_transaction_at": "2026-07-17T23:11:42Z",
       "created_at": "2026-07-10T15:38:41.256685Z",
       "updated_at": "2026-07-15T15:34:49.24357Z",
       "has_shop": true,
@@ -25265,6 +25298,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3064607",
+        "station_id": "4504127908583536",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:11:42Z"
+      },
+      {
+        "id": "-3062340",
+        "station_id": "4504127908583536",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:00:29Z"
+      },
+      {
         "id": "-3057504",
         "station_id": "4504127908583536",
         "station_closed": false,
@@ -25343,26 +25396,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:19:27Z"
-      },
-      {
-        "id": "-3013149",
-        "station_id": "4504127908583536",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:03:32Z"
-      },
-      {
-        "id": "-3010957",
-        "station_id": "4504127908583536",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:51:00Z"
       }
     ]
   },
@@ -25725,7 +25758,7 @@
       "address": "Москва, 2-я Пугачёвская улица, вл11",
       "lat": 55.793363,
       "lng": 37.729881,
-      "last_transaction_at": "2026-07-17T19:21:29Z",
+      "last_transaction_at": "2026-07-17T23:10:18Z",
       "created_at": "2026-07-10T15:38:38.300582Z",
       "updated_at": "2026-07-15T15:34:42.50752Z",
       "has_shop": true,
@@ -25809,6 +25842,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3063209",
+        "station_id": "4504127908573252",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:10:18Z"
+      },
       {
         "id": "-3016375",
         "station_id": "4504127908573252",
@@ -25898,16 +25941,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T07:13:48Z"
-      },
-      {
-        "id": "-2769348",
-        "station_id": "4504127908573252",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T06:20:23Z"
       }
     ]
   },
@@ -25920,7 +25953,7 @@
       "address": "Москва, Вернадского проспект, 5а",
       "lat": 55.695958,
       "lng": 37.541153,
-      "last_transaction_at": "2026-07-17T22:47:26Z",
+      "last_transaction_at": "2026-07-17T23:21:35Z",
       "created_at": "2026-07-10T15:38:39.81889Z",
       "updated_at": "2026-07-15T15:34:37.87397Z",
       "has_shop": true,
@@ -25978,6 +26011,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3066144",
+        "station_id": "4504127916697914",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:21:35Z"
+      },
+      {
+        "id": "-3060809",
+        "station_id": "4504127916697914",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:02:33Z"
+      },
       {
         "id": "-3057691",
         "station_id": "4504127916697914",
@@ -26057,26 +26110,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T21:06:37Z"
-      },
-      {
-        "id": "-3035747",
-        "station_id": "4504127916697914",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:49:09Z"
-      },
-      {
-        "id": "-3032683",
-        "station_id": "4504127916697914",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:35:32Z"
       }
     ]
   },
@@ -26224,7 +26257,7 @@
       "address": "Москва, Минская улица, 2а",
       "lat": 55.726541,
       "lng": 37.495913,
-      "last_transaction_at": "2026-07-17T22:03:58Z",
+      "last_transaction_at": "2026-07-17T23:49:26Z",
       "created_at": "2026-07-10T15:38:42.546378Z",
       "updated_at": "2026-07-15T15:34:50.639658Z",
       "has_shop": true,
@@ -26292,6 +26325,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3068056",
+        "station_id": "4504127908561098",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:49:26Z"
+      },
+      {
+        "id": "-3063306",
+        "station_id": "4504127908561098",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:16:07Z"
+      },
       {
         "id": "-3049498",
         "station_id": "4504127908561098",
@@ -26371,26 +26424,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T18:30:54Z"
-      },
-      {
-        "id": "-3000326",
-        "station_id": "4504127908561098",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:15:23Z"
-      },
-      {
-        "id": "-2978842",
-        "station_id": "4504127908561098",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T16:56:41Z"
       }
     ]
   },
@@ -27057,7 +27090,7 @@
       "address": "Москва, Шоссейный проезд, вл14",
       "lat": 55.704857,
       "lng": 37.717606,
-      "last_transaction_at": "2026-07-17T21:42:20Z",
+      "last_transaction_at": "2026-07-17T23:17:18Z",
       "created_at": "2026-07-10T15:38:41.852994Z",
       "updated_at": "2026-07-15T15:34:39.947679Z",
       "has_shop": false,
@@ -27116,6 +27149,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3064184",
+        "station_id": "4504127908591740",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:17:18Z"
+      },
       {
         "id": "-3048345",
         "station_id": "4504127908591740",
@@ -27205,16 +27248,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:43:21Z"
-      },
-      {
-        "id": "-2991090",
-        "station_id": "4504127908591740",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:30:35Z"
       }
     ]
   },
@@ -27227,7 +27260,7 @@
       "address": "Москва, Андропова проспект, вл22/30а",
       "lat": 55.684228,
       "lng": 37.663351,
-      "last_transaction_at": "2026-07-17T21:33:09Z",
+      "last_transaction_at": "2026-07-17T23:47:28Z",
       "created_at": "2026-07-10T15:38:36.86129Z",
       "updated_at": "2026-07-15T15:34:40.716726Z",
       "has_shop": true,
@@ -27330,6 +27363,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-3069903",
+        "station_id": "4504127916455471",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:47:28Z"
+      },
+      {
+        "id": "-3067085",
+        "station_id": "4504127916455471",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:27:38Z"
+      },
+      {
+        "id": "-3062112",
+        "station_id": "4504127916455471",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:43:36Z"
+      },
+      {
         "id": "-3043708",
         "station_id": "4504127916455471",
         "station_closed": false,
@@ -27398,36 +27461,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:20:04Z"
-      },
-      {
-        "id": "-3014328",
-        "station_id": "4504127916455471",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:04:26Z"
-      },
-      {
-        "id": "-3008798",
-        "station_id": "4504127916455471",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:48:54Z"
-      },
-      {
-        "id": "-3007792",
-        "station_id": "4504127916455471",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:35:46Z"
       }
     ]
   },
@@ -27999,7 +28032,7 @@
       "address": "Москва, Большая Филёвская улица, вл33а",
       "lat": 55.743532,
       "lng": 37.482404,
-      "last_transaction_at": "2026-07-17T22:54:08Z",
+      "last_transaction_at": "2026-07-17T23:07:45Z",
       "created_at": "2026-07-10T15:38:37.9844Z",
       "updated_at": "2026-07-15T15:34:47.640999Z",
       "has_shop": true,
@@ -28084,6 +28117,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3063057",
+        "station_id": "4504127908583521",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:07:45Z"
+      },
       {
         "id": "-3059287",
         "station_id": "4504127908583521",
@@ -28173,16 +28216,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:50:27Z"
-      },
-      {
-        "id": "-3019244",
-        "station_id": "4504127908583521",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:34:06Z"
       }
     ]
   },
@@ -28195,7 +28228,7 @@
       "address": "Москва, проспект Мира, вл186д",
       "lat": 55.830338,
       "lng": 37.652051,
-      "last_transaction_at": "2026-07-17T20:51:23Z",
+      "last_transaction_at": "2026-07-17T23:05:50Z",
       "created_at": "2026-07-10T15:38:38.077867Z",
       "updated_at": "2026-07-15T15:34:50.622615Z",
       "has_shop": true,
@@ -28294,6 +28327,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-3062466",
+        "station_id": "4504127908573598",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:05:50Z"
+      },
+      {
         "id": "-3036293",
         "station_id": "4504127908573598",
         "station_closed": false,
@@ -28382,16 +28425,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:41:29Z"
-      },
-      {
-        "id": "-2987911",
-        "station_id": "4504127908573598",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:33:54Z"
       }
     ]
   },
@@ -28940,7 +28973,7 @@
       "address": "Москва, Кутузовский проспект, 50",
       "lat": 55.73131,
       "lng": 37.484538,
-      "last_transaction_at": "2026-07-17T22:53:55Z",
+      "last_transaction_at": "2026-07-17T23:32:00Z",
       "created_at": "2026-07-10T15:38:41.649013Z",
       "updated_at": "2026-07-15T15:34:43.871297Z",
       "has_shop": true,
@@ -29000,6 +29033,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3064882",
+        "station_id": "70000001089352191",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:32:00Z"
+      },
       {
         "id": "-3058090",
         "station_id": "70000001089352191",
@@ -29089,16 +29132,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:02:37Z"
-      },
-      {
-        "id": "-3008902",
-        "station_id": "70000001089352191",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:47:56Z"
       }
     ]
   },
@@ -30053,7 +30086,7 @@
       "address": "Москва, Электролитный проезд, вл14",
       "lat": 55.67299,
       "lng": 37.613245,
-      "last_transaction_at": "2026-07-17T21:23:09Z",
+      "last_transaction_at": "2026-07-17T23:31:23Z",
       "created_at": "2026-07-10T15:38:34.157937Z",
       "updated_at": "2026-07-15T15:34:37.417377Z",
       "has_shop": true,
@@ -30120,6 +30153,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3066961",
+        "station_id": "70000001007490141",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:31:23Z"
+      },
       {
         "id": "-3046096",
         "station_id": "70000001007490141",
@@ -30209,16 +30252,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:31:52Z"
-      },
-      {
-        "id": "-3018301",
-        "station_id": "70000001007490141",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:16:17Z"
       }
     ]
   },
@@ -30615,7 +30648,7 @@
       "address": "Москва, Зелёный проспект, 1",
       "lat": 55.747661,
       "lng": 37.765196,
-      "last_transaction_at": "2026-07-17T21:49:21Z",
+      "last_transaction_at": "2026-07-17T23:12:20Z",
       "created_at": "2026-07-10T15:38:40.376888Z",
       "updated_at": "2026-07-15T15:34:40.017841Z",
       "has_shop": false,
@@ -30669,6 +30702,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3062655",
+        "station_id": "4504127908561080",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:12:20Z"
+      },
+      {
+        "id": "-3061800",
+        "station_id": "4504127908561080",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:00:41Z"
+      },
       {
         "id": "-3047288",
         "station_id": "4504127908561080",
@@ -30748,26 +30801,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:39:53Z"
-      },
-      {
-        "id": "-2989670",
-        "station_id": "4504127908561080",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:29:16Z"
-      },
-      {
-        "id": "-2979037",
-        "station_id": "4504127908561080",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:07:50Z"
       }
     ]
   },
@@ -30983,7 +31016,7 @@
       "address": "Москва, улица Докукина, вл2",
       "lat": 55.837689,
       "lng": 37.65673,
-      "last_transaction_at": "2026-07-17T22:51:44Z",
+      "last_transaction_at": "2026-07-17T23:10:04Z",
       "created_at": "2026-07-10T15:38:38.492182Z",
       "updated_at": "2026-07-15T15:34:49.739773Z",
       "has_shop": true,
@@ -31052,6 +31085,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3064671",
+        "station_id": "4504127908583542",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:10:04Z"
+      },
       {
         "id": "-3058630",
         "station_id": "4504127908583542",
@@ -31141,16 +31184,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T20:20:48Z"
-      },
-      {
-        "id": "-3026233",
-        "station_id": "4504127908583542",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T19:58:57Z"
       }
     ]
   },
@@ -31582,7 +31615,7 @@
       "address": "Москва, Волгоградский проспект, 79 ст1",
       "lat": 55.708947,
       "lng": 37.744176,
-      "last_transaction_at": "2026-07-17T19:38:58Z",
+      "last_transaction_at": "2026-07-17T22:05:02Z",
       "created_at": "2026-07-10T15:38:40.529739Z",
       "updated_at": "2026-07-15T15:34:38.289953Z",
       "has_shop": true,
@@ -31651,6 +31684,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3062135",
+        "station_id": "4504127915787181",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T22:05:02Z"
+      },
       {
         "id": "-3024578",
         "station_id": "4504127915787181",
@@ -31743,16 +31786,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T17:49:48Z"
-      },
-      {
-        "id": "-2984778",
-        "station_id": "4504127915787181",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T17:16:34Z"
       }
     ]
   },
@@ -32191,7 +32224,7 @@
       "address": "Москва, шоссе Энтузиастов, вл33Б",
       "lat": 55.762659,
       "lng": 37.770116,
-      "last_transaction_at": "2026-07-17T22:15:35Z",
+      "last_transaction_at": "2026-07-17T23:40:25Z",
       "created_at": "2026-07-10T15:38:38.129214Z",
       "updated_at": "2026-07-15T15:34:37.826709Z",
       "has_shop": true,
@@ -32282,6 +32315,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-3067442",
+        "station_id": "4504127915047453",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:40:25Z"
+      },
       {
         "id": "-3053562",
         "station_id": "4504127915047453",
@@ -32379,16 +32422,6 @@
         "queue_level": "NONE",
         "source": "UGC",
         "created_at": "2026-07-17T18:45:12.101086Z"
-      },
-      {
-        "id": "-3004093",
-        "station_id": "4504127915047453",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:22:52Z"
       }
     ]
   },
@@ -32401,7 +32434,7 @@
       "address": "Москва, Мичуринский проспект, 30а",
       "lat": 55.699428,
       "lng": 37.499991,
-      "last_transaction_at": "2026-07-17T22:49:57Z",
+      "last_transaction_at": "2026-07-17T23:39:56Z",
       "created_at": "2026-07-10T15:38:33.455905Z",
       "updated_at": "2026-07-15T15:34:47.457342Z",
       "has_shop": true,
@@ -32484,6 +32517,46 @@
     ],
     "recent_reports": [
       {
+        "id": "-3069759",
+        "station_id": "4504127908591716",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:39:56Z"
+      },
+      {
+        "id": "-3066265",
+        "station_id": "4504127908591716",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:32:47Z"
+      },
+      {
+        "id": "-3064489",
+        "station_id": "4504127908591716",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:13:40Z"
+      },
+      {
+        "id": "-3061196",
+        "station_id": "4504127908591716",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:00:50Z"
+      },
+      {
         "id": "-3058829",
         "station_id": "4504127908591716",
         "station_closed": false,
@@ -32542,46 +32615,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T21:17:00Z"
-      },
-      {
-        "id": "-3038764",
-        "station_id": "4504127908591716",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T21:07:35Z"
-      },
-      {
-        "id": "-3034775",
-        "station_id": "4504127908591716",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:35:36Z"
-      },
-      {
-        "id": "-3029751",
-        "station_id": "4504127908591716",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:19:07Z"
-      },
-      {
-        "id": "-3028897",
-        "station_id": "4504127908591716",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T20:05:11Z"
       }
     ]
   },
@@ -32656,7 +32689,7 @@
       "address": "Москва, Нахимовский проспект, 24а",
       "lat": 55.670891,
       "lng": 37.583438,
-      "last_transaction_at": "2026-07-17T21:13:14Z",
+      "last_transaction_at": "2026-07-17T23:40:07Z",
       "created_at": "2026-07-10T15:38:39.054417Z",
       "updated_at": "2026-07-15T15:34:40.933273Z",
       "has_shop": true,
@@ -32743,6 +32776,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-3067483",
+        "station_id": "4504127908599593",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T23:40:07Z"
+      },
+      {
+        "id": "-3062337",
+        "station_id": "4504127908599593",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-17T21:57:14Z"
+      },
+      {
         "id": "-3042138",
         "station_id": "4504127908599593",
         "station_closed": false,
@@ -32821,26 +32874,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-17T19:20:11Z"
-      },
-      {
-        "id": "-3000387",
-        "station_id": "4504127908599593",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T18:05:57Z"
-      },
-      {
-        "id": "-2974315",
-        "station_id": "4504127908599593",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T16:46:09Z"
       }
     ]
   }
