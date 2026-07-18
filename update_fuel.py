@@ -13,19 +13,25 @@ CITIES = {
         'lat': 55.761745,
         'lng': 49.18308,
         'radius': 25000,
-        'yandex_url': 'https://yandex.ru/maps/43/kazan/search/%D0%90%D0%97%D0%A1/'
+        'yandex_city_id': '43',
+        'yandex_city_name': 'kazan',
+        'yandex_queries': ["АЗС", "АЗС Лукойл", "АЗС Татнефть", "АЗС Газпромнефть", "АЗС Ирбис", "АЗС ТАИФ-НК"]
     },
     'spb': {
         'lat': 59.93863,
         'lng': 30.31413,
         'radius': 30000,
-        'yandex_url': 'https://yandex.ru/maps/2/saint-petersburg/search/%D0%90%D0%97%D0%A1/'
+        'yandex_city_id': '2',
+        'yandex_city_name': 'saint-petersburg',
+        'yandex_queries': ["АЗС", "АЗС Лукойл", "АЗС Газпромнефть", "АЗС Роснефть", "АЗС Киришиавтосервис", "АЗС Татнефть"]
     },
     'moscow': {
         'lat': 55.755826,
         'lng': 37.617299,
         'radius': 35000,
-        'yandex_url': 'https://yandex.ru/maps/213/moscow/search/%D0%90%D0%97%D0%A1/'
+        'yandex_city_id': '213',
+        'yandex_city_name': 'moscow',
+        'yandex_queries': ["АЗС", "АЗС Лукойл", "АЗС Газпромнефть", "АЗС Роснефть", "АЗС Татнефть", "АЗС Нефтьмагистраль"]
     }
 }
 
@@ -110,38 +116,64 @@ def fetch_gdebenz_comments(station):
         station['recent_comments'] = []
     return station
 
-def fetch_yandex_fuel(url, output_file):
+def fetch_yandex_fuel(city_info, output_file):
     import re
+    import time
     yandex_headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept-Language': 'ru,en;q=0.9',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'
     }
-    try:
-        req = urllib.request.Request(url, headers=yandex_headers)
-        with urllib.request.urlopen(req, timeout=30) as response:
-            html = response.read().decode('utf-8', errors='ignore')
+    
+    all_stations = {}
+    city_id = city_info['yandex_city_id']
+    city_name = city_info['yandex_city_name']
+    
+    for idx, query in enumerate(city_info['yandex_queries']):
+        encoded_query = urllib.parse.quote(query)
+        url = f"https://yandex.ru/maps/{city_id}/{city_name}/search/{encoded_query}/"
         
-        matches = re.findall(r'<script[^>]*type="application/json"[^>]*>(.*?)</script>', html, re.DOTALL)
-        parsed_data = None
-        for m in matches:
-            if '"stack"' in m:
-                parsed_data = json.loads(m)
-                break
-                
-        if parsed_data:
-            items = parsed_data["stack"][0]["results"]["items"]
+        # Add delay between requests to avoid auto-block/captcha
+        if idx > 0:
+            time.sleep(1.5)
+            
+        try:
+            req = urllib.request.Request(url, headers=yandex_headers)
+            with urllib.request.urlopen(req, timeout=30) as response:
+                html = response.read().decode('utf-8', errors='ignore')
+            
+            matches = re.findall(r'<script[^>]*type="application/json"[^>]*>(.*?)</script>', html, re.DOTALL)
+            parsed_data = None
+            for m in matches:
+                if '"stack"' in m:
+                    parsed_data = json.loads(m)
+                    break
+                    
+            if parsed_data:
+                items = parsed_data["stack"][0]["results"]["items"]
+                for item in items:
+                    s_id = item.get("id")
+                    if s_id:
+                        all_stations[s_id] = item
+            else:
+                print(f"Warning: Yandex JSON state not found for query '{query}'")
+        except Exception as e:
+            print(f"Warning: Failed to fetch Yandex query '{query}': {e}", file=sys.stderr)
+            
+    if all_stations:
+        items_list = list(all_stations.values())
+        try:
             with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(items, f, indent=2, ensure_ascii=False)
+                json.dump(items_list, f, indent=2, ensure_ascii=False)
             try:
                 os.chmod(output_file, 0o666)
             except Exception:
                 pass
-            return "success", len(items)
-        else:
-            return "failed (JSON state not found)", 0
-    except Exception as e:
-        return f"error ({e})", 0
+            return "success", len(items_list)
+        except Exception as e:
+            return f"error saving ({e})", 0
+    else:
+        return "failed (no items found)", 0
 
 def is_valid_azs(name):
     name_lower = name.lower()
@@ -227,8 +259,9 @@ for city, coords in CITIES.items():
         status_gdebenz = f"error ({e})"
         
     # 3. Fetch Yandex Maps
-    if coords.get('yandex_url'):
-        status_yandex, count_yandex = fetch_yandex_fuel(coords.get('yandex_url'), output_yandex)
+    status_yandex, count_yandex = "skipped", 0
+    if coords.get('yandex_queries'):
+        status_yandex, count_yandex = fetch_yandex_fuel(coords, output_yandex)
         
     results.append(f"{city.upper()}: 2GIS {status_2gis} ({count_2gis} st) | GdeBenz {status_gdebenz} ({count_gdebenz} st) | Yandex {status_yandex} ({count_yandex} st)")
 
