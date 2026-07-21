@@ -28,7 +28,7 @@
       {
         "station_id": "5348552838969467",
         "fuel_type": "AI_98",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 18,
         "last_report_at": "2026-07-19T23:24:22.47815Z"
@@ -36,7 +36,7 @@
       {
         "station_id": "5348552838969467",
         "fuel_type": "GAS",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 19,
         "last_report_at": "2026-07-19T23:24:22.47815Z"
@@ -44,7 +44,7 @@
       {
         "station_id": "5348552838969467",
         "fuel_type": "AI_92",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 26,
         "last_report_at": "2026-07-19T23:24:22.47815Z"
@@ -52,7 +52,7 @@
       {
         "station_id": "5348552838969467",
         "fuel_type": "AI_100",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 21,
         "last_report_at": "2026-07-19T23:24:22.47815Z"
@@ -60,7 +60,7 @@
       {
         "station_id": "5348552838969467",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 20,
         "last_report_at": "2026-07-19T23:24:22.47815Z"
@@ -203,7 +203,7 @@
       "address": "Санкт-Петербург, Александровский парк, 8 лит А",
       "lat": 59.953209,
       "lng": 30.322097,
-      "last_transaction_at": "2026-07-20T22:10:36Z",
+      "last_transaction_at": "2026-07-20T23:35:05Z",
       "created_at": "2026-07-10T15:34:46.256086Z",
       "updated_at": "2026-07-15T15:28:19.824157Z",
       "has_shop": true,
@@ -288,6 +288,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4293488",
+        "station_id": "5348552838739674",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:35:05Z"
+      },
       {
         "id": "-4283566",
         "station_id": "5348552838739674",
@@ -385,16 +395,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T16:32:58Z"
-      },
-      {
-        "id": "-4210146",
-        "station_id": "5348552838739674",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T16:11:53Z"
       }
     ]
   },
@@ -625,7 +625,7 @@
       "address": "Санкт-Петербург, Ждановская улица, 2а",
       "lat": 59.955054,
       "lng": 30.284205,
-      "last_transaction_at": "2026-07-20T22:30:47Z",
+      "last_transaction_at": "2026-07-20T23:45:03Z",
       "created_at": "2026-07-10T15:34:45.314532Z",
       "updated_at": "2026-07-15T15:28:12.630761Z",
       "has_shop": true,
@@ -717,6 +717,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-4296791",
+        "station_id": "5348552838656752",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:45:03Z"
+      },
+      {
+        "id": "-4291367",
+        "station_id": "5348552838656752",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:17:29Z"
+      },
+      {
+        "id": "-4287978",
+        "station_id": "5348552838656752",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T22:54:54Z"
+      },
+      {
         "id": "-4285421",
         "station_id": "5348552838656752",
         "station_closed": false,
@@ -789,41 +819,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T20:19:11Z"
-      },
-      {
-        "id": "242009",
-        "station_id": "5348552838656752",
-        "user_id": "9b544eee-3beb-4e35-be55-c1e79dba2397",
-        "station_closed": false,
-        "available": true,
-        "fuel_types": [
-          "AI_100",
-          "AI_95",
-          "AI_98"
-        ],
-        "queue_level": "NONE",
-        "source": "UGC",
-        "created_at": "2026-07-20T20:17:51.32961Z"
-      },
-      {
-        "id": "-4266534",
-        "station_id": "5348552838656752",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T20:10:33Z"
-      },
-      {
-        "id": "-4261897",
-        "station_id": "5348552838656752",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:52:37Z"
       }
     ]
   },
@@ -910,7 +905,7 @@
       "address": "Санкт-Петербург, Боровая улица, 43 лит А",
       "lat": 59.91553,
       "lng": 30.344046,
-      "last_transaction_at": "2026-07-20T22:35:31Z",
+      "last_transaction_at": "2026-07-20T23:30:23Z",
       "created_at": "2026-07-10T15:34:43.967418Z",
       "updated_at": "2026-07-15T15:28:09.470493Z",
       "has_shop": true,
@@ -1003,6 +998,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-4293585",
+        "station_id": "70000001020119682",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:30:23Z"
+      },
+      {
+        "id": "-4290474",
+        "station_id": "70000001020119682",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T22:44:07Z"
+      },
+      {
         "id": "-4284752",
         "station_id": "70000001020119682",
         "station_closed": false,
@@ -1081,30 +1096,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:53:27Z"
-      },
-      {
-        "id": "-4260077",
-        "station_id": "70000001020119682",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:37:16Z"
-      },
-      {
-        "id": "241318",
-        "station_id": "70000001020119682",
-        "user_id": "62b5d9bf-d458-4a2d-aabd-e720966c717b",
-        "station_closed": false,
-        "available": true,
-        "fuel_types": [
-          "AI_100"
-        ],
-        "queue_level": "NONE",
-        "limit_liters": 0,
-        "source": "UGC",
-        "created_at": "2026-07-20T19:24:32.462927Z"
       }
     ]
   },
@@ -1603,7 +1594,7 @@
       "address": "Санкт-Петербург, Железноводская улица, 1а",
       "lat": 59.952864,
       "lng": 30.261897,
-      "last_transaction_at": "2026-07-20T22:31:06Z",
+      "last_transaction_at": "2026-07-20T23:48:33Z",
       "created_at": "2026-07-10T15:34:41.782871Z",
       "updated_at": "2026-07-15T15:28:10.11504Z",
       "has_shop": true,
@@ -1702,6 +1693,46 @@
     ],
     "recent_reports": [
       {
+        "id": "-4297275",
+        "station_id": "5348552838605758",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:48:33Z"
+      },
+      {
+        "id": "-4295051",
+        "station_id": "5348552838605758",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:26:51Z"
+      },
+      {
+        "id": "-4292602",
+        "station_id": "5348552838605758",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:16:31Z"
+      },
+      {
+        "id": "-4290162",
+        "station_id": "5348552838605758",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:05:08Z"
+      },
+      {
         "id": "-4285049",
         "station_id": "5348552838605758",
         "station_closed": false,
@@ -1760,46 +1791,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T20:19:39Z"
-      },
-      {
-        "id": "-4267151",
-        "station_id": "5348552838605758",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T20:11:42Z"
-      },
-      {
-        "id": "-4262201",
-        "station_id": "5348552838605758",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:49:02Z"
-      },
-      {
-        "id": "-4259928",
-        "station_id": "5348552838605758",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:38:02Z"
-      },
-      {
-        "id": "-4256455",
-        "station_id": "5348552838605758",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:18:57Z"
       }
     ]
   },
@@ -2388,7 +2379,7 @@
       "address": "Санкт-Петербург, Миргородская улица, 1а",
       "lat": 59.924867,
       "lng": 30.371958,
-      "last_transaction_at": "2026-07-20T21:51:41Z",
+      "last_transaction_at": "2026-07-20T23:08:01Z",
       "created_at": "2026-07-10T15:34:48.510706Z",
       "updated_at": "2026-07-15T15:28:10.836924Z",
       "has_shop": true,
@@ -2479,6 +2470,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4292332",
+        "station_id": "5348552838739670",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:08:01Z"
+      },
+      {
         "id": "-4280253",
         "station_id": "5348552838739670",
         "station_closed": false,
@@ -2567,16 +2568,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T13:24:33Z"
-      },
-      {
-        "id": "-4148521",
-        "station_id": "5348552838739670",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T13:14:25Z"
       }
     ]
   },
@@ -2802,7 +2793,7 @@
       "address": "Санкт-Петербург, Средний проспект В.О., 91 к2",
       "lat": 59.935214,
       "lng": 30.250203,
-      "last_transaction_at": "2026-07-20T22:14:14Z",
+      "last_transaction_at": "2026-07-20T22:57:02Z",
       "created_at": "2026-07-10T15:34:50.476692Z",
       "updated_at": "2026-07-15T15:28:18.238271Z",
       "has_shop": true,
@@ -2895,6 +2886,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4289211",
+        "station_id": "5348552841393554",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T22:57:02Z"
+      },
       {
         "id": "-4282942",
         "station_id": "5348552841393554",
@@ -2992,16 +2993,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:15:02Z"
-      },
-      {
-        "id": "-4251794",
-        "station_id": "5348552841393554",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:08:17Z"
       }
     ]
   },
@@ -3014,7 +3005,7 @@
       "address": "Санкт-Петербург, набережная Обводного канала, 34",
       "lat": 59.913274,
       "lng": 30.358594,
-      "last_transaction_at": "2026-07-20T20:40:57Z",
+      "last_transaction_at": "2026-07-20T23:05:40Z",
       "created_at": "2026-07-10T15:34:48.656769Z",
       "updated_at": "2026-07-15T15:28:21.095893Z",
       "has_shop": true,
@@ -3065,6 +3056,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4295096",
+        "station_id": "5348552838608508",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:05:40Z"
+      },
+      {
+        "id": "-4290197",
+        "station_id": "5348552838608508",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T22:51:58Z"
+      },
       {
         "id": "-4274887",
         "station_id": "5348552838608508",
@@ -3144,26 +3155,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T17:39:42Z"
-      },
-      {
-        "id": "-4226034",
-        "station_id": "5348552838608508",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T17:24:52Z"
-      },
-      {
-        "id": "-4221613",
-        "station_id": "5348552838608508",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T17:09:00Z"
       }
     ]
   },
@@ -3176,7 +3167,7 @@
       "address": "Санкт-Петербург, Малый В.О. проспект, 68 к1",
       "lat": 59.938758,
       "lng": 30.246386,
-      "last_transaction_at": "2026-07-20T22:54:51Z",
+      "last_transaction_at": "2026-07-20T23:41:01Z",
       "created_at": "2026-07-10T15:34:43.165026Z",
       "updated_at": "2026-07-15T15:28:15.251441Z",
       "has_shop": true,
@@ -3276,6 +3267,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-4297397",
+        "station_id": "5348552838603549",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:41:01Z"
+      },
+      {
+        "id": "-4291651",
+        "station_id": "5348552838603549",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:06:26Z"
+      },
+      {
         "id": "-4286693",
         "station_id": "5348552838603549",
         "station_closed": false,
@@ -3354,26 +3365,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T20:17:44Z"
-      },
-      {
-        "id": "-4267939",
-        "station_id": "5348552838603549",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T20:10:15Z"
-      },
-      {
-        "id": "-4262809",
-        "station_id": "5348552838603549",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:41:33Z"
       }
     ]
   },
@@ -3386,7 +3377,7 @@
       "address": "Санкт-Петербург, Малый В.О. проспект, 61",
       "lat": 59.938991,
       "lng": 30.24525,
-      "last_transaction_at": "2026-07-20T20:54:42Z",
+      "last_transaction_at": "2026-07-20T23:28:32Z",
       "created_at": "2026-07-10T15:34:43.539137Z",
       "updated_at": "2026-07-15T15:28:19.236567Z",
       "has_shop": true,
@@ -3487,6 +3478,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4293914",
+        "station_id": "5348552838629486",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:28:32Z"
+      },
+      {
         "id": "-4279028",
         "station_id": "5348552838629486",
         "station_closed": false,
@@ -3575,16 +3576,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T17:16:45Z"
-      },
-      {
-        "id": "-4205975",
-        "station_id": "5348552838629486",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T16:17:23Z"
       }
     ]
   },
@@ -4113,7 +4104,7 @@
       "address": "Санкт-Петербург, Таврический переулок, 13",
       "lat": 59.950125,
       "lng": 30.384415,
-      "last_transaction_at": "2026-07-20T22:28:42Z",
+      "last_transaction_at": "2026-07-20T22:58:56Z",
       "created_at": "2026-07-10T15:34:42.487537Z",
       "updated_at": "2026-07-15T15:28:24.420914Z",
       "has_shop": false,
@@ -4134,7 +4125,7 @@
       {
         "station_id": "5348552838739678",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 13,
         "last_report_at": "2026-07-18T09:45:57.088975Z"
@@ -4142,7 +4133,7 @@
       {
         "station_id": "5348552838739678",
         "fuel_type": "AI_100",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 12,
         "last_report_at": "2026-07-18T09:45:57.088975Z"
@@ -4150,7 +4141,7 @@
       {
         "station_id": "5348552838739678",
         "fuel_type": "DT",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 12,
         "last_report_at": "2026-07-18T09:45:57.088975Z"
@@ -4158,7 +4149,7 @@
       {
         "station_id": "5348552838739678",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 15,
         "last_report_at": "2026-07-18T09:45:57.088975Z"
@@ -4166,7 +4157,7 @@
       {
         "station_id": "5348552838739678",
         "fuel_type": "AI_98",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 10,
         "last_report_at": "2026-07-18T09:45:57.088975Z"
@@ -4174,13 +4165,13 @@
       {
         "station_id": "5348552838739678",
         "fuel_type": "GAS",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 10,
         "last_report_at": "2026-07-18T09:45:57.088975Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "prices": [
@@ -4198,6 +4189,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4289631",
+        "station_id": "5348552838739678",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T22:58:56Z"
+      },
+      {
+        "id": "-4287722",
+        "station_id": "5348552838739678",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T22:45:14Z"
+      },
       {
         "id": "-4285851",
         "station_id": "5348552838739678",
@@ -4278,26 +4289,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T17:39:58Z"
-      },
-      {
-        "id": "-4225126",
-        "station_id": "5348552838739678",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T17:13:17Z"
-      },
-      {
-        "id": "-4223029",
-        "station_id": "5348552838739678",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T16:53:45Z"
       }
     ]
   },
@@ -4481,7 +4472,7 @@
       "address": "Санкт-Петербург, улица Розенштейна, 37",
       "lat": 59.904248,
       "lng": 30.286447,
-      "last_transaction_at": "2026-07-20T22:25:59Z",
+      "last_transaction_at": "2026-07-20T23:48:51Z",
       "created_at": "2026-07-10T15:34:45.968199Z",
       "updated_at": "2026-07-15T15:28:17.523101Z",
       "has_shop": true,
@@ -4577,6 +4568,46 @@
     ],
     "recent_reports": [
       {
+        "id": "-4296255",
+        "station_id": "5348552838605748",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:48:51Z"
+      },
+      {
+        "id": "-4294250",
+        "station_id": "5348552838605748",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:26:09Z"
+      },
+      {
+        "id": "-4291493",
+        "station_id": "5348552838605748",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:16:43Z"
+      },
+      {
+        "id": "-4287829",
+        "station_id": "5348552838605748",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T22:53:52Z"
+      },
+      {
         "id": "-4285187",
         "station_id": "5348552838605748",
         "station_closed": false,
@@ -4635,46 +4666,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T20:09:00Z"
-      },
-      {
-        "id": "-4263869",
-        "station_id": "5348552838605748",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:50:42Z"
-      },
-      {
-        "id": "-4259195",
-        "station_id": "5348552838605748",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:34:38Z"
-      },
-      {
-        "id": "-4256710",
-        "station_id": "5348552838605748",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:22:03Z"
-      },
-      {
-        "id": "-4252601",
-        "station_id": "5348552838605748",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:02:07Z"
       }
     ]
   },
@@ -4687,7 +4678,7 @@
       "address": "Санкт-Петербург, Черниговская улица, 25",
       "lat": 59.903328,
       "lng": 30.336858,
-      "last_transaction_at": "2026-07-20T20:51:37Z",
+      "last_transaction_at": "2026-07-20T23:20:44Z",
       "created_at": "2026-07-10T15:34:49.511247Z",
       "updated_at": "2026-07-15T15:28:18.629991Z",
       "has_shop": true,
@@ -4745,6 +4736,36 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4294260",
+        "station_id": "5348552838608485",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:20:44Z"
+      },
+      {
+        "id": "-4291974",
+        "station_id": "5348552838608485",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:08:13Z"
+      },
+      {
+        "id": "-4287831",
+        "station_id": "5348552838608485",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T22:47:31Z"
+      },
       {
         "id": "-4276175",
         "station_id": "5348552838608485",
@@ -4814,36 +4835,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:23:00Z"
-      },
-      {
-        "id": "-4251605",
-        "station_id": "5348552838608485",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:07:55Z"
-      },
-      {
-        "id": "-4248379",
-        "station_id": "5348552838608485",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:50:52Z"
-      },
-      {
-        "id": "-4247352",
-        "station_id": "5348552838608485",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:34:28Z"
       }
     ]
   },
@@ -4856,7 +4847,7 @@
       "address": "Санкт-Петербург, Херсонский проезд, 4",
       "lat": 59.928857,
       "lng": 30.385809,
-      "last_transaction_at": "2026-07-20T22:10:27Z",
+      "last_transaction_at": "2026-07-20T23:13:52Z",
       "created_at": "2026-07-10T15:34:47.625443Z",
       "updated_at": "2026-07-15T15:28:10.414524Z",
       "has_shop": true,
@@ -4955,6 +4946,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-4290885",
+        "station_id": "5348552838608513",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:13:52Z"
+      },
+      {
+        "id": "-4289312",
+        "station_id": "5348552838608513",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:04:56Z"
+      },
+      {
+        "id": "-4288250",
+        "station_id": "5348552838608513",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T22:43:43Z"
+      },
+      {
         "id": "-4281757",
         "station_id": "5348552838608513",
         "station_closed": false,
@@ -5023,36 +5044,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:19:33Z"
-      },
-      {
-        "id": "-4251777",
-        "station_id": "5348552838608513",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:56:20Z"
-      },
-      {
-        "id": "-4251367",
-        "station_id": "5348552838608513",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:49:54Z"
-      },
-      {
-        "id": "-4247341",
-        "station_id": "5348552838608513",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:28:14Z"
       }
     ]
   },
@@ -5287,7 +5278,7 @@
       "address": "Санкт-Петербург, Кожевенная линия, 43",
       "lat": 59.926505,
       "lng": 30.241018,
-      "last_transaction_at": "2026-07-20T22:55:39Z",
+      "last_transaction_at": "2026-07-20T23:14:26Z",
       "created_at": "2026-07-10T15:34:48.739785Z",
       "updated_at": "2026-07-15T15:28:14.863679Z",
       "has_shop": true,
@@ -5386,6 +5377,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4290806",
+        "station_id": "5348552838605754",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:14:26Z"
+      },
+      {
         "id": "-4286969",
         "station_id": "5348552838605754",
         "station_closed": false,
@@ -5474,16 +5475,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:07:02Z"
-      },
-      {
-        "id": "-4250548",
-        "station_id": "5348552838605754",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:50:50Z"
       }
     ]
   },
@@ -5547,7 +5538,7 @@
       "address": "Санкт-Петербург, Выборгская набережная, 18",
       "lat": 59.977149,
       "lng": 30.327627,
-      "last_transaction_at": "2026-07-20T22:36:15Z",
+      "last_transaction_at": "2026-07-20T23:00:30Z",
       "created_at": "2026-07-10T15:34:47.904452Z",
       "updated_at": "2026-07-15T15:28:13.292191Z",
       "has_shop": false,
@@ -5645,6 +5636,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-4289894",
+        "station_id": "5348552840833985",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:00:30Z"
+      },
+      {
+        "id": "-4288109",
+        "station_id": "5348552840833985",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T22:44:14Z"
+      },
+      {
         "id": "-4283941",
         "station_id": "5348552840833985",
         "station_closed": false,
@@ -5723,26 +5734,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T18:48:55Z"
-      },
-      {
-        "id": "-4245564",
-        "station_id": "5348552840833985",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:31:51Z"
-      },
-      {
-        "id": "-4240272",
-        "station_id": "5348552840833985",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:14:55Z"
       }
     ]
   },
@@ -6826,7 +6817,7 @@
       "address": "Санкт-Петербург, Глиняная улица, 23/1",
       "lat": 59.912767,
       "lng": 30.375646,
-      "last_transaction_at": "2026-07-20T21:56:40Z",
+      "last_transaction_at": "2026-07-20T23:30:03Z",
       "created_at": "2026-07-10T15:34:48.126777Z",
       "updated_at": "2026-07-15T15:28:23.416413Z",
       "has_shop": true,
@@ -6927,6 +6918,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4293546",
+        "station_id": "70000001041691885",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:30:03Z"
+      },
+      {
         "id": "-4280940",
         "station_id": "70000001041691885",
         "station_closed": false,
@@ -7015,16 +7016,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T18:34:20Z"
-      },
-      {
-        "id": "-4234249",
-        "station_id": "70000001041691885",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T17:52:10Z"
       }
     ]
   },
@@ -7822,7 +7813,7 @@
       "address": "Санкт-Петербург, АЗС",
       "lat": 59.95956,
       "lng": 30.386512,
-      "last_transaction_at": "2026-07-20T22:26:34Z",
+      "last_transaction_at": "2026-07-20T22:52:28Z",
       "created_at": "2026-07-10T15:34:45.756636Z",
       "updated_at": "2026-07-15T15:28:16.866854Z",
       "has_shop": true,
@@ -7921,6 +7912,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4290212",
+        "station_id": "5348552841441146",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T22:52:28Z"
+      },
+      {
         "id": "-4284646",
         "station_id": "5348552841441146",
         "station_closed": false,
@@ -8009,16 +8010,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T17:54:42Z"
-      },
-      {
-        "id": "-4230956",
-        "station_id": "5348552841441146",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T17:40:27Z"
       }
     ]
   },
@@ -8031,7 +8022,7 @@
       "address": "Санкт-Петербург, Литовская улица, 5 к2 лит А",
       "lat": 59.977428,
       "lng": 30.346752,
-      "last_transaction_at": "2026-07-20T22:54:40Z",
+      "last_transaction_at": "2026-07-20T23:16:12Z",
       "created_at": "2026-07-10T15:34:45.608121Z",
       "updated_at": "2026-07-15T15:28:09.659681Z",
       "has_shop": true,
@@ -8127,6 +8118,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4292253",
+        "station_id": "5348552838605878",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:16:12Z"
+      },
+      {
         "id": "-4286320",
         "station_id": "5348552838605878",
         "station_closed": false,
@@ -8215,16 +8216,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:02:25Z"
-      },
-      {
-        "id": "-4250347",
-        "station_id": "5348552838605878",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:50:10Z"
       }
     ]
   },
@@ -8438,7 +8429,7 @@
       "address": "Санкт-Петербург, Малоохтинский проспект, 59а",
       "lat": 59.930641,
       "lng": 30.400149,
-      "last_transaction_at": "2026-07-20T22:49:02Z",
+      "last_transaction_at": "2026-07-20T23:40:50Z",
       "created_at": "2026-07-10T15:34:44.276924Z",
       "updated_at": "2026-07-15T15:28:13.030887Z",
       "has_shop": true,
@@ -8536,6 +8527,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-4296841",
+        "station_id": "5348552838603678",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:40:50Z"
+      },
+      {
+        "id": "-4293010",
+        "station_id": "5348552838603678",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:24:48Z"
+      },
+      {
+        "id": "-4292288",
+        "station_id": "5348552838603678",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:16:55Z"
+      },
+      {
         "id": "-4286799",
         "station_id": "5348552838603678",
         "station_closed": false,
@@ -8604,40 +8625,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T20:33:42Z"
-      },
-      {
-        "id": "-4261583",
-        "station_id": "5348552838603678",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:50:41Z"
-      },
-      {
-        "id": "-4257354",
-        "station_id": "5348552838603678",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:21:47Z"
-      },
-      {
-        "id": "241162",
-        "station_id": "5348552838603678",
-        "user_id": "796a5edc-3eaa-46e8-8f6b-daf1a9987a77",
-        "station_closed": false,
-        "available": true,
-        "fuel_types": [
-          "AI_92",
-          "DT"
-        ],
-        "queue_level": "NONE",
-        "source": "UGC",
-        "created_at": "2026-07-20T19:15:30.129126Z"
       }
     ]
   },
@@ -8680,7 +8667,7 @@
       "address": "Санкт-Петербург, улица Нахимова, 18 лит А",
       "lat": 59.94088,
       "lng": 30.226523,
-      "last_transaction_at": "2026-07-20T22:30:25Z",
+      "last_transaction_at": "2026-07-20T23:12:55Z",
       "created_at": "2026-07-10T15:34:49.485447Z",
       "updated_at": "2026-07-15T15:28:16.818084Z",
       "has_shop": true,
@@ -8775,6 +8762,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4295105",
+        "station_id": "5348552838743566",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:12:55Z"
+      },
+      {
         "id": "-4285383",
         "station_id": "5348552838743566",
         "station_closed": false,
@@ -8863,16 +8860,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T18:03:06Z"
-      },
-      {
-        "id": "-4235234",
-        "station_id": "5348552838743566",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T17:54:53Z"
       }
     ]
   },
@@ -9146,7 +9133,7 @@
       "address": "Санкт-Петербург, Малоохтинский проспект, 16 лит А",
       "lat": 59.934453,
       "lng": 30.40221,
-      "last_transaction_at": "2026-07-20T19:27:26Z",
+      "last_transaction_at": "2026-07-20T23:00:56Z",
       "created_at": "2026-07-10T15:34:46.152493Z",
       "updated_at": "2026-07-15T15:28:14.010147Z",
       "has_shop": true,
@@ -9250,6 +9237,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4289463",
+        "station_id": "70000001035573879",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:00:56Z"
+      },
+      {
         "id": "-4264568",
         "station_id": "70000001035573879",
         "station_closed": false,
@@ -9338,16 +9335,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T14:03:31Z"
-      },
-      {
-        "id": "-4155734",
-        "station_id": "70000001035573879",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T13:46:26Z"
       }
     ]
   },
@@ -10926,7 +10913,7 @@
       "address": "Санкт-Петербург, Свердловская набережная, 58 к4 лит А",
       "lat": 59.954985,
       "lng": 30.407892,
-      "last_transaction_at": "2026-07-20T22:20:47Z",
+      "last_transaction_at": "2026-07-20T23:48:03Z",
       "created_at": "2026-07-10T15:34:49.572391Z",
       "updated_at": "2026-07-15T15:28:15.345597Z",
       "has_shop": true,
@@ -11018,6 +11005,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-4295988",
+        "station_id": "5348552838606055",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:48:03Z"
+      },
+      {
+        "id": "-4294997",
+        "station_id": "5348552838606055",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:24:29Z"
+      },
+      {
+        "id": "-4289217",
+        "station_id": "5348552838606055",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:02:37Z"
+      },
+      {
         "id": "-4282558",
         "station_id": "5348552838606055",
         "station_closed": false,
@@ -11086,36 +11103,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T20:10:36Z"
-      },
-      {
-        "id": "-4264955",
-        "station_id": "5348552838606055",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:52:01Z"
-      },
-      {
-        "id": "-4253810",
-        "station_id": "5348552838606055",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:05:58Z"
-      },
-      {
-        "id": "-4248095",
-        "station_id": "5348552838606055",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:50:41Z"
       }
     ]
   },
@@ -12764,7 +12751,7 @@
       "address": "Санкт-Петербург, проспект Маршала Блюхера, 2 к1",
       "lat": 59.986972,
       "lng": 30.35913,
-      "last_transaction_at": "2026-07-20T22:22:39Z",
+      "last_transaction_at": "2026-07-20T23:20:50Z",
       "created_at": "2026-07-10T15:34:44.640338Z",
       "updated_at": "2026-07-15T15:28:21.631339Z",
       "has_shop": true,
@@ -12822,6 +12809,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4293115",
+        "station_id": "5348552838656751",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:20:50Z"
+      },
       {
         "id": "-4287911",
         "station_id": "5348552838656751",
@@ -12911,16 +12908,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:22:01Z"
-      },
-      {
-        "id": "-4253636",
-        "station_id": "5348552838656751",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:07:13Z"
       }
     ]
   },
@@ -12964,7 +12951,7 @@
       "address": "Санкт-Петербург, Большой Сампсониевский проспект, 89 лит А",
       "lat": 59.991318,
       "lng": 30.333158,
-      "last_transaction_at": "2026-07-20T22:34:25Z",
+      "last_transaction_at": "2026-07-20T23:15:33Z",
       "created_at": "2026-07-10T15:34:49.92784Z",
       "updated_at": "2026-07-15T15:28:23.858613Z",
       "has_shop": true,
@@ -13064,6 +13051,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4291660",
+        "station_id": "5348552841241564",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:15:33Z"
+      },
+      {
         "id": "-4288285",
         "station_id": "5348552841241564",
         "station_closed": false,
@@ -13152,16 +13149,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:51:24Z"
-      },
-      {
-        "id": "-4258954",
-        "station_id": "5348552841241564",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:39:43Z"
       }
     ]
   },
@@ -13174,7 +13161,7 @@
       "address": "Санкт-Петербург, проспект Маршала Блюхера, 2 к7",
       "lat": 59.986574,
       "lng": 30.362286,
-      "last_transaction_at": "2026-07-20T22:28:28Z",
+      "last_transaction_at": "2026-07-20T23:03:42Z",
       "created_at": "2026-07-10T15:34:48.046718Z",
       "updated_at": "2026-07-15T15:28:13.717005Z",
       "has_shop": true,
@@ -13274,6 +13261,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4289398",
+        "station_id": "5348552838603996",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:03:42Z"
+      },
+      {
         "id": "-4288148",
         "station_id": "5348552838603996",
         "station_closed": false,
@@ -13372,16 +13369,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:26:28Z"
-      },
-      {
-        "id": "-4256910",
-        "station_id": "5348552838603996",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:21:33Z"
       }
     ]
   },
@@ -14028,7 +14015,7 @@
       "address": "Санкт-Петербург, Лабораторный проспект, 21",
       "lat": 59.98026,
       "lng": 30.384575,
-      "last_transaction_at": "2026-07-20T20:38:25Z",
+      "last_transaction_at": "2026-07-20T23:30:31Z",
       "created_at": "2026-07-10T15:34:49.800736Z",
       "updated_at": "2026-07-15T15:28:21.026289Z",
       "has_shop": true,
@@ -14122,6 +14109,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4292939",
+        "station_id": "70000001051224326",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:30:31Z"
+      },
+      {
         "id": "-4275258",
         "station_id": "70000001051224326",
         "station_closed": false,
@@ -14210,16 +14207,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T18:17:42Z"
-      },
-      {
-        "id": "-4238420",
-        "station_id": "70000001051224326",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:00:56Z"
       }
     ]
   },
@@ -15434,7 +15421,7 @@
       "address": "Санкт-Петербург, Октябрьская набережная, 2а",
       "lat": 59.916597,
       "lng": 30.417085,
-      "last_transaction_at": "2026-07-20T20:46:20Z",
+      "last_transaction_at": "2026-07-20T23:33:18Z",
       "created_at": "2026-07-10T15:34:47.917616Z",
       "updated_at": "2026-07-15T15:28:16.184002Z",
       "has_shop": true,
@@ -15532,6 +15519,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4293396",
+        "station_id": "5348552840761846",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:33:18Z"
+      },
+      {
         "id": "-4274406",
         "station_id": "5348552840761846",
         "station_closed": false,
@@ -15620,16 +15617,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T17:46:35Z"
-      },
-      {
-        "id": "-4231081",
-        "station_id": "5348552840761846",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T17:27:33Z"
       }
     ]
   },
@@ -15958,7 +15945,7 @@
       "address": "Санкт-Петербург, Московский проспект, 156а лит А",
       "lat": 59.881504,
       "lng": 30.321076,
-      "last_transaction_at": "2026-07-20T22:32:41Z",
+      "last_transaction_at": "2026-07-20T23:45:10Z",
       "created_at": "2026-07-10T15:34:43.768246Z",
       "updated_at": "2026-07-15T15:28:10.169791Z",
       "has_shop": true,
@@ -16026,6 +16013,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4297132",
+        "station_id": "5348552838603677",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:45:10Z"
+      },
       {
         "id": "-4288359",
         "station_id": "5348552838603677",
@@ -16115,16 +16112,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:54:07Z"
-      },
-      {
-        "id": "-4258569",
-        "station_id": "5348552838603677",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:39:38Z"
       }
     ]
   },
@@ -16246,16 +16233,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-18T07:15:59Z"
-      },
-      {
-        "id": "-3064561",
-        "station_id": "70000001048238994",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-17T23:14:18Z"
       }
     ]
   },
@@ -16268,7 +16245,7 @@
       "address": "Санкт-Петербург, улица Савушкина, 106",
       "lat": 59.984242,
       "lng": 30.244433,
-      "last_transaction_at": "2026-07-20T22:39:55Z",
+      "last_transaction_at": "2026-07-20T23:39:30Z",
       "created_at": "2026-07-10T15:34:42.754463Z",
       "updated_at": "2026-07-15T15:28:10.262252Z",
       "has_shop": true,
@@ -16369,6 +16346,46 @@
     ],
     "recent_reports": [
       {
+        "id": "-4295979",
+        "station_id": "5348552840523410",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:39:30Z"
+      },
+      {
+        "id": "-4294650",
+        "station_id": "5348552840523410",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:33:46Z"
+      },
+      {
+        "id": "-4291931",
+        "station_id": "5348552840523410",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:06:47Z"
+      },
+      {
+        "id": "-4289708",
+        "station_id": "5348552840523410",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:02:37Z"
+      },
+      {
         "id": "-4284595",
         "station_id": "5348552840523410",
         "station_closed": false,
@@ -16427,51 +16444,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T20:33:34Z"
-      },
-      {
-        "id": "-4270336",
-        "station_id": "5348552840523410",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T20:19:38Z"
-      },
-      {
-        "id": "-4265225",
-        "station_id": "5348552840523410",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T20:10:00Z"
-      },
-      {
-        "id": "-4261007",
-        "station_id": "5348552840523410",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:39:25Z"
-      },
-      {
-        "id": "241491",
-        "station_id": "5348552840523410",
-        "user_id": "f7cebcdd-2e81-4dcc-91ce-2423e9bed782",
-        "station_closed": false,
-        "available": true,
-        "fuel_types": [
-          "AI_92",
-          "AI_95",
-          "DT"
-        ],
-        "queue_level": "NONE",
-        "source": "UGC",
-        "created_at": "2026-07-20T19:36:26.133061Z"
       }
     ]
   },
@@ -16694,7 +16666,7 @@
       "address": "Санкт-Петербург, улица Генерала Хрулёва, 2",
       "lat": 59.995649,
       "lng": 30.298618,
-      "last_transaction_at": "2026-07-20T22:16:21Z",
+      "last_transaction_at": "2026-07-20T23:45:58Z",
       "created_at": "2026-07-10T15:34:48.153553Z",
       "updated_at": "2026-07-15T15:28:15.675553Z",
       "has_shop": true,
@@ -16764,6 +16736,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4297174",
+        "station_id": "5348552838608500",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:45:58Z"
+      },
       {
         "id": "-4282055",
         "station_id": "5348552838608500",
@@ -16853,16 +16835,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:05:17Z"
-      },
-      {
-        "id": "-4247589",
-        "station_id": "5348552838608500",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:33:37Z"
       }
     ]
   },
@@ -17314,7 +17286,7 @@
       "address": "Санкт-Петербург, улица Седова, 11а лит А",
       "lat": 59.90014,
       "lng": 30.401955,
-      "last_transaction_at": "2026-07-20T20:50:37Z",
+      "last_transaction_at": "2026-07-20T23:21:29Z",
       "created_at": "2026-07-10T15:34:46.755588Z",
       "updated_at": "2026-07-15T15:28:13.85Z",
       "has_shop": true,
@@ -17389,6 +17361,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4293169",
+        "station_id": "5348552838656766",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:21:29Z"
+      },
       {
         "id": "-4276298",
         "station_id": "5348552838656766",
@@ -17478,16 +17460,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T18:51:22Z"
-      },
-      {
-        "id": "-4245783",
-        "station_id": "5348552838656766",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:35:32Z"
       }
     ]
   },
@@ -17500,7 +17472,7 @@
       "address": "Санкт-Петербург, Новороссийская улица, 15",
       "lat": 59.993991,
       "lng": 30.354662,
-      "last_transaction_at": "2026-07-20T22:40:47Z",
+      "last_transaction_at": "2026-07-20T23:46:35Z",
       "created_at": "2026-07-10T15:34:42.638646Z",
       "updated_at": "2026-07-15T15:28:15.490388Z",
       "has_shop": true,
@@ -17600,6 +17572,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-4295708",
+        "station_id": "70000001018390554",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:46:35Z"
+      },
+      {
+        "id": "-4294185",
+        "station_id": "70000001018390554",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:33:17Z"
+      },
+      {
         "id": "-4284402",
         "station_id": "70000001018390554",
         "station_closed": false,
@@ -17678,26 +17670,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T20:11:47Z"
-      },
-      {
-        "id": "-4264373",
-        "station_id": "70000001018390554",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:49:11Z"
-      },
-      {
-        "id": "-4260966",
-        "station_id": "70000001018390554",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:31:59Z"
       }
     ]
   },
@@ -17710,7 +17682,7 @@
       "address": "Санкт-Петербург, проспект Маршала Блюхера, 39 лит А",
       "lat": 59.975586,
       "lng": 30.406669,
-      "last_transaction_at": "2026-07-20T22:25:46Z",
+      "last_transaction_at": "2026-07-20T23:13:47Z",
       "created_at": "2026-07-10T15:34:43.410431Z",
       "updated_at": "2026-07-15T15:28:16.37971Z",
       "has_shop": true,
@@ -17802,6 +17774,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4290883",
+        "station_id": "70000001078725517",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:13:47Z"
+      },
+      {
         "id": "-4284594",
         "station_id": "70000001078725517",
         "station_closed": false,
@@ -17890,16 +17872,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T18:48:35Z"
-      },
-      {
-        "id": "-4242008",
-        "station_id": "70000001078725517",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:19:41Z"
       }
     ]
   },
@@ -17912,7 +17884,7 @@
       "address": "Санкт-Петербург, улица Салова, 55",
       "lat": 59.888272,
       "lng": 30.376736,
-      "last_transaction_at": "2026-07-20T20:47:37Z",
+      "last_transaction_at": "2026-07-20T23:02:24Z",
       "created_at": "2026-07-10T15:34:47.303265Z",
       "updated_at": "2026-07-15T15:28:14.23999Z",
       "has_shop": false,
@@ -18004,6 +17976,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4289233",
+        "station_id": "5348552840479720",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:02:24Z"
+      },
+      {
         "id": "-4274359",
         "station_id": "5348552840479720",
         "station_closed": false,
@@ -18092,16 +18074,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T16:14:37Z"
-      },
-      {
-        "id": "-4202770",
-        "station_id": "5348552840479720",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T15:57:44Z"
       }
     ]
   },
@@ -18992,7 +18964,7 @@
       "address": "Санкт-Петербург, Софийская улица, 1",
       "lat": 59.888185,
       "lng": 30.38088,
-      "last_transaction_at": "2026-07-20T20:53:53Z",
+      "last_transaction_at": "2026-07-20T23:06:20Z",
       "created_at": "2026-07-10T15:34:44.301552Z",
       "updated_at": "2026-07-15T15:28:12.669099Z",
       "has_shop": true,
@@ -19034,6 +19006,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4292408",
+        "station_id": "5348552838608511",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:06:20Z"
+      },
+      {
+        "id": "-4290080",
+        "station_id": "5348552838608511",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:04:33Z"
+      },
       {
         "id": "-4276848",
         "station_id": "5348552838608511",
@@ -19113,26 +19105,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:20:07Z"
-      },
-      {
-        "id": "-4253668",
-        "station_id": "5348552838608511",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:56:38Z"
-      },
-      {
-        "id": "-4248138",
-        "station_id": "5348552838608511",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:51:52Z"
       }
     ]
   },
@@ -19988,7 +19960,7 @@
       "address": "Санкт-Петербург, Октябрьская набережная, 12а",
       "lat": 59.911492,
       "lng": 30.423027,
-      "last_transaction_at": "2026-07-20T22:06:38Z",
+      "last_transaction_at": "2026-07-20T23:33:22Z",
       "created_at": "2026-07-10T15:34:50.540717Z",
       "updated_at": "2026-07-15T15:28:19.511046Z",
       "has_shop": true,
@@ -20056,6 +20028,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4294728",
+        "station_id": "70000001051224171",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:33:22Z"
+      },
+      {
+        "id": "-4291908",
+        "station_id": "70000001051224171",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:16:48Z"
+      },
       {
         "id": "-4281288",
         "station_id": "70000001051224171",
@@ -20135,26 +20127,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T18:26:29Z"
-      },
-      {
-        "id": "-4243134",
-        "station_id": "70000001051224171",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:19:17Z"
-      },
-      {
-        "id": "-4234900",
-        "station_id": "70000001051224171",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T17:52:06Z"
       }
     ]
   },
@@ -20666,7 +20638,7 @@
       "address": "Санкт-Петербург, Витебский проспект, 10а",
       "lat": 59.879481,
       "lng": 30.348487,
-      "last_transaction_at": "2026-07-20T22:36:09Z",
+      "last_transaction_at": "2026-07-20T23:05:56Z",
       "created_at": "2026-07-10T15:34:47.432216Z",
       "updated_at": "2026-07-15T15:28:10.68744Z",
       "has_shop": true,
@@ -20708,6 +20680,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4291435",
+        "station_id": "5348552838608483",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:05:56Z"
+      },
       {
         "id": "-4284616",
         "station_id": "5348552838608483",
@@ -20797,16 +20779,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T18:50:34Z"
-      },
-      {
-        "id": "-4243728",
-        "station_id": "5348552838608483",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:20:19Z"
       }
     ]
   },
@@ -21060,7 +21032,7 @@
       "address": "Санкт-Петербург, улица Салова, 74 к1",
       "lat": 59.882615,
       "lng": 30.366816,
-      "last_transaction_at": "2026-07-20T21:02:58Z",
+      "last_transaction_at": "2026-07-20T23:33:53Z",
       "created_at": "2026-07-10T15:34:49.403512Z",
       "updated_at": "2026-07-15T15:28:14.615235Z",
       "has_shop": true,
@@ -21126,6 +21098,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4293449",
+        "station_id": "5348552838608480",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:33:53Z"
+      },
       {
         "id": "-4278282",
         "station_id": "5348552838608480",
@@ -21215,16 +21197,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T18:34:00Z"
-      },
-      {
-        "id": "-4244168",
-        "station_id": "5348552838608480",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:15:07Z"
       }
     ]
   },
@@ -21320,7 +21292,7 @@
       "address": "Санкт-Петербург, Богатырский проспект, 12 к2",
       "lat": 59.997634,
       "lng": 30.274577,
-      "last_transaction_at": "2026-07-20T22:30:19Z",
+      "last_transaction_at": "2026-07-20T23:42:56Z",
       "created_at": "2026-07-10T15:34:48.577776Z",
       "updated_at": "2026-07-15T15:28:16.672267Z",
       "has_shop": true,
@@ -21386,6 +21358,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4295702",
+        "station_id": "70000001021721325",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:42:56Z"
+      },
+      {
+        "id": "-4294616",
+        "station_id": "70000001021721325",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:35:16Z"
+      },
       {
         "id": "-4285300",
         "station_id": "70000001021721325",
@@ -21465,26 +21457,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T20:09:18Z"
-      },
-      {
-        "id": "-4262598",
-        "station_id": "70000001021721325",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:54:04Z"
-      },
-      {
-        "id": "-4259208",
-        "station_id": "70000001021721325",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:36:40Z"
       }
     ]
   },
@@ -22851,7 +22823,7 @@
       "address": "Санкт-Петербург, Заневский проспект, 75",
       "lat": 59.934296,
       "lng": 30.441918,
-      "last_transaction_at": "2026-07-20T22:11:42Z",
+      "last_transaction_at": "2026-07-20T23:18:47Z",
       "created_at": "2026-07-10T15:34:42.588626Z",
       "updated_at": "2026-07-15T15:28:20.503626Z",
       "has_shop": true,
@@ -22893,6 +22865,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4290792",
+        "station_id": "5348552838606052",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:18:47Z"
+      },
       {
         "id": "-4281857",
         "station_id": "5348552838606052",
@@ -22982,16 +22964,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:08:01Z"
-      },
-      {
-        "id": "-4251014",
-        "station_id": "5348552838606052",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:48:51Z"
       }
     ]
   },
@@ -23684,7 +23656,7 @@
       "address": "Санкт-Петербург, проспект Непокорённых, 15 лит А",
       "lat": 59.995319,
       "lng": 30.380603,
-      "last_transaction_at": "2026-07-20T19:29:58Z",
+      "last_transaction_at": "2026-07-20T23:10:37Z",
       "created_at": "2026-07-10T15:34:48.932957Z",
       "updated_at": "2026-07-15T15:28:21.474179Z",
       "has_shop": true,
@@ -23776,6 +23748,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4292169",
+        "station_id": "5348552840479709",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:10:37Z"
+      },
+      {
         "id": "-4260990",
         "station_id": "5348552840479709",
         "station_closed": false,
@@ -23864,16 +23846,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T12:20:39Z"
-      },
-      {
-        "id": "-4082762",
-        "station_id": "5348552840479709",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T10:36:40Z"
       }
     ]
   },
@@ -24886,7 +24858,7 @@
       "address": "Санкт-Петербург, улица Оптиков, 1 к2",
       "lat": 59.99713,
       "lng": 30.250556,
-      "last_transaction_at": "2026-07-20T22:19:29Z",
+      "last_transaction_at": "2026-07-20T23:44:42Z",
       "created_at": "2026-07-10T15:34:42.40414Z",
       "updated_at": "2026-07-15T15:28:21.227213Z",
       "has_shop": true,
@@ -24990,6 +24962,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-4296377",
+        "station_id": "70000001062822050",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:44:42Z"
+      },
+      {
+        "id": "-4295006",
+        "station_id": "70000001062822050",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:29:29Z"
+      },
+      {
+        "id": "-4290836",
+        "station_id": "70000001062822050",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:07:20Z"
+      },
+      {
         "id": "-4282986",
         "station_id": "70000001062822050",
         "station_closed": false,
@@ -25058,36 +25060,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:45:11Z"
-      },
-      {
-        "id": "-4259334",
-        "station_id": "70000001062822050",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:36:15Z"
-      },
-      {
-        "id": "-4257531",
-        "station_id": "70000001062822050",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:18:16Z"
-      },
-      {
-        "id": "-4254365",
-        "station_id": "70000001062822050",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:05:41Z"
       }
     ]
   },
@@ -26329,7 +26301,7 @@
       "address": "Санкт-Петербург, Кузнецовская улица, 35",
       "lat": 59.87186,
       "lng": 30.345642,
-      "last_transaction_at": "2026-07-20T22:37:53Z",
+      "last_transaction_at": "2026-07-20T23:41:40Z",
       "created_at": "2026-07-10T15:34:44.356967Z",
       "updated_at": "2026-07-15T15:28:15.873682Z",
       "has_shop": true,
@@ -26422,6 +26394,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-4297256",
+        "station_id": "5348552839763921",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:41:40Z"
+      },
+      {
+        "id": "-4294292",
+        "station_id": "5348552839763921",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:21:48Z"
+      },
+      {
         "id": "-4284155",
         "station_id": "5348552839763921",
         "station_closed": false,
@@ -26500,26 +26492,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:21:57Z"
-      },
-      {
-        "id": "-4251657",
-        "station_id": "5348552839763921",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:56:49Z"
-      },
-      {
-        "id": "-4251346",
-        "station_id": "5348552839763921",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:45:57Z"
       }
     ]
   },
@@ -27663,7 +27635,7 @@
       "address": "Санкт-Петербург, Пискарёвский проспект, 43 к2",
       "lat": 59.982826,
       "lng": 30.425546,
-      "last_transaction_at": "2026-07-20T21:55:25Z",
+      "last_transaction_at": "2026-07-20T23:14:45Z",
       "created_at": "2026-07-10T15:34:44.831731Z",
       "updated_at": "2026-07-15T15:28:12.949579Z",
       "has_shop": true,
@@ -27761,6 +27733,26 @@
     ],
     "recent_reports": [
       {
+        "id": "-4290664",
+        "station_id": "5348552838606051",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:14:45Z"
+      },
+      {
+        "id": "-4289300",
+        "station_id": "5348552838606051",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:03:27Z"
+      },
+      {
         "id": "-4280646",
         "station_id": "5348552838606051",
         "station_closed": false,
@@ -27839,26 +27831,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T16:30:13Z"
-      },
-      {
-        "id": "-4207475",
-        "station_id": "5348552838606051",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T16:16:34Z"
-      },
-      {
-        "id": "-4202519",
-        "station_id": "5348552838606051",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T16:02:16Z"
       }
     ]
   },
@@ -28406,7 +28378,7 @@
       "address": "Санкт-Петербург, Софийская улица, 18 лит А",
       "lat": 59.878956,
       "lng": 30.397749,
-      "last_transaction_at": "2026-07-20T22:17:34Z",
+      "last_transaction_at": "2026-07-20T23:36:59Z",
       "created_at": "2026-07-10T15:34:50.677353Z",
       "updated_at": "2026-07-15T15:28:13.679988Z",
       "has_shop": true,
@@ -28499,6 +28471,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-4296806",
+        "station_id": "5348552838603676",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:36:59Z"
+      },
+      {
+        "id": "-4294878",
+        "station_id": "5348552838603676",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:32:06Z"
+      },
+      {
+        "id": "-4291698",
+        "station_id": "5348552838603676",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:19:42Z"
+      },
+      {
         "id": "-4281676",
         "station_id": "5348552838603676",
         "station_closed": false,
@@ -28567,36 +28569,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:03:50Z"
-      },
-      {
-        "id": "-4250436",
-        "station_id": "5348552838603676",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:51:47Z"
-      },
-      {
-        "id": "-4247813",
-        "station_id": "5348552838603676",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:28:41Z"
-      },
-      {
-        "id": "-4241019",
-        "station_id": "5348552838603676",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T18:14:09Z"
       }
     ]
   },
@@ -28639,7 +28611,7 @@
       "address": "Санкт-Петербург, Октябрьская набережная, 38 к3",
       "lat": 59.902117,
       "lng": 30.44021,
-      "last_transaction_at": "2026-07-20T14:20:17Z",
+      "last_transaction_at": "2026-07-20T22:49:12Z",
       "created_at": "2026-07-10T15:34:46.089067Z",
       "updated_at": "2026-07-15T15:28:14.722479Z",
       "timezone_offset": 3
@@ -28718,6 +28690,16 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4290582",
+        "station_id": "70000001114591163",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T22:49:12Z"
+      },
       {
         "id": "-4168476",
         "station_id": "70000001114591163",
@@ -28807,16 +28789,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-19T17:39:09Z"
-      },
-      {
-        "id": "-3760048",
-        "station_id": "70000001114591163",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-19T14:39:34Z"
       }
     ]
   },
@@ -29249,7 +29221,7 @@
       "address": "Санкт-Петербург, проспект Сизова, 19",
       "lat": 60.01115,
       "lng": 30.276477,
-      "last_transaction_at": "2026-07-20T22:09:44Z",
+      "last_transaction_at": "2026-07-20T23:01:04Z",
       "created_at": "2026-07-10T15:34:48.221889Z",
       "updated_at": "2026-07-15T15:28:12.254715Z",
       "has_shop": true,
@@ -29355,6 +29327,16 @@
     ],
     "recent_reports": [
       {
+        "id": "-4295272",
+        "station_id": "5348552838603997",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:01:04Z"
+      },
+      {
         "id": "-4286139",
         "station_id": "5348552838603997",
         "station_closed": false,
@@ -29443,16 +29425,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T17:07:21Z"
-      },
-      {
-        "id": "-4215681",
-        "station_id": "5348552838603997",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T16:51:15Z"
       }
     ]
   },
@@ -29694,7 +29666,7 @@
       "address": "Санкт-Петербург, Пискарёвский проспект, 46/1 лит А",
       "lat": 59.988407,
       "lng": 30.428674,
-      "last_transaction_at": "2026-07-20T22:53:57Z",
+      "last_transaction_at": "2026-07-20T23:33:09Z",
       "created_at": "2026-07-10T15:34:48.642711Z",
       "updated_at": "2026-07-15T15:28:10.397772Z",
       "has_shop": true,
@@ -29752,6 +29724,26 @@
       }
     ],
     "recent_reports": [
+      {
+        "id": "-4293438",
+        "station_id": "5348552838606044",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:33:09Z"
+      },
+      {
+        "id": "-4291053",
+        "station_id": "5348552838606044",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:05:03Z"
+      },
       {
         "id": "-4286826",
         "station_id": "5348552838606044",
@@ -29831,26 +29823,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T19:50:59Z"
-      },
-      {
-        "id": "-4260665",
-        "station_id": "5348552838606044",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:39:20Z"
-      },
-      {
-        "id": "-4256729",
-        "station_id": "5348552838606044",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:20:26Z"
       }
     ]
   },
@@ -29863,7 +29835,7 @@
       "address": "Санкт-Петербург, Школьная улица, 77",
       "lat": 59.992852,
       "lng": 30.207866,
-      "last_transaction_at": "2026-07-20T22:37:57Z",
+      "last_transaction_at": "2026-07-20T23:41:59Z",
       "created_at": "2026-07-10T15:34:50.213887Z",
       "updated_at": "2026-07-15T15:28:14.848265Z",
       "has_shop": true,
@@ -29963,6 +29935,36 @@
     ],
     "recent_reports": [
       {
+        "id": "-4296251",
+        "station_id": "5348552838603669",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:41:59Z"
+      },
+      {
+        "id": "-4294014",
+        "station_id": "5348552838603669",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:26:30Z"
+      },
+      {
+        "id": "-4290845",
+        "station_id": "5348552838603669",
+        "station_closed": false,
+        "available": false,
+        "fuel_types": null,
+        "queue_level": "",
+        "source": "TRANSACTION",
+        "created_at": "2026-07-20T23:18:29Z"
+      },
+      {
         "id": "-4288129",
         "station_id": "5348552838603669",
         "station_closed": false,
@@ -30031,36 +30033,6 @@
         "queue_level": "",
         "source": "TRANSACTION",
         "created_at": "2026-07-20T20:09:21Z"
-      },
-      {
-        "id": "-4262244",
-        "station_id": "5348552838603669",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:51:13Z"
-      },
-      {
-        "id": "-4258836",
-        "station_id": "5348552838603669",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:38:02Z"
-      },
-      {
-        "id": "-4257116",
-        "station_id": "5348552838603669",
-        "station_closed": false,
-        "available": false,
-        "fuel_types": null,
-        "queue_level": "",
-        "source": "TRANSACTION",
-        "created_at": "2026-07-20T19:22:51Z"
       }
     ]
   },
