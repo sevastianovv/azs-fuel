@@ -83,7 +83,7 @@ def fetch_details_for_station(item):
     url = f"https://benzin.api.2gis.ru/api/v1/stations/{station_id}"
     try:
         req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=5) as response:
+        with urllib.request.urlopen(req, timeout=3) as response:
             details = json.loads(response.read().decode('utf-8'))
             item['recent_reports'] = details.get('recent_reports', [])
     except Exception:
@@ -106,7 +106,7 @@ def fetch_gdebenz_comments(station):
         import gzip
         import io
         req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=10) as response:
+        with urllib.request.urlopen(req, timeout=3) as response:
             content = response.read()
             if response.info().get('Content-Encoding') == 'gzip':
                 content = gzip.decompress(content)
@@ -128,18 +128,23 @@ def fetch_yandex_fuel(city_info, output_file):
     all_stations = {}
     city_id = city_info['yandex_city_id']
     city_name = city_info['yandex_city_name']
+    consecutive_failures = 0
     
     for idx, query in enumerate(city_info['yandex_queries']):
+        if consecutive_failures >= 2:
+            print(f"Skipping remaining Yandex queries for {city_name} due to repeated blocks/failures")
+            break
+            
         encoded_query = urllib.parse.quote(query)
         url = f"https://yandex.ru/maps/{city_id}/{city_name}/search/{encoded_query}/"
         
-        # Add delay between requests to avoid auto-block/captcha
+        # Add small delay between requests to avoid auto-block/captcha
         if idx > 0:
-            time.sleep(1.5)
+            time.sleep(1.0)
             
         try:
             req = urllib.request.Request(url, headers=yandex_headers)
-            with urllib.request.urlopen(req, timeout=30) as response:
+            with urllib.request.urlopen(req, timeout=5) as response:
                 html = response.read().decode('utf-8', errors='ignore')
             
             matches = re.findall(r'<script[^>]*type="application/json"[^>]*>(.*?)</script>', html, re.DOTALL)
@@ -155,9 +160,12 @@ def fetch_yandex_fuel(city_info, output_file):
                     s_id = item.get("id")
                     if s_id:
                         all_stations[s_id] = item
+                consecutive_failures = 0
             else:
+                consecutive_failures += 1
                 print(f"Warning: Yandex JSON state not found for query '{query}'")
         except Exception as e:
+            consecutive_failures += 1
             print(f"Warning: Failed to fetch Yandex query '{query}': {e}", file=sys.stderr)
             
     if all_stations:
@@ -209,7 +217,7 @@ for city, coords in CITIES.items():
             stations = [s for s in stations if is_valid_azs(s.get('station', {}).get('name', ''))]
             
         # Concurrently fetch details for all stations to get recent_reports
-        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=25) as executor:
             stations = list(executor.map(fetch_details_for_station, stations))
             
         count_2gis = len(stations)
@@ -244,7 +252,7 @@ for city, coords in CITIES.items():
             stations = res.get('stations', [])
             stations = [s for s in stations if is_valid_azs(s.get('name', ''))]
             
-            with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+            with concurrent.futures.ThreadPoolExecutor(max_workers=25) as executor:
                 stations = list(executor.map(fetch_gdebenz_comments, stations))
                 
             count_gdebenz = len(stations)
