@@ -520,6 +520,65 @@ body {
     text-decoration: underline;
 }
 
+.station-map-links {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.station-map-link {
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: var(--radius-sm);
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    transition: var(--transition);
+}
+
+.station-map-link.link-2gis {
+    background: rgba(34, 197, 94, 0.12);
+    color: #4ade80;
+    border: 1px solid rgba(34, 197, 94, 0.3);
+}
+.station-map-link.link-2gis:hover {
+    background: rgba(34, 197, 94, 0.25);
+    color: #ffffff;
+}
+
+.station-map-link.link-yandex {
+    background: rgba(239, 68, 68, 0.12);
+    color: #f87171;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+.station-map-link.link-yandex:hover {
+    background: rgba(239, 68, 68, 0.25);
+    color: #ffffff;
+}
+
+.station-map-link.link-gdebenz {
+    background: rgba(59, 130, 246, 0.12);
+    color: #60a5fa;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+.station-map-link.link-gdebenz:hover {
+    background: rgba(59, 130, 246, 0.25);
+    color: #ffffff;
+}
+
+.station-map-link.link-default {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+.station-map-link.link-default:hover {
+    background: rgba(255, 255, 255, 0.16);
+    color: #ffffff;
+}
+
 /* Footer elements */
 .app-footer-bar {
     border-top: 1px solid var(--border-color);

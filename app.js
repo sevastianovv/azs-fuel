@@ -116,6 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const init2gis = (list) => {
                 list.forEach(s => {
+                    s.providers = ['2gis'];
                     (s.fuel_statuses || []).forEach(f => {
                         f.available_2gis = f.available;
                         f.available_gdebenz = null;
@@ -266,6 +267,11 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             if (match) {
+                if (!match.providers) match.providers = ['2gis'];
+                if (!match.providers.includes(providerName)) {
+                    match.providers.push(providerName);
+                }
+
                 // Merge fuels
                 const fuels1 = match.fuel_statuses || [];
                 const fuels2 = s2.fuel_statuses || [];
@@ -338,6 +344,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     match.recent_reports = [...match.recent_reports, ...s2.recent_reports];
                 }
             } else {
+                if (!s2.providers) s2.providers = [providerName];
                 merged.push(s2);
             }
         });
@@ -479,6 +486,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     lat: lat,
                     lng: lng
                 },
+                providers: ['yandex'],
                 fuel_statuses: fuels,
                 prices: prices,
                 recent_reports: recent_reports
@@ -636,6 +644,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     lat: s.lat,
                     lng: s.lon
                 },
+                providers: ['gdebenz'],
                 fuel_statuses: fuels,
                 recent_reports: recent_reports
             };
@@ -848,8 +857,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 newestReport = maxDate.toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' }) + ' ' + maxDate.toLocaleDateString('ru-RU', { day: '2-digit', month: '2-digit' });
             }
 
-            // Map link
-            const mapLink = st.lat ? `https://2gis.ru/search/АЗС/geo/${st.lng}%2C${st.lat}` : '#';
+            // Map links generator based on available sources
+            let mapLinksHtml = '';
+            if (st.lat && st.lng) {
+                const providers = (currentSource !== 'combined') ? [currentSource] : (s.providers && s.providers.length > 0 ? s.providers : ['2gis']);
+                const links = [];
+                const searchQ = encodeURIComponent((st.brand && st.brand !== 'АЗС' ? `${st.brand} ` : '') + (st.name || 'АЗС'));
+
+                if (providers.includes('2gis')) {
+                    links.push(`<a href="https://2gis.ru/search/${searchQ}/geo/${st.lng}%2C${st.lat}" target="_blank" class="station-map-link link-2gis" title="Открыть в 2ГИС">2ГИС ↗</a>`);
+                }
+                if (providers.includes('yandex')) {
+                    links.push(`<a href="https://yandex.ru/maps/?ll=${st.lng}%2C${st.lat}&z=16&text=${searchQ}" target="_blank" class="station-map-link link-yandex" title="Открыть в Яндекс Картах">Яндекс ↗</a>`);
+                }
+                if (providers.includes('gdebenz')) {
+                    links.push(`<a href="https://gdebenz.org/" target="_blank" class="station-map-link link-gdebenz" title="Открыть ГдеБЕНЗ">ГдеБЕНЗ ↗</a>`);
+                }
+
+                if (links.length === 0) {
+                    links.push(`<a href="https://2gis.ru/search/${searchQ}/geo/${st.lng}%2C${st.lat}" target="_blank" class="station-map-link link-default">Карта ↗</a>`);
+                }
+
+                mapLinksHtml = `<div class="station-map-links">${links.join('')}</div>`;
+            } else {
+                mapLinksHtml = `<span style="color: var(--text-secondary); font-size: 11px;">Нет координат</span>`;
+            }
 
             let reportsToggleHtml = '';
             if (st.id) {
@@ -893,9 +925,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 <div class="station-footer">
                     <span>Обновлено: ${newestReport}</span>
-                    <a href="${mapLink}" target="_blank" class="station-link">
-                        Карта ↗
-                    </a>
+                    ${mapLinksHtml}
                 </div>
             `;
             
