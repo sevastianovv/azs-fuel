@@ -748,11 +748,34 @@ document.addEventListener('DOMContentLoaded', () => {
         "GAS": "Газ"
     };
 
+    const FUEL_ORDER = ["AI_92", "AI_95", "AI_98", "AI_100", "DT", "GAS"];
+
     const QUEUE_LABELS = {
         "NONE": "Без очереди",
+        "UP_TO_10": "Очередь < 10м",
+        "UP_TO_10_MIN": "Очередь < 10м",
+        "UP_TO_15": "Очередь < 15м",
+        "UP_TO_15_MIN": "Очередь < 15м",
+        "UP_TO_20": "Очередь < 20м",
+        "UP_TO_20_MIN": "Очередь < 20м",
+        "UP_TO_25": "Очередь < 25м",
+        "UP_TO_25_MIN": "Очередь < 25м",
+        "UP_TO_30": "Очередь < 30м",
         "UP_TO_30_MIN": "Очередь < 30м",
-        "OVER_30_MIN": "Очередь > 30м"
+        "OVER_25": "Очередь > 25м",
+        "OVER_25_MIN": "Очередь > 25м",
+        "OVER_30": "Очередь > 30м",
+        "OVER_30_MIN": "Очередь > 30м",
+        "OVER_60_MIN": "Очередь > 1ч"
     };
+
+    function formatQueueLevel(q) {
+        if (!q || q === 'NONE') return 'Без очереди';
+        if (QUEUE_LABELS[q]) return QUEUE_LABELS[q];
+        return q.replace(/^UP_TO_(\d+).*/i, 'Очередь < $1м')
+                .replace(/^OVER_(\d+).*/i, 'Очередь > $1м')
+                .replace(/_/g, ' ');
+    }
 
     function renderStations(stations) {
         if (stations.length === 0) {
@@ -793,8 +816,15 @@ document.addEventListener('DOMContentLoaded', () => {
             // Generate list of fuels
             let fuelsHtml = '';
             if (fuels.length > 0) {
-                // Reorder fuels so that the active filtered fuel is always at the top!
-                let sortedFuels = [...fuels];
+                // Reorder fuels in standard order, putting active filtered fuel at the top
+                let sortedFuels = [...fuels].sort((a, b) => {
+                    const idxA = FUEL_ORDER.indexOf(a.fuel_type);
+                    const idxB = FUEL_ORDER.indexOf(b.fuel_type);
+                    const orderA = idxA === -1 ? 99 : idxA;
+                    const orderB = idxB === -1 ? 99 : idxB;
+                    return orderA - orderB;
+                });
+
                 if (activeFuelFilter !== 'ALL') {
                     sortedFuels.sort((a, b) => {
                         if (a.fuel_type === activeFuelFilter) return -1;
@@ -822,7 +852,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         const parts = [status2gisStr, statusGdebenzStr, statusYandexStr].filter(Boolean);
                         detailsHtml += `<span class="fuel-queue-text" style="color: var(--yellow-bright); background: rgba(245,158,11,0.1)">⚠️ ${parts.join(', ')}</span>`;
                     } else if (f.available === true) {
-                        const queueText = QUEUE_LABELS[f.queue_level] || f.queue_level;
+                        const queueText = formatQueueLevel(f.queue_level);
                         detailsHtml += `<span class="fuel-queue-text">${queueText}</span>`;
                         if (f.limit_liters && f.limit_liters > 0) {
                             detailsHtml += `<span class="fuel-limit-tag">Лимит ${f.limit_liters}л</span>`;
@@ -994,7 +1024,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     details.push(fuelsText);
                 }
                 if (r.queue_level && r.queue_level !== 'NONE') {
-                    const queueText = QUEUE_LABELS[r.queue_level] || r.queue_level;
+                    const queueText = formatQueueLevel(r.queue_level);
                     details.push(queueText);
                 }
                 if (r.limit_liters) {

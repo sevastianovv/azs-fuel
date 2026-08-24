@@ -463,7 +463,21 @@ body {
 .fuel-details {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.fuel-price {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.06);
+    padding: 2px 6px;
+    border-radius: var(--radius-sm);
+    white-space: nowrap;
+    display: inline-block;
+    letter-spacing: 0.2px;
 }
 
 .fuel-availability-dot {
@@ -471,6 +485,7 @@ body {
     height: 8px;
     border-radius: 50%;
     background-color: var(--gray-bright);
+    flex-shrink: 0;
 }
 
 .fuel-avail-true .fuel-availability-dot { background-color: var(--green-bright); }
@@ -483,6 +498,7 @@ body {
     background-color: var(--bg-app);
     padding: 2px 6px;
     border-radius: var(--radius-sm);
+    white-space: nowrap;
 }
 
 .fuel-limit-tag {
@@ -493,6 +509,7 @@ body {
     padding: 2px 6px;
     border-radius: var(--radius-sm);
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .station-footer {
