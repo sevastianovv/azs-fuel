@@ -2,6 +2,8 @@
 
 Интерактивный веб-дашборд для отслеживания доступности топлива, очередей и цен на автозаправочных станциях в городах **Казань, Москва и Санкт-Петербург**.
 
+🌐 **Онлайн дашборд:** [sevastianovv.github.io/azs-fuel](https://sevastianovv.github.io/azs-fuel/)
+
 ## 🚀 Источники данных
 * **2ГИС Топливо (2GIS Benzin API)** — цены, доступность колонок и отзывы.
 * **ГдеБЕНЗ (WhereBenz API)** — пользовательские отчеты, очереди и лимиты.
@@ -10,17 +12,10 @@
 ## ⚙️ Автоматическое обновление данных
 Данные автоматически обновляются каждые 20 минут с помощью **GitHub Actions** (`.github/workflows/update.yml`). Скрипт `update_fuel.py` опрашивает API, склеивает данные и сохраняет их в репозиторий.
 
-## 🌐 Развертывание на GitHub Pages
-1. Создайте новый репозиторий на GitHub (например, `azs-fuel`).
-2. Привяжите локальный репозиторий и отправьте код:
-   ```bash
-   git remote add origin https://github.com/<ваш-логин>/azs-fuel.git
-   git branch -M main
-   git push -u origin main
-   ```
-3. В настройках репозитория GitHub перейдите в **Settings** ➡️ **Pages**:
+## 🌐 Настройка GitHub Pages
+1. В настройках репозитория [Settings ➡️ Pages](https://github.com/sevastianovv/azs-fuel/settings/pages):
    - **Source**: `Deploy from a branch`
    - **Branch**: `main` / `root`
    - Нажмите **Save**.
-4. Сайт будет доступен по адресу:
-   `https://<ваш-логин>.github.io/azs-fuel/`
+2. В настройках Actions [Settings ➡️ Actions ➡️ General](https://github.com/sevastianovv/azs-fuel/settings/actions):
+   - Раздел **Workflow permissions** ➡️ Выберите **Read and write permissions** ➡️ **Save**.
