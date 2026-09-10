@@ -1,7 +1,7 @@
 [
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 1,
     "analyticsId": "1",
     "title": "Irbis",
@@ -27,7 +27,7 @@
     ],
     "uri": "ymapsbm1://org?oid=137326559160",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTM3MzI2NTU5MTYw",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "137326559160",
     "metro": [
       {
@@ -680,18 +680,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -702,6 +690,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "parentRubrics": [
@@ -877,7 +877,7 @@
         {
           "fuelType": "AI95",
           "localizedName": "95",
-          "status": "UNKNOWN"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95_PREMIUM",
@@ -902,8 +902,10 @@
       ],
       "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789052023,
-      "queueStatus": "UNKNOWN",
+      "lastSignalTimestamp": 1789064455,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -977,7 +979,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 0,
     "analyticsId": "0",
     "title": "Лукойл",
@@ -1003,7 +1005,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1873910901",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTg3MzkxMDkwMQ==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1873910901",
     "metro": [
       {
@@ -1173,7 +1175,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 2042,
+      "ratingCount": 2046,
       "ratingValue": 4.800000190734863,
       "reviewCount": 536
     },
@@ -1769,9 +1771,11 @@
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 2,
-      "lastSignalTimestamp": 1789059640,
-      "queueStatus": "UNKNOWN",
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789068689,
+      "localizedQueueSize": "Большая очередь",
+      "localizedQueueSizeShort": "Большая",
+      "queueStatus": "HIGH",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -1845,7 +1849,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 0,
     "analyticsId": "0",
     "title": "Таиф-нк",
@@ -1871,7 +1875,7 @@
     ],
     "uri": "ymapsbm1://org?oid=115556444342",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTE1NTU2NDQ0MzQy",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "115556444342",
     "metro": [
       {
@@ -2861,7 +2865,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "index": 6,
     "analyticsId": "6",
     "title": "Газпромнефть",
@@ -2887,7 +2891,7 @@
     ],
     "uri": "ymapsbm1://org?oid=74632425363",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9NzQ2MzI0MjUzNjM=",
-    "requestSerpId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestSerpId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "id": "74632425363",
     "metro": [],
     "stops": [
@@ -3862,7 +3866,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 4,
     "analyticsId": "4",
     "title": "Лукойл",
@@ -3888,7 +3892,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1706412101",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTcwNjQxMjEwMQ==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1706412101",
     "metro": [],
     "stops": [
@@ -4609,7 +4613,7 @@
       ],
       "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789058261,
+      "lastSignalTimestamp": 1789066168,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -4684,7 +4688,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060611282584-702335469-addrs-upper-yp-55",
+    "requestId": "1789070117128024-1074282089-addrs-upper-yp-58",
     "index": 5,
     "analyticsId": "5",
     "title": "Teboil",
@@ -4710,7 +4714,7 @@
     ],
     "uri": "ymapsbm1://org?oid=158073749636",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTU4MDczNzQ5NjM2",
-    "requestSerpId": "1789060611282584-702335469-addrs-upper-yp-55",
+    "requestSerpId": "1789070117128024-1074282089-addrs-upper-yp-58",
     "id": "158073749636",
     "metro": [
       {
@@ -5674,10 +5678,8 @@
       ],
       "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
-      "localizedQueueSize": "Средняя очередь",
-      "localizedQueueSizeShort": "Средняя",
-      "queueStatus": "MEDIUM",
+      "lastSignalTimestamp": 1789066168,
+      "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -5751,9 +5753,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 12,
-    "analyticsId": "12",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 13,
+    "analyticsId": "13",
     "title": "Татнефть",
     "description": "ул. Фатыха Амирхана, 21А",
     "address": "ул. Фатыха Амирхана, 21А",
@@ -5777,7 +5779,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1728017845",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTcyODAxNzg0NQ==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1728017845",
     "metro": [
       {
@@ -5977,7 +5979,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 752,
+      "ratingCount": 753,
       "ratingValue": 4.5,
       "reviewCount": 222
     },
@@ -6780,8 +6782,8 @@
         }
       ],
       "status": "UNCERTAIN",
-      "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789044556,
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789066356,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -6856,9 +6858,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 4,
-    "analyticsId": "4",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 5,
+    "analyticsId": "5",
     "title": "Татнефть",
     "description": "ул. Девятаева, 15А",
     "address": "ул. Девятаева, 15А",
@@ -6882,7 +6884,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1177604041",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTE3NzYwNDA0MQ==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1177604041",
     "metro": [
       {
@@ -7064,7 +7066,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 442,
+      "ratingCount": 443,
       "ratingValue": 4.5,
       "reviewCount": 116
     },
@@ -7434,18 +7436,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -7456,6 +7446,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "parentRubrics": [
@@ -7507,7 +7509,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95",
@@ -7517,7 +7519,7 @@
         {
           "fuelType": "AI95_PREMIUM",
           "localizedName": "95+",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI98",
@@ -7536,11 +7538,11 @@
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 7,
-      "lastSignalTimestamp": 1789058957,
-      "localizedQueueSize": "Большая очередь",
-      "localizedQueueSizeShort": "Большая",
-      "queueStatus": "HIGH",
+      "signalsCountPerHour": 2,
+      "lastSignalTimestamp": 1789066592,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -7614,7 +7616,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "index": 0,
     "analyticsId": "0",
     "title": "Газпромнефть",
@@ -7640,7 +7642,7 @@
     ],
     "uri": "ymapsbm1://org?oid=232377225822",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MjMyMzc3MjI1ODIy",
-    "requestSerpId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestSerpId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "id": "232377225822",
     "metro": [
       {
@@ -7817,7 +7819,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 867,
+      "ratingCount": 869,
       "ratingValue": 4.5,
       "reviewCount": 274
     },
@@ -8408,9 +8410,11 @@
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
-      "queueStatus": "UNKNOWN",
+      "signalsCountPerHour": 6,
+      "lastSignalTimestamp": 1789068327,
+      "localizedQueueSize": "Большая очередь",
+      "localizedQueueSizeShort": "Большая",
+      "queueStatus": "HIGH",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -8484,7 +8488,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 7,
     "analyticsId": "7",
     "title": "Лукойл",
@@ -8510,7 +8514,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1381765304",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTM4MTc2NTMwNA==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1381765304",
     "metro": [
       {
@@ -9252,7 +9256,7 @@
       ],
       "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
+      "lastSignalTimestamp": 1789066168,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -9327,7 +9331,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 2,
     "analyticsId": "2",
     "title": "Irbis",
@@ -9353,7 +9357,7 @@
     ],
     "uri": "ymapsbm1://org?oid=62221695667",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9NjIyMjE2OTU2Njc=",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "62221695667",
     "metro": [
       {
@@ -9588,7 +9592,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 1360,
+      "ratingCount": 1363,
       "ratingValue": 5,
       "reviewCount": 412
     },
@@ -10398,7 +10402,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "OUT_OF_STOCK"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI95",
@@ -10427,8 +10431,8 @@
         }
       ],
       "status": "UNCERTAIN",
-      "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789056186,
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789069017,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
       "queueStatus": "LOW",
@@ -10505,7 +10509,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 0,
     "analyticsId": "0",
     "title": "Irbis",
@@ -10531,7 +10535,7 @@
     ],
     "uri": "ymapsbm1://org?oid=8957865159",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9ODk1Nzg2NTE1OQ==",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "8957865159",
     "metro": [
       {
@@ -11533,7 +11537,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNCERTAIN"
+          "status": "IN_STOCK"
         },
         {
           "fuelType": "AI95",
@@ -11548,7 +11552,7 @@
         {
           "fuelType": "AI98",
           "localizedName": "98",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI100",
@@ -11558,12 +11562,12 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNKNOWN"
+          "status": "UNCERTAIN"
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 4,
-      "lastSignalTimestamp": 1789059034,
+      "signalsCountPerHour": 2,
+      "lastSignalTimestamp": 1789069041,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
       "queueStatus": "LOW",
@@ -11640,7 +11644,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060611282584-702335469-addrs-upper-yp-55",
+    "requestId": "1789070117128024-1074282089-addrs-upper-yp-58",
     "index": 12,
     "analyticsId": "12",
     "title": "Иликом",
@@ -11666,7 +11670,7 @@
     ],
     "uri": "ymapsbm1://org?oid=58279044476",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9NTgyNzkwNDQ0NzY=",
-    "requestSerpId": "1789060611282584-702335469-addrs-upper-yp-55",
+    "requestSerpId": "1789070117128024-1074282089-addrs-upper-yp-58",
     "id": "58279044476",
     "metro": [
       {
@@ -12157,14 +12161,14 @@
           "properties": null
         },
         {
-          "text": "АИ-92 Extra: 79.97 ₽",
+          "text": "АИ-92 Extra: 89.97 ₽",
           "type": "PRICE",
           "properties": {
             "price": {
               "name": "АИ-92 Extra",
               "exactPrice": {
-                "value": 79.97,
-                "text": "79.97 ₽",
+                "value": 89.97,
+                "text": "89.97 ₽",
                 "currency": "RUB"
               }
             }
@@ -12190,13 +12194,13 @@
       "subtitleHint": [
         {
           "type": "PRICE",
-          "text": "АИ-92 Extra: 79.97 ₽",
+          "text": "АИ-92 Extra: 89.97 ₽",
           "properties": {
             "price": {
               "name": "АИ-92 Extra",
               "exactPrice": {
-                "value": 79.97,
-                "text": "79.97 ₽",
+                "value": 89.97,
+                "text": "89.97 ₽",
                 "currency": "RUB"
               }
             }
@@ -12214,14 +12218,14 @@
         {
           "type": "SUBTITLE",
           "subtitleHint": {
-            "text": "АИ-92 Extra: 79.97 ₽",
+            "text": "АИ-92 Extra: 89.97 ₽",
             "type": "PRICE",
             "properties": {
               "price": {
                 "name": "АИ-92 Extra",
                 "exactPrice": {
-                  "value": 79.97,
-                  "text": "79.97 ₽",
+                  "value": 89.97,
+                  "text": "89.97 ₽",
                   "currency": "RUB"
                 }
               }
@@ -12390,7 +12394,7 @@
       },
       {
         "type": "fuel",
-        "text": "АИ-92 Extra: 79.97 ₽",
+        "text": "АИ-92 Extra: 89.97 ₽",
         "property": [
           {
             "key": "name",
@@ -12398,7 +12402,7 @@
           },
           {
             "key": "value",
-            "value": "79.97"
+            "value": "89.97"
           },
           {
             "key": "currency",
@@ -12671,7 +12675,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 3,
     "analyticsId": "3",
     "title": "Таиф-нк",
@@ -12697,7 +12701,7 @@
     ],
     "uri": "ymapsbm1://org?oid=150680594149",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTUwNjgwNTk0MTQ5",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "150680594149",
     "metro": [
       {
@@ -12886,7 +12890,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 758,
+      "ratingCount": 760,
       "ratingValue": 4.199999809265137,
       "reviewCount": 235
     },
@@ -13952,7 +13956,7 @@
         {
           "fuelType": "AI95",
           "localizedName": "95",
-          "status": "UNKNOWN"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95_PREMIUM",
@@ -13975,12 +13979,10 @@
           "status": "UNKNOWN"
         }
       ],
-      "status": "UNKNOWN",
+      "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789048792,
-      "localizedQueueSize": "Средняя очередь",
-      "localizedQueueSizeShort": "Средняя",
-      "queueStatus": "MEDIUM",
+      "lastSignalTimestamp": 1789065135,
+      "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -14054,7 +14056,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 2,
     "analyticsId": "2",
     "title": "Лукойл",
@@ -14080,7 +14082,7 @@
     ],
     "uri": "ymapsbm1://org?oid=187782552061",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTg3NzgyNTUyMDYx",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "187782552061",
     "metro": [
       {
@@ -14246,7 +14248,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 1557,
+      "ratingCount": 1559,
       "ratingValue": 4.900000095367432,
       "reviewCount": 416
     },
@@ -14821,7 +14823,7 @@
       ],
       "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
+      "lastSignalTimestamp": 1789066168,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -14896,7 +14898,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "index": 0,
     "analyticsId": "0",
     "title": "Татнефть",
@@ -14922,7 +14924,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1355626612",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTM1NTYyNjYxMg==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1355626612",
     "metro": [
       {
@@ -15103,7 +15105,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 667,
+      "ratingCount": 668,
       "ratingValue": 4.5,
       "reviewCount": 192
     },
@@ -15621,12 +15623,12 @@
         {
           "fuelType": "AI95_PREMIUM",
           "localizedName": "95+",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI98",
           "localizedName": "98",
-          "status": "UNCERTAIN"
+          "status": "IN_STOCK"
         },
         {
           "fuelType": "AI100",
@@ -15640,11 +15642,9 @@
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 3,
-      "lastSignalTimestamp": 1789059482,
-      "localizedQueueSize": "Нет очереди",
-      "localizedQueueSizeShort": "Нет",
-      "queueStatus": "LOW",
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789066149,
+      "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -15718,7 +15718,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 1,
     "analyticsId": "1",
     "title": "Лукойл",
@@ -15744,7 +15744,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1104484924",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTEwNDQ4NDkyNA==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1104484924",
     "metro": [],
     "stops": [
@@ -16276,18 +16276,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -16298,6 +16286,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "parentRubrics": [
@@ -16475,9 +16475,11 @@
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 2,
-      "lastSignalTimestamp": 1789058842,
-      "queueStatus": "UNKNOWN",
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789066168,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -16551,9 +16553,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 14,
-    "analyticsId": "14",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 15,
+    "analyticsId": "15",
     "title": "Татнефть",
     "description": "ул. Батыршина, 55А",
     "address": "ул. Батыршина, 55А",
@@ -16577,7 +16579,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1198890636",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTE5ODg5MDYzNg==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1198890636",
     "metro": [
       {
@@ -16675,7 +16677,7 @@
       }
     ],
     "photos": {
-      "count": 28,
+      "count": 23,
       "urlTemplate": "https://avatars.mds.yandex.net/get-altay/9849468/2a0000018c1a0755b8817208dc4810f90fee/%s",
       "items": [
         {
@@ -16694,19 +16696,22 @@
           "urlTemplate": "https://avatars.mds.yandex.net/get-altay/13940652/2a00000195ee9600688d4d2fc2d6c392159f/%s"
         },
         {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/10156117/2a0000018c1994c4dd227970a6d2efc04424/%s"
-        },
-        {
           "urlTemplate": "https://avatars.mds.yandex.net/get-altay/14381528/2a00000195eebd0ca6d0c8927051a208843d/%s"
         },
         {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/11368589/2a0000018c1994c867cf0fcfa847e6500df6/%s"
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/14584627/2a00000195eed106f49a2547fb5e5d58c090/%s"
         },
         {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/15405132/2a00000195eeaaee78489da6f0f465a6cfb3/%s"
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/11381866/2a0000018c1994600af2b2e722cf7abbb4de/%s"
         },
         {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/9691438/2a0000018c1994a7950da59bf8f355810d2e/%s"
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/15126910/2a00000195eebf77701ffb9a6206ccf93ed0/%s"
+        },
+        {
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/10953738/2a0000018c1a074944c715b4cccb97f6b2aa/%s"
+        },
+        {
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/14333651/2a00000195ee8449851d478d7e7f44d71a65/%s"
         }
       ]
     },
@@ -16767,7 +16772,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 1013,
+      "ratingCount": 1014,
       "ratingValue": 4.400000095367432,
       "reviewCount": 303
     },
@@ -17473,9 +17478,11 @@
         }
       ],
       "status": "UNCERTAIN",
-      "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789049602,
-      "queueStatus": "UNKNOWN",
+      "signalsCountPerHour": 2,
+      "lastSignalTimestamp": 1789068971,
+      "localizedQueueSize": "Средняя очередь",
+      "localizedQueueSizeShort": "Средняя",
+      "queueStatus": "MEDIUM",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -17549,9 +17556,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 3,
-    "analyticsId": "3",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 4,
+    "analyticsId": "4",
     "title": "Татнефть",
     "description": "Кировский район, Пролетарская ул., 17А",
     "address": "Кировский район, Пролетарская ул., 17А",
@@ -17575,7 +17582,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1174313661",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTE3NDMxMzY2MQ==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1174313661",
     "metro": [
       {
@@ -17756,7 +17763,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 767,
+      "ratingCount": 769,
       "ratingValue": 4.699999809265137,
       "reviewCount": 191
     },
@@ -18295,7 +18302,7 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNCERTAIN"
+          "status": "OUT_OF_STOCK"
         }
       ],
       "status": "UNCERTAIN",
@@ -18375,9 +18382,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 2,
-    "analyticsId": "2",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 3,
+    "analyticsId": "3",
     "title": "Татнефть",
     "description": "Чистопольская ул., 46А",
     "address": "Чистопольская ул., 46А",
@@ -18401,7 +18408,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1355773044",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTM1NTc3MzA0NA==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1355773044",
     "metro": [
       {
@@ -18609,7 +18616,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 719,
+      "ratingCount": 720,
       "ratingValue": 4.599999904632568,
       "reviewCount": 159
     },
@@ -18977,18 +18984,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -18999,6 +18994,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "parentRubrics": [
@@ -19070,7 +19077,7 @@
         {
           "fuelType": "AI98",
           "localizedName": "98",
-          "status": "UNCERTAIN"
+          "status": "IN_STOCK"
         },
         {
           "fuelType": "AI100",
@@ -19080,12 +19087,12 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNCERTAIN"
+          "status": "IN_STOCK"
         }
       ],
-      "status": "UNCERTAIN",
+      "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056986,
+      "lastSignalTimestamp": 1789067182,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -19160,7 +19167,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 4,
     "analyticsId": "4",
     "title": "Irbis",
@@ -19186,7 +19193,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1005918274",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTAwNTkxODI3NA==",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "1005918274",
     "metro": [
       {
@@ -20378,7 +20385,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95",
@@ -20393,7 +20400,7 @@
         {
           "fuelType": "AI98",
           "localizedName": "98",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI100",
@@ -20406,12 +20413,10 @@
           "status": "UNCERTAIN"
         }
       ],
-      "status": "IN_STOCK",
-      "signalsCountPerHour": 4,
-      "lastSignalTimestamp": 1789059714,
-      "localizedQueueSize": "Нет очереди",
-      "localizedQueueSizeShort": "Нет",
-      "queueStatus": "LOW",
+      "status": "UNCERTAIN",
+      "signalsCountPerHour": 0,
+      "lastSignalTimestamp": 1789063313,
+      "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -20485,7 +20490,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 2,
     "analyticsId": "2",
     "title": "Таиф-нк",
@@ -20511,7 +20516,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1059044078",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTA1OTA0NDA3OA==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1059044078",
     "metro": [
       {
@@ -21431,7 +21436,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060611282584-702335469-addrs-upper-yp-55",
+    "requestId": "1789070117128024-1074282089-addrs-upper-yp-58",
     "index": 22,
     "analyticsId": "22",
     "title": "Лукойл",
@@ -21457,7 +21462,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1356370581",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTM1NjM3MDU4MQ==",
-    "requestSerpId": "1789060611282584-702335469-addrs-upper-yp-55",
+    "requestSerpId": "1789070117128024-1074282089-addrs-upper-yp-58",
     "id": "1356370581",
     "metro": [
       {
@@ -22225,7 +22230,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 6,
     "analyticsId": "6",
     "title": "Лукойл",
@@ -22251,7 +22256,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1515418311",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTUxNTQxODMxMQ==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1515418311",
     "metro": [],
     "stops": [
@@ -22362,7 +22367,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 1653,
+      "ratingCount": 1652,
       "ratingValue": 5,
       "reviewCount": 332
     },
@@ -22888,7 +22893,7 @@
       ],
       "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
+      "lastSignalTimestamp": 1789066168,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
       "queueStatus": "LOW",
@@ -22964,7 +22969,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "index": 2,
     "analyticsId": "2",
     "title": "Газпромнефть",
@@ -22990,7 +22995,7 @@
     ],
     "uri": "ymapsbm1://org?oid=89037483448",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9ODkwMzc0ODM0NDg=",
-    "requestSerpId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestSerpId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "id": "89037483448",
     "metro": [
       {
@@ -23545,18 +23550,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -23567,6 +23560,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "parentRubrics": [
@@ -23633,11 +23638,9 @@
         }
       ],
       "status": "UNCERTAIN",
-      "signalsCountPerHour": 1,
+      "signalsCountPerHour": 0,
       "lastSignalTimestamp": 1789056366,
-      "localizedQueueSize": "Нет очереди",
-      "localizedQueueSizeShort": "Нет",
-      "queueStatus": "LOW",
+      "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -23711,7 +23714,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 3,
     "analyticsId": "3",
     "title": "Лукойл",
@@ -23737,7 +23740,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1145222340",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTE0NTIyMjM0MA==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1145222340",
     "metro": [
       {
@@ -23911,7 +23914,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 1459,
+      "ratingCount": 1460,
       "ratingValue": 4.699999809265137,
       "reviewCount": 382
     },
@@ -24457,7 +24460,7 @@
         {
           "fuelType": "AI95",
           "localizedName": "95",
-          "status": "OUT_OF_STOCK"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI95_PREMIUM",
@@ -24472,7 +24475,7 @@
         {
           "fuelType": "AI100",
           "localizedName": "100",
-          "status": "OUT_OF_STOCK"
+          "status": "IN_STOCK"
         },
         {
           "fuelType": "DIESEL",
@@ -24482,7 +24485,7 @@
       ],
       "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
+      "lastSignalTimestamp": 1789066168,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -24557,7 +24560,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 5,
     "analyticsId": "5",
     "title": "Лукойл",
@@ -24583,7 +24586,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1178351771",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTE3ODM1MTc3MQ==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1178351771",
     "metro": [
       {
@@ -24765,7 +24768,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 1160,
+      "ratingCount": 1163,
       "ratingValue": 4.699999809265137,
       "reviewCount": 360
     },
@@ -25135,18 +25138,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -25157,6 +25148,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "parentRubrics": [
@@ -25357,7 +25360,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 8,
     "analyticsId": "8",
     "title": "Лукойл",
@@ -25383,7 +25386,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1264680477",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTI2NDY4MDQ3Nw==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1264680477",
     "metro": [],
     "stops": [
@@ -25944,18 +25947,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -25966,6 +25957,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "parentRubrics": [
@@ -26179,7 +26182,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 9,
     "analyticsId": "9",
     "title": "Лукойл",
@@ -26205,7 +26208,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1647803168",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTY0NzgwMzE2OA==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1647803168",
     "metro": [],
     "stops": [
@@ -26734,18 +26737,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -26756,6 +26747,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "parentRubrics": [
@@ -26956,7 +26959,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 10,
     "analyticsId": "10",
     "title": "Лукойл",
@@ -26982,7 +26985,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1086200881",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTA4NjIwMDg4MQ==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1086200881",
     "metro": [],
     "stops": [
@@ -27087,7 +27090,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 2064,
+      "ratingCount": 2065,
       "ratingValue": 5,
       "reviewCount": 424
     },
@@ -27511,18 +27514,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -27533,6 +27524,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "parentRubrics": [
@@ -27662,12 +27665,12 @@
         {
           "fuelType": "AI95",
           "localizedName": "95",
-          "status": "OUT_OF_STOCK"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI95_PREMIUM",
           "localizedName": "95+",
-          "status": "OUT_OF_STOCK"
+          "status": "IN_STOCK"
         },
         {
           "fuelType": "AI98",
@@ -27687,7 +27690,7 @@
       ],
       "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
+      "lastSignalTimestamp": 1789066168,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -27762,7 +27765,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 11,
     "analyticsId": "11",
     "title": "Лукойл",
@@ -27788,7 +27791,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1161306254",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTE2MTMwNjI1NA==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1161306254",
     "metro": [
       {
@@ -28366,18 +28369,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -28388,6 +28379,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "parentRubrics": [
@@ -28574,7 +28577,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 12,
     "analyticsId": "12",
     "title": "Лукойл",
@@ -28600,7 +28603,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1181596317",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTE4MTU5NjMxNw==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1181596317",
     "metro": [],
     "stops": [
@@ -29316,7 +29319,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 13,
     "analyticsId": "13",
     "title": "Лукойл",
@@ -29342,7 +29345,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1055883222",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTA1NTg4MzIyMg==",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "1055883222",
     "metro": [],
     "stops": [
@@ -29797,18 +29800,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -29819,6 +29810,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "parentRubrics": [
@@ -29955,10 +29958,8 @@
       ],
       "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
-      "localizedQueueSize": "Нет очереди",
-      "localizedQueueSizeShort": "Нет",
-      "queueStatus": "LOW",
+      "lastSignalTimestamp": 1789066168,
+      "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -30031,7 +30032,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "index": 14,
     "analyticsId": "14",
     "title": "Лукойл",
@@ -30057,7 +30058,7 @@
     ],
     "uri": "ymapsbm1://org?oid=107061714721",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTA3MDYxNzE0NzIx",
-    "requestSerpId": "1789060615869924-3658091892-addrs-upper-yp-113",
+    "requestSerpId": "1789070120439125-4220272651-addrs-upper-yp-16",
     "id": "107061714721",
     "metro": [],
     "stops": [
@@ -30152,7 +30153,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 2134,
+      "ratingCount": 2135,
       "ratingValue": 5,
       "reviewCount": 443
     },
@@ -30782,8 +30783,10 @@
       ],
       "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789059487,
-      "queueStatus": "UNKNOWN",
+      "lastSignalTimestamp": 1789066168,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -30856,7 +30859,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "index": 1,
     "analyticsId": "1",
     "title": "Татнефть",
@@ -30882,7 +30885,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1102243843",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTEwMjI0Mzg0Mw==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1102243843",
     "metro": [
       {
@@ -31063,7 +31066,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 1133,
+      "ratingCount": 1135,
       "ratingValue": 4.699999809265137,
       "reviewCount": 294
     },
@@ -31796,12 +31799,12 @@
         {
           "fuelType": "AI95_PREMIUM",
           "localizedName": "95+",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI98",
           "localizedName": "98",
-          "status": "UNCERTAIN"
+          "status": "IN_STOCK"
         },
         {
           "fuelType": "AI100",
@@ -31811,15 +31814,15 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNCERTAIN"
+          "status": "OUT_OF_STOCK"
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 4,
-      "lastSignalTimestamp": 1789058535,
-      "localizedQueueSize": "Большая очередь",
-      "localizedQueueSizeShort": "Большая",
-      "queueStatus": "HIGH",
+      "signalsCountPerHour": 5,
+      "lastSignalTimestamp": 1789068610,
+      "localizedQueueSize": "Средняя очередь",
+      "localizedQueueSizeShort": "Средняя",
+      "queueStatus": "MEDIUM",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -31893,9 +31896,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 5,
-    "analyticsId": "5",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 6,
+    "analyticsId": "6",
     "title": "Татнефть",
     "description": "просп. Ямашева, 105А, корп. 1",
     "address": "просп. Ямашева, 105А, корп. 1",
@@ -31919,7 +31922,7 @@
     ],
     "uri": "ymapsbm1://org?oid=28848956272",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9Mjg4NDg5NTYyNzI=",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "28848956272",
     "metro": [
       {
@@ -32789,13 +32792,15 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "IN_STOCK"
+          "status": "OUT_OF_STOCK"
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 5,
-      "lastSignalTimestamp": 1789059707,
-      "queueStatus": "UNKNOWN",
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789066168,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -32869,9 +32874,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 6,
-    "analyticsId": "6",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 7,
+    "analyticsId": "7",
     "title": "Татнефть",
     "description": "просп. Победы, 141Б",
     "address": "просп. Победы, 141Б",
@@ -32895,7 +32900,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1168801360",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTE2ODgwMTM2MA==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1168801360",
     "metro": [
       {
@@ -33807,7 +33812,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNCERTAIN"
+          "status": "OUT_OF_STOCK"
         },
         {
           "fuelType": "AI95",
@@ -33832,15 +33837,15 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 9,
-      "lastSignalTimestamp": 1789059595,
-      "localizedQueueSize": "Средняя очередь",
-      "localizedQueueSizeShort": "Средняя",
-      "queueStatus": "MEDIUM",
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789067988,
+      "localizedQueueSize": "Большая очередь",
+      "localizedQueueSizeShort": "Большая",
+      "queueStatus": "HIGH",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -33914,9 +33919,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 7,
-    "analyticsId": "7",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 8,
+    "analyticsId": "8",
     "title": "Татнефть",
     "description": "ул. Сары Садыковой, 65",
     "address": "ул. Сары Садыковой, 65",
@@ -33940,7 +33945,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1262973783",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTI2Mjk3Mzc4Mw==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1262973783",
     "metro": [
       {
@@ -34497,18 +34502,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -34519,6 +34512,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "parentRubrics": [
@@ -34561,7 +34566,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI95",
@@ -34571,7 +34576,7 @@
         {
           "fuelType": "AI95_PREMIUM",
           "localizedName": "95+",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI98",
@@ -34591,7 +34596,7 @@
       ],
       "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789056163,
+      "lastSignalTimestamp": 1789060238,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
       "queueStatus": "LOW",
@@ -34668,9 +34673,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 8,
-    "analyticsId": "8",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 9,
+    "analyticsId": "9",
     "title": "Татнефть",
     "description": "Республика Татарстан (Татарстан), Зеленодольский район, М-7 Волга, 794-й километр, 1",
     "address": "Республика Татарстан (Татарстан), Зеленодольский район, М-7 Волга, 794-й километр, 1",
@@ -34694,7 +34699,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1390401358",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTM5MDQwMTM1OA==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1390401358",
     "photos": {
       "count": 37,
@@ -34772,7 +34777,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 1056,
+      "ratingCount": 1058,
       "ratingValue": 4.900000095367432,
       "reviewCount": 260
     },
@@ -35319,7 +35324,7 @@
       ],
       "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
+      "lastSignalTimestamp": 1789066168,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
       "queueStatus": "LOW",
@@ -35395,9 +35400,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 9,
-    "analyticsId": "9",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 10,
+    "analyticsId": "10",
     "title": "Татнефть",
     "description": "Гвардейская ул., 55А",
     "address": "Гвардейская ул., 55А",
@@ -35421,7 +35426,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1341760786",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTM0MTc2MDc4Ng==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1341760786",
     "metro": [
       {
@@ -35605,7 +35610,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 455,
+      "ratingCount": 456,
       "ratingValue": 4.5,
       "reviewCount": 115
     },
@@ -36054,12 +36059,12 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNCERTAIN"
+          "status": "IN_STOCK"
         }
       ],
-      "status": "UNCERTAIN",
+      "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789058979,
+      "lastSignalTimestamp": 1789066168,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -36134,9 +36139,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 10,
-    "analyticsId": "10",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 11,
+    "analyticsId": "11",
     "title": "Татнефть",
     "description": "Отрадная ул., 5А",
     "address": "Отрадная ул., 5А",
@@ -36160,7 +36165,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1229212505",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTIyOTIxMjUwNQ==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1229212505",
     "metro": [
       {
@@ -36333,7 +36338,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 454,
+      "ratingCount": 456,
       "ratingValue": 4.5,
       "reviewCount": 118
     },
@@ -36817,7 +36822,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNCERTAIN"
+          "status": "OUT_OF_STOCK"
         },
         {
           "fuelType": "AI95",
@@ -36827,7 +36832,7 @@
         {
           "fuelType": "AI95_PREMIUM",
           "localizedName": "95+",
-          "status": "IN_STOCK"
+          "status": "OUT_OF_STOCK"
         },
         {
           "fuelType": "AI98",
@@ -36842,13 +36847,15 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNCERTAIN"
+          "status": "IN_STOCK"
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 2,
-      "lastSignalTimestamp": 1789059123,
-      "queueStatus": "UNKNOWN",
+      "signalsCountPerHour": 4,
+      "lastSignalTimestamp": 1789066954,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -36922,9 +36929,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 11,
-    "analyticsId": "11",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 12,
+    "analyticsId": "12",
     "title": "Татнефть",
     "description": "ул. Оренбургский Тракт, 195",
     "address": "ул. Оренбургский Тракт, 195",
@@ -36948,7 +36955,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1298053584",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTI5ODA1MzU4NA==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1298053584",
     "metro": [
       {
@@ -37514,18 +37521,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -37536,6 +37531,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "parentRubrics": [
@@ -37639,7 +37646,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95",
@@ -37668,11 +37675,9 @@
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 10,
-      "lastSignalTimestamp": 1789059341,
-      "localizedQueueSize": "Средняя очередь",
-      "localizedQueueSizeShort": "Средняя",
-      "queueStatus": "MEDIUM",
+      "signalsCountPerHour": 4,
+      "lastSignalTimestamp": 1789067489,
+      "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -37746,9 +37751,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 13,
-    "analyticsId": "13",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 14,
+    "analyticsId": "14",
     "title": "Татнефть",
     "description": "Республика Татарстан, Казань, улица Академика Лаврентьева",
     "address": "Республика Татарстан, Казань, улица Академика Лаврентьева",
@@ -37772,7 +37777,7 @@
     ],
     "uri": "ymapsbm1://org?oid=58284234198",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9NTgyODQyMzQxOTg=",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "58284234198",
     "metro": [
       {
@@ -37942,7 +37947,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 568,
+      "ratingCount": 569,
       "ratingValue": 4.5,
       "reviewCount": 130
     },
@@ -38421,7 +38426,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95",
@@ -38431,12 +38436,12 @@
         {
           "fuelType": "AI95_PREMIUM",
           "localizedName": "95+",
-          "status": "OUT_OF_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI98",
           "localizedName": "98",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI100",
@@ -38446,12 +38451,12 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNCERTAIN"
+          "status": "IN_STOCK"
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 2,
-      "lastSignalTimestamp": 1789059339,
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789066168,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -38526,9 +38531,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 15,
-    "analyticsId": "15",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 16,
+    "analyticsId": "16",
     "title": "Татнефть",
     "description": "ул. Васильченко, 1В",
     "address": "ул. Васильченко, 1В",
@@ -38552,7 +38557,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1084703372",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTA4NDcwMzM3Mg==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1084703372",
     "metro": [
       {
@@ -38703,7 +38708,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 388,
+      "ratingCount": 390,
       "ratingValue": 4.300000190734863,
       "reviewCount": 104
     },
@@ -39070,18 +39075,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -39092,6 +39085,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "parentRubrics": [
@@ -39195,12 +39200,12 @@
         {
           "fuelType": "AI95_PREMIUM",
           "localizedName": "95+",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI98",
           "localizedName": "98",
-          "status": "UNCERTAIN"
+          "status": "IN_STOCK"
         },
         {
           "fuelType": "AI100",
@@ -39214,11 +39219,11 @@
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 5,
-      "lastSignalTimestamp": 1789059077,
-      "localizedQueueSize": "Большая очередь",
-      "localizedQueueSizeShort": "Большая",
-      "queueStatus": "HIGH",
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789069138,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -39292,9 +39297,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 16,
-    "analyticsId": "16",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 17,
+    "analyticsId": "17",
     "title": "Татнефть",
     "description": "Беломорская ул., 63, корп. 1",
     "address": "Беломорская ул., 63, корп. 1",
@@ -39318,7 +39323,7 @@
     ],
     "uri": "ymapsbm1://org?oid=69890443673",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9Njk4OTA0NDM2NzM=",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "69890443673",
     "metro": [
       {
@@ -39891,7 +39896,7 @@
         {
           "fuelType": "AI98",
           "localizedName": "98",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI100",
@@ -39904,8 +39909,8 @@
           "status": "OUT_OF_STOCK"
         }
       ],
-      "status": "IN_STOCK",
-      "signalsCountPerHour": 1,
+      "status": "UNCERTAIN",
+      "signalsCountPerHour": 0,
       "lastSignalTimestamp": 1789057396,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
@@ -39981,9 +39986,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 17,
-    "analyticsId": "17",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 18,
+    "analyticsId": "18",
     "title": "Татнефть",
     "description": "Казань, М-7 Волга, 817-й километр, 2",
     "address": "Казань, М-7 Волга, 817-й километр, 2",
@@ -40007,7 +40012,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1317305268",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTMxNzMwNTI2OA==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1317305268",
     "metro": [],
     "stops": [
@@ -40564,7 +40569,9 @@
       "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
       "lastSignalTimestamp": 1789036990,
-      "queueStatus": "UNKNOWN",
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -40637,9 +40644,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 18,
-    "analyticsId": "18",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 19,
+    "analyticsId": "19",
     "title": "Татнефть",
     "description": "просп. Победы, 105А",
     "address": "просп. Победы, 105А",
@@ -40663,7 +40670,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1356081039",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTM1NjA4MTAzOQ==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1356081039",
     "metro": [
       {
@@ -41101,18 +41108,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -41123,6 +41118,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "parentRubrics": [
@@ -41174,7 +41181,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "IN_STOCK"
+          "status": "OUT_OF_STOCK"
         },
         {
           "fuelType": "AI95",
@@ -41184,7 +41191,7 @@
         {
           "fuelType": "AI95_PREMIUM",
           "localizedName": "95+",
-          "status": "IN_STOCK"
+          "status": "OUT_OF_STOCK"
         },
         {
           "fuelType": "AI98",
@@ -41203,11 +41210,11 @@
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 11,
-      "lastSignalTimestamp": 1789059587,
-      "localizedQueueSize": "Большая очередь",
-      "localizedQueueSizeShort": "Большая",
-      "queueStatus": "HIGH",
+      "signalsCountPerHour": 3,
+      "lastSignalTimestamp": 1789068430,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -41281,9 +41288,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 19,
-    "analyticsId": "19",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 20,
+    "analyticsId": "20",
     "title": "Татнефть",
     "description": "ул. Гаврилова, 30Д",
     "address": "ул. Гаврилова, 30Д",
@@ -41307,7 +41314,7 @@
     ],
     "uri": "ymapsbm1://org?oid=12100207491",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTIxMDAyMDc0OTE=",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "12100207491",
     "metro": [],
     "stops": [
@@ -41843,7 +41850,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNCERTAIN"
+          "status": "OUT_OF_STOCK"
         },
         {
           "fuelType": "AI95",
@@ -41853,7 +41860,7 @@
         {
           "fuelType": "AI95_PREMIUM",
           "localizedName": "95+",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI98",
@@ -41873,7 +41880,7 @@
       ],
       "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789055336,
+      "lastSignalTimestamp": 1789063339,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
       "queueStatus": "LOW",
@@ -41950,9 +41957,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 20,
-    "analyticsId": "20",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 21,
+    "analyticsId": "21",
     "title": "Татнефть",
     "description": "Республика Татарстан (Татарстан), Пестречинский район, М-7 Волга, 829-й километр, 1",
     "address": "Республика Татарстан (Татарстан), Пестречинский район, М-7 Волга, 829-й километр, 1",
@@ -41976,7 +41983,7 @@
     ],
     "uri": "ymapsbm1://org?oid=19067698487",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTkwNjc2OTg0ODc=",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "19067698487",
     "metro": [],
     "stops": [
@@ -42071,7 +42078,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 2083,
+      "ratingCount": 2086,
       "ratingValue": 4.900000095367432,
       "reviewCount": 533
     },
@@ -42434,18 +42441,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -42456,6 +42451,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "parentRubrics": [
@@ -42711,7 +42718,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNCERTAIN"
+          "status": "OUT_OF_STOCK"
         },
         {
           "fuelType": "AI95",
@@ -42721,7 +42728,7 @@
         {
           "fuelType": "AI95_PREMIUM",
           "localizedName": "95+",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI98",
@@ -42736,12 +42743,12 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNCERTAIN"
+          "status": "IN_STOCK"
         }
       ],
-      "status": "UNCERTAIN",
-      "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789054637,
+      "status": "IN_STOCK",
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789066168,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
       "queueStatus": "LOW",
@@ -42817,9 +42824,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 21,
-    "analyticsId": "21",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 22,
+    "analyticsId": "22",
     "title": "Татнефть",
     "description": "ул. Сибирский Тракт, 44",
     "address": "ул. Сибирский Тракт, 44",
@@ -42843,7 +42850,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1685581571",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTY4NTU4MTU3MQ==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1685581571",
     "metro": [],
     "stops": [
@@ -43330,18 +43337,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -43352,6 +43347,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "parentRubrics": [
@@ -43398,7 +43405,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNCERTAIN"
+          "status": "OUT_OF_STOCK"
         },
         {
           "fuelType": "AI95",
@@ -43408,12 +43415,12 @@
         {
           "fuelType": "AI95_PREMIUM",
           "localizedName": "95+",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI98",
           "localizedName": "98",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI100",
@@ -43426,10 +43433,12 @@
           "status": "UNCERTAIN"
         }
       ],
-      "status": "IN_STOCK",
+      "status": "UNCERTAIN",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789058113,
-      "queueStatus": "UNKNOWN",
+      "lastSignalTimestamp": 1789065861,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -43503,9 +43512,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 22,
-    "analyticsId": "22",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 23,
+    "analyticsId": "23",
     "title": "Татнефть",
     "description": "Республика Татарстан (Татарстан), Казань, Приволжский район",
     "address": "Республика Татарстан (Татарстан), Казань, Приволжский район",
@@ -43529,7 +43538,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1703499480",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTcwMzQ5OTQ4MA==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1703499480",
     "metro": [],
     "stops": [
@@ -44130,7 +44139,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNCERTAIN"
+          "status": "OUT_OF_STOCK"
         },
         {
           "fuelType": "AI95",
@@ -44160,7 +44169,7 @@
       ],
       "status": "IN_STOCK",
       "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
+      "lastSignalTimestamp": 1789066168,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -44235,9 +44244,9 @@
   },
   {
     "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 23,
-    "analyticsId": "23",
+    "requestId": "1789070123706128-3593185280-addrs-upper-yp-39",
+    "index": 24,
+    "analyticsId": "24",
     "title": "Татнефть",
     "description": "территория Военный городок-33, 7А",
     "address": "территория Военный городок-33, 7А",
@@ -44261,7 +44270,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1062465173",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTA2MjQ2NTE3Mw==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
+    "requestSerpId": "1789070123706128-3593185280-addrs-upper-yp-39",
     "id": "1062465173",
     "metro": [
       {
@@ -44434,7 +44443,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 344,
+      "ratingCount": 345,
       "ratingValue": 4.400000095367432,
       "reviewCount": 106
     },
@@ -44857,754 +44866,7 @@
         {
           "fuelType": "AI98",
           "localizedName": "98",
-          "status": "IN_STOCK"
-        },
-        {
-          "fuelType": "AI100",
-          "localizedName": "100",
-          "status": "OUT_OF_STOCK"
-        },
-        {
-          "fuelType": "DIESEL",
-          "localizedName": "ДТ",
           "status": "UNCERTAIN"
-        }
-      ],
-      "status": "IN_STOCK",
-      "signalsCountPerHour": 5,
-      "lastSignalTimestamp": 1789059633,
-      "localizedQueueSize": "Средняя очередь",
-      "localizedQueueSizeShort": "Средняя",
-      "queueStatus": "MEDIUM",
-      "localizedFuelLimit": "",
-      "cashOnly": false
-    },
-    "region": {
-      "id": 43,
-      "type": 6,
-      "capitalId": 0,
-      "hierarchy": [
-        225,
-        11119,
-        43
-      ],
-      "seoname": "kazan",
-      "bounds": [
-        [
-          48.827209,
-          55.62923039407125
-        ],
-        [
-          49.385619,
-          55.96231539407125
-        ]
-      ],
-      "longitude": 49.106414,
-      "latitude": 55.796129,
-      "zoom": 12,
-      "names": {
-        "ablative": "",
-        "accusative": "Казань",
-        "dative": "Казани",
-        "directional": "",
-        "genitive": "Казани",
-        "instrumental": "Казанью",
-        "locative": "",
-        "nominative": "Казань",
-        "preposition": "в",
-        "prepositional": "Казани"
-      }
-    },
-    "breadcrumbs": [
-      {
-        "name": "Карты",
-        "type": "root",
-        "url": "https://yandex.com/maps/"
-      },
-      {
-        "name": "Казань",
-        "type": "region",
-        "url": "https://yandex.com/maps/43/kazan/",
-        "region": {
-          "center": [
-            49.106414,
-            55.796129
-          ],
-          "zoom": 12
-        }
-      },
-      {
-        "category": {
-          "id": "184105274",
-          "name": "АЗС",
-          "class": "gasstation",
-          "seoname": "gas_station",
-          "pluralName": "АЗС"
-        },
-        "name": "АЗС",
-        "type": "category",
-        "url": "https://yandex.com/maps/43/kazan/category/gas_station/184105274/"
-      }
-    ]
-  },
-  {
-    "type": "business",
-    "requestId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "index": 24,
-    "analyticsId": "24",
-    "title": "Татнефть",
-    "description": "Техническая ул., 27А",
-    "address": "Техническая ул., 27А",
-    "coordinates": [
-      49.130527,
-      55.75415
-    ],
-    "displayCoordinates": [
-      49.130527,
-      55.75415
-    ],
-    "bounds": [
-      [
-        49.12641,
-        55.751862
-      ],
-      [
-        49.134621,
-        55.756493
-      ]
-    ],
-    "uri": "ymapsbm1://org?oid=1306679335",
-    "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTMwNjY3OTMzNQ==",
-    "requestSerpId": "1789060620126594-1894859768-addrs-upper-yp-76",
-    "id": "1306679335",
-    "metro": [
-      {
-        "id": "station__9727016",
-        "name": "Суконная слобода",
-        "distance": "2,98 км",
-        "distanceValue": 2980.46,
-        "coordinates": [
-          49.143434547,
-          55.776365249
-        ],
-        "type": "metro",
-        "color": "#f23d30"
-      },
-      {
-        "id": "station__9727014",
-        "name": "Площадь Тукая",
-        "distance": "4,2 км",
-        "distanceValue": 4153.78,
-        "coordinates": [
-          49.1259548,
-          55.78526822
-        ],
-        "type": "metro",
-        "color": "#f23d30"
-      },
-      {
-        "id": "station__9727010",
-        "name": "Аметьево",
-        "distance": "4,8 км",
-        "distanceValue": 4785.06,
-        "coordinates": [
-          49.165336071,
-          55.76532053
-        ],
-        "type": "metro",
-        "color": "#f23d30"
-      }
-    ],
-    "stops": [
-      {
-        "id": "4097965289",
-        "name": "Татмебельбыт",
-        "distance": "76 м",
-        "distanceValue": 76.2685,
-        "coordinates": [
-          49.130879161,
-          55.754594306
-        ],
-        "type": "common"
-      },
-      {
-        "id": "stop__9669132",
-        "name": "Модельная улица",
-        "distance": "540 м",
-        "distanceValue": 540.844,
-        "coordinates": [
-          49.13150709,
-          55.749534493
-        ],
-        "type": "common"
-      },
-      {
-        "id": "4097967169",
-        "name": "Завод Искож",
-        "distance": "1,3 км",
-        "distanceValue": 1296.72,
-        "coordinates": [
-          49.132742707,
-          55.743425829
-        ],
-        "type": "common"
-      },
-      {
-        "id": "stop__9669162",
-        "name": "Площадь Вахитова",
-        "distance": "1,37 км",
-        "distanceValue": 1371,
-        "coordinates": [
-          49.127786505,
-          55.766065898
-        ],
-        "type": "common"
-      },
-      {
-        "id": "stop__9669140",
-        "name": "Вторчермет",
-        "distance": "1,51 км",
-        "distanceValue": 1513.76,
-        "coordinates": [
-          49.135928,
-          55.743027
-        ],
-        "type": "common"
-      }
-    ],
-    "photos": {
-      "count": 21,
-      "urlTemplate": "https://avatars.mds.yandex.net/get-altay/14784035/2a00000195eec1ccfe63c9ef2c6428c6b143/%s",
-      "items": [
-        {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/14784035/2a00000195eec1ccfe63c9ef2c6428c6b143/%s"
-        },
-        {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/9691438/2a0000018c1994a7950da59bf8f355810d2e/%s"
-        },
-        {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/11421964/2a0000018c1994f8d9048b1eb72594222451/%s"
-        },
-        {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/10156117/2a0000018c1994c4dd227970a6d2efc04424/%s"
-        },
-        {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/15112342/2a00000195eec59045afe2433b75eb6f89d5/%s"
-        },
-        {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/9849468/2a0000018c1a0755b8817208dc4810f90fee/%s"
-        },
-        {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/14763246/2a00000195eedc942cff79641d9c7ee4c7e1/%s"
-        },
-        {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/11368589/2a0000018c1994c867cf0fcfa847e6500df6/%s"
-        },
-        {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/15401366/2a00000195eea6a1d8082673d72f9a6e4a4b/%s"
-        },
-        {
-          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/15148849/2a00000195eeb6c3114717cea6fa5874cf88/%s"
-        }
-      ]
-    },
-    "entrances": [
-      {
-        "coordinates": [
-          49.13045964,
-          55.75423897
-        ],
-        "azimuth": 349.828900412323,
-        "tilt": 0
-      }
-    ],
-    "routePoint": {
-      "context": "djJ8ChQKEgm8n8fmspBIQBFmwg7niuBLQA,,"
-    },
-    "panorama": {
-      "id": "1366818628_673220966_23_1783599268",
-      "direction": [
-        -79.6,
-        10
-      ],
-      "point": {
-        "type": "Point",
-        "coordinates": [
-          49.130828,
-          55.754119
-        ]
-      },
-      "preview": "https://static-pano.maps.yandex.ru/v1/?panoid=1366818628_673220966_23_1783599268&size=500%2C240&azimuth=-79.6&tilt=10&api_key=maps&signature=jb1MGU6W9k1mucorzIgsN8s4LXRJB6Q-_B20-RFhn3E="
-    },
-    "shortTitle": "Татнефть",
-    "fullAddress": "Республика Татарстан (Татарстан), Казань, Техническая улица, 27А",
-    "country": "Россия",
-    "chain": {
-      "id": "1962160582",
-      "name": "Татнефть",
-      "seoname": "tatneft",
-      "quantityInCity": 26
-    },
-    "status": "open",
-    "businessLinks": [],
-    "ratingData": {
-      "ratingCount": 257,
-      "ratingValue": 4.5,
-      "reviewCount": 98
-    },
-    "sources": [
-      {
-        "id": "aqua_azs_tatneft_ru",
-        "name": "azs.tatneft.ru",
-        "href": "https://azs.tatneft.ru/"
-      },
-      {
-        "id": "yandex",
-        "name": "Яндекс",
-        "href": "https://ya.ru/"
-      }
-    ],
-    "categories": [
-      {
-        "id": "184105274",
-        "name": "АЗС",
-        "class": "gasstation",
-        "seoname": "gas_station",
-        "pluralName": "АЗС"
-      }
-    ],
-    "phones": [
-      {
-        "number": "8 (800) 555-59-11",
-        "type": "phone",
-        "value": "+78005555911",
-        "info": "Горячая линия сети АЗС"
-      }
-    ],
-    "features": [
-      {
-        "id": "payment_by_credit_card",
-        "value": true,
-        "name": "Оплата картой",
-        "type": "bool",
-        "important": true
-      },
-      {
-        "id": "fuel",
-        "value": [
-          {
-            "id": "a_95",
-            "name": "АИ-95"
-          },
-          {
-            "id": "a_92",
-            "name": "АИ-92"
-          }
-        ],
-        "name": "топливо",
-        "type": "enum",
-        "important": true
-      },
-      {
-        "id": "street_entrance",
-        "value": true,
-        "type": "bool",
-        "important": false
-      }
-    ],
-    "mediaOrderTemplate": "p,v,p,v,v,p,v*,p*",
-    "featureGroups": [],
-    "businessProperties": {
-      "has_verified_owner": true
-    },
-    "seoname": "tatneft",
-    "geoId": 102027,
-    "compositeAddress": {
-      "country": "Россия",
-      "area": "городской округ Казань",
-      "locality": "Казань",
-      "street": "Техническая улица",
-      "house": "27А"
-    },
-    "modularCard": {
-      "showClaimOrganization": true,
-      "showTaxiButton": true,
-      "showFeedbackButton": true,
-      "showReviews": true,
-      "showAddPhotoButton": true,
-      "showCompetitors": true,
-      "showDirectBanner": true,
-      "showAdditionalAds": true,
-      "showWorkHours": true,
-      "showContacts": true,
-      "showFriendsLiked": false,
-      "showVisualPricesTab": false,
-      "showHotelEnrichment": false,
-      "promoBadgeFeature": [],
-      "offerBadgeId": [],
-      "showCourierButton": false,
-      "hotelReviewsStubType": 0
-    },
-    "modularPin": {
-      "subtitleHints": [
-        {
-          "text": "4.5",
-          "type": "RATING",
-          "properties": null
-        },
-        {
-          "text": "Круглосуточно",
-          "type": "WORKING_HOURS",
-          "properties": {
-            "workingHours": {
-              "shortText": "24 ч",
-              "isOpen": true
-            }
-          }
-        }
-      ],
-      "allowMultilineSubtitle": false
-    },
-    "modularSnippet": {
-      "showNeurosummary": false,
-      "showMentionedOnSite": false,
-      "showTitle": "SHORT_TITLE",
-      "showAddress": "SHORT_ADDRESS",
-      "showCategory": "NO_CATEGORY",
-      "showRating": "NO_RATING",
-      "showPhoto": "LOGO",
-      "showWorkHours": true,
-      "showVerified": true,
-      "showDistanceFromTransit": false,
-      "showBookmark": true,
-      "showEta": true,
-      "showGeoproductOffer": true,
-      "subtitleHint": [],
-      "galleryButton": [],
-      "shownGoodsNumber": 3,
-      "showDescription": false,
-      "showCollectionBadge": true,
-      "showFriendsLiked": false,
-      "showCourierButton": false,
-      "showYandexEatsOrderButton": false,
-      "infoBlock": [],
-      "serpActionButtons": [
-        1,
-        3,
-        5,
-        0
-      ],
-      "awards": [],
-      "promoBadgeFeature": [],
-      "offerBadgeId": [],
-      "showHotelEnrichment": false
-    },
-    "tzOffset": 10800,
-    "workingTimeText": "ежедневно, круглосуточно",
-    "workingTime": [
-      [
-        {
-          "from": {
-            "hours": 0,
-            "minutes": 0
-          },
-          "to": {
-            "hours": 0,
-            "minutes": 0
-          }
-        }
-      ],
-      [
-        {
-          "from": {
-            "hours": 0,
-            "minutes": 0
-          },
-          "to": {
-            "hours": 0,
-            "minutes": 0
-          }
-        }
-      ],
-      [
-        {
-          "from": {
-            "hours": 0,
-            "minutes": 0
-          },
-          "to": {
-            "hours": 0,
-            "minutes": 0
-          }
-        }
-      ],
-      [
-        {
-          "from": {
-            "hours": 0,
-            "minutes": 0
-          },
-          "to": {
-            "hours": 0,
-            "minutes": 0
-          }
-        }
-      ],
-      [
-        {
-          "from": {
-            "hours": 0,
-            "minutes": 0
-          },
-          "to": {
-            "hours": 0,
-            "minutes": 0
-          }
-        }
-      ],
-      [
-        {
-          "from": {
-            "hours": 0,
-            "minutes": 0
-          },
-          "to": {
-            "hours": 0,
-            "minutes": 0
-          }
-        }
-      ],
-      [
-        {
-          "from": {
-            "hours": 0,
-            "minutes": 0
-          },
-          "to": {
-            "hours": 0,
-            "minutes": 0
-          }
-        }
-      ]
-    ],
-    "currentWorkingStatus": {
-      "isOpenNow": true,
-      "text": "Круглосуточно",
-      "shortText": "24 ч",
-      "tag": []
-    },
-    "socialLinks": [
-      {
-        "type": "ok",
-        "href": "https://ok.ru/azs.tatneft",
-        "readableHref": "ok.ru/azs.tatneft"
-      },
-      {
-        "type": "telegram",
-        "href": "https://t.me/azstatneft",
-        "readableHref": "@azstatneft"
-      },
-      {
-        "type": "vkontakte",
-        "href": "https://vk.ru/azs.tatneft",
-        "readableHref": "vk.ru/azs.tatneft"
-      }
-    ],
-    "urls": [
-      "https://azs.tatneft.ru/"
-    ],
-    "businessImages": {
-      "logo": {
-        "urlTemplate": "https://avatars.mds.yandex.net/get-altay/14005436/2a000001928fcfc1cf8a83edfd7613956ac8/%s",
-        "tag": [
-          "chain-logo"
-        ],
-        "id": "14005436_2a000001928fcfc1cf8a83edfd7613956ac8"
-      }
-    },
-    "references": [
-      {
-        "id": "1541358781",
-        "scope": "nyak"
-      },
-      {
-        "id": "628",
-        "scope": "tornadosp"
-      }
-    ],
-    "subtitleItems": [
-      {
-        "type": "working_hours",
-        "text": "24 ч",
-        "property": [
-          {
-            "key": "is_open",
-            "value": "1"
-          },
-          {
-            "key": "short_text",
-            "value": "24 ч"
-          },
-          {
-            "key": "text",
-            "value": "Круглосуточно"
-          }
-        ]
-      },
-      {
-        "type": "rating",
-        "text": "9",
-        "property": [
-          {
-            "key": "value",
-            "value": "9"
-          },
-          {
-            "key": "value_5",
-            "value": "4.5"
-          }
-        ]
-      }
-    ],
-    "metrika": {
-      "counter": 58977295,
-      "goals": {
-        "call": "make-call",
-        "cta": "cta-button",
-        "route": "make-route",
-        "site": "site",
-        "whatsapp": "whatsapp",
-        "telegram": "telegram",
-        "viber": "viber",
-        "vkontakte": "vkontakte",
-        "youtube": "social-youtube",
-        "odnoklassniki": "social-odnoklassniki",
-        "instagram": "instagram_subscribe",
-        "stories": "stories-button",
-        "taxi": "call-taxi",
-        "booking": "booking",
-        "subscribe": "subscribe",
-        "send-to-phone": "send-to-phone",
-        "booking-open": "booking-open",
-        "share": "share",
-        "booking-confirmed": "booking-confirmed",
-        "booking-visited": "booking-visited",
-        "start-route": "start-route",
-        "visited-organization": "visited-organization"
-      }
-    },
-    "routeToChoose": [
-      {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      }
-    ],
-    "parentRubrics": [
-      0,
-      0
-    ],
-    "hasStories": false,
-    "aspects": [
-      {
-        "id": "3502121729",
-        "isTrusted": true,
-        "text": "Оплата через приложение",
-        "count": 26,
-        "positive": 15,
-        "neutral": 5,
-        "negative": 6,
-        "photos": []
-      },
-      {
-        "id": "3502044050",
-        "isTrusted": true,
-        "text": "Персонал",
-        "count": 23,
-        "positive": 6,
-        "neutral": 12,
-        "negative": 5,
-        "photos": [
-          {
-            "link": "https://avatars.mds.yandex.net/get-altay/9691438/2a0000018c1994a7950da59bf8f355810d2e/%",
-            "mds_namespace": "altay"
-          }
-        ]
-      },
-      {
-        "id": "3502066477",
-        "isTrusted": true,
-        "text": "Бензин",
-        "count": 21,
-        "positive": 15,
-        "neutral": 3,
-        "negative": 3,
-        "photos": []
-      },
-      {
-        "id": "3502044686",
-        "isTrusted": true,
-        "text": "Время ожидания",
-        "count": 17,
-        "positive": 15,
-        "neutral": 0,
-        "negative": 2,
-        "photos": []
-      },
-      {
-        "id": "3502126794",
-        "isTrusted": true,
-        "text": "Комфорт",
-        "count": 11,
-        "positive": 11,
-        "neutral": 0,
-        "negative": 0,
-        "photos": []
-      }
-    ],
-    "houseEncodedCoordinates": "YEAYdwRgTEQBQFtvfXt0dX1kYw==",
-    "needSimilarOrgsRequest": true,
-    "needCompetitorRequest": true,
-    "fuelAvailability": {
-      "fuel": [
-        {
-          "fuelType": "AI92",
-          "localizedName": "92",
-          "status": "OUT_OF_STOCK"
-        },
-        {
-          "fuelType": "AI95",
-          "localizedName": "95",
-          "status": "OUT_OF_STOCK"
-        },
-        {
-          "fuelType": "AI95_PREMIUM",
-          "localizedName": "95+",
-          "status": "OUT_OF_STOCK"
-        },
-        {
-          "fuelType": "AI98",
-          "localizedName": "98",
-          "status": "IN_STOCK"
         },
         {
           "fuelType": "AI100",
@@ -45617,12 +44879,10 @@
           "status": "OUT_OF_STOCK"
         }
       ],
-      "status": "IN_STOCK",
-      "signalsCountPerHour": 2,
-      "lastSignalTimestamp": 1789059138,
-      "localizedQueueSize": "Нет очереди",
-      "localizedQueueSizeShort": "Нет",
-      "queueStatus": "LOW",
+      "status": "UNCERTAIN",
+      "signalsCountPerHour": 0,
+      "lastSignalTimestamp": 1789062837,
+      "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -45696,7 +44956,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "index": 1,
     "analyticsId": "1",
     "title": "Газпромнефть",
@@ -45722,7 +44982,7 @@
     ],
     "uri": "ymapsbm1://org?oid=66516208117",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9NjY1MTYyMDgxMTc=",
-    "requestSerpId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestSerpId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "id": "66516208117",
     "metro": [],
     "stops": [
@@ -46344,12 +45604,12 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNCERTAIN"
+          "status": "IN_STOCK"
         }
       ],
-      "status": "UNCERTAIN",
-      "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789041661,
+      "status": "IN_STOCK",
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789066168,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -46424,7 +45684,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "index": 3,
     "analyticsId": "3",
     "title": "Газпромнефть",
@@ -46450,7 +45710,7 @@
     ],
     "uri": "ymapsbm1://org?oid=43888464159",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9NDM4ODg0NjQxNTk=",
-    "requestSerpId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestSerpId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "id": "43888464159",
     "metro": [
       {
@@ -47300,7 +46560,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "index": 4,
     "analyticsId": "4",
     "title": "Газпромнефть",
@@ -47326,7 +46586,7 @@
     ],
     "uri": "ymapsbm1://org?oid=86583879783",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9ODY1ODM4Nzk3ODM=",
-    "requestSerpId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestSerpId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "id": "86583879783",
     "metro": [],
     "stops": [
@@ -47932,7 +47192,9 @@
       "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
       "lastSignalTimestamp": 1789032857,
-      "queueStatus": "UNKNOWN",
+      "localizedQueueSize": "Большая очередь",
+      "localizedQueueSizeShort": "Большая",
+      "queueStatus": "HIGH",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -48005,7 +47267,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "index": 5,
     "analyticsId": "5",
     "title": "Газпромнефть",
@@ -48031,7 +47293,7 @@
     ],
     "uri": "ymapsbm1://org?oid=30115883525",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MzAxMTU4ODM1MjU=",
-    "requestSerpId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestSerpId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "id": "30115883525",
     "metro": [
       {
@@ -48772,7 +48034,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "index": 7,
     "analyticsId": "7",
     "title": "Газпромнефть",
@@ -48798,7 +48060,7 @@
     ],
     "uri": "ymapsbm1://org?oid=103592175561",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTAzNTkyMTc1NTYx",
-    "requestSerpId": "1789060624259024-460709627-addrs-upper-yp-50",
+    "requestSerpId": "1789070127032501-3945753098-addrs-upper-yp-93",
     "id": "103592175561",
     "photos": {
       "count": 18,
@@ -48863,7 +48125,7 @@
     "ratingData": {
       "ratingCount": 237,
       "ratingValue": 4.400000095367432,
-      "reviewCount": 79
+      "reviewCount": 80
     },
     "sources": [
       {
@@ -49265,18 +48527,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -49287,6 +48537,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "parentRubrics": [
@@ -49367,7 +48629,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNKNOWN"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95",
@@ -49392,12 +48654,12 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         }
       ],
       "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789046418,
+      "lastSignalTimestamp": 1789059884,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -49471,7 +48733,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 3,
     "analyticsId": "3",
     "title": "Irbis",
@@ -49497,7 +48759,7 @@
     ],
     "uri": "ymapsbm1://org?oid=204111807307",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MjA0MTExODA3MzA3",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "204111807307",
     "metro": [],
     "stops": [
@@ -49602,7 +48864,7 @@
     "ratingData": {
       "ratingCount": 3794,
       "ratingValue": 5,
-      "reviewCount": 993
+      "reviewCount": 994
     },
     "sources": [
       {
@@ -50466,12 +49728,12 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNCERTAIN"
+          "status": "IN_STOCK"
         },
         {
           "fuelType": "AI95",
           "localizedName": "95",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95_PREMIUM",
@@ -50481,7 +49743,7 @@
         {
           "fuelType": "AI98",
           "localizedName": "98",
-          "status": "UNKNOWN"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI100",
@@ -50495,8 +49757,8 @@
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 6,
-      "lastSignalTimestamp": 1789059748,
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789067320,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
       "queueStatus": "LOW",
@@ -50572,7 +49834,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 5,
     "analyticsId": "5",
     "title": "Irbis",
@@ -50598,7 +49860,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1038005619",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTAzODAwNTYxOQ==",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "1038005619",
     "metro": [],
     "stops": [
@@ -51338,18 +50600,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -51360,6 +50610,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "topObjects": {
@@ -51827,7 +51089,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95",
@@ -51855,10 +51117,12 @@
           "status": "UNCERTAIN"
         }
       ],
-      "status": "IN_STOCK",
-      "signalsCountPerHour": 1,
+      "status": "UNCERTAIN",
+      "signalsCountPerHour": 0,
       "lastSignalTimestamp": 1789059083,
-      "queueStatus": "UNKNOWN",
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -51932,7 +51196,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 6,
     "analyticsId": "6",
     "title": "Irbis",
@@ -51958,7 +51222,7 @@
     ],
     "uri": "ymapsbm1://org?oid=138896308695",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTM4ODk2MzA4Njk1",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "138896308695",
     "metro": [],
     "stops": [
@@ -52095,7 +51359,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 1783,
+      "ratingCount": 1784,
       "ratingValue": 4.900000095367432,
       "reviewCount": 434
     },
@@ -52912,13 +52176,15 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         }
       ],
       "status": "IN_STOCK",
-      "signalsCountPerHour": 2,
-      "lastSignalTimestamp": 1789059526,
-      "queueStatus": "UNKNOWN",
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789065851,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -52992,7 +52258,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 7,
     "analyticsId": "7",
     "title": "Irbis",
@@ -53018,7 +52284,7 @@
     ],
     "uri": "ymapsbm1://org?oid=239091138911",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MjM5MDkxMTM4OTEx",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "239091138911",
     "metro": [
       {
@@ -53643,18 +52909,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -53665,6 +52919,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "parentRubrics": [
@@ -53837,12 +53103,12 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95",
           "localizedName": "95",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95_PREMIUM",
@@ -53865,8 +53131,8 @@
           "status": "UNCERTAIN"
         }
       ],
-      "status": "IN_STOCK",
-      "signalsCountPerHour": 10,
+      "status": "UNCERTAIN",
+      "signalsCountPerHour": 0,
       "lastSignalTimestamp": 1789058984,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
@@ -53944,7 +53210,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 8,
     "analyticsId": "8",
     "title": "Irbis",
@@ -53970,7 +53236,7 @@
     ],
     "uri": "ymapsbm1://org?oid=131292518017",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTMxMjkyNTE4MDE3",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "131292518017",
     "metro": [],
     "stops": [
@@ -55033,13 +54299,15 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         }
       ],
-      "status": "IN_STOCK",
-      "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
-      "queueStatus": "UNKNOWN",
+      "status": "UNCERTAIN",
+      "signalsCountPerHour": 0,
+      "lastSignalTimestamp": 1789052831,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -55113,7 +54381,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 9,
     "analyticsId": "9",
     "title": "Irbis",
@@ -55139,7 +54407,7 @@
     ],
     "uri": "ymapsbm1://org?oid=26013873076",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MjYwMTM4NzMwNzY=",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "26013873076",
     "metro": [
       {
@@ -55905,7 +55173,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 10,
     "analyticsId": "10",
     "title": "Irbis",
@@ -55931,7 +55199,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1091475111",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTA5MTQ3NTExMQ==",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "1091475111",
     "metro": [],
     "stops": [
@@ -56576,18 +55844,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -56598,6 +55854,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "topObjects": {
@@ -56888,7 +56156,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNKNOWN"
+          "status": "IN_STOCK"
         },
         {
           "fuelType": "AI95",
@@ -56916,9 +56184,9 @@
           "status": "UNKNOWN"
         }
       ],
-      "status": "UNKNOWN",
-      "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789016507,
+      "status": "IN_STOCK",
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789068005,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -56993,7 +56261,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 11,
     "analyticsId": "11",
     "title": "Irbis",
@@ -57019,7 +56287,7 @@
     ],
     "uri": "ymapsbm1://org?oid=62473549054",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9NjI0NzM1NDkwNTQ=",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "62473549054",
     "metro": [],
     "stops": [
@@ -57620,18 +56888,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -57642,6 +56898,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "parentRubrics": [
@@ -57902,7 +57170,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95",
@@ -57930,8 +57198,8 @@
           "status": "UNKNOWN"
         }
       ],
-      "status": "IN_STOCK",
-      "signalsCountPerHour": 1,
+      "status": "UNCERTAIN",
+      "signalsCountPerHour": 0,
       "lastSignalTimestamp": 1789056338,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
@@ -58008,7 +57276,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 12,
     "analyticsId": "12",
     "title": "Irbis",
@@ -58034,7 +57302,7 @@
     ],
     "uri": "ymapsbm1://org?oid=15179637345",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTUxNzk2MzczNDU=",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "15179637345",
     "metro": [],
     "stops": [
@@ -58920,7 +58188,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNKNOWN"
+          "status": "IN_STOCK"
         },
         {
           "fuelType": "AI95",
@@ -58945,12 +58213,15 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNKNOWN"
+          "status": "IN_STOCK"
         }
       ],
-      "status": "UNKNOWN",
-      "signalsCountPerHour": 0,
-      "queueStatus": "UNKNOWN",
+      "status": "IN_STOCK",
+      "signalsCountPerHour": 3,
+      "lastSignalTimestamp": 1789067679,
+      "localizedQueueSize": "Большая очередь",
+      "localizedQueueSizeShort": "Большая",
+      "queueStatus": "HIGH",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -59024,7 +58295,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 13,
     "analyticsId": "13",
     "title": "Irbis",
@@ -59050,7 +58321,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1518987220",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTUxODk4NzIyMA==",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "1518987220",
     "metro": [
       {
@@ -59200,7 +58471,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 1300,
+      "ratingCount": 1301,
       "ratingValue": 4.800000190734863,
       "reviewCount": 369
     },
@@ -59759,15 +59030,6 @@
           "categoryName": "popular",
           "categoryItems": [
             {
-              "title": "Шаурма Мужская",
-              "description": "Двойная порция курочки гриль, спелые томаты, свежий красный лук, политые горячим томатным соусом и завернутые в армянский лаваш, смазанный фирменным сливочно-пряным соусом и поджаренный на гриле",
-              "photoLink": "https://avatars.mds.yandex.net/get-eda/16321539/f44723b5241b433a99b3fdb793f08e0c/{size}",
-              "price": "589",
-              "volume": "450 г",
-              "currency": "₽",
-              "sourceId": "863160497"
-            },
-            {
               "title": "Шаурма Сырная",
               "description": "Курочка гриль, два ломтика сыра, спелые томаты, свежие огурцы, хрустящий жареный лук, политые горячим томатным соусом и завернутые в сырный лаваш, смазанный фирменным сливочно-пряным соусом и поджаренный на гриле",
               "photoLink": "https://avatars.mds.yandex.net/get-eda/3793239/8400d1177fb28e07a412a10f2843199b/{size}",
@@ -59784,15 +59046,6 @@
               "volume": "380 г",
               "currency": "₽",
               "sourceId": "33546418"
-            },
-            {
-              "title": "Гамбургер говяжий",
-              "description": "На поджаренную на гриле булочку бриошь, смазанную томатным кетчупом и пикантной горчицей, выложили маринованные огурцы, нарезанные слайсами. Следом сочная говяжья котлета халяль. В дополнении посыпали хрустящим жареным луком и накрыли ломтиком сыра, ",
-              "photoLink": "https://avatars.mds.yandex.net/get-eda/18772141/25d90a924d064273acd74397944c4203/{size}",
-              "price": "589",
-              "volume": "250 г",
-              "currency": "₽",
-              "sourceId": "1027147725"
             },
             {
               "title": "Хот-дог Датский с говяжьей сосиской",
@@ -59840,6 +59093,15 @@
               "sourceId": "33546413"
             },
             {
+              "title": "Пицца Куриная Закрытая",
+              "description": "Закрытая пицца с курицей — это золотистое дрожжевое тесто, внутри которого прячется сочная начинка: нежная курица, тягучий сыр, ароматный лук и сливочный соус.",
+              "photoLink": "https://avatars.mds.yandex.net/get-eda/3529621/44c4a01e8fc0a1b9ae62e6303590cb02/{size}",
+              "price": "289",
+              "volume": "200 г",
+              "currency": "₽",
+              "sourceId": "33546396"
+            },
+            {
               "title": "Бабл Ти",
               "description": "Внимание, внешний вид может отличаться от заявленного, в доставку используются плотные стаканы большим объемом, чем сам напиток. Сделано это для того, чтобы напиток в доставке доехал до вас в целости и сохранности",
               "photoLink": "https://avatars.mds.yandex.net/get-eda/16473711/41ada88d38ab452fb719a374b5b606e0/{size}",
@@ -59851,10 +59113,10 @@
           ]
         }
       ],
-      "fullObjectsCount": 66,
+      "fullObjectsCount": 68,
       "relevance": {
-        "lastUploadTime": "2026-09-07T16:15:58.237879Z",
-        "lastUpdateTime": "2026-09-07T09:26:03Z"
+        "lastUploadTime": "2026-09-08T16:19:10.201775Z",
+        "lastUpdateTime": "2026-09-08T09:27:21Z"
       },
       "source": {
         "id": "YANDEX_EDA",
@@ -60069,7 +59331,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95",
@@ -60097,10 +59359,12 @@
           "status": "UNKNOWN"
         }
       ],
-      "status": "IN_STOCK",
-      "signalsCountPerHour": 2,
-      "lastSignalTimestamp": 1789057936,
-      "queueStatus": "UNKNOWN",
+      "status": "UNCERTAIN",
+      "signalsCountPerHour": 0,
+      "lastSignalTimestamp": 1789065492,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -60174,7 +59438,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 14,
     "analyticsId": "14",
     "title": "Irbis",
@@ -60200,7 +59464,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1618791457",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTYxODc5MTQ1Nw==",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "1618791457",
     "metro": [],
     "stops": [
@@ -60822,18 +60086,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -60844,6 +60096,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "topObjects": {
@@ -61167,15 +60431,13 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         }
       ],
-      "status": "IN_STOCK",
-      "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
-      "localizedQueueSize": "Большая очередь",
-      "localizedQueueSizeShort": "Большая",
-      "queueStatus": "HIGH",
+      "status": "UNCERTAIN",
+      "signalsCountPerHour": 0,
+      "lastSignalTimestamp": 1789054502,
+      "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -61249,7 +60511,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 15,
     "analyticsId": "15",
     "title": "Irbis",
@@ -61275,7 +60537,7 @@
     ],
     "uri": "ymapsbm1://org?oid=105449190825",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTA1NDQ5MTkwODI1",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "105449190825",
     "metro": [],
     "stops": [
@@ -61380,7 +60642,7 @@
     "ratingData": {
       "ratingCount": 3360,
       "ratingValue": 5,
-      "reviewCount": 785
+      "reviewCount": 786
     },
     "sources": [
       {
@@ -61681,18 +60943,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -61703,6 +60953,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "parentRubrics": [
@@ -61967,7 +61229,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "OUT_OF_STOCK"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95",
@@ -61992,12 +61254,12 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "IN_STOCK"
+          "status": "UNCERTAIN"
         }
       ],
-      "status": "IN_STOCK",
-      "signalsCountPerHour": 1,
-      "lastSignalTimestamp": 1789056687,
+      "status": "UNCERTAIN",
+      "signalsCountPerHour": 0,
+      "lastSignalTimestamp": 1789065489,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
       "queueStatus": "LOW",
@@ -62074,7 +61336,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 16,
     "analyticsId": "16",
     "title": "Irbis",
@@ -62100,7 +61362,7 @@
     ],
     "uri": "ymapsbm1://org?oid=114066576000",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTE0MDY2NTc2MDAw",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "114066576000",
     "metro": [
       {
@@ -62817,7 +62079,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "index": 17,
     "analyticsId": "17",
     "title": "Irbis",
@@ -62843,7 +62105,7 @@
     ],
     "uri": "ymapsbm1://org?oid=173232631737",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTczMjMyNjMxNzM3",
-    "requestSerpId": "1789060628392499-662985826-addrs-upper-yp-67",
+    "requestSerpId": "1789070130055339-2146155088-addrs-upper-yp-16",
     "id": "173232631737",
     "metro": [
       {
@@ -63380,7 +62642,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 1,
     "analyticsId": "1",
     "title": "Таиф-нк",
@@ -63406,7 +62668,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1121704288",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTEyMTcwNDI4OA==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1121704288",
     "metro": [
       {
@@ -64253,12 +63515,12 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI95",
           "localizedName": "95",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI95_PREMIUM",
@@ -64278,10 +63540,10 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         }
       ],
-      "status": "UNCERTAIN",
+      "status": "UNKNOWN",
       "signalsCountPerHour": 0,
       "lastSignalTimestamp": 1789044326,
       "queueStatus": "UNKNOWN",
@@ -64358,7 +63620,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 4,
     "analyticsId": "4",
     "title": "Таиф-нк",
@@ -64384,7 +63646,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1002380773",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTAwMjM4MDc3Mw==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1002380773",
     "metro": [
       {
@@ -64953,18 +64215,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -64975,6 +64225,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "topObjects": {
@@ -65138,7 +64400,7 @@
         {
           "fuelType": "AI100",
           "localizedName": "100",
-          "status": "UNKNOWN"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "DIESEL",
@@ -65148,7 +64410,7 @@
       ],
       "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789053586,
+      "lastSignalTimestamp": 1789061894,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -65223,7 +64485,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 5,
     "analyticsId": "5",
     "title": "Таиф-нк",
@@ -65249,7 +64511,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1066510790",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTA2NjUxMDc5MA==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1066510790",
     "metro": [
       {
@@ -66103,8 +65365,10 @@
       ],
       "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789050349,
-      "queueStatus": "UNKNOWN",
+      "lastSignalTimestamp": 1789063174,
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -66178,7 +65442,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 6,
     "analyticsId": "6",
     "title": "Таиф-нк",
@@ -66204,7 +65468,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1034056994",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTAzNDA1Njk5NA==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1034056994",
     "metro": [
       {
@@ -67139,7 +66403,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 7,
     "analyticsId": "7",
     "title": "Таиф-нк",
@@ -67165,7 +66429,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1024893982",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTAyNDg5Mzk4Mg==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1024893982",
     "metro": [
       {
@@ -67818,18 +67082,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -67840,6 +67092,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "topObjects": {
@@ -68028,7 +67292,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 8,
     "analyticsId": "8",
     "title": "Таиф-нк",
@@ -68054,7 +67318,7 @@
     ],
     "uri": "ymapsbm1://org?oid=130261337590",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTMwMjYxMzM3NTkw",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "130261337590",
     "metro": [
       {
@@ -69207,7 +68471,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNKNOWN"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95",
@@ -69237,7 +68501,7 @@
       ],
       "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789023035,
+      "lastSignalTimestamp": 1789065531,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
       "queueStatus": "LOW",
@@ -69314,7 +68578,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 9,
     "analyticsId": "9",
     "title": "Таиф-нк",
@@ -69340,7 +68604,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1107105671",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTEwNzEwNTY3MQ==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1107105671",
     "metro": [
       {
@@ -70024,18 +69288,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -70046,6 +69298,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "topObjects": {
@@ -70257,11 +69521,11 @@
         }
       ],
       "status": "UNCERTAIN",
-      "signalsCountPerHour": 1,
+      "signalsCountPerHour": 0,
       "lastSignalTimestamp": 1789058792,
-      "localizedQueueSize": "Средняя очередь",
-      "localizedQueueSizeShort": "Средняя",
-      "queueStatus": "MEDIUM",
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -70335,7 +69599,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 10,
     "analyticsId": "10",
     "title": "Таиф-нк",
@@ -70361,7 +69625,7 @@
     ],
     "uri": "ymapsbm1://org?oid=166133377644",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTY2MTMzMzc3NjQ0",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "166133377644",
     "metro": [
       {
@@ -71082,18 +70346,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -71104,6 +70356,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "topObjects": {
@@ -71589,7 +70853,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 11,
     "analyticsId": "11",
     "title": "Таиф-нк",
@@ -71615,7 +70879,7 @@
     ],
     "uri": "ymapsbm1://org?oid=35540908985",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MzU1NDA5MDg5ODU=",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "35540908985",
     "metro": [
       {
@@ -71788,7 +71052,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 256,
+      "ratingCount": 257,
       "ratingValue": 4.199999809265137,
       "reviewCount": 62
     },
@@ -72285,18 +71549,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -72307,6 +71559,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "topObjects": {
@@ -72577,7 +71841,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 12,
     "analyticsId": "12",
     "title": "Таиф-нк",
@@ -72603,7 +71867,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1101369709",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTEwMTM2OTcwOQ==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1101369709",
     "metro": [
       {
@@ -73485,7 +72749,7 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNKNOWN"
+          "status": "UNCERTAIN"
         },
         {
           "fuelType": "AI95",
@@ -73510,11 +72774,12 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNKNOWN"
+          "status": "UNCERTAIN"
         }
       ],
-      "status": "UNKNOWN",
-      "signalsCountPerHour": 0,
+      "status": "UNCERTAIN",
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789068743,
       "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
@@ -73589,7 +72854,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 13,
     "analyticsId": "13",
     "title": "Таиф-нк",
@@ -73615,7 +72880,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1729406595",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTcyOTQwNjU5NQ==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1729406595",
     "metro": [],
     "stops": [
@@ -74563,7 +73828,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 14,
     "analyticsId": "14",
     "title": "Таиф-НК",
@@ -74589,7 +73854,7 @@
     ],
     "uri": "ymapsbm1://org?oid=217952542414",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MjE3OTUyNTQyNDE0",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "217952542414",
     "metro": [
       {
@@ -74873,18 +74138,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -74895,6 +74148,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "topObjects": {
@@ -75135,7 +74400,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 15,
     "analyticsId": "15",
     "title": "Таиф-нк",
@@ -75161,7 +74426,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1086293159",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTA4NjI5MzE1OQ==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1086293159",
     "metro": [
       {
@@ -75838,18 +75103,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -75860,6 +75113,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "parentRubrics": [
@@ -75939,12 +75204,12 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI95",
           "localizedName": "95",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI95_PREMIUM",
@@ -75967,10 +75232,11 @@
           "status": "OUT_OF_STOCK"
         }
       ],
-      "status": "UNCERTAIN",
+      "status": "UNKNOWN",
       "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789019344,
-      "queueStatus": "UNKNOWN",
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -76044,7 +75310,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 16,
     "analyticsId": "16",
     "title": "Таиф-НК",
@@ -76070,7 +75336,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1752999073",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTc1Mjk5OTA3Mw==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1752999073",
     "metro": [],
     "stops": [
@@ -76891,7 +76157,9 @@
       ],
       "status": "UNKNOWN",
       "signalsCountPerHour": 0,
-      "queueStatus": "UNKNOWN",
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -76965,7 +76233,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 17,
     "analyticsId": "17",
     "title": "Таиф-нк",
@@ -76991,7 +76259,7 @@
     ],
     "uri": "ymapsbm1://org?oid=105177587677",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTA1MTc3NTg3Njc3",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "105177587677",
     "metro": [],
     "stops": [
@@ -77822,7 +77090,7 @@
       ],
       "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789048548,
+      "lastSignalTimestamp": 1789061333,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
       "queueStatus": "LOW",
@@ -77899,7 +77167,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 18,
     "analyticsId": "18",
     "title": "Таиф-нк",
@@ -77925,7 +77193,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1091464084",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTA5MTQ2NDA4NA==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1091464084",
     "metro": [],
     "stops": [
@@ -78597,18 +77865,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -78619,6 +77875,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "topObjects": {
@@ -78833,12 +78101,12 @@
         {
           "fuelType": "AI92",
           "localizedName": "92",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI95",
           "localizedName": "95",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         },
         {
           "fuelType": "AI95_PREMIUM",
@@ -78858,13 +78126,15 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         }
       ],
-      "status": "UNCERTAIN",
+      "status": "UNKNOWN",
       "signalsCountPerHour": 0,
       "lastSignalTimestamp": 1789027072,
-      "queueStatus": "UNKNOWN",
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -78938,7 +78208,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 19,
     "analyticsId": "19",
     "title": "Таиф-нк",
@@ -78964,7 +78234,7 @@
     ],
     "uri": "ymapsbm1://org?oid=245096243605",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MjQ1MDk2MjQzNjA1",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "245096243605",
     "metro": [],
     "stops": [
@@ -79377,18 +78647,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -79399,6 +78657,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "topObjects": {
@@ -79561,9 +78831,9 @@
       "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
       "lastSignalTimestamp": 1789054432,
-      "localizedQueueSize": "Большая очередь",
-      "localizedQueueSizeShort": "Большая",
-      "queueStatus": "HIGH",
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -79637,7 +78907,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 20,
     "analyticsId": "20",
     "title": "Таиф-нк",
@@ -79663,7 +78933,7 @@
     ],
     "uri": "ymapsbm1://org?oid=6106996632",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9NjEwNjk5NjYzMg==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "6106996632",
     "metro": [],
     "stops": [
@@ -80359,18 +79629,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -80381,6 +79639,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "topObjects": {
@@ -80635,8 +79905,8 @@
         }
       ],
       "status": "UNCERTAIN",
-      "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789056120,
+      "signalsCountPerHour": 1,
+      "lastSignalTimestamp": 1789068186,
       "localizedQueueSize": "Нет очереди",
       "localizedQueueSizeShort": "Нет",
       "queueStatus": "LOW",
@@ -80713,7 +79983,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 21,
     "analyticsId": "21",
     "title": "Таиф-нк",
@@ -80739,7 +80009,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1036171390",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTAzNjE3MTM5MA==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1036171390",
     "metro": [
       {
@@ -81410,18 +80680,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
-        "label": "Яндекс Карты",
-        "route-types": {
-          "auto": "auto",
-          "bus": "mt",
-          "walking": "pd"
-        },
-        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
-        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
-        "service": "yandex_maps"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
         "label": "2ГИС",
         "route-types": {
@@ -81432,6 +80690,18 @@
         "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
         "search-text-url-template": "https://2gis.ru/search/{encodedText}",
         "service": "2gis"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+        "label": "Яндекс Карты",
+        "route-types": {
+          "auto": "auto",
+          "bus": "mt",
+          "walking": "pd"
+        },
+        "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+        "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+        "service": "yandex_maps"
       }
     ],
     "topObjects": {
@@ -81620,10 +80890,8 @@
       ],
       "status": "UNCERTAIN",
       "signalsCountPerHour": 0,
-      "lastSignalTimestamp": 1789055962,
-      "localizedQueueSize": "Большая очередь",
-      "localizedQueueSizeShort": "Большая",
-      "queueStatus": "HIGH",
+      "lastSignalTimestamp": 1789061433,
+      "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -81697,7 +80965,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 22,
     "analyticsId": "22",
     "title": "Таиф-нк",
@@ -81723,7 +80991,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1039672326",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTAzOTY3MjMyNg==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1039672326",
     "metro": [
       {
@@ -82373,18 +81641,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -82395,6 +81651,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "topObjects": {
@@ -82561,9 +81829,7 @@
       ],
       "status": "UNKNOWN",
       "signalsCountPerHour": 0,
-      "localizedQueueSize": "Нет очереди",
-      "localizedQueueSizeShort": "Нет",
-      "queueStatus": "LOW",
+      "queueStatus": "UNKNOWN",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
@@ -82637,7 +81903,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 23,
     "analyticsId": "23",
     "title": "Таиф-нк",
@@ -82663,7 +81929,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1197575729",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTE5NzU3NTcyOQ==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1197575729",
     "metro": [
       {
@@ -83676,7 +82942,7 @@
         {
           "fuelType": "DIESEL",
           "localizedName": "ДТ",
-          "status": "UNCERTAIN"
+          "status": "UNKNOWN"
         }
       ],
       "status": "UNCERTAIN",
@@ -83758,7 +83024,7 @@
   },
   {
     "type": "business",
-    "requestId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "index": 24,
     "analyticsId": "24",
     "title": "Таиф-нк",
@@ -83784,7 +83050,7 @@
     ],
     "uri": "ymapsbm1://org?oid=1291197072",
     "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9MTI5MTE5NzA3Mg==",
-    "requestSerpId": "1789060632575016-3266295923-addrs-upper-yp-15",
+    "requestSerpId": "1789070133340471-1865274230-addrs-upper-yp-100",
     "id": "1291197072",
     "photos": {
       "count": 71,
@@ -83865,7 +83131,7 @@
     "status": "open",
     "businessLinks": [],
     "ratingData": {
-      "ratingCount": 914,
+      "ratingCount": 913,
       "ratingValue": 4.300000190734863,
       "reviewCount": 248
     },
@@ -84462,18 +83728,6 @@
     },
     "routeToChoose": [
       {
-        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
-        "label": "2ГИС",
-        "route-types": {
-          "auto": "car",
-          "bus": "bus",
-          "walking": "pedestrian"
-        },
-        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
-        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
-        "service": "2gis"
-      },
-      {
         "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
         "label": "Яндекс Карты",
         "route-types": {
@@ -84484,6 +83738,18 @@
         "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
         "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
         "service": "yandex_maps"
+      },
+      {
+        "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+        "label": "2ГИС",
+        "route-types": {
+          "auto": "car",
+          "bus": "bus",
+          "walking": "pedestrian"
+        },
+        "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+        "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+        "service": "2gis"
       }
     ],
     "topObjects": {
@@ -84768,9 +84034,9 @@
       "status": "UNKNOWN",
       "signalsCountPerHour": 0,
       "lastSignalTimestamp": 1789035389,
-      "localizedQueueSize": "Средняя очередь",
-      "localizedQueueSizeShort": "Средняя",
-      "queueStatus": "MEDIUM",
+      "localizedQueueSize": "Нет очереди",
+      "localizedQueueSizeShort": "Нет",
+      "queueStatus": "LOW",
       "localizedFuelLimit": "",
       "cashOnly": false
     },
