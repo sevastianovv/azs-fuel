@@ -118,7 +118,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "NONE",
+    "queue_level": "FROM_25_TO_50",
     "can_use_canister": true,
     "prices": [
       {
@@ -176,7 +176,7 @@
       {
         "station_id": "5348552838608499",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 49,
@@ -185,7 +185,7 @@
       {
         "station_id": "5348552838608499",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 39,
@@ -194,14 +194,14 @@
       {
         "station_id": "5348552838608499",
         "fuel_type": "DT",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 53,
         "last_report_at": "2026-09-12T20:16:32Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -212,25 +212,25 @@
         "station_id": "5348552838608499",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T18:09:56Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "5348552838608499",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T18:09:56Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "5348552838608499",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T18:09:56Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "5348552838608499",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T18:09:56Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       }
     ],
     "recent_reports": []
@@ -292,7 +292,7 @@
     ],
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
+    "closed_by_schedule": true,
     "queue_level": "FROM_25_TO_50",
     "can_use_canister": false,
     "prices": [
@@ -300,19 +300,19 @@
         "station_id": "5348552838656752",
         "fuel_type": "AI_100",
         "price": 99.39,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552838656752",
         "fuel_type": "AI_95",
         "price": 70.44,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552838656752",
         "fuel_type": "DT",
         "price": 80.57,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       }
     ],
     "recent_reports": []
@@ -435,7 +435,7 @@
     ],
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
+    "closed_by_schedule": true,
     "limit_liters": 40,
     "queue_level": "UP_TO_25",
     "prices": [
@@ -443,19 +443,19 @@
         "station_id": "70000001020119682",
         "fuel_type": "AI_100",
         "price": 99.39,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001020119682",
         "fuel_type": "AI_95",
         "price": 70.22,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001020119682",
         "fuel_type": "DT",
         "price": 80.57,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -740,25 +740,25 @@
         "station_id": "5348552838605758",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:42Z"
+        "updated_at": "2026-09-13T00:09:36Z"
       },
       {
         "station_id": "5348552838605758",
         "fuel_type": "AI_95",
-        "price": 73.16,
-        "updated_at": "2026-09-12T22:09:42Z"
+        "price": 72.26,
+        "updated_at": "2026-09-13T00:09:36Z"
       },
       {
         "station_id": "5348552838605758",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:42Z"
+        "updated_at": "2026-09-13T00:09:36Z"
       },
       {
         "station_id": "5348552838605758",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:42Z"
+        "updated_at": "2026-09-13T00:09:36Z"
       }
     ],
     "recent_reports": []
@@ -957,26 +957,26 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "NONE",
     "can_use_canister": false,
     "prices": [
       {
         "station_id": "70000001051057645",
         "fuel_type": "AI_95",
         "price": 70.92,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "70000001051057645",
         "fuel_type": "AI_92",
         "price": 65.74,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "70000001051057645",
         "fuel_type": "DT",
         "price": 80.16,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       }
     ],
     "recent_reports": []
@@ -1069,7 +1069,7 @@
       {
         "station_id": "5348552838739670",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 16,
@@ -1081,25 +1081,24 @@
     "closed_by_schedule": false,
     "limit_liters": 30,
     "queue_level": "UP_TO_25",
-    "can_use_canister": true,
     "prices": [
       {
         "station_id": "5348552838739670",
         "fuel_type": "AI_95",
         "price": 70.15,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552838739670",
         "fuel_type": "AI_92",
         "price": 65.15,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552838739670",
         "fuel_type": "DT",
         "price": 80.85,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       }
     ],
     "recent_reports": []
@@ -1217,7 +1216,7 @@
       {
         "station_id": "5348552841393554",
         "fuel_type": "AI_98",
-        "available": false,
+        "available": null,
         "queue_level": "FROM_25_TO_50",
         "limit_liters": 40,
         "reports_count": 16,
@@ -1226,7 +1225,7 @@
       {
         "station_id": "5348552841393554",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 20,
@@ -1235,7 +1234,7 @@
       {
         "station_id": "5348552841393554",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "UP_TO_25",
         "limit_liters": 0,
         "reports_count": 28,
@@ -1333,14 +1332,14 @@
       {
         "station_id": "5348552838608508",
         "fuel_type": "DT",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 16,
         "last_report_at": "2026-09-11T13:41:23Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -1350,19 +1349,19 @@
         "station_id": "5348552838608508",
         "fuel_type": "AI_95",
         "price": 73.16,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "5348552838608508",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "5348552838608508",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       }
     ],
     "recent_reports": []
@@ -1426,41 +1425,41 @@
         "station_id": "5348552838603549",
         "fuel_type": "DT",
         "available": true,
-        "queue_level": "UP_TO_25",
+        "queue_level": "OVER_50",
         "limit_liters": 40,
-        "reports_count": 42,
-        "last_report_at": "2026-09-12T22:34:02Z"
+        "reports_count": 43,
+        "last_report_at": "2026-09-12T23:16:53Z"
       }
     ],
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "UP_TO_25",
+    "queue_level": "OVER_50",
     "prices": [
       {
         "station_id": "5348552838603549",
         "fuel_type": "AI_98",
         "price": 99.9,
-        "updated_at": "2026-09-12T22:09:39Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "5348552838603549",
         "fuel_type": "AI_95",
         "price": 70.9,
-        "updated_at": "2026-09-12T22:09:39Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "5348552838603549",
         "fuel_type": "AI_92",
         "price": 65.5,
-        "updated_at": "2026-09-12T22:09:39Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "5348552838603549",
         "fuel_type": "DT",
         "price": 80.3,
-        "updated_at": "2026-09-12T22:09:39Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       }
     ],
     "recent_reports": []
@@ -1523,41 +1522,41 @@
         "station_id": "5348552838629486",
         "fuel_type": "DT",
         "available": false,
-        "queue_level": "FROM_25_TO_50",
+        "queue_level": "OVER_50",
         "limit_liters": 30,
-        "reports_count": 42,
-        "last_report_at": "2026-09-12T22:34:21Z"
+        "reports_count": 43,
+        "last_report_at": "2026-09-12T23:17:10Z"
       }
     ],
     "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "OVER_50",
     "prices": [
       {
         "station_id": "5348552838629486",
         "fuel_type": "AI_100",
         "price": 100.5,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552838629486",
         "fuel_type": "AI_95",
         "price": 70.1,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552838629486",
         "fuel_type": "AI_92",
         "price": 65.1,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552838629486",
         "fuel_type": "DT",
         "price": 80.8,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -1731,7 +1730,7 @@
     "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -1804,26 +1803,26 @@
         "station_id": "5348552838739678",
         "fuel_type": "AI_95",
         "available": true,
-        "queue_level": "OVER_50",
+        "queue_level": "FROM_25_TO_50",
         "limit_liters": 30,
-        "reports_count": 41,
-        "last_report_at": "2026-09-12T21:32:55Z"
+        "reports_count": 42,
+        "last_report_at": "2026-09-12T23:27:24Z"
       },
       {
         "station_id": "5348552838739678",
         "fuel_type": "AI_92",
-        "available": null,
-        "queue_level": "OVER_50",
+        "available": true,
+        "queue_level": "FROM_25_TO_50",
         "limit_liters": 30,
-        "reports_count": 37,
-        "last_report_at": "2026-09-12T21:32:55Z"
+        "reports_count": 38,
+        "last_report_at": "2026-09-12T23:27:24Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "OVER_50",
+    "queue_level": "FROM_25_TO_50",
     "can_use_canister": false,
     "prices": [
       {
@@ -1962,7 +1961,7 @@
         "station_id": "5348552838605748",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552838605748",
@@ -1974,7 +1973,7 @@
         "station_id": "5348552838605748",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       }
     ],
     "recent_reports": []
@@ -2053,25 +2052,25 @@
         "station_id": "5348552838608485",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838608485",
         "fuel_type": "AI_95",
-        "price": 73.16,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "price": 72.26,
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838608485",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838608485",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       }
     ],
     "recent_reports": []
@@ -2151,25 +2150,25 @@
         "station_id": "5348552838608513",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838608513",
         "fuel_type": "AI_95",
-        "price": 73.16,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "price": 72.26,
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838608513",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838608513",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       }
     ],
     "recent_reports": []
@@ -2246,7 +2245,7 @@
       {
         "station_id": "5348552840479694",
         "fuel_type": "AI_92",
-        "available": true,
+        "available": null,
         "queue_level": "UP_TO_25",
         "limit_liters": 30,
         "reports_count": 13,
@@ -2364,25 +2363,25 @@
         "station_id": "5348552838605754",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838605754",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838605754",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838605754",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       }
     ],
     "recent_reports": []
@@ -2452,7 +2451,7 @@
         "last_report_at": "2026-09-12T11:40:02Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -2542,19 +2541,19 @@
         "station_id": "5348552840833985",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552840833985",
         "fuel_type": "AI_92",
         "price": 65.7,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552840833985",
         "fuel_type": "DT",
         "price": 81.92,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       }
     ],
     "recent_reports": []
@@ -2826,32 +2825,32 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "NONE",
+    "queue_level": "UP_TO_25",
     "can_use_canister": false,
     "prices": [
       {
         "station_id": "70000001110136496",
         "fuel_type": "AI_100",
         "price": 99.9,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "70000001110136496",
         "fuel_type": "AI_95",
         "price": 72.03,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "70000001110136496",
         "fuel_type": "AI_92",
         "price": 66.17,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "70000001110136496",
         "fuel_type": "DT",
         "price": 80.37,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       }
     ],
     "recent_reports": []
@@ -2924,7 +2923,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "70000001050771078",
@@ -3031,7 +3030,7 @@
     ],
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
+    "closed_by_schedule": true,
     "limit_liters": 40,
     "queue_level": "NONE",
     "prices": [
@@ -3039,19 +3038,19 @@
         "station_id": "70000001041691885",
         "fuel_type": "AI_95",
         "price": 70,
-        "updated_at": "2026-09-12T16:09:39Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "70000001041691885",
         "fuel_type": "AI_92",
         "price": 65,
-        "updated_at": "2026-09-12T16:09:39Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "70000001041691885",
         "fuel_type": "DT",
         "price": 80.5,
-        "updated_at": "2026-09-12T16:09:39Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       }
     ],
     "recent_reports": []
@@ -3182,25 +3181,25 @@
         "station_id": "5348552838608486",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838608486",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838608486",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838608486",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       }
     ],
     "recent_reports": []
@@ -3242,7 +3241,7 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -3293,14 +3292,14 @@
       {
         "station_id": "5348552838740476",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 11,
         "last_report_at": "2026-09-11T14:27:59Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -3309,19 +3308,19 @@
         "station_id": "5348552838740476",
         "fuel_type": "AI_95",
         "price": 70.97,
-        "updated_at": "2026-09-12T22:09:40Z"
+        "updated_at": "2026-09-13T00:09:40Z"
       },
       {
         "station_id": "5348552838740476",
         "fuel_type": "AI_92",
         "price": 65.54,
-        "updated_at": "2026-09-12T22:09:40Z"
+        "updated_at": "2026-09-13T00:09:40Z"
       },
       {
         "station_id": "5348552838740476",
         "fuel_type": "DT",
         "price": 80.95,
-        "updated_at": "2026-09-12T22:09:40Z"
+        "updated_at": "2026-09-13T00:09:40Z"
       }
     ],
     "recent_reports": []
@@ -3366,7 +3365,7 @@
       {
         "station_id": "70000001105301702",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "OVER_50",
         "limit_liters": 0,
         "reports_count": 19,
@@ -3375,7 +3374,7 @@
       {
         "station_id": "70000001105301702",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "OVER_50",
         "limit_liters": 30,
         "reports_count": 17,
@@ -3384,14 +3383,14 @@
       {
         "station_id": "70000001105301702",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "FROM_25_TO_50",
         "limit_liters": 0,
         "reports_count": 28,
         "last_report_at": "2026-09-12T18:18:50Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -3525,25 +3524,25 @@
         "station_id": "70000001051224071",
         "fuel_type": "AI_98",
         "price": 99.9,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001051224071",
         "fuel_type": "AI_95",
         "price": 70.9,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001051224071",
         "fuel_type": "AI_92",
         "price": 65.5,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001051224071",
         "fuel_type": "DT",
         "price": 80.3,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -3613,13 +3612,13 @@
         "station_id": "5348552841441146",
         "fuel_type": "AI_92",
         "price": 65.7,
-        "updated_at": "2026-09-12T18:09:45Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552841441146",
         "fuel_type": "DT",
         "price": 81.92,
-        "updated_at": "2026-09-12T18:09:45Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       }
     ],
     "recent_reports": []
@@ -3690,19 +3689,19 @@
         "station_id": "5348552838605878",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552838605878",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552838605878",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -3754,13 +3753,13 @@
         "station_id": "70000001116108710",
         "fuel_type": "AI_95",
         "price": 71.85,
-        "updated_at": "2026-09-12T18:09:44Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "70000001116108710",
         "fuel_type": "DT",
         "price": 82.45,
-        "updated_at": "2026-09-12T18:09:44Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       }
     ],
     "recent_reports": []
@@ -3796,7 +3795,7 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -4468,7 +4467,7 @@
         "station_id": "70000001093763440",
         "fuel_type": "GAS",
         "price": 52.9,
-        "updated_at": "2026-09-12T12:09:49Z"
+        "updated_at": "2026-09-13T00:09:36Z"
       }
     ],
     "recent_reports": []
@@ -4638,7 +4637,7 @@
     ],
     "status": "NOT_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
+    "closed_by_schedule": true,
     "limit_liters": 30,
     "queue_level": "NONE",
     "can_use_canister": true,
@@ -4647,19 +4646,19 @@
         "station_id": "5348552838656750",
         "fuel_type": "AI_95",
         "price": 70.32,
-        "updated_at": "2026-09-12T18:09:45Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552838656750",
         "fuel_type": "AI_92",
         "price": 65.26,
-        "updated_at": "2026-09-12T18:09:45Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552838656750",
         "fuel_type": "DT",
         "price": 80.11,
-        "updated_at": "2026-09-12T18:09:45Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       }
     ],
     "recent_reports": []
@@ -4736,25 +4735,25 @@
         "station_id": "5348552840599170",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T14:09:51Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552840599170",
         "fuel_type": "AI_95",
-        "price": 72.26,
-        "updated_at": "2026-09-12T14:09:51Z"
+        "price": 73.16,
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552840599170",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T14:09:51Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552840599170",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T14:09:51Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       }
     ],
     "recent_reports": []
@@ -4895,19 +4894,19 @@
         "station_id": "5348552838605877",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838605877",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838605877",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       }
     ],
     "recent_reports": []
@@ -5105,13 +5104,13 @@
     "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "NONE",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "70000001103191203",
         "fuel_type": "GAS",
         "price": 41.48,
-        "updated_at": "2026-09-12T22:09:39Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       }
     ],
     "recent_reports": []
@@ -5222,25 +5221,25 @@
         "station_id": "5348552838606055",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       },
       {
         "station_id": "5348552838606055",
         "fuel_type": "AI_95",
-        "price": 73.16,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "price": 72.26,
+        "updated_at": "2026-09-13T00:09:45Z"
       },
       {
         "station_id": "5348552838606055",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       },
       {
         "station_id": "5348552838606055",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       }
     ],
     "recent_reports": []
@@ -5301,7 +5300,7 @@
     "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -5363,7 +5362,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "can_use_canister": true,
     "prices": [
       {
@@ -5682,20 +5681,20 @@
       {
         "station_id": "70000001050784848",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": false,
         "queue_level": "OVER_50",
         "limit_liters": 30,
-        "reports_count": 21,
-        "last_report_at": "2026-09-12T20:04:07Z"
+        "reports_count": 22,
+        "last_report_at": "2026-09-12T23:15:00Z"
       },
       {
         "station_id": "70000001050784848",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "OVER_50",
         "limit_liters": 30,
-        "reports_count": 25,
-        "last_report_at": "2026-09-12T17:21:34Z"
+        "reports_count": 26,
+        "last_report_at": "2026-09-12T23:15:00Z"
       },
       {
         "station_id": "70000001050784848",
@@ -5703,11 +5702,11 @@
         "available": null,
         "queue_level": "NONE",
         "limit_liters": 30,
-        "reports_count": 33,
-        "last_report_at": "2026-09-12T17:21:34Z"
+        "reports_count": 34,
+        "last_report_at": "2026-09-12T23:15:00Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -5783,14 +5782,14 @@
       {
         "station_id": "5348552840479689",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "UP_TO_25",
         "limit_liters": 0,
         "reports_count": 14,
         "last_report_at": "2026-09-12T17:09:26Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -5963,32 +5962,32 @@
     ],
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "closed_by_schedule": true,
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001017234649",
         "fuel_type": "AI_100",
         "price": 99.39,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001017234649",
         "fuel_type": "AI_95",
         "price": 70.32,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001017234649",
         "fuel_type": "AI_92",
         "price": 65.26,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001017234649",
         "fuel_type": "DT",
         "price": 80.11,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -6050,7 +6049,7 @@
     ],
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
+    "closed_by_schedule": true,
     "limit_liters": 40,
     "queue_level": "NONE",
     "can_use_canister": false,
@@ -6059,19 +6058,19 @@
         "station_id": "5348552838656751",
         "fuel_type": "AI_95",
         "price": 70.32,
-        "updated_at": "2026-09-12T22:09:42Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838656751",
         "fuel_type": "AI_92",
         "price": 65.26,
-        "updated_at": "2026-09-12T22:09:42Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838656751",
         "fuel_type": "DT",
         "price": 80.11,
-        "updated_at": "2026-09-12T22:09:42Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       }
     ],
     "recent_reports": []
@@ -6167,7 +6166,7 @@
       {
         "station_id": "5348552841241564",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "UP_TO_25",
         "limit_liters": 30,
         "reports_count": 32,
@@ -6176,7 +6175,7 @@
       {
         "station_id": "5348552841241564",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "UP_TO_25",
         "limit_liters": 0,
         "reports_count": 29,
@@ -6192,35 +6191,35 @@
         "last_report_at": "2026-09-12T21:30:43Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "NONE",
+    "queue_level": "FROM_25_TO_50",
     "prices": [
       {
         "station_id": "5348552841241564",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552841241564",
         "fuel_type": "AI_95",
-        "price": 73.16,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "price": 72.26,
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552841241564",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552841241564",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       }
     ],
     "recent_reports": []
@@ -6295,7 +6294,6 @@
     "closed_by_schedule": false,
     "limit_liters": 40,
     "queue_level": "NONE",
-    "can_use_canister": false,
     "prices": [
       {
         "station_id": "5348552838603996",
@@ -6348,28 +6346,11 @@
         "GAS"
       ]
     },
-    "fuel_statuses": [
-      {
-        "station_id": "70000001046371656",
-        "fuel_type": "GAS",
-        "available": null,
-        "queue_level": "NONE",
-        "reports_count": 0,
-        "last_report_at": null
-      }
-    ],
+    "fuel_statuses": null,
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
-    "prices": [
-      {
-        "station_id": "70000001046371656",
-        "fuel_type": "GAS",
-        "price": 43,
-        "updated_at": "2026-09-12T00:09:47Z"
-      }
-    ],
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -6443,19 +6424,19 @@
         "station_id": "5348552841241565",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552841241565",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552841241565",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       }
     ],
     "recent_reports": []
@@ -6536,19 +6517,19 @@
         "station_id": "5348552838608507",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838608507",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838608507",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       }
     ],
     "recent_reports": []
@@ -6650,14 +6631,14 @@
       {
         "station_id": "70000001051224326",
         "fuel_type": "DT",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 33,
         "last_report_at": "2026-09-11T03:42:34Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -6720,7 +6701,7 @@
       {
         "station_id": "5348552840479725",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "UP_TO_25",
         "limit_liters": 30,
         "reports_count": 14,
@@ -6994,11 +6975,11 @@
         "last_report_at": "2026-09-12T12:17:26Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552838629485",
@@ -7080,7 +7061,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "70000001111066453",
@@ -7173,25 +7154,25 @@
         "station_id": "5348552838608497",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838608497",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838608497",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838608497",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       }
     ],
     "recent_reports": []
@@ -7226,7 +7207,7 @@
       {
         "station_id": "5348552840761846",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 12,
@@ -7342,19 +7323,19 @@
         "station_id": "5348552838735374",
         "fuel_type": "AI_95",
         "price": 70.52,
-        "updated_at": "2026-09-12T22:09:39Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552838735374",
         "fuel_type": "AI_92",
         "price": 65.43,
-        "updated_at": "2026-09-12T22:09:39Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552838735374",
         "fuel_type": "DT",
         "price": 80,
-        "updated_at": "2026-09-12T22:09:39Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       }
     ],
     "recent_reports": []
@@ -7457,7 +7438,7 @@
       {
         "station_id": "5348552838603677",
         "fuel_type": "AI_98",
-        "available": false,
+        "available": null,
         "queue_level": "UP_TO_25",
         "reports_count": 8,
         "last_report_at": "2026-09-12T13:30:54Z"
@@ -7500,25 +7481,25 @@
         "station_id": "5348552838603677",
         "fuel_type": "AI_98",
         "price": 99.9,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552838603677",
         "fuel_type": "AI_95",
         "price": 70.9,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552838603677",
         "fuel_type": "AI_92",
         "price": 65.5,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552838603677",
         "fuel_type": "DT",
         "price": 80.3,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       }
     ],
     "recent_reports": []
@@ -7638,32 +7619,32 @@
     ],
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
+    "closed_by_schedule": true,
     "queue_level": "FROM_25_TO_50",
     "prices": [
       {
         "station_id": "5348552840523410",
         "fuel_type": "AI_100",
         "price": 99.39,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552840523410",
         "fuel_type": "AI_95",
         "price": 69.87,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552840523410",
         "fuel_type": "AI_92",
         "price": 65.37,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552840523410",
         "fuel_type": "DT",
         "price": 80.57,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       }
     ],
     "recent_reports": []
@@ -7800,13 +7781,13 @@
         "station_id": "5348552838608500",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552838608500",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       }
     ],
     "recent_reports": []
@@ -8056,26 +8037,26 @@
     ],
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
+    "closed_by_schedule": true,
     "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552838656766",
         "fuel_type": "AI_95",
         "price": 70.55,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "5348552838656766",
         "fuel_type": "AI_92",
         "price": 65.81,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "5348552838656766",
         "fuel_type": "DT",
         "price": 79.78,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       }
     ],
     "recent_reports": []
@@ -8155,32 +8136,32 @@
     ],
     "status": "NOT_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
+    "closed_by_schedule": true,
     "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001018390554",
         "fuel_type": "AI_100",
         "price": 99.39,
-        "updated_at": "2026-09-12T22:09:39Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "70000001018390554",
         "fuel_type": "AI_95",
         "price": 70.32,
-        "updated_at": "2026-09-12T22:09:39Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "70000001018390554",
         "fuel_type": "AI_92",
         "price": 65.26,
-        "updated_at": "2026-09-12T22:09:39Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "70000001018390554",
         "fuel_type": "DT",
         "price": 80.11,
-        "updated_at": "2026-09-12T22:09:39Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       }
     ],
     "recent_reports": []
@@ -8242,26 +8223,26 @@
     ],
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
+    "closed_by_schedule": true,
     "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001078725517",
         "fuel_type": "AI_95",
         "price": 70.32,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001078725517",
         "fuel_type": "AI_92",
         "price": 65.26,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001078725517",
         "fuel_type": "DT",
         "price": 80.11,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -8422,25 +8403,25 @@
         "station_id": "5348552841239637",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       },
       {
         "station_id": "5348552841239637",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       },
       {
         "station_id": "5348552841239637",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       },
       {
         "station_id": "5348552841239637",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       }
     ],
     "recent_reports": []
@@ -8493,14 +8474,14 @@
       {
         "station_id": "5348552841241562",
         "fuel_type": "DT",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 9,
         "last_report_at": "2026-09-09T18:50:53Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -8509,20 +8490,20 @@
       {
         "station_id": "5348552841241562",
         "fuel_type": "AI_95",
-        "price": 72.26,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "price": 73.16,
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552841241562",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552841241562",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -8579,7 +8560,7 @@
         "last_report_at": "2026-09-12T22:23:41Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "UP_TO_25",
@@ -8588,19 +8569,19 @@
         "station_id": "5348552840479717",
         "fuel_type": "AI_95",
         "price": 70.4,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:40Z"
       },
       {
         "station_id": "5348552840479717",
         "fuel_type": "AI_92",
         "price": 65.35,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:40Z"
       },
       {
         "station_id": "5348552840479717",
         "fuel_type": "DT",
         "price": 80.85,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:40Z"
       }
     ],
     "recent_reports": []
@@ -8669,19 +8650,19 @@
         "station_id": "5348552840051996",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552840051996",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552840051996",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:43Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       }
     ],
     "recent_reports": []
@@ -8760,25 +8741,25 @@
         "station_id": "5348552840960996",
         "fuel_type": "AI_100",
         "price": 100.4,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552840960996",
         "fuel_type": "AI_95",
         "price": 70.2,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552840960996",
         "fuel_type": "AI_92",
         "price": 65.2,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552840960996",
         "fuel_type": "DT",
         "price": 80.7,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       }
     ],
     "recent_reports": []
@@ -8838,25 +8819,25 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552838608511",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838608511",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838608511",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       }
     ],
     "recent_reports": []
@@ -9054,20 +9035,20 @@
       {
         "station_id": "5348552838605874",
         "fuel_type": "AI_95",
-        "price": 73.16,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "price": 72.26,
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552838605874",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552838605874",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       }
     ],
     "recent_reports": []
@@ -9102,7 +9083,7 @@
       {
         "station_id": "5348552840757195",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "OVER_50",
         "limit_liters": 30,
         "reports_count": 16,
@@ -9111,7 +9092,7 @@
       {
         "station_id": "5348552840757195",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "OVER_50",
         "limit_liters": 30,
         "reports_count": 22,
@@ -9127,7 +9108,7 @@
         "last_report_at": "2026-09-12T19:38:58Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -9137,19 +9118,19 @@
         "station_id": "5348552840757195",
         "fuel_type": "AI_95",
         "price": 70.4,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "5348552840757195",
         "fuel_type": "AI_92",
         "price": 65.15,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "5348552840757195",
         "fuel_type": "DT",
         "price": 80.85,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       }
     ],
     "recent_reports": []
@@ -9219,19 +9200,19 @@
         "station_id": "5348552838739680",
         "fuel_type": "AI_95",
         "price": 70.05,
-        "updated_at": "2026-09-12T16:09:45Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "5348552838739680",
         "fuel_type": "AI_92",
         "price": 65.45,
-        "updated_at": "2026-09-12T16:09:45Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "5348552838739680",
         "fuel_type": "DT",
         "price": 81.15,
-        "updated_at": "2026-09-12T16:09:45Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       }
     ],
     "recent_reports": []
@@ -9308,25 +9289,25 @@
         "station_id": "70000001051224171",
         "fuel_type": "AI_98",
         "price": 99.9,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "70000001051224171",
         "fuel_type": "AI_95",
         "price": 70.9,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "70000001051224171",
         "fuel_type": "AI_92",
         "price": 65.5,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "70000001051224171",
         "fuel_type": "DT",
         "price": 80.3,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       }
     ],
     "recent_reports": []
@@ -9378,18 +9359,18 @@
       {
         "station_id": "5348552840479710",
         "fuel_type": "DT",
-        "available": true,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 13,
         "last_report_at": "2026-09-11T07:02:20Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "5348552840479710",
@@ -9487,25 +9468,25 @@
         "station_id": "5348552838737699",
         "fuel_type": "AI_98",
         "price": 99.9,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552838737699",
         "fuel_type": "AI_95",
         "price": 70.97,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552838737699",
         "fuel_type": "AI_92",
         "price": 65.54,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "5348552838737699",
         "fuel_type": "DT",
         "price": 80.95,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       }
     ],
     "recent_reports": []
@@ -9583,25 +9564,25 @@
         "station_id": "5348552838605875",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552838605875",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552838605875",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "5348552838605875",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       }
     ],
     "recent_reports": []
@@ -9664,25 +9645,25 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "OVER_50",
+    "queue_level": "FROM_25_TO_50",
     "prices": [
       {
         "station_id": "5348552838608483",
         "fuel_type": "AI_95",
-        "price": 73.16,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "price": 72.26,
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "5348552838608483",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "5348552838608483",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       }
     ],
     "recent_reports": []
@@ -9726,7 +9707,7 @@
       {
         "station_id": "70000001062639588",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "FROM_25_TO_50",
         "limit_liters": 0,
         "reports_count": 18,
@@ -9746,25 +9727,25 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "70000001062639588",
         "fuel_type": "AI_95",
         "price": 70.95,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "70000001062639588",
         "fuel_type": "AI_92",
         "price": 65.74,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       },
       {
         "station_id": "70000001062639588",
         "fuel_type": "DT",
         "price": 80.37,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       }
     ],
     "recent_reports": []
@@ -9833,13 +9814,13 @@
         "station_id": "5348552838608480",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:40Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552838608480",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:40Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -10008,32 +9989,32 @@
     ],
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
+    "closed_by_schedule": true,
     "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "70000001021721325",
         "fuel_type": "AI_100",
         "price": 99.39,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "70000001021721325",
         "fuel_type": "AI_95",
         "price": 71.11,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "70000001021721325",
         "fuel_type": "AI_92",
         "price": 65.93,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "70000001021721325",
         "fuel_type": "DT",
         "price": 80.89,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       }
     ],
     "recent_reports": []
@@ -10091,13 +10072,13 @@
         "station_id": "5348552838604003",
         "fuel_type": "AI_92",
         "price": 65,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "5348552838604003",
         "fuel_type": "DT",
         "price": 79.9,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       }
     ],
     "recent_reports": []
@@ -10170,31 +10151,31 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552838608490",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552838608490",
         "fuel_type": "AI_95",
         "price": 73.16,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552838608490",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552838608490",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -10245,13 +10226,13 @@
       {
         "station_id": "70000001063874230",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 4,
         "last_report_at": "2026-09-08T21:34:04Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -10314,7 +10295,7 @@
       {
         "station_id": "70000001052037411",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 30,
@@ -10323,7 +10304,7 @@
       {
         "station_id": "70000001052037411",
         "fuel_type": "DT",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 33,
@@ -10340,26 +10321,26 @@
       {
         "station_id": "70000001052037411",
         "fuel_type": "AI_100",
-        "price": 98,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "price": 99,
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001052037411",
         "fuel_type": "AI_95",
         "price": 69.66,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001052037411",
         "fuel_type": "AI_92",
         "price": 65.18,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001052037411",
         "fuel_type": "DT",
         "price": 80.37,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -10576,7 +10557,7 @@
       {
         "station_id": "5348552841674354",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "FROM_25_TO_50",
         "limit_liters": 40,
         "reports_count": 20,
@@ -10587,7 +10568,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "NONE",
     "can_use_canister": true,
     "prices": [
       {
@@ -10669,19 +10650,19 @@
         "station_id": "5348552838606052",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T18:09:49Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       },
       {
         "station_id": "5348552838606052",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T18:09:49Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       },
       {
         "station_id": "5348552838606052",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T18:09:49Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       }
     ],
     "recent_reports": []
@@ -10924,7 +10905,7 @@
         "station_id": "70000001105819556",
         "fuel_type": "GAS",
         "price": 40.95,
-        "updated_at": "2026-09-12T00:09:39Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       }
     ],
     "recent_reports": []
@@ -10987,7 +10968,7 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552840268770",
@@ -11256,31 +11237,31 @@
     "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "70000001110358124",
         "fuel_type": "AI_100",
         "price": 99.24,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001110358124",
         "fuel_type": "AI_95",
         "price": 71.14,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001110358124",
         "fuel_type": "AI_92",
         "price": 66.1,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "70000001110358124",
         "fuel_type": "DT",
         "price": 80.41,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -11344,7 +11325,7 @@
     "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -11390,7 +11371,7 @@
         "station_id": "70000001032023829",
         "fuel_type": "GAS",
         "price": 47.99,
-        "updated_at": "2026-09-12T00:09:37Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       }
     ],
     "recent_reports": []
@@ -11462,32 +11443,32 @@
     ],
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
+    "closed_by_schedule": true,
     "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552838656768",
         "fuel_type": "AI_100",
         "price": 99.39,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552838656768",
         "fuel_type": "AI_95",
         "price": 71.11,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552838656768",
         "fuel_type": "AI_92",
         "price": 66.03,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552838656768",
         "fuel_type": "DT",
         "price": 80.57,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -11539,7 +11520,7 @@
     ],
     "status": "NOT_AVAILABLE",
     "closed": false,
-    "closed_by_schedule": false,
+    "closed_by_schedule": true,
     "queue_level": "NONE",
     "recent_reports": []
   },
@@ -11617,25 +11598,25 @@
         "station_id": "70000001062822050",
         "fuel_type": "AI_98",
         "price": 99.9,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "70000001062822050",
         "fuel_type": "AI_95",
         "price": 70.9,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "70000001062822050",
         "fuel_type": "AI_92",
         "price": 65.5,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       },
       {
         "station_id": "70000001062822050",
         "fuel_type": "DT",
         "price": 80.3,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:39Z"
       }
     ],
     "recent_reports": []
@@ -11791,25 +11772,25 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "OVER_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "5348552838608494",
         "fuel_type": "AI_95",
-        "price": 73.16,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "price": 72.26,
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "5348552838608494",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "5348552838608494",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       }
     ],
     "recent_reports": []
@@ -11984,31 +11965,31 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "5348552838608503",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:40Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "5348552838608503",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:40Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "5348552838608503",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:40Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       },
       {
         "station_id": "5348552838608503",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:40Z"
+        "updated_at": "2026-09-13T00:09:37Z"
       }
     ],
     "recent_reports": []
@@ -12081,7 +12062,7 @@
     "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001105991745",
@@ -12152,7 +12133,7 @@
         "station_id": "70000001041971514",
         "fuel_type": "GAS",
         "price": 45.99,
-        "updated_at": "2026-09-12T00:09:47Z"
+        "updated_at": "2026-09-13T00:09:41Z"
       }
     ],
     "recent_reports": []
@@ -12222,13 +12203,13 @@
         "station_id": "5348552838606059",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552838606059",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       }
     ],
     "recent_reports": []
@@ -12356,14 +12337,14 @@
       {
         "station_id": "70000001037010189",
         "fuel_type": "GAS",
-        "available": false,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 2,
         "last_report_at": "2026-09-12T17:27:39Z"
       }
     ],
-    "status": "NOT_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -12458,25 +12439,25 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "NONE",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "70000001110487458",
         "fuel_type": "AI_95",
         "price": 70.76,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "70000001110487458",
         "fuel_type": "AI_92",
         "price": 65.61,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "70000001110487458",
         "fuel_type": "DT",
         "price": 80.78,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       }
     ],
     "recent_reports": []
@@ -12687,19 +12668,19 @@
         "station_id": "5348552838608479",
         "fuel_type": "AI_95",
         "price": 71.69,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       },
       {
         "station_id": "5348552838608479",
         "fuel_type": "AI_92",
         "price": 65.7,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       },
       {
         "station_id": "5348552838608479",
         "fuel_type": "DT",
         "price": 81.92,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:45Z"
       }
     ],
     "recent_reports": []
@@ -12778,19 +12759,19 @@
         "station_id": "70000001051057670",
         "fuel_type": "AI_95",
         "price": 69.66,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "70000001051057670",
         "fuel_type": "AI_92",
         "price": 65.18,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "70000001051057670",
         "fuel_type": "DT",
         "price": 80.37,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       }
     ],
     "recent_reports": []
@@ -12932,25 +12913,25 @@
     "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552838606051",
         "fuel_type": "AI_95",
         "price": 73.16,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552838606051",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552838606051",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:47Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       }
     ],
     "recent_reports": []
@@ -13015,20 +12996,20 @@
       {
         "station_id": "5348552840428370",
         "fuel_type": "AI_95",
-        "price": 72.26,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "price": 73.16,
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552840428370",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       },
       {
         "station_id": "5348552840428370",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:46Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -13156,7 +13137,7 @@
         "station_id": "70000001103954249",
         "fuel_type": "GAS",
         "price": 41,
-        "updated_at": "2026-09-12T22:09:40Z"
+        "updated_at": "2026-09-13T00:09:38Z"
       }
     ],
     "recent_reports": []
@@ -13189,7 +13170,7 @@
     "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "recent_reports": []
   },
   {
@@ -13311,7 +13292,7 @@
     "status": "NO_DATA",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -13547,7 +13528,7 @@
       {
         "station_id": "70000001114591163",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 10,
@@ -13642,13 +13623,13 @@
       {
         "station_id": "70000001051224199",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 6,
         "last_report_at": "2026-09-11T05:52:11Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "UP_TO_25",
@@ -13657,13 +13638,13 @@
         "station_id": "70000001051224199",
         "fuel_type": "AI_92",
         "price": 65,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "70000001051224199",
         "fuel_type": "DT",
         "price": 79.9,
-        "updated_at": "2026-09-12T22:09:41Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       }
     ],
     "recent_reports": []
@@ -13766,7 +13747,7 @@
       {
         "station_id": "5348552840479711",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": false,
         "queue_level": "UP_TO_25",
         "limit_liters": 40,
         "reports_count": 15,
@@ -13787,11 +13768,11 @@
         "available": true,
         "queue_level": "FROM_25_TO_50",
         "limit_liters": 30,
-        "reports_count": 18,
-        "last_report_at": "2026-09-12T15:42:33Z"
+        "reports_count": 19,
+        "last_report_at": "2026-09-12T23:05:51Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -13860,7 +13841,7 @@
       {
         "station_id": "5348552838603997",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "FROM_25_TO_50",
         "limit_liters": 0,
         "reports_count": 33,
@@ -13887,25 +13868,25 @@
         "station_id": "5348552838603997",
         "fuel_type": "AI_98",
         "price": 99.9,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838603997",
         "fuel_type": "AI_95",
         "price": 70.9,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838603997",
         "fuel_type": "AI_92",
         "price": 65.5,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       },
       {
         "station_id": "5348552838603997",
         "fuel_type": "DT",
         "price": 80.3,
-        "updated_at": "2026-09-12T22:09:45Z"
+        "updated_at": "2026-09-13T00:09:43Z"
       }
     ],
     "recent_reports": []
@@ -14064,25 +14045,25 @@
         "station_id": "5348552838606044",
         "fuel_type": "AI_100",
         "price": 99.4,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552838606044",
         "fuel_type": "AI_95",
         "price": 72.26,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552838606044",
         "fuel_type": "AI_92",
         "price": 66.26,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       },
       {
         "station_id": "5348552838606044",
         "fuel_type": "DT",
         "price": 82.49,
-        "updated_at": "2026-09-12T22:09:44Z"
+        "updated_at": "2026-09-13T00:09:42Z"
       }
     ],
     "recent_reports": []
@@ -14157,31 +14138,30 @@
     "closed_by_schedule": false,
     "limit_liters": 40,
     "queue_level": "UP_TO_25",
-    "can_use_canister": true,
     "prices": [
       {
         "station_id": "5348552838603669",
         "fuel_type": "AI_98",
         "price": 99.9,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838603669",
         "fuel_type": "AI_95",
         "price": 70.9,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838603669",
         "fuel_type": "AI_92",
         "price": 65.5,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       },
       {
         "station_id": "5348552838603669",
         "fuel_type": "DT",
         "price": 80.3,
-        "updated_at": "2026-09-12T22:09:48Z"
+        "updated_at": "2026-09-13T00:09:35Z"
       }
     ],
     "recent_reports": []
@@ -14251,19 +14231,19 @@
         "station_id": "70000001111161976",
         "fuel_type": "AI_95",
         "price": 70.54,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "70000001111161976",
         "fuel_type": "AI_92",
         "price": 65.4,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       },
       {
         "station_id": "70000001111161976",
         "fuel_type": "DT",
         "price": 80.18,
-        "updated_at": "2026-09-12T22:09:38Z"
+        "updated_at": "2026-09-13T00:09:44Z"
       }
     ],
     "recent_reports": []
@@ -14305,7 +14285,7 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
