@@ -20,7 +20,52 @@
         "95"
       ]
     },
-    "recent_comments": []
+    "recent_comments": [
+      {
+        "status": "no",
+        "detail": "Заправка не работает",
+        "created_at": "2026-10-20 05:00:56",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": false
+      }
+    ]
+  },
+  {
+    "osm_id": "12109968071",
+    "brand": "Татнефть",
+    "name": "Татнефть",
+    "addr": "Сибирский тракт, 44",
+    "lat": 55.8324681,
+    "lon": 49.1934419,
+    "distance_km": 9.2,
+    "status": "no",
+    "detail": "Заправка не работает",
+    "fuels_now": "",
+    "confirmations": 1,
+    "last_at": "2026-10-20 07:49:35",
+    "confidence_base": 0.35,
+    "meta": {
+      "f": [
+        "dt",
+        "92",
+        "95"
+      ]
+    },
+    "recent_comments": [
+      {
+        "status": "no",
+        "detail": "Заправка не работает",
+        "created_at": "2026-10-20 07:49:35",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": true
+      }
+    ]
   },
   {
     "osm_id": "11931864476",
@@ -34,8 +79,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 18:22:56",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 07:53:50",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -58,38 +103,13 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 21:57:46",
+    "last_at": "2026-10-20 09:41:43",
     "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
         "92",
         "95"
-      ]
-    },
-    "svc": "only",
-    "recent_comments": []
-  },
-  {
-    "osm_id": "12670781473",
-    "brand": "Лукойл",
-    "name": "Лукойл",
-    "addr": "улица Хусаина Мавлютова, 50А",
-    "lat": 55.7444746,
-    "lon": 49.1903902,
-    "distance_km": 0.9,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 17:33:26",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95",
-        "100"
       ]
     },
     "svc": "only",
@@ -104,11 +124,11 @@
     "lon": 49.2157737,
     "distance_km": 1.1,
     "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-20 04:54:01",
-    "confidence_base": 0.35,
+    "detail": "92, 95, 98, ДТ · Очередь 15–30 мин",
+    "fuels_now": "92,95,95+,98,ДТ",
+    "confirmations": 5,
+    "last_at": "2026-10-20 10:10:47",
+    "confidence_base": 0.9,
     "meta": {
       "f": [
         "dt",
@@ -116,50 +136,63 @@
         "95"
       ]
     },
-    "svc": "vs",
-    "recent_comments": []
-  },
-  {
-    "osm_id": "usr_fYrmi1Y_ias",
-    "brand": "IRBIS",
-    "name": "Irbis",
-    "addr": "ул Дубравная, 8",
-    "lat": 55.738441317263245,
-    "lon": 49.21155899763108,
-    "distance_km": 1.5,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 19:19:27",
-    "confidence_base": 0.0,
-    "svc": "only",
-    "recent_comments": []
-  },
-  {
-    "osm_id": "usr_L1sRdhABPQ4",
-    "brand": "Teboil",
-    "name": "Teboil",
-    "addr": "ул Карбышева, 62Б",
-    "lat": 55.75211324784806,
-    "lon": 49.17656741463946,
-    "distance_km": 1.5,
-    "status": "yes",
-    "detail": "ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 19:39:50",
-    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "ДТ",
-        "created_at": "2026-10-19 19:39:50",
-        "edited": true,
+        "detail": "92,95,ДТ",
+        "created_at": "2026-10-20 08:52:16",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ · Очередь 15–30 мин",
+        "created_at": "2026-10-20 07:34:18",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ · Очередь 15–30 мин",
+        "created_at": "2026-10-20 07:02:38",
+        "edited": false,
         "author_reliable": false,
         "author_tier": 0,
         "acct_ok": true,
         "on_site": true
+      },
+      {
+        "status": "no",
+        "detail": "",
+        "created_at": "2026-10-19 18:43:29",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": false
+      },
+      {
+        "status": "yes",
+        "detail": "92, 98, ДТ",
+        "created_at": "2026-10-19 17:20:31",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": false
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ · Очередь 15–30 мин",
+        "created_at": "2026-10-19 11:21:42",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 2,
+        "acct_ok": true,
+        "on_site": false
       }
     ]
   },
@@ -175,14 +208,38 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 19:54:23",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 08:46:17",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
         "92",
         "95",
         "lpg"
+      ]
+    },
+    "svc": "only",
+    "recent_comments": []
+  },
+  {
+    "osm_id": "821439865",
+    "brand": "ТАИФ-НК",
+    "name": "Таиф-НК",
+    "addr": "пр-кт Победы, 3А",
+    "lat": 55.737522,
+    "lon": 49.18302,
+    "distance_km": 1.7,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "",
+    "confirmations": 1,
+    "last_at": "2026-10-20 07:09:11",
+    "confidence_base": 0.35,
+    "meta": {
+      "f": [
+        "dt",
+        "92",
+        "95"
       ]
     },
     "svc": "only",
@@ -200,7 +257,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 22:20:43",
+    "last_at": "2026-10-20 09:12:09",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -221,11 +278,11 @@
     "lon": 49.1842836,
     "distance_km": 2.1,
     "status": "yes",
-    "detail": "92, 95, 98 · Очередь до 15 мин",
-    "fuels_now": "92,95,98",
-    "confirmations": 1,
-    "last_at": "2026-10-20 04:51:19",
-    "confidence_base": 0.35,
+    "detail": "98, ДТ",
+    "fuels_now": "98,ДТ",
+    "confirmations": 3,
+    "last_at": "2026-10-20 09:09:36",
+    "confidence_base": 0.9,
     "meta": {
       "f": [
         "dt",
@@ -237,7 +294,25 @@
       {
         "status": "yes",
         "detail": "98, ДТ",
-        "created_at": "2026-10-19 09:04:24",
+        "created_at": "2026-10-20 09:09:36",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 2,
+        "acct_ok": true,
+        "on_site": false
+      },
+      {
+        "status": "yes",
+        "detail": "92,95,ДТ",
+        "created_at": "2026-10-20 06:42:22",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 98 · Очередь до 15 мин",
+        "created_at": "2026-10-20 04:51:19",
         "edited": false,
         "author_reliable": false,
         "author_tier": 0,
@@ -258,7 +333,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 22:42:28",
+    "last_at": "2026-10-20 09:17:55",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -282,7 +357,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 21:26:56",
+    "last_at": "2026-10-20 09:42:55",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -298,17 +373,17 @@
   {
     "osm_id": "13358365840",
     "brand": "ТАИФ-НК",
-    "name": "Таиф-НК",
+    "name": "ТАИФ-НК",
     "addr": "Оренбургский тракт, 144",
     "lat": 55.7287813,
     "lon": 49.1950923,
     "distance_km": 2.4,
     "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-20 03:23:49",
-    "confidence_base": 0.35,
+    "detail": "92, 95, 98, ДТ",
+    "fuels_now": "92,95,98,ДТ",
+    "confirmations": 2,
+    "last_at": "2026-10-20 09:42:13",
+    "confidence_base": 0.7104,
     "meta": {
       "f": [
         "dt",
@@ -317,8 +392,16 @@
         "98"
       ]
     },
-    "svc": "only",
-    "recent_comments": []
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92,95,ДТ",
+        "created_at": "2026-10-20 07:07:39",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      }
+    ]
   },
   {
     "osm_id": "1437439075",
@@ -332,7 +415,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 23:53:24",
+    "last_at": "2026-10-20 07:07:10",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -353,11 +436,11 @@
     "lon": 49.24159,
     "distance_km": 2.6,
     "status": "yes",
-    "detail": "",
+    "detail": "92, 95, ДТ · Очередь до 15 мин",
     "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 19:58:40",
-    "confidence_base": 0.0,
+    "confirmations": 2,
+    "last_at": "2026-10-20 09:38:47",
+    "confidence_base": 0.7104,
     "meta": {
       "f": [
         "dt",
@@ -365,8 +448,26 @@
         "95"
       ]
     },
-    "svc": "only",
-    "recent_comments": []
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92,95,ДТ",
+        "created_at": "2026-10-20 08:52:58",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ · Очередь до 15 мин",
+        "created_at": "2026-10-20 05:38:06",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": true
+      }
+    ]
   },
   {
     "osm_id": "11931864448",
@@ -380,8 +481,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 17:42:42",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 08:40:30",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -403,10 +504,10 @@
     "distance_km": 2.6,
     "status": "yes",
     "detail": "92, 95, ДТ · Очередь до 15 мин",
-    "fuels_now": "92,95,ДТ",
+    "fuels_now": "",
     "confirmations": 3,
-    "last_at": "2026-10-20 04:31:08",
-    "confidence_base": 0.7104,
+    "last_at": "2026-10-20 06:54:12",
+    "confidence_base": 0.8693,
     "meta": {
       "f": [
         "dt",
@@ -415,6 +516,34 @@
       ]
     },
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92,95",
+        "created_at": "2026-10-20 06:54:12",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ · Очередь до 15 мин",
+        "created_at": "2026-10-20 05:46:44",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ · Очередь до 15 мин",
+        "created_at": "2026-10-20 04:31:08",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": true
+      },
       {
         "status": "no",
         "detail": "",
@@ -444,14 +573,6 @@
         "author_tier": 0,
         "acct_ok": true,
         "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "92,95",
-        "created_at": "2026-10-19 05:41:14",
-        "edited": false,
-        "on_site": true,
-        "svc": true
       }
     ]
   },
@@ -465,10 +586,10 @@
     "distance_km": 2.6,
     "status": "yes",
     "detail": "ДТ",
-    "fuels_now": "ДТ",
+    "fuels_now": "",
     "confirmations": 2,
-    "last_at": "2026-10-20 02:40:25",
-    "confidence_base": 0.7104,
+    "last_at": "2026-10-20 09:15:34",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -477,7 +598,26 @@
         "100"
       ]
     },
+    "svc": "vs",
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "ДТ",
+        "created_at": "2026-10-20 08:51:14",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "no",
+        "detail": "",
+        "created_at": "2026-10-20 07:37:05",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "ДТ",
@@ -487,16 +627,25 @@
         "author_tier": 0,
         "acct_ok": false,
         "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "ДТ",
-        "created_at": "2026-10-19 21:57:34",
-        "edited": false,
-        "on_site": true,
-        "svc": true
       }
     ]
+  },
+  {
+    "osm_id": "usr_pmXJIyBh-PM",
+    "brand": "Татнефть",
+    "name": "Татнефть",
+    "addr": "",
+    "lat": 55.73899607356757,
+    "lon": 49.16109164105395,
+    "distance_km": 2.7,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "",
+    "confirmations": 1,
+    "last_at": "2026-10-20 06:58:01",
+    "confidence_base": 0.35,
+    "svc": "only",
+    "recent_comments": []
   },
   {
     "osm_id": "11931857567",
@@ -510,8 +659,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 19:15:28",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 07:44:33",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -557,10 +706,58 @@
     "lon": 49.2209539,
     "distance_km": 2.9,
     "status": "yes",
-    "detail": "92, 95, 95+, ДТ",
+    "detail": "",
     "fuels_now": "",
-    "confirmations": 3,
-    "last_at": "2026-10-20 04:50:54",
+    "confirmations": 1,
+    "last_at": "2026-10-20 09:41:20",
+    "confidence_base": 0.35,
+    "meta": {
+      "f": [
+        "dt",
+        "92",
+        "95"
+      ]
+    },
+    "svc": "only",
+    "recent_comments": []
+  },
+  {
+    "osm_id": "12153286074",
+    "brand": "Татнефть",
+    "name": "Татнефть",
+    "addr": "Гвардейская улица, 55Б",
+    "lat": 55.7737424,
+    "lon": 49.1756955,
+    "distance_km": 3.0,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "",
+    "confirmations": 1,
+    "last_at": "2026-10-20 09:12:19",
+    "confidence_base": 0.35,
+    "meta": {
+      "f": [
+        "dt",
+        "92",
+        "95"
+      ]
+    },
+    "svc": "only",
+    "recent_comments": []
+  },
+  {
+    "osm_id": "12789848638",
+    "brand": "ТАИФ-НК",
+    "name": "Таиф-НК",
+    "addr": "ул Аделя Кутуя, 116А",
+    "lat": 55.7779181,
+    "lon": 49.1887869,
+    "distance_km": 3.2,
+    "status": "yes",
+    "detail": "92",
+    "fuels_now": "92",
+    "confirmations": 2,
+    "last_at": "2026-10-20 09:31:28",
     "confidence_base": 0.7104,
     "meta": {
       "f": [
@@ -572,155 +769,41 @@
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92,95",
-        "created_at": "2026-10-20 02:47:04",
+        "detail": "92,95,ДТ",
+        "created_at": "2026-10-20 08:53:27",
         "edited": false,
         "on_site": true,
         "svc": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-19 22:07:37",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ · Очередь до 15 мин",
-        "created_at": "2026-10-19 17:37:20",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-19 17:20:06",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false,
-        "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, 98, ДТ · Очередь до 15 мин",
-        "created_at": "2026-10-19 11:24:33",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": true,
-        "on_site": false
-      }
-    ]
-  },
-  {
-    "osm_id": "12153286074",
-    "brand": "Татнефть",
-    "name": "Татнефть",
-    "addr": "Гвардейская улица, 55Б",
-    "lat": 55.7737424,
-    "lon": 49.1756955,
-    "distance_km": 3.0,
-    "status": "yes",
-    "detail": "ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 19:28:55",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95"
-      ]
-    },
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "ДТ",
-        "created_at": "2026-10-19 19:28:55",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "ДТ",
-        "created_at": "2026-10-19 15:00:51",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": false
       },
       {
         "status": "yes",
         "detail": "92",
-        "created_at": "2026-10-19 12:52:03",
-        "edited": false,
-        "on_site": true,
-        "svc": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ · Очередь до 15 мин",
-        "created_at": "2026-10-19 08:46:57",
+        "created_at": "2026-10-20 08:36:26",
         "edited": false,
         "author_reliable": false,
         "author_tier": 0,
-        "acct_ok": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-19 08:03:37",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
         "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "no",
-        "detail": "",
-        "created_at": "2026-10-19 05:32:06",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false,
         "on_site": true
       }
     ]
   },
   {
-    "osm_id": "12789848638",
-    "brand": "ТАИФ-НК",
-    "name": "Таиф-НК",
-    "addr": "ул Аделя Кутуя, 116А",
-    "lat": 55.7779181,
-    "lon": 49.1887869,
-    "distance_km": 3.2,
+    "osm_id": "12313961457",
+    "brand": "Стифкор",
+    "name": "Стифкор",
+    "addr": "ул Минская, 11",
+    "lat": 55.7728362,
+    "lon": 49.2347799,
+    "distance_km": 3.3,
     "status": "yes",
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 23:23:43",
+    "last_at": "2026-10-20 09:24:17",
     "confidence_base": 0.35,
     "meta": {
       "f": [
-        "dt",
-        "92",
-        "95"
+        "lpg"
       ]
     },
     "svc": "only",
@@ -729,17 +812,17 @@
   {
     "osm_id": "11187564766",
     "brand": "ТАИФ-НК",
-    "name": "Таиф-НК",
+    "name": "ТАИФ-НК",
     "addr": "улица Нэфис, 1А",
     "lat": 55.7193668,
     "lon": 49.2021924,
     "distance_km": 3.4,
     "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-20 04:06:06",
-    "confidence_base": 0.35,
+    "detail": "92, 95, ДТ",
+    "fuels_now": "92,95,ДТ",
+    "confirmations": 2,
+    "last_at": "2026-10-20 09:36:23",
+    "confidence_base": 0.7104,
     "meta": {
       "f": [
         "dt",
@@ -749,8 +832,16 @@
         "lpg"
       ]
     },
-    "svc": "only",
-    "recent_comments": []
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92,95,100,ДТ",
+        "created_at": "2026-10-20 08:55:31",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      }
+    ]
   },
   {
     "osm_id": "9897041247",
@@ -761,11 +852,11 @@
     "lon": 49.2324489,
     "distance_km": 3.5,
     "status": "yes",
-    "detail": "92, 95",
+    "detail": "92, 95, ДТ · Очередь до 15 мин",
     "fuels_now": "",
-    "confirmations": 3,
-    "last_at": "2026-10-20 03:23:34",
-    "confidence_base": 0.35,
+    "confirmations": 2,
+    "last_at": "2026-10-20 09:37:56",
+    "confidence_base": 0.8323,
     "meta": {
       "f": [
         "dt",
@@ -776,11 +867,20 @@
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92,95",
-        "created_at": "2026-10-20 03:23:34",
+        "detail": "92,95,ДТ",
+        "created_at": "2026-10-20 08:48:28",
         "edited": false,
         "on_site": true,
         "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ · Очередь до 15 мин",
+        "created_at": "2026-10-20 05:57:32",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": false
       },
       {
         "status": "yes",
@@ -833,11 +933,11 @@
     "lon": 49.2175272,
     "distance_km": 3.5,
     "status": "yes",
-    "detail": "92, 95, 95+, 98, ДТ · Очередь до 15 мин",
-    "fuels_now": "92,95,95+,98,ДТ",
-    "confirmations": 2,
-    "last_at": "2026-10-20 05:01:37",
-    "confidence_base": 0.7104,
+    "detail": "92, 98, ДТ · Очередь до 15 мин",
+    "fuels_now": "92,95,98,ДТ",
+    "confirmations": 5,
+    "last_at": "2026-10-20 10:03:18",
+    "confidence_base": 0.9,
     "meta": {
       "f": [
         "dt",
@@ -850,11 +950,41 @@
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92,95",
-        "created_at": "2026-10-20 02:27:18",
+        "detail": "92, 98, ДТ · Очередь до 15 мин",
+        "created_at": "2026-10-20 08:58:31",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": false
+      },
+      {
+        "status": "yes",
+        "detail": "92,95,ДТ",
+        "created_at": "2026-10-20 08:56:28",
         "edited": false,
         "on_site": true,
         "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 98 · Очередь до 15 мин",
+        "created_at": "2026-10-20 08:43:24",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, 98, ДТ · Очередь до 15 мин",
+        "created_at": "2026-10-20 05:01:37",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": false
       },
       {
         "status": "yes",
@@ -885,15 +1015,6 @@
         "author_tier": 0,
         "acct_ok": false,
         "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ · Очередь 15–30 мин",
-        "created_at": "2026-10-19 06:55:14",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false
       }
     ]
   },
@@ -909,7 +1030,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 23:36:47",
+    "last_at": "2026-10-20 09:23:08",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -932,10 +1053,10 @@
     "distance_km": 3.6,
     "status": "yes",
     "detail": "ДТ",
-    "fuels_now": "ДТ",
+    "fuels_now": "",
     "confirmations": 2,
-    "last_at": "2026-10-20 02:40:50",
-    "confidence_base": 0.35,
+    "last_at": "2026-10-20 09:07:55",
+    "confidence_base": 0.7104,
     "meta": {
       "f": [
         "dt",
@@ -948,20 +1069,20 @@
       {
         "status": "yes",
         "detail": "ДТ",
+        "created_at": "2026-10-20 09:07:55",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "ДТ",
         "created_at": "2026-10-20 02:40:50",
         "edited": false,
         "author_reliable": false,
         "author_tier": 0,
         "acct_ok": false,
         "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "92",
-        "created_at": "2026-10-19 18:07:49",
-        "edited": false,
-        "on_site": true,
-        "svc": true
       },
       {
         "status": "no",
@@ -996,7 +1117,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 02:36:12",
+    "last_at": "2026-10-20 06:54:47",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -1007,59 +1128,6 @@
     },
     "svc": "only",
     "recent_comments": []
-  },
-  {
-    "osm_id": "12320069569",
-    "brand": "IRBIS",
-    "name": "Irbis",
-    "addr": "ул Академика Глушко, 8А",
-    "lat": 55.7827396,
-    "lon": 49.2361451,
-    "distance_km": 4.3,
-    "status": "yes",
-    "detail": "92, 95, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 19:28:39",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95",
-        "98"
-      ]
-    },
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-19 19:28:39",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "ДТ",
-        "created_at": "2026-10-19 17:15:18",
-        "edited": false,
-        "on_site": true,
-        "svc": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-19 11:31:21",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": true,
-        "on_site": true
-      }
-    ]
   },
   {
     "osm_id": "3337483076",
@@ -1073,7 +1141,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 03:25:14",
+    "last_at": "2026-10-20 07:05:40",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -1086,27 +1154,19 @@
     "recent_comments": []
   },
   {
-    "osm_id": "9119785647",
-    "brand": "ТАИФ-НК",
-    "name": "Таиф-НК",
-    "addr": "ул Марселя Салимжанова, 29",
-    "lat": 55.7741095,
-    "lon": 49.1383642,
-    "distance_km": 4.7,
+    "osm_id": "usr_Jbnfxt-mLuw",
+    "brand": "Teboil",
+    "name": "Teboil",
+    "addr": "ул Техническая, 4А",
+    "lat": 55.76511694256144,
+    "lon": 49.12878340774483,
+    "distance_km": 4.8,
     "status": "yes",
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 19:17:31",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95",
-        "100"
-      ]
-    },
+    "last_at": "2026-10-20 08:06:18",
+    "confidence_base": 0.35,
     "svc": "only",
     "recent_comments": []
   },
@@ -1120,10 +1180,10 @@
     "distance_km": 4.9,
     "status": "yes",
     "detail": "ДТ",
-    "fuels_now": "ДТ",
+    "fuels_now": "",
     "confirmations": 2,
-    "last_at": "2026-10-20 02:41:08",
-    "confidence_base": 0.35,
+    "last_at": "2026-10-20 09:24:10",
+    "confidence_base": 0.7104,
     "meta": {
       "f": [
         "dt",
@@ -1137,20 +1197,20 @@
       {
         "status": "yes",
         "detail": "ДТ",
+        "created_at": "2026-10-20 08:25:29",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "ДТ",
         "created_at": "2026-10-20 02:41:08",
         "edited": false,
         "author_reliable": false,
         "author_tier": 0,
         "acct_ok": false,
         "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "ДТ",
-        "created_at": "2026-10-19 21:17:37",
-        "edited": false,
-        "on_site": true,
-        "svc": true
       }
     ]
   },
@@ -1166,8 +1226,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 17:50:06",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 08:13:48",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -1191,32 +1251,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 22:31:17",
+    "last_at": "2026-10-20 09:41:40",
     "confidence_base": 0.35,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95"
-      ]
-    },
-    "svc": "only",
-    "recent_comments": []
-  },
-  {
-    "osm_id": "2683899507",
-    "brand": "Татнефть",
-    "name": "Татнефть",
-    "addr": "улица Сары Садыковой, 65",
-    "lat": 55.7696548,
-    "lon": 49.1223623,
-    "distance_km": 5.3,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 18:41:42",
-    "confidence_base": 0.0,
     "meta": {
       "f": [
         "dt",
@@ -1239,7 +1275,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 02:50:17",
+    "last_at": "2026-10-20 08:40:02",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -1264,52 +1300,10 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 00:43:47",
+    "last_at": "2026-10-20 09:38:45",
     "confidence_base": 0.35,
-    "svc": "vs",
+    "svc": "only",
     "recent_comments": []
-  },
-  {
-    "osm_id": "3321731013",
-    "brand": "ТАИФ-НК",
-    "name": "ТАИФ-НК",
-    "addr": "Спартаковская улица, 8",
-    "lat": 55.7788974,
-    "lon": 49.1307478,
-    "distance_km": 5.4,
-    "status": "yes",
-    "detail": "92, 95, ДТ",
-    "fuels_now": "",
-    "confirmations": 2,
-    "last_at": "2026-10-19 19:21:14",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95"
-      ]
-    },
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-19 19:21:14",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92,95",
-        "created_at": "2026-10-19 19:06:20",
-        "edited": false,
-        "on_site": true,
-        "svc": true
-      }
-    ]
   },
   {
     "osm_id": "1587129934",
@@ -1323,7 +1317,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 02:36:04",
+    "last_at": "2026-10-20 09:41:16",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -1349,7 +1343,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 23:33:27",
+    "last_at": "2026-10-20 06:56:16",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -1371,9 +1365,9 @@
     "distance_km": 6.1,
     "status": "yes",
     "detail": "ДТ",
-    "fuels_now": "ДТ",
-    "confirmations": 3,
-    "last_at": "2026-10-20 03:28:05",
+    "fuels_now": "",
+    "confirmations": 2,
+    "last_at": "2026-10-20 07:28:38",
     "confidence_base": 0.7104,
     "meta": {
       "f": [
@@ -1387,19 +1381,19 @@
       {
         "status": "yes",
         "detail": "ДТ",
+        "created_at": "2026-10-20 07:28:38",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "ДТ",
         "created_at": "2026-10-20 03:28:05",
         "edited": false,
         "author_reliable": false,
         "author_tier": 0,
         "acct_ok": false
-      },
-      {
-        "status": "yes",
-        "detail": "ДТ",
-        "created_at": "2026-10-19 21:39:36",
-        "edited": false,
-        "on_site": true,
-        "svc": true
       },
       {
         "status": "yes",
@@ -1446,10 +1440,10 @@
     "distance_km": 6.6,
     "status": "yes",
     "detail": "92, 95, ДТ",
-    "fuels_now": "92,95,ДТ",
-    "confirmations": 1,
-    "last_at": "2026-10-20 04:46:20",
-    "confidence_base": 0.35,
+    "fuels_now": "",
+    "confirmations": 2,
+    "last_at": "2026-10-20 06:44:33",
+    "confidence_base": 0.7104,
     "meta": {
       "f": [
         "dt",
@@ -1458,7 +1452,26 @@
         "lpg"
       ]
     },
-    "recent_comments": []
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92,95",
+        "created_at": "2026-10-20 06:44:33",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ",
+        "created_at": "2026-10-20 04:46:20",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": true
+      }
+    ]
   },
   {
     "osm_id": "usr_-JXys2KNxMM",
@@ -1469,30 +1482,13 @@
     "lon": 49.25517797470092,
     "distance_km": 6.6,
     "status": "yes",
-    "detail": "ДТ",
+    "detail": "",
     "fuels_now": "",
-    "confirmations": 2,
-    "last_at": "2026-10-19 20:55:32",
-    "confidence_base": 0.0,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "ДТ",
-        "created_at": "2026-10-19 20:55:32",
-        "edited": false,
-        "on_site": true,
-        "svc": true
-      },
-      {
-        "status": "yes",
-        "detail": "ДТ",
-        "created_at": "2026-10-19 17:27:06",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false
-      }
-    ]
+    "confirmations": 1,
+    "last_at": "2026-10-20 09:27:48",
+    "confidence_base": 0.35,
+    "svc": "only",
+    "recent_comments": []
   },
   {
     "osm_id": "usr_iHcNpbZTP-o",
@@ -1506,85 +1502,25 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 04:55:00",
+    "last_at": "2026-10-20 09:41:00",
     "confidence_base": 0.35,
     "svc": "only",
     "recent_comments": []
   },
   {
-    "osm_id": "12208617649",
-    "brand": "Teboil",
-    "name": "Teboil",
-    "addr": "",
-    "lat": 55.6907442,
-    "lon": 49.2162862,
-    "distance_km": 6.7,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 19:18:39",
-    "confidence_base": 0.0,
-    "svc": "only",
-    "recent_comments": []
-  },
-  {
-    "osm_id": "11283450667",
-    "brand": "Teboil",
-    "name": "Teboil",
-    "addr": "ул Николая Столбова, 1",
-    "lat": 55.7861494,
-    "lon": 49.1121289,
-    "distance_km": 6.8,
-    "status": "yes",
-    "detail": "ДТ",
-    "fuels_now": "",
-    "confirmations": 2,
-    "last_at": "2026-10-19 19:17:26",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95",
-        "100"
-      ]
-    },
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "ДТ",
-        "created_at": "2026-10-19 19:17:26",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "95,ДТ",
-        "created_at": "2026-10-19 19:03:06",
-        "edited": false,
-        "on_site": true,
-        "svc": true
-      }
-    ]
-  },
-  {
     "osm_id": "1704084103",
     "brand": "ТАИФ-НК",
-    "name": "Таиф-НК",
+    "name": "ТАИФ-НК",
     "addr": "ул Тази Гиззата, 29А",
     "lat": 55.7851308,
     "lon": 49.1031796,
     "distance_km": 7.2,
     "status": "yes",
-    "detail": "",
+    "detail": "92, 95, ДТ · Очередь до 15 мин",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 18:06:31",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 06:37:07",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -1592,8 +1528,26 @@
         "95"
       ]
     },
-    "svc": "only",
-    "recent_comments": []
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ · Очередь до 15 мин",
+        "created_at": "2026-10-20 06:37:07",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": false
+      },
+      {
+        "status": "yes",
+        "detail": "92,95",
+        "created_at": "2026-10-19 18:06:31",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      }
+    ]
   },
   {
     "osm_id": "11220141433",
@@ -1605,10 +1559,10 @@
     "distance_km": 7.6,
     "status": "yes",
     "detail": "92, 95, ДТ",
-    "fuels_now": "",
-    "confirmations": 3,
-    "last_at": "2026-10-20 03:19:48",
-    "confidence_base": 0.7104,
+    "fuels_now": "92,95,ДТ",
+    "confirmations": 6,
+    "last_at": "2026-10-20 09:41:09",
+    "confidence_base": 0.9,
     "meta": {
       "f": [
         "dt",
@@ -1619,11 +1573,40 @@
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92,95",
-        "created_at": "2026-10-20 03:19:48",
+        "detail": "92, 95, ДТ",
+        "created_at": "2026-10-20 09:04:29",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92,95,ДТ",
+        "created_at": "2026-10-20 08:59:13",
         "edited": false,
         "on_site": true,
         "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ · Очередь до 15 мин",
+        "created_at": "2026-10-20 08:34:14",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": false
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ",
+        "created_at": "2026-10-20 08:25:42",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true
       },
       {
         "status": "yes",
@@ -1669,8 +1652,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 20:44:13",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 09:31:39",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -1690,11 +1673,11 @@
     "lon": 49.1565386,
     "distance_km": 8.7,
     "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-20 01:35:08",
-    "confidence_base": 0.35,
+    "detail": "95 · Очередь 15–30 мин",
+    "fuels_now": "92,95,98,ДТ",
+    "confirmations": 4,
+    "last_at": "2026-10-20 09:24:52",
+    "confidence_base": 0.9,
     "meta": {
       "f": [
         "dt",
@@ -1704,8 +1687,54 @@
         "lpg"
       ]
     },
-    "svc": "only",
-    "recent_comments": []
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "95 · Очередь 15–30 мин",
+        "created_at": "2026-10-20 08:04:08",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ · Очередь 15–30 мин",
+        "created_at": "2026-10-20 07:33:58",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ · Очередь 15–30 мин",
+        "created_at": "2026-10-20 06:03:45",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
+      },
+      {
+        "status": "yes",
+        "detail": "92,95,ДТ",
+        "created_at": "2026-10-20 01:35:08",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "98, ДТ",
+        "created_at": "2026-10-19 16:30:36",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": true
+      }
+    ]
   },
   {
     "osm_id": "11283052716",
@@ -1719,8 +1748,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 19:20:35",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 08:11:07",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -1741,11 +1770,11 @@
     "lon": 49.1520981,
     "distance_km": 9.1,
     "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 22:53:55",
-    "confidence_base": 0.35,
+    "detail": "92, ДТ · Очередь 15–30 мин",
+    "fuels_now": "92,ДТ",
+    "confirmations": 2,
+    "last_at": "2026-10-20 07:34:22",
+    "confidence_base": 0.7104,
     "meta": {
       "f": [
         "dt",
@@ -1753,8 +1782,26 @@
         "95"
       ]
     },
-    "svc": "only",
-    "recent_comments": []
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, ДТ · Очередь 15–30 мин",
+        "created_at": "2026-10-20 07:34:22",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": false
+      },
+      {
+        "status": "yes",
+        "detail": "92",
+        "created_at": "2026-10-20 06:46:23",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      }
+    ]
   },
   {
     "osm_id": "11895758588",
@@ -1765,11 +1812,11 @@
     "lon": 49.1327671,
     "distance_km": 9.3,
     "status": "yes",
-    "detail": "92, 95, 98, ДТ · Очередь до 15 мин",
-    "fuels_now": "92,95,98,ДТ",
-    "confirmations": 3,
-    "last_at": "2026-10-20 03:31:21",
-    "confidence_base": 0.8728,
+    "detail": "92, 95, 98, ДТ · Очередь 15–30 мин",
+    "fuels_now": "",
+    "confirmations": 4,
+    "last_at": "2026-10-20 07:25:19",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -1778,6 +1825,24 @@
       ]
     },
     "recent_comments": [
+      {
+        "status": "no",
+        "detail": "",
+        "created_at": "2026-10-20 07:25:19",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ · Очередь 15–30 мин",
+        "created_at": "2026-10-20 05:29:57",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
+      },
       {
         "status": "yes",
         "detail": "92, 95, 98, ДТ · Очередь до 15 мин",
@@ -1790,6 +1855,14 @@
       },
       {
         "status": "yes",
+        "detail": "92,95",
+        "created_at": "2026-10-20 03:27:17",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "yes",
         "detail": "92, 95, 98, ДТ · Очередь до 15 мин",
         "created_at": "2026-10-20 02:36:47",
         "edited": false,
@@ -1797,24 +1870,6 @@
         "author_tier": 0,
         "acct_ok": false,
         "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92,95",
-        "created_at": "2026-10-20 02:19:03",
-        "edited": false,
-        "on_site": true,
-        "svc": true
-      },
-      {
-        "status": "no",
-        "detail": "",
-        "created_at": "2026-10-19 06:45:38",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false,
-        "on_site": false
       }
     ]
   },
@@ -1828,7 +1883,7 @@
     "distance_km": 9.4,
     "status": "yes",
     "detail": "92, 95, 98",
-    "fuels_now": "92,95,98",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-20 03:27:34",
     "confidence_base": 0.35,
@@ -1863,7 +1918,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 22:29:46",
+    "last_at": "2026-10-20 09:37:00",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -1871,91 +1926,6 @@
         "92",
         "95",
         "lpg"
-      ]
-    },
-    "svc": "only",
-    "recent_comments": []
-  },
-  {
-    "osm_id": "usr_EJ3F0W8cOrA",
-    "brand": "Виртэк",
-    "name": "Виртэк",
-    "addr": "ул 30-й Квартал, 280А",
-    "lat": 55.71572910324068,
-    "lon": 49.3432036681215,
-    "distance_km": 9.7,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 18:50:33",
-    "confidence_base": 0.0,
-    "svc": "only",
-    "recent_comments": []
-  },
-  {
-    "osm_id": "4075291991",
-    "brand": "Лукойл",
-    "name": "Лукойл",
-    "addr": "ул Гаврилова, 28Г",
-    "lat": 55.8345988,
-    "lon": 49.1601036,
-    "distance_km": 9.7,
-    "status": "yes",
-    "detail": "ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 19:14:31",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95",
-        "100"
-      ]
-    },
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "ДТ",
-        "created_at": "2026-10-19 19:14:31",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "92,95",
-        "created_at": "2026-10-19 16:37:18",
-        "edited": false,
-        "on_site": true,
-        "svc": true
-      }
-    ]
-  },
-  {
-    "osm_id": "1858586178",
-    "brand": "ТАИФ-НК",
-    "name": "Таиф-НК",
-    "addr": "Чистопольская улица, 9Б",
-    "lat": 55.8199558,
-    "lon": 49.1058132,
-    "distance_km": 9.8,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 18:52:18",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95",
-        "100"
       ]
     },
     "svc": "only",
@@ -1973,7 +1943,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 23:49:49",
+    "last_at": "2026-10-20 09:36:50",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -1997,7 +1967,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 03:32:31",
+    "last_at": "2026-10-20 09:11:11",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -2013,131 +1983,6 @@
     "recent_comments": []
   },
   {
-    "osm_id": "usr_OSe6zwoAdEA",
-    "brand": "Teboil",
-    "name": "Teboil",
-    "addr": "пр-кт Ямашева, 41",
-    "lat": 55.82628141229985,
-    "lon": 49.1166656079635,
-    "distance_km": 10.0,
-    "status": "yes",
-    "detail": "92, ДТ · Лимит 40 л",
-    "fuels_now": "",
-    "confirmations": 2,
-    "last_at": "2026-10-19 19:21:59",
-    "confidence_base": 0.0,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92,95,100",
-        "created_at": "2026-10-19 19:21:59",
-        "edited": false,
-        "on_site": true,
-        "svc": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, ДТ · Лимит 40 л",
-        "created_at": "2026-10-19 17:24:18",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false
-      },
-      {
-        "status": "yes",
-        "detail": "92, ДТ",
-        "created_at": "2026-10-19 16:26:57",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false,
-        "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-19 16:06:36",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-19 15:41:48",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95+, ДТ · Очередь до 15 мин",
-        "created_at": "2026-10-19 15:09:23",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-19 14:41:50",
-        "edited": true,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": false
-      },
-      {
-        "status": "queue",
-        "detail": "92, 95 · Очередь 30–60 мин · Лимит 40 л",
-        "created_at": "2026-10-19 14:40:20",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-19 14:26:14",
-        "edited": true,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": false
-      }
-    ]
-  },
-  {
-    "osm_id": "3321731014",
-    "brand": "ТАИФ-НК",
-    "name": "Таиф-НК",
-    "addr": "улица Адоратского, 24",
-    "lat": 55.8353152,
-    "lon": 49.1487191,
-    "distance_km": 10.0,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 19:23:45",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "92",
-        "95"
-      ]
-    },
-    "svc": "only",
-    "recent_comments": []
-  },
-  {
     "osm_id": "1357341845",
     "brand": "Татнефть",
     "name": "Татнефть",
@@ -2147,7 +1992,7 @@
     "distance_km": 10.0,
     "status": "yes",
     "detail": "92, 98",
-    "fuels_now": "92,95,98,ДТ",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-20 04:24:52",
     "confidence_base": 0.7104,
@@ -2159,6 +2004,15 @@
       ]
     },
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 98",
+        "created_at": "2026-10-20 04:24:52",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
+      },
       {
         "status": "yes",
         "detail": "92, 95, 98, ДТ",
@@ -2181,30 +2035,6 @@
     ]
   },
   {
-    "osm_id": "5418201029",
-    "brand": "ТАИФ-НК",
-    "name": "Таиф-НК",
-    "addr": "улица Табейкина, 17А",
-    "lat": 55.8072794,
-    "lon": 49.0741777,
-    "distance_km": 10.1,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 19:20:28",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95"
-      ]
-    },
-    "svc": "only",
-    "recent_comments": []
-  },
-  {
     "osm_id": "11952544233",
     "brand": "Татнефть",
     "name": "Татнефть",
@@ -2216,8 +2046,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 19:21:00",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 06:26:26",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -2227,6 +2057,38 @@
     },
     "svc": "only",
     "recent_comments": []
+  },
+  {
+    "osm_id": "11664775117",
+    "brand": "IRBIS",
+    "name": "Irbis",
+    "addr": "ул Декабристов, 81А",
+    "lat": 55.8191482,
+    "lon": 49.0927062,
+    "distance_km": 10.2,
+    "status": "yes",
+    "detail": "92, 95, 98, ДТ · Очередь до 15 мин",
+    "fuels_now": "92,95,98,ДТ",
+    "confirmations": 2,
+    "last_at": "2026-10-20 09:45:30",
+    "confidence_base": 0.8323,
+    "meta": {
+      "f": [
+        "dt",
+        "92",
+        "95"
+      ]
+    },
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "95",
+        "created_at": "2026-10-20 08:56:53",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      }
+    ]
   },
   {
     "osm_id": "845202659",
@@ -2240,7 +2102,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 03:23:57",
+    "last_at": "2026-10-20 08:40:03",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -2250,23 +2112,6 @@
         "lpg"
       ]
     },
-    "svc": "only",
-    "recent_comments": []
-  },
-  {
-    "osm_id": "usr_ZeFjzD_wwCI",
-    "brand": "ТАИФ-НК",
-    "name": "Таиф-нк",
-    "addr": "ул Клары Цеткин, 23",
-    "lat": 55.798253641884,
-    "lon": 49.05627250671387,
-    "distance_km": 10.5,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 18:23:23",
-    "confidence_base": 0.0,
     "svc": "only",
     "recent_comments": []
   },
@@ -2282,8 +2127,8 @@
     "detail": "ДТ",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 17:24:54",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 06:10:51",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -2296,7 +2141,7 @@
       {
         "status": "yes",
         "detail": "ДТ",
-        "created_at": "2026-10-19 17:24:54",
+        "created_at": "2026-10-20 06:10:51",
         "edited": false,
         "author_reliable": false,
         "author_tier": 0,
@@ -2316,7 +2161,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 03:05:48",
+    "last_at": "2026-10-20 09:32:54",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -2338,16 +2183,70 @@
     "lon": 49.2908731,
     "distance_km": 11.0,
     "status": "yes",
+    "detail": "92, ДТ",
+    "fuels_now": "92,ДТ",
+    "confirmations": 2,
+    "last_at": "2026-10-20 09:28:27",
+    "confidence_base": 0.7104,
+    "meta": {
+      "f": [
+        "dt",
+        "92",
+        "95",
+        "lpg"
+      ]
+    },
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "95",
+        "created_at": "2026-10-20 05:38:17",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "ДТ",
+        "created_at": "2026-10-19 17:14:21",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": true,
+        "on_site": false
+      },
+      {
+        "status": "yes",
+        "detail": "ДТ",
+        "created_at": "2026-10-19 16:02:42",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": false
+      }
+    ]
+  },
+  {
+    "osm_id": "744969587",
+    "brand": "Лукойл",
+    "name": "Лукойл",
+    "addr": "",
+    "lat": 55.8065664,
+    "lon": 49.3443272,
+    "distance_km": 11.0,
+    "status": "yes",
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 03:25:08",
+    "last_at": "2026-10-20 09:13:39",
     "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
         "92",
         "95",
+        "100",
         "lpg"
       ]
     },
@@ -2363,11 +2262,11 @@
     "lon": 49.0652872,
     "distance_km": 11.3,
     "status": "yes",
-    "detail": "92, 95, 95+ · Очередь до 15 мин",
+    "detail": "92, 95, 95+, ДТ · Очередь 15–30 мин",
     "fuels_now": "",
-    "confirmations": 3,
-    "last_at": "2026-10-20 01:39:56",
-    "confidence_base": 0.35,
+    "confirmations": 2,
+    "last_at": "2026-10-20 05:29:45",
+    "confidence_base": 0.7104,
     "meta": {
       "f": [
         "dt",
@@ -2378,8 +2277,18 @@
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "95",
-        "created_at": "2026-10-20 01:39:56",
+        "detail": "92, 95, 95+, ДТ · Очередь 15–30 мин",
+        "created_at": "2026-10-20 05:29:45",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92,95",
+        "created_at": "2026-10-20 03:09:41",
         "edited": false,
         "on_site": true,
         "svc": true
@@ -2403,25 +2312,6 @@
         "author_tier": 0,
         "acct_ok": true,
         "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ · Очередь 15–30 мин",
-        "created_at": "2026-10-19 09:17:56",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 1,
-        "acct_ok": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+ · Очередь до 15 мин",
-        "created_at": "2026-10-19 09:17:14",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": true
       }
     ]
   },
@@ -2439,30 +2329,6 @@
     "confirmations": 1,
     "last_at": "2026-10-20 03:33:19",
     "confidence_base": 0.35,
-    "svc": "only",
-    "recent_comments": []
-  },
-  {
-    "osm_id": "9941773888",
-    "brand": "ТАИФ-НК",
-    "name": "Таиф-НК",
-    "addr": "Лесозаводская улица, 8А",
-    "lat": 55.7995201,
-    "lon": 49.0387845,
-    "distance_km": 11.5,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 19:18:17",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95"
-      ]
-    },
     "svc": "only",
     "recent_comments": []
   },
@@ -2495,50 +2361,25 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 17:21:58",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 09:17:26",
+    "confidence_base": 0.35,
     "svc": "only",
     "recent_comments": []
   },
   {
-    "osm_id": "12073267571",
-    "brand": "IRBIS",
-    "name": "Irbis",
-    "addr": "улица Михаила Миля, 1Б",
-    "lat": 55.8526166,
-    "lon": 49.1294671,
-    "distance_km": 12.2,
+    "osm_id": "1241528120",
+    "brand": "ТАИФ-НК",
+    "name": "Таиф-НК",
+    "addr": "улица Воровского, 83",
+    "lat": 55.843786,
+    "lon": 49.0947252,
+    "distance_km": 12.3,
     "status": "yes",
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 18:07:50",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95",
-        "lpg"
-      ]
-    },
-    "svc": "only",
-    "recent_comments": []
-  },
-  {
-    "osm_id": "1966255053",
-    "brand": "Татнефть",
-    "name": "Татнефть",
-    "addr": "ул Васильченко, 1В",
-    "lat": 55.8352984,
-    "lon": 49.0590723,
-    "distance_km": 12.9,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 19:15:31",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 05:36:22",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -2546,57 +2387,6 @@
         "95"
       ]
     },
-    "svc": "only",
-    "recent_comments": []
-  },
-  {
-    "osm_id": "3282722188",
-    "brand": "Роуд",
-    "name": "Роуд",
-    "addr": "улица Дементьева, 2А к1",
-    "lat": 55.8461649,
-    "lon": 49.0859314,
-    "distance_km": 12.9,
-    "status": "yes",
-    "detail": "92, 95, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 18:33:44",
-    "confidence_base": 0.0,
-    "meta": {
-      "f": [
-        "dt",
-        "92",
-        "95",
-        "98"
-      ]
-    },
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-19 18:33:44",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true
-      }
-    ]
-  },
-  {
-    "osm_id": "usr_my5JAvr7Mf4",
-    "brand": "Татнефть",
-    "name": "Татнефть",
-    "addr": "ул Мира, 1В",
-    "lat": 55.86720864326089,
-    "lon": 49.23535823822022,
-    "distance_km": 13.2,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-19 18:22:01",
-    "confidence_base": 0.0,
     "svc": "only",
     "recent_comments": []
   },
@@ -2612,7 +2402,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 21:34:51",
+    "last_at": "2026-10-20 09:34:01",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -2622,6 +2412,23 @@
         "lpg"
       ]
     },
+    "svc": "only",
+    "recent_comments": []
+  },
+  {
+    "osm_id": "usr_HQtMaU_jcZ0",
+    "brand": "Татнефть",
+    "name": "Татнефть",
+    "addr": "ул Восстания, 100",
+    "lat": 55.8328400636561,
+    "lon": 49.040254051113884,
+    "distance_km": 13.6,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "",
+    "confirmations": 1,
+    "last_at": "2026-10-20 07:27:18",
+    "confidence_base": 0.35,
     "svc": "only",
     "recent_comments": []
   },
@@ -2637,7 +2444,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 02:51:46",
+    "last_at": "2026-10-20 08:40:29",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -2710,8 +2517,8 @@
     "distance_km": 14.2,
     "status": "yes",
     "detail": "92, 95, ДТ · Очередь до 15 мин",
-    "fuels_now": "92,95,ДТ",
-    "confirmations": 2,
+    "fuels_now": "",
+    "confirmations": 1,
     "last_at": "2026-10-20 04:19:45",
     "confidence_base": 0.35,
     "meta": {
@@ -2753,7 +2560,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 21:33:33",
+    "last_at": "2026-10-20 09:17:38",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -2777,7 +2584,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 03:26:29",
+    "last_at": "2026-10-20 08:55:23",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -2802,13 +2609,38 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 19:49:18",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 09:37:17",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
         "92",
         "95"
+      ]
+    },
+    "svc": "only",
+    "recent_comments": []
+  },
+  {
+    "osm_id": "3059431539",
+    "brand": "Лукойл",
+    "name": "Лукойл",
+    "addr": "",
+    "lat": 55.8681564,
+    "lon": 49.3002496,
+    "distance_km": 14.6,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "",
+    "confirmations": 1,
+    "last_at": "2026-10-20 08:42:20",
+    "confidence_base": 0.35,
+    "meta": {
+      "f": [
+        "dt",
+        "92",
+        "95",
+        "100"
       ]
     },
     "svc": "only",
@@ -2850,7 +2682,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 21:52:46",
+    "last_at": "2026-10-20 09:22:44",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -2863,22 +2695,21 @@
     "recent_comments": []
   },
   {
-    "osm_id": "2649832977",
-    "brand": "Башнефть",
-    "name": "Башнефть",
-    "addr": "Придорожная улица, 1А",
-    "lat": 55.883042,
-    "lon": 49.107449,
-    "distance_km": 15.9,
+    "osm_id": "4815251924",
+    "brand": "Татнефть",
+    "name": "Татнефть",
+    "addr": "Беломорская улица, 63 к1",
+    "lat": 55.8664836,
+    "lon": 49.0232416,
+    "distance_km": 17.0,
     "status": "yes",
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 19:19:12",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 09:23:08",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
-        "dt",
         "92",
         "95"
       ]
@@ -2896,18 +2727,27 @@
     "distance_km": 17.1,
     "status": "yes",
     "detail": "ДТ",
-    "fuels_now": "ДТ",
-    "confirmations": 1,
-    "last_at": "2026-10-20 05:12:50",
-    "confidence_base": 0.35,
+    "fuels_now": "",
+    "confirmations": 2,
+    "last_at": "2026-10-20 07:59:54",
+    "confidence_base": 0.7104,
     "recent_comments": [
       {
         "status": "yes",
         "detail": "ДТ",
-        "created_at": "2026-10-19 13:41:20",
+        "created_at": "2026-10-20 07:59:54",
         "edited": false,
         "on_site": true,
         "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "ДТ",
+        "created_at": "2026-10-20 05:12:50",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
       }
     ]
   },
@@ -2923,7 +2763,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 22:05:44",
+    "last_at": "2026-10-20 08:45:44",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -2937,6 +2777,41 @@
     "recent_comments": []
   },
   {
+    "osm_id": "2415342278",
+    "brand": "IRBIS",
+    "name": "IRBIS",
+    "addr": "Федеральная трасса М7 810 км, 1",
+    "lat": 55.90452,
+    "lon": 49.1830314,
+    "distance_km": 17.2,
+    "status": "yes",
+    "detail": "92, 95, ДТ",
+    "fuels_now": "92,95,ДТ",
+    "confirmations": 1,
+    "last_at": "2026-10-20 09:11:44",
+    "confidence_base": 0.35,
+    "meta": {
+      "f": [
+        "dt",
+        "92",
+        "95",
+        "lpg"
+      ]
+    },
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ",
+        "created_at": "2026-10-20 09:11:44",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 2,
+        "acct_ok": true,
+        "on_site": true
+      }
+    ]
+  },
+  {
     "osm_id": "3312862579",
     "brand": "ТАИФ-НК",
     "name": "Таиф-НК",
@@ -2948,7 +2823,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 02:51:32",
+    "last_at": "2026-10-20 09:11:13",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -2972,8 +2847,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 20:56:23",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 09:42:12",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -2986,25 +2861,24 @@
     "recent_comments": []
   },
   {
-    "osm_id": "12137765892",
+    "osm_id": "11174656823",
     "brand": "IRBIS",
     "name": "Irbis",
-    "addr": "ул Державина, 43",
-    "lat": 55.6127467,
-    "lon": 49.4080326,
-    "distance_km": 20.1,
+    "addr": "",
+    "lat": 55.7179024,
+    "lon": 49.4923233,
+    "distance_km": 18.6,
     "status": "yes",
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 19:21:17",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 06:57:38",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
         "92",
         "95",
-        "98",
         "lpg"
       ]
     },
@@ -3023,8 +2897,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 18:44:45",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 05:53:13",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -3048,7 +2922,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-20 01:02:23",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "meta": {
       "f": [
         "dt",
@@ -3070,10 +2944,10 @@
     "distance_km": 20.7,
     "status": "yes",
     "detail": "92, 95, ДТ · Очередь до 15 мин",
-    "fuels_now": "92,95,ДТ",
+    "fuels_now": "",
     "confirmations": 2,
-    "last_at": "2026-10-20 02:43:11",
-    "confidence_base": 0.7104,
+    "last_at": "2026-10-20 08:57:27",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -3082,7 +2956,26 @@
         "lpg"
       ]
     },
+    "svc": "vs",
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92,95,100,ДТ",
+        "created_at": "2026-10-20 08:57:27",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "no",
+        "detail": "",
+        "created_at": "2026-10-20 08:24:10",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, ДТ · Очередь до 15 мин",
@@ -3094,14 +2987,6 @@
         "on_site": true
       },
       {
-        "status": "yes",
-        "detail": "92,95",
-        "created_at": "2026-10-20 01:20:31",
-        "edited": false,
-        "on_site": true,
-        "svc": true
-      },
-      {
         "status": "no",
         "detail": "Заправка не работает",
         "created_at": "2026-10-19 16:55:10",
@@ -3110,15 +2995,6 @@
         "author_tier": 0,
         "acct_ok": false,
         "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "92, ДТ",
-        "created_at": "2026-10-19 07:47:12",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false
       }
     ]
   },
@@ -3134,8 +3010,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 18:23:09",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 08:16:08",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -3145,6 +3021,42 @@
     },
     "svc": "only",
     "recent_comments": []
+  },
+  {
+    "osm_id": "usr_eaDtt0s_3UY",
+    "brand": "Teboil",
+    "name": "Тебоил",
+    "addr": "",
+    "lat": 55.93356145631443,
+    "lon": 49.333724583779194,
+    "distance_km": 22.1,
+    "status": "yes",
+    "detail": "ДТ",
+    "fuels_now": "",
+    "confirmations": 1,
+    "last_at": "2026-10-20 05:47:50",
+    "confidence_base": 0.35,
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "ДТ",
+        "created_at": "2026-10-20 05:47:50",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
+      },
+      {
+        "status": "no",
+        "detail": "Заправка не работает",
+        "created_at": "2026-10-19 10:43:09",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": false
+      }
+    ]
   },
   {
     "osm_id": "usr_QUW7YJtK1CI",
@@ -3159,7 +3071,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-20 00:18:43",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "svc": "only",
     "recent_comments": []
   },
@@ -3175,13 +3087,39 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 20:29:22",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 09:00:06",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
         "92",
         "95"
+      ]
+    },
+    "svc": "only",
+    "recent_comments": []
+  },
+  {
+    "osm_id": "10692498405",
+    "brand": "Газпромнефть",
+    "name": "Газпромнефть",
+    "addr": "Светлая улица, 14А",
+    "lat": 55.777497,
+    "lon": 48.8411817,
+    "distance_km": 22.7,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "",
+    "confirmations": 1,
+    "last_at": "2026-10-20 05:35:43",
+    "confidence_base": 0.35,
+    "meta": {
+      "f": [
+        "dt",
+        "92",
+        "95",
+        "100",
+        "lpg"
       ]
     },
     "svc": "only",
@@ -3199,7 +3137,7 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-20 03:49:40",
+    "last_at": "2026-10-20 09:42:29",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -3223,8 +3161,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 18:11:23",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 09:33:35",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -3245,7 +3183,7 @@
     "distance_km": 23.9,
     "status": "yes",
     "detail": "92, 95, ДТ · Очередь до 15 мин",
-    "fuels_now": "92,95,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-20 04:41:57",
     "confidence_base": 0.35,
@@ -3259,6 +3197,16 @@
     "recent_comments": [
       {
         "status": "yes",
+        "detail": "92, 95, ДТ · Очередь до 15 мин",
+        "created_at": "2026-10-20 04:41:57",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": false
+      },
+      {
+        "status": "yes",
         "detail": "92,ДТ",
         "created_at": "2026-10-19 11:27:34",
         "edited": false,
@@ -3266,6 +3214,73 @@
         "svc": true
       }
     ]
+  },
+  {
+    "osm_id": "654650618",
+    "brand": "Татнефть",
+    "name": "Татнефть",
+    "addr": "Федеральная трасса М7 784 км, 2",
+    "lat": 55.8383492,
+    "lon": 48.851449,
+    "distance_km": 23.9,
+    "status": "yes",
+    "detail": "ДТ",
+    "fuels_now": "ДТ",
+    "confirmations": 2,
+    "last_at": "2026-10-20 09:38:30",
+    "confidence_base": 0.7104,
+    "meta": {
+      "f": [
+        "dt",
+        "92",
+        "95"
+      ]
+    },
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92,ДТ",
+        "created_at": "2026-10-20 08:44:08",
+        "edited": false,
+        "on_site": true,
+        "svc": true
+      },
+      {
+        "status": "yes",
+        "detail": "ДТ",
+        "created_at": "2026-10-20 07:32:55",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": false
+      }
+    ]
+  },
+  {
+    "osm_id": "744969943",
+    "brand": "Татнефть",
+    "name": "Татнефть",
+    "addr": "Федеральная трасса М7 794 км",
+    "lat": 55.902173,
+    "lon": 48.928996,
+    "distance_km": 23.9,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "",
+    "confirmations": 1,
+    "last_at": "2026-10-20 08:47:55",
+    "confidence_base": 0.35,
+    "meta": {
+      "f": [
+        "dt",
+        "92",
+        "95",
+        "lpg"
+      ]
+    },
+    "svc": "only",
+    "recent_comments": []
   },
   {
     "osm_id": "1119603709",
@@ -3279,8 +3294,8 @@
     "detail": "",
     "fuels_now": "",
     "confirmations": 1,
-    "last_at": "2026-10-19 18:01:51",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-20 08:53:01",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
