@@ -149,7 +149,7 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -258,7 +258,7 @@
       {
         "station_id": "70000001062923269",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 20,
@@ -267,7 +267,7 @@
       {
         "station_id": "70000001062923269",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 19,
@@ -292,13 +292,13 @@
         "station_id": "70000001062923269",
         "fuel_type": "AI_95",
         "price": 69.5,
-        "updated_at": "2026-10-21T22:13:00Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       },
       {
         "station_id": "70000001062923269",
         "fuel_type": "AI_92",
-        "price": 65.5,
-        "updated_at": "2026-10-21T22:13:00Z"
+        "price": 63.5,
+        "updated_at": "2026-10-22T00:13:05Z"
       }
     ],
     "recent_reports": []
@@ -498,19 +498,19 @@
         "station_id": "70000001046652766",
         "fuel_type": "AI_100",
         "price": 134,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:04Z"
       },
       {
         "station_id": "70000001046652766",
         "fuel_type": "AI_92",
         "price": 92.99,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:04Z"
       },
       {
         "station_id": "70000001046652766",
         "fuel_type": "DT",
         "price": 89.99,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:04Z"
       }
     ],
     "recent_reports": []
@@ -544,7 +544,7 @@
       {
         "station_id": "70000001066022890",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "FROM_25_TO_50",
         "limit_liters": 0,
         "reports_count": 73,
@@ -553,7 +553,7 @@
       {
         "station_id": "70000001066022890",
         "fuel_type": "AI_92",
-        "available": true,
+        "available": null,
         "queue_level": "FROM_25_TO_50",
         "limit_liters": 40,
         "reports_count": 57,
@@ -622,7 +622,7 @@
         "last_report_at": "2026-10-18T16:57:45Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "FROM_25_TO_50",
@@ -637,7 +637,7 @@
       "address": "Москва, Олимпийский проспект, 5 ст1",
       "lat": 55.783861,
       "lng": 37.622911,
-      "last_transaction_at": "2026-10-21T21:36:58Z",
+      "last_transaction_at": "2026-10-22T00:05:30Z",
       "created_at": "2026-07-10T15:38:42.114141Z",
       "updated_at": "2026-10-21T21:49:11.491299Z",
       "has_shop": true,
@@ -817,7 +817,7 @@
       "address": "Москва, Николоямская набережная, вл4 ст1",
       "lat": 55.747813,
       "lng": 37.666536,
-      "last_transaction_at": "2026-10-21T18:29:40Z",
+      "last_transaction_at": "2026-10-22T00:32:47Z",
       "created_at": "2026-07-10T15:38:43.825471Z",
       "updated_at": "2026-10-21T21:49:01.73191Z",
       "has_shop": false,
@@ -868,20 +868,6 @@
     "closed_by_schedule": false,
     "limit_liters": 30,
     "queue_level": "UP_TO_25",
-    "prices": [
-      {
-        "station_id": "4504127915051867",
-        "fuel_type": "AI_92",
-        "price": 65.85,
-        "updated_at": "2026-10-21T22:13:06Z"
-      },
-      {
-        "station_id": "4504127915051867",
-        "fuel_type": "DT",
-        "price": 80.65,
-        "updated_at": "2026-10-21T22:13:06Z"
-      }
-    ],
     "recent_reports": []
   },
   {
@@ -893,7 +879,7 @@
       "address": "Москва, 4-й Лесной переулок, 2 ст1",
       "lat": 55.778907,
       "lng": 37.5864,
-      "last_transaction_at": "2026-10-21T20:11:30Z",
+      "last_transaction_at": "2026-10-21T22:58:15Z",
       "created_at": "2026-07-10T15:38:37.785339Z",
       "updated_at": "2026-10-21T21:51:24.160557Z",
       "has_shop": true,
@@ -943,7 +929,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -1021,7 +1007,7 @@
       "address": "Москва, набережная Тараса Шевченко, 12а",
       "lat": 55.752362,
       "lng": 37.561095,
-      "last_transaction_at": "2026-10-21T21:24:28Z",
+      "last_transaction_at": "2026-10-22T00:16:30Z",
       "created_at": "2026-07-10T15:38:41.372298Z",
       "updated_at": "2026-10-21T21:50:48.649279Z",
       "has_shop": true,
@@ -1134,13 +1120,13 @@
         "station_id": "4504127920027894",
         "fuel_type": "AI_92",
         "price": 92.99,
-        "updated_at": "2026-10-21T22:13:09Z"
+        "updated_at": "2026-10-22T00:13:04Z"
       },
       {
         "station_id": "4504127920027894",
         "fuel_type": "DT",
         "price": 89.99,
-        "updated_at": "2026-10-21T22:13:09Z"
+        "updated_at": "2026-10-22T00:13:04Z"
       }
     ],
     "recent_reports": []
@@ -1262,7 +1248,7 @@
         "last_report_at": "2026-10-02T10:55:08Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -1278,7 +1264,7 @@
       "address": "Москва, набережная Академика Туполева, 13 ст1",
       "lat": 55.759577,
       "lng": 37.676474,
-      "last_transaction_at": "2026-10-21T21:30:14Z",
+      "last_transaction_at": "2026-10-22T00:57:25Z",
       "created_at": "2026-07-10T15:38:40.1065Z",
       "updated_at": "2026-10-21T21:48:59.298881Z",
       "has_shop": true,
@@ -1317,7 +1303,7 @@
     "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "4504127909226492",
@@ -1445,7 +1431,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "4504127912565502",
@@ -1535,7 +1521,7 @@
       "address": "Москва, Новосущёвская улица, 19",
       "lat": 55.791284,
       "lng": 37.603891,
-      "last_transaction_at": "2026-10-21T17:40:19Z",
+      "last_transaction_at": "2026-10-22T00:42:20Z",
       "created_at": "2026-07-10T15:38:33.507943Z",
       "updated_at": "2026-10-21T21:48:51.230785Z",
       "has_shop": true,
@@ -1581,7 +1567,7 @@
         "last_report_at": "2026-10-16T14:38:48Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -1590,7 +1576,7 @@
         "station_id": "4504127908561107",
         "fuel_type": "DT",
         "price": 80.75,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       }
     ],
     "recent_reports": []
@@ -1653,25 +1639,25 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001033402192",
         "fuel_type": "AI_95",
         "price": 89.5,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:00Z"
       },
       {
         "station_id": "70000001033402192",
         "fuel_type": "AI_92",
         "price": 85.2,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:00Z"
       },
       {
         "station_id": "70000001033402192",
         "fuel_type": "DT",
         "price": 86.9,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:00Z"
       }
     ],
     "recent_reports": []
@@ -1685,7 +1671,7 @@
       "address": "Москва, Киевская улица, вл8а ст1",
       "lat": 55.741995,
       "lng": 37.555855,
-      "last_transaction_at": "2026-10-21T20:13:03Z",
+      "last_transaction_at": "2026-10-22T00:12:57Z",
       "created_at": "2026-07-10T15:38:37.137264Z",
       "updated_at": "2026-10-21T21:48:51.164194Z",
       "has_shop": true,
@@ -1731,7 +1717,7 @@
         "last_report_at": "2026-10-17T10:56:17Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -1925,7 +1911,7 @@
       {
         "station_id": "70000001035661996",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 1,
         "last_report_at": "2026-08-20T04:15:00Z"
@@ -1933,7 +1919,7 @@
       {
         "station_id": "70000001035661996",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 3,
         "last_report_at": "2026-08-20T04:15:00Z"
@@ -1948,13 +1934,13 @@
         "station_id": "70000001035661996",
         "fuel_type": "AI_92",
         "price": 85.19,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       },
       {
         "station_id": "70000001035661996",
         "fuel_type": "DT",
         "price": 89.79,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       }
     ],
     "recent_reports": []
@@ -1968,7 +1954,7 @@
       "address": "Москва, улица Сущёвский Вал, 25",
       "lat": 55.793228,
       "lng": 37.603173,
-      "last_transaction_at": "2026-10-21T21:36:07Z",
+      "last_transaction_at": "2026-10-22T00:58:00Z",
       "created_at": "2026-07-10T15:38:37.671612Z",
       "updated_at": "2026-10-21T21:50:48.643769Z",
       "has_shop": true,
@@ -2024,7 +2010,7 @@
         "last_report_at": "2026-10-12T10:16:14Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -2090,14 +2076,14 @@
       {
         "station_id": "4504127919882059",
         "fuel_type": "AI_95",
-        "price": 88.5,
-        "updated_at": "2026-10-21T22:13:08Z"
+        "price": 77.9,
+        "updated_at": "2026-10-22T00:13:01Z"
       },
       {
         "station_id": "4504127919882059",
         "fuel_type": "AI_92",
-        "price": 82.5,
-        "updated_at": "2026-10-21T22:13:08Z"
+        "price": 69.9,
+        "updated_at": "2026-10-22T00:13:01Z"
       }
     ],
     "recent_reports": []
@@ -2171,25 +2157,25 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "4504127916551724",
         "fuel_type": "AI_100",
         "price": 99.9,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       },
       {
         "station_id": "4504127916551724",
         "fuel_type": "AI_92",
         "price": 66.36,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       },
       {
         "station_id": "4504127916551724",
         "fuel_type": "DT",
         "price": 81.42,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       }
     ],
     "recent_reports": []
@@ -2259,7 +2245,7 @@
         "station_id": "4504127908679074",
         "fuel_type": "AI_92",
         "price": 75.9,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       }
     ],
     "recent_reports": []
@@ -2328,19 +2314,19 @@
         "station_id": "4504127908805045",
         "fuel_type": "AI_95",
         "price": 86.99,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:10Z"
       },
       {
         "station_id": "4504127908805045",
         "fuel_type": "AI_92",
         "price": 89.9,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:10Z"
       },
       {
         "station_id": "4504127908805045",
         "fuel_type": "DT",
         "price": 1,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:10Z"
       }
     ],
     "recent_reports": []
@@ -2354,7 +2340,7 @@
       "address": "Москва, улица Гаврикова, 4 ст1",
       "lat": 55.779496,
       "lng": 37.672021,
-      "last_transaction_at": "2026-10-21T18:26:28Z",
+      "last_transaction_at": "2026-10-22T00:56:50Z",
       "created_at": "2026-07-10T15:38:40.624411Z",
       "updated_at": "2026-10-21T21:48:51.147499Z",
       "has_shop": true,
@@ -2400,7 +2386,7 @@
         "last_report_at": "2026-10-20T10:01:13Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -2538,13 +2524,13 @@
         "station_id": "70000001094149205",
         "fuel_type": "AI_95",
         "price": 92.9,
-        "updated_at": "2026-10-21T22:13:06Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       },
       {
         "station_id": "70000001094149205",
         "fuel_type": "AI_92",
         "price": 89.9,
-        "updated_at": "2026-10-21T22:13:06Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       }
     ],
     "recent_reports": []
@@ -2558,7 +2544,7 @@
       "address": "Москва, проспект Мира, соор 94 ст4",
       "lat": 55.794703,
       "lng": 37.635016,
-      "last_transaction_at": "2026-10-21T21:34:54Z",
+      "last_transaction_at": "2026-10-22T00:38:19Z",
       "created_at": "2026-07-10T15:38:40.993468Z",
       "updated_at": "2026-10-21T21:48:51.266826Z",
       "has_shop": false,
@@ -2703,7 +2689,7 @@
       "address": "Москва, Красногвардейский бульвар, 1а ст1",
       "lat": 55.757591,
       "lng": 37.544071,
-      "last_transaction_at": "2026-10-21T21:38:32Z",
+      "last_transaction_at": "2026-10-22T01:04:18Z",
       "created_at": "2026-07-10T15:38:40.700725Z",
       "updated_at": "2026-10-21T21:48:55.196523Z",
       "has_shop": true,
@@ -2809,7 +2795,7 @@
         "last_report_at": "2026-10-08T17:20:52Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -2873,25 +2859,25 @@
     "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001039179027",
         "fuel_type": "AI_95",
         "price": 77.9,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:07Z"
       },
       {
         "station_id": "70000001039179027",
         "fuel_type": "AI_92",
         "price": 75.9,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:07Z"
       },
       {
         "station_id": "70000001039179027",
         "fuel_type": "DT",
         "price": 86.9,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:07Z"
       }
     ],
     "recent_reports": []
@@ -3022,7 +3008,7 @@
         "last_report_at": "2026-08-26T12:11:47Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -3032,19 +3018,19 @@
         "station_id": "70000001110018840",
         "fuel_type": "AI_95",
         "price": 77.9,
-        "updated_at": "2026-10-21T22:13:06Z"
+        "updated_at": "2026-10-22T00:13:02Z"
       },
       {
         "station_id": "70000001110018840",
         "fuel_type": "AI_92",
         "price": 85.2,
-        "updated_at": "2026-10-21T22:13:06Z"
+        "updated_at": "2026-10-22T00:13:02Z"
       },
       {
         "station_id": "70000001110018840",
         "fuel_type": "DT",
         "price": 86.9,
-        "updated_at": "2026-10-21T22:13:06Z"
+        "updated_at": "2026-10-22T00:13:02Z"
       }
     ],
     "recent_reports": []
@@ -3086,13 +3072,13 @@
     "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "70000001044929521",
         "fuel_type": "GAS",
         "price": 66.99,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:06Z"
       }
     ],
     "recent_reports": []
@@ -3106,7 +3092,7 @@
       "address": "Москва, Рубцовская набережная, 2а ст1",
       "lat": 55.770275,
       "lng": 37.692615,
-      "last_transaction_at": "2026-10-21T21:34:10Z",
+      "last_transaction_at": "2026-10-22T00:54:38Z",
       "created_at": "2026-07-10T15:38:41.675691Z",
       "updated_at": "2026-10-21T21:49:41.167206Z",
       "has_shop": true,
@@ -3162,7 +3148,7 @@
         "last_report_at": "2026-10-21T13:57:30Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -3177,7 +3163,7 @@
       "address": "Москва, Звенигородское шоссе, вл28",
       "lat": 55.766255,
       "lng": 37.539777,
-      "last_transaction_at": "2026-10-21T18:16:03Z",
+      "last_transaction_at": "2026-10-22T00:34:42Z",
       "created_at": "2026-07-10T15:38:34.142257Z",
       "updated_at": "2026-10-21T21:49:00.266479Z",
       "has_shop": true,
@@ -3232,19 +3218,19 @@
         "station_id": "4504127912565504",
         "fuel_type": "AI_95",
         "price": 73.39,
-        "updated_at": "2026-10-21T22:13:08Z"
+        "updated_at": "2026-10-22T00:13:06Z"
       },
       {
         "station_id": "4504127912565504",
         "fuel_type": "AI_92",
         "price": 65.79,
-        "updated_at": "2026-10-21T22:13:08Z"
+        "updated_at": "2026-10-22T00:13:06Z"
       },
       {
         "station_id": "4504127912565504",
         "fuel_type": "DT",
         "price": 80.39,
-        "updated_at": "2026-10-21T22:13:08Z"
+        "updated_at": "2026-10-22T00:13:06Z"
       }
     ],
     "recent_reports": []
@@ -3258,7 +3244,7 @@
       "address": "Москва, проспект Волгоградский, 24 ст1",
       "lat": 55.727392,
       "lng": 37.679152,
-      "last_transaction_at": "2026-10-21T21:40:02Z",
+      "last_transaction_at": "2026-10-22T00:24:29Z",
       "created_at": "2026-07-10T15:38:34.612202Z",
       "updated_at": "2026-10-21T21:48:53.873684Z",
       "has_shop": true,
@@ -3318,7 +3304,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "4504127908603655",
@@ -3344,7 +3330,7 @@
       "address": "Москва, Бутырская улица, 8а",
       "lat": 55.797079,
       "lng": 37.584845,
-      "last_transaction_at": "2026-10-21T21:39:58Z",
+      "last_transaction_at": "2026-10-22T00:57:39Z",
       "created_at": "2026-07-10T15:38:35.263926Z",
       "updated_at": "2026-10-21T21:48:52.701671Z",
       "has_shop": true,
@@ -3410,19 +3396,19 @@
         "station_id": "4504127908603660",
         "fuel_type": "AI_100",
         "price": 100.7,
-        "updated_at": "2026-10-21T22:13:01Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       },
       {
         "station_id": "4504127908603660",
         "fuel_type": "AI_95",
         "price": 72.6,
-        "updated_at": "2026-10-21T22:13:01Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       },
       {
         "station_id": "4504127908603660",
         "fuel_type": "AI_92",
         "price": 66.3,
-        "updated_at": "2026-10-21T22:13:01Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       }
     ],
     "recent_reports": []
@@ -3497,19 +3483,19 @@
         "station_id": "4504127908640946",
         "fuel_type": "AI_100",
         "price": 134,
-        "updated_at": "2026-10-21T22:13:06Z"
+        "updated_at": "2026-10-22T00:13:09Z"
       },
       {
         "station_id": "4504127908640946",
         "fuel_type": "AI_92",
         "price": 92.99,
-        "updated_at": "2026-10-21T22:13:06Z"
+        "updated_at": "2026-10-22T00:13:09Z"
       },
       {
         "station_id": "4504127908640946",
         "fuel_type": "DT",
         "price": 89.99,
-        "updated_at": "2026-10-21T22:13:06Z"
+        "updated_at": "2026-10-22T00:13:09Z"
       }
     ],
     "recent_reports": []
@@ -3523,7 +3509,7 @@
       "address": "Москва, Госпитальная набережная, 2",
       "lat": 55.770929,
       "lng": 37.694984,
-      "last_transaction_at": "2026-10-21T21:37:58Z",
+      "last_transaction_at": "2026-10-22T00:46:25Z",
       "created_at": "2026-07-10T15:38:34.252121Z",
       "updated_at": "2026-10-21T21:48:51.178021Z",
       "has_shop": true,
@@ -3584,7 +3570,7 @@
       "address": "Москва, Большая Новодмитровская улица, вл12Б",
       "lat": 55.798429,
       "lng": 37.584657,
-      "last_transaction_at": "2026-10-21T21:11:05Z",
+      "last_transaction_at": "2026-10-22T00:32:45Z",
       "created_at": "2026-07-10T15:38:36.629831Z",
       "updated_at": "2026-10-21T21:49:01.723482Z",
       "has_shop": false,
@@ -3605,7 +3591,7 @@
       {
         "station_id": "4504127915047482",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "UP_TO_25",
         "limit_liters": 40,
         "reports_count": 4,
@@ -3614,7 +3600,7 @@
       {
         "station_id": "4504127915047482",
         "fuel_type": "AI_92",
-        "available": true,
+        "available": null,
         "queue_level": "UP_TO_25",
         "limit_liters": 30,
         "reports_count": 4,
@@ -3630,7 +3616,7 @@
         "last_report_at": "2026-09-20T22:41:57Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -3750,7 +3736,7 @@
       "address": "Москва, Комсомольский проспект, 51",
       "lat": 55.717184,
       "lng": 37.569489,
-      "last_transaction_at": "2026-10-21T21:30:38Z",
+      "last_transaction_at": "2026-10-22T00:56:28Z",
       "created_at": "2026-07-10T15:38:33.682952Z",
       "updated_at": "2026-10-21T21:49:01.673104Z",
       "has_shop": false,
@@ -3887,19 +3873,19 @@
         "station_id": "70000001038946700",
         "fuel_type": "AI_95",
         "price": 72.86,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       },
       {
         "station_id": "70000001038946700",
         "fuel_type": "AI_92",
         "price": 66.41,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       },
       {
         "station_id": "70000001038946700",
         "fuel_type": "DT",
         "price": 81.67,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       }
     ],
     "recent_reports": []
@@ -3957,7 +3943,7 @@
         "last_report_at": "2026-10-16T09:41:25Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -4033,19 +4019,19 @@
         "station_id": "4504127908573594",
         "fuel_type": "AI_100",
         "price": 134,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       },
       {
         "station_id": "4504127908573594",
         "fuel_type": "AI_92",
         "price": 92.99,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       },
       {
         "station_id": "4504127908573594",
         "fuel_type": "DT",
         "price": 89.99,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       }
     ],
     "recent_reports": []
@@ -4059,7 +4045,7 @@
       "address": "Москва, шоссе Энтузиастов, 6а",
       "lat": 55.747973,
       "lng": 37.70098,
-      "last_transaction_at": "2026-10-21T18:25:07Z",
+      "last_transaction_at": "2026-10-22T00:00:06Z",
       "created_at": "2026-07-10T15:38:43.890716Z",
       "updated_at": "2026-10-21T21:49:29.626982Z",
       "has_shop": true,
@@ -4109,7 +4095,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001027869875",
@@ -4191,26 +4177,6 @@
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
-    "prices": [
-      {
-        "station_id": "70000001101146458",
-        "fuel_type": "AI_95",
-        "price": 92.9,
-        "updated_at": "2026-10-21T22:13:06Z"
-      },
-      {
-        "station_id": "70000001101146458",
-        "fuel_type": "AI_92",
-        "price": 89.9,
-        "updated_at": "2026-10-21T22:13:06Z"
-      },
-      {
-        "station_id": "70000001101146458",
-        "fuel_type": "DT",
-        "price": 88.9,
-        "updated_at": "2026-10-21T22:13:06Z"
-      }
-    ],
     "recent_reports": []
   },
   {
@@ -4277,19 +4243,19 @@
         "station_id": "4504127920045992",
         "fuel_type": "AI_95",
         "price": 77.9,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       },
       {
         "station_id": "4504127920045992",
         "fuel_type": "AI_92",
         "price": 69.9,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       },
       {
         "station_id": "4504127920045992",
         "fuel_type": "DT",
         "price": 88,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       }
     ],
     "recent_reports": []
@@ -4359,13 +4325,13 @@
         "station_id": "4504127908599595",
         "fuel_type": "AI_95",
         "price": 72.6,
-        "updated_at": "2026-10-21T22:13:07Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       },
       {
         "station_id": "4504127908599595",
         "fuel_type": "AI_92",
         "price": 66.4,
-        "updated_at": "2026-10-21T22:13:07Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       }
     ],
     "recent_reports": []
@@ -4400,7 +4366,7 @@
       {
         "station_id": "4504127912565524",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 20,
@@ -4409,7 +4375,7 @@
       {
         "station_id": "4504127912565524",
         "fuel_type": "AI_92",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 20,
@@ -4418,14 +4384,14 @@
       {
         "station_id": "4504127912565524",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 31,
         "last_report_at": "2026-10-06T19:25:26Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -4667,19 +4633,19 @@
         "station_id": "70000001017364698",
         "fuel_type": "AI_95",
         "price": 71.44,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       },
       {
         "station_id": "70000001017364698",
         "fuel_type": "AI_92",
         "price": 66.23,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       },
       {
         "station_id": "70000001017364698",
         "fuel_type": "DT",
         "price": 79.68,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       }
     ],
     "recent_reports": []
@@ -4737,7 +4703,7 @@
         "last_report_at": "2026-10-19T09:44:29Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -4828,7 +4794,7 @@
       "address": "Москва, Автозаводская улица, вл24а",
       "lat": 55.705647,
       "lng": 37.633223,
-      "last_transaction_at": "2026-10-21T21:40:39Z",
+      "last_transaction_at": "2026-10-22T00:07:37Z",
       "created_at": "2026-07-10T15:38:35.694341Z",
       "updated_at": "2026-10-21T21:49:06.49734Z",
       "has_shop": true,
@@ -4874,7 +4840,7 @@
         "last_report_at": "2026-10-13T03:06:53Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -4889,7 +4855,7 @@
       "address": "Москва, проезд Завода Серп и Молот, 5Б",
       "lat": 55.750515,
       "lng": 37.708199,
-      "last_transaction_at": "2026-10-21T21:20:38Z",
+      "last_transaction_at": "2026-10-22T00:09:06Z",
       "created_at": "2026-07-10T15:38:39.831603Z",
       "updated_at": "2026-10-21T21:48:51.357176Z",
       "has_shop": true,
@@ -4935,7 +4901,7 @@
         "last_report_at": "2026-10-03T09:40:38Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -5022,19 +4988,19 @@
         "station_id": "70000001048523417",
         "fuel_type": "AI_95",
         "price": 73.39,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       },
       {
         "station_id": "70000001048523417",
         "fuel_type": "AI_92",
         "price": 66.19,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       },
       {
         "station_id": "70000001048523417",
         "fuel_type": "DT",
         "price": 80.19,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       }
     ],
     "recent_reports": []
@@ -5048,7 +5014,7 @@
       "address": "Москва, Малая Тульская улица, вл34 ст2",
       "lat": 55.702037,
       "lng": 37.615721,
-      "last_transaction_at": "2026-10-21T21:34:01Z",
+      "last_transaction_at": "2026-10-22T00:41:30Z",
       "created_at": "2026-07-10T15:38:33.295884Z",
       "updated_at": "2026-10-21T21:49:19.449232Z",
       "has_shop": true,
@@ -5236,7 +5202,7 @@
       "address": "Москва, Шереметьевская улица, 47а",
       "lat": 55.810047,
       "lng": 37.612858,
-      "last_transaction_at": "2026-10-21T21:33:00Z",
+      "last_transaction_at": "2026-10-22T00:41:59Z",
       "created_at": "2026-07-10T15:38:43.658153Z",
       "updated_at": "2026-10-21T21:48:51.149575Z",
       "has_shop": true,
@@ -5428,21 +5394,52 @@
         "station_id": "4504128908908071",
         "fuel_type": "AI_100",
         "price": 134,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       },
       {
         "station_id": "4504128908908071",
         "fuel_type": "AI_92",
         "price": 92.99,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       },
       {
         "station_id": "4504128908908071",
         "fuel_type": "DT",
         "price": 89.99,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       }
     ],
+    "recent_reports": []
+  },
+  {
+    "station": {
+      "id": "70000001100904922",
+      "region_id": 32,
+      "name": "Push.ka, АГЗС",
+      "brand": "Push.ka",
+      "address": "Москва, проезд Добролюбова, 2",
+      "lat": 55.809668,
+      "lng": 37.598423,
+      "last_transaction_at": "2026-09-29T15:31:22Z",
+      "created_at": "2026-07-10T15:38:41.835701Z",
+      "updated_at": "2026-10-13T18:33:31.795372Z",
+      "has_shop": false,
+      "has_cafe": false,
+      "has_toilet": false,
+      "has_car_wash": false,
+      "pay_card": true,
+      "pay_cash": true,
+      "pay_sbp": true,
+      "timezone_offset": 3,
+      "fuel_assortment": [
+        "GAS"
+      ]
+    },
+    "fuel_statuses": null,
+    "status": "NO_DATA",
+    "closed": false,
+    "closed_by_schedule": true,
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -5454,7 +5451,7 @@
       "address": "Москва, проезд Добролюбова, 2",
       "lat": 55.809668,
       "lng": 37.598423,
-      "last_transaction_at": "2026-10-21T20:14:04Z",
+      "last_transaction_at": "2026-10-22T00:13:44Z",
       "created_at": "2026-07-10T15:38:37.037238Z",
       "updated_at": "2026-10-21T21:49:13.792161Z",
       "has_shop": true,
@@ -5503,37 +5500,6 @@
     "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "NONE",
-    "recent_reports": []
-  },
-  {
-    "station": {
-      "id": "70000001100904922",
-      "region_id": 32,
-      "name": "Push.ka, АГЗС",
-      "brand": "Push.ka",
-      "address": "Москва, проезд Добролюбова, 2",
-      "lat": 55.809668,
-      "lng": 37.598423,
-      "last_transaction_at": "2026-09-29T15:31:22Z",
-      "created_at": "2026-07-10T15:38:41.835701Z",
-      "updated_at": "2026-10-13T18:33:31.795372Z",
-      "has_shop": false,
-      "has_cafe": false,
-      "has_toilet": false,
-      "has_car_wash": false,
-      "pay_card": true,
-      "pay_cash": true,
-      "pay_sbp": true,
-      "timezone_offset": 3,
-      "fuel_assortment": [
-        "GAS"
-      ]
-    },
-    "fuel_statuses": null,
-    "status": "NO_DATA",
-    "closed": false,
-    "closed_by_schedule": true,
     "queue_level": "NONE",
     "recent_reports": []
   },
@@ -5592,7 +5558,7 @@
         "last_report_at": "2026-10-14T19:11:14Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -5607,7 +5573,7 @@
       "address": "Москва, Огородный проезд, вл7",
       "lat": 55.810457,
       "lng": 37.605979,
-      "last_transaction_at": "2026-10-21T20:07:59Z",
+      "last_transaction_at": "2026-10-22T00:54:33Z",
       "created_at": "2026-07-10T15:38:35.70863Z",
       "updated_at": "2026-10-21T21:49:09.661956Z",
       "has_shop": true,
@@ -5727,7 +5693,7 @@
       {
         "station_id": "4504127914513279",
         "fuel_type": "AI_100",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 17,
@@ -5736,7 +5702,7 @@
       {
         "station_id": "4504127914513279",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 38,
@@ -5745,7 +5711,7 @@
       {
         "station_id": "4504127914513279",
         "fuel_type": "AI_92",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 32,
@@ -5754,18 +5720,18 @@
       {
         "station_id": "4504127914513279",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 33,
         "last_report_at": "2026-10-18T13:18:24Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -5820,7 +5786,7 @@
         "last_report_at": "2026-09-25T08:12:19Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -5976,19 +5942,19 @@
         "station_id": "4504128908908063",
         "fuel_type": "AI_100",
         "price": 134,
-        "updated_at": "2026-10-21T22:13:07Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       },
       {
         "station_id": "4504128908908063",
         "fuel_type": "AI_92",
         "price": 92.99,
-        "updated_at": "2026-10-21T22:13:07Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       },
       {
         "station_id": "4504128908908063",
         "fuel_type": "DT",
         "price": 89.99,
-        "updated_at": "2026-10-21T22:13:07Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       }
     ],
     "recent_reports": []
@@ -6054,20 +6020,20 @@
       {
         "station_id": "70000001036520242",
         "fuel_type": "AI_95",
-        "price": 88.78,
-        "updated_at": "2026-10-21T22:13:09Z"
+        "price": 99.98,
+        "updated_at": "2026-10-22T00:13:05Z"
       },
       {
         "station_id": "70000001036520242",
         "fuel_type": "AI_92",
         "price": 109,
-        "updated_at": "2026-10-21T22:13:09Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       },
       {
         "station_id": "70000001036520242",
         "fuel_type": "DT",
         "price": 86.28,
-        "updated_at": "2026-10-21T22:13:09Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       }
     ],
     "recent_reports": []
@@ -6081,7 +6047,7 @@
       "address": "Москва, 1-й Угрешский проезд, вл10",
       "lat": 55.716881,
       "lng": 37.689959,
-      "last_transaction_at": "2026-10-21T21:35:05Z",
+      "last_transaction_at": "2026-10-22T00:44:30Z",
       "created_at": "2026-07-10T15:38:40.1997Z",
       "updated_at": "2026-10-21T21:49:06.422213Z",
       "has_shop": true,
@@ -6162,7 +6128,7 @@
       "address": "Москва, проспект Волгоградский, вл37",
       "lat": 55.722047,
       "lng": 37.698835,
-      "last_transaction_at": "2026-10-21T21:37:28Z",
+      "last_transaction_at": "2026-10-22T00:55:44Z",
       "created_at": "2026-07-10T15:38:35.428523Z",
       "updated_at": "2026-10-21T21:48:51.177138Z",
       "has_shop": true,
@@ -6233,7 +6199,7 @@
       "address": "Москва, 2-я улица Машиностроения, вл14",
       "lat": 55.719245,
       "lng": 37.695781,
-      "last_transaction_at": "2026-10-21T21:31:31Z",
+      "last_transaction_at": "2026-10-22T01:04:22Z",
       "created_at": "2026-07-10T15:38:41.080646Z",
       "updated_at": "2026-10-21T21:49:24.478883Z",
       "has_shop": true,
@@ -6289,19 +6255,19 @@
         "station_id": "70000001023315480",
         "fuel_type": "AI_95",
         "price": 72.7,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       },
       {
         "station_id": "70000001023315480",
         "fuel_type": "AI_92",
         "price": 66.4,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       },
       {
         "station_id": "70000001023315480",
         "fuel_type": "DT",
         "price": 80.75,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       }
     ],
     "recent_reports": []
@@ -6315,7 +6281,7 @@
       "address": "Москва, Юрьевский переулок, вл17 ст1",
       "lat": 55.763343,
       "lng": 37.718943,
-      "last_transaction_at": "2026-10-21T21:35:11Z",
+      "last_transaction_at": "2026-10-21T23:57:06Z",
       "created_at": "2026-07-10T15:38:34.580873Z",
       "updated_at": "2026-10-21T21:49:03.395161Z",
       "has_shop": true,
@@ -6351,7 +6317,7 @@
         "last_report_at": "2026-10-14T15:54:35Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -6493,7 +6459,7 @@
         "last_report_at": "2026-10-09T07:16:26Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -6574,7 +6540,7 @@
         "station_id": "70000001098239303",
         "fuel_type": "DT",
         "price": 79.5,
-        "updated_at": "2026-10-21T22:13:01Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       }
     ],
     "recent_reports": []
@@ -6588,7 +6554,7 @@
       "address": "Москва, улица Яблочкова, 1г",
       "lat": 55.811637,
       "lng": 37.581522,
-      "last_transaction_at": "2026-10-21T21:36:38Z",
+      "last_transaction_at": "2026-10-22T00:30:34Z",
       "created_at": "2026-07-10T15:38:41.662464Z",
       "updated_at": "2026-10-21T21:49:28.385288Z",
       "has_shop": true,
@@ -6639,26 +6605,6 @@
     "closed_by_schedule": false,
     "limit_liters": 40,
     "queue_level": "NONE",
-    "prices": [
-      {
-        "station_id": "70000001027100036",
-        "fuel_type": "AI_95",
-        "price": 72.7,
-        "updated_at": "2026-10-21T22:13:01Z"
-      },
-      {
-        "station_id": "70000001027100036",
-        "fuel_type": "AI_92",
-        "price": 66.4,
-        "updated_at": "2026-10-21T22:13:01Z"
-      },
-      {
-        "station_id": "70000001027100036",
-        "fuel_type": "DT",
-        "price": 80.75,
-        "updated_at": "2026-10-21T22:13:01Z"
-      }
-    ],
     "recent_reports": []
   },
   {
@@ -6713,7 +6659,7 @@
         "station_id": "4504128908495326",
         "fuel_type": "AI_92",
         "price": 92.99,
-        "updated_at": "2026-10-21T22:13:01Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       }
     ],
     "recent_reports": []
@@ -6727,7 +6673,7 @@
       "address": "Москва, Маломосковская улица, вл18",
       "lat": 55.812671,
       "lng": 37.649954,
-      "last_transaction_at": "2026-10-21T21:24:58Z",
+      "last_transaction_at": "2026-10-22T01:03:23Z",
       "created_at": "2026-07-10T15:38:40.22992Z",
       "updated_at": "2026-10-21T21:48:55.209737Z",
       "has_shop": true,
@@ -6831,7 +6777,7 @@
         "station_id": "4504128908476842",
         "fuel_type": "AI_92",
         "price": 92.99,
-        "updated_at": "2026-10-21T22:13:08Z"
+        "updated_at": "2026-10-22T00:13:00Z"
       }
     ],
     "recent_reports": []
@@ -6899,19 +6845,19 @@
         "station_id": "70000001047895718",
         "fuel_type": "AI_95",
         "price": 100,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:09Z"
       },
       {
         "station_id": "70000001047895718",
         "fuel_type": "AI_92",
         "price": 99,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:09Z"
       },
       {
         "station_id": "70000001047895718",
         "fuel_type": "DT",
         "price": 92,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:09Z"
       }
     ],
     "recent_reports": []
@@ -6925,7 +6871,7 @@
       "address": "Москва, проспект 60-летия Октября, вл8в",
       "lat": 55.698169,
       "lng": 37.577639,
-      "last_transaction_at": "2026-10-21T21:29:03Z",
+      "last_transaction_at": "2026-10-22T00:31:47Z",
       "created_at": "2026-07-10T15:38:35.517128Z",
       "updated_at": "2026-10-21T21:49:01.72458Z",
       "has_shop": false,
@@ -6968,7 +6914,7 @@
         "last_report_at": "2026-09-28T19:38:49Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "UP_TO_25",
@@ -7119,13 +7065,13 @@
         "station_id": "4504127908561087",
         "fuel_type": "AI_92",
         "price": 66.4,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       },
       {
         "station_id": "4504127908561087",
         "fuel_type": "DT",
         "price": 80.75,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       }
     ],
     "recent_reports": []
@@ -7185,7 +7131,7 @@
         "last_report_at": "2026-10-13T07:29:10Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -7476,7 +7422,7 @@
         "station_id": "4504127908640944",
         "fuel_type": "DT",
         "price": 89.99,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:06Z"
       }
     ],
     "recent_reports": []
@@ -7577,7 +7523,7 @@
         "last_report_at": "2026-10-16T16:33:46Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -7653,7 +7599,7 @@
       "address": "Москва, 5-я Кабельная улица, 16",
       "lat": 55.736598,
       "lng": 37.726239,
-      "last_transaction_at": "2026-10-21T21:30:54Z",
+      "last_transaction_at": "2026-10-22T00:54:12Z",
       "created_at": "2026-07-10T15:38:37.258303Z",
       "updated_at": "2026-10-21T21:51:04.823474Z",
       "has_shop": true,
@@ -7768,7 +7714,7 @@
         "last_report_at": "2026-10-21T05:41:34Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -7783,7 +7729,7 @@
       "address": "Москва, проспект 60-летия Октября, 19а",
       "lat": 55.694779,
       "lng": 37.577477,
-      "last_transaction_at": "2026-10-21T20:12:29Z",
+      "last_transaction_at": "2026-10-22T01:00:24Z",
       "created_at": "2026-07-10T15:38:42.788668Z",
       "updated_at": "2026-10-21T21:49:01.669221Z",
       "has_shop": false,
@@ -7819,7 +7765,7 @@
         "last_report_at": "2026-09-26T07:06:54Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -7904,19 +7850,19 @@
         "station_id": "70000001034782997",
         "fuel_type": "AI_95",
         "price": 79.9,
-        "updated_at": "2026-10-21T22:13:01Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       },
       {
         "station_id": "70000001034782997",
         "fuel_type": "AI_92",
         "price": 75.9,
-        "updated_at": "2026-10-21T22:13:01Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       },
       {
         "station_id": "70000001034782997",
         "fuel_type": "DT",
         "price": 86.9,
-        "updated_at": "2026-10-21T22:13:01Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       }
     ],
     "recent_reports": []
@@ -7976,7 +7922,7 @@
         "last_report_at": "2026-10-16T12:06:25Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -7986,7 +7932,7 @@
         "station_id": "70000001038198961",
         "fuel_type": "AI_92",
         "price": 66.4,
-        "updated_at": "2026-10-21T22:13:00Z"
+        "updated_at": "2026-10-22T00:13:10Z"
       }
     ],
     "recent_reports": []
@@ -8049,7 +7995,7 @@
       "address": "Москва, проспект Мира, 142",
       "lat": 55.819833,
       "lng": 37.641222,
-      "last_transaction_at": "2026-10-21T21:37:48Z",
+      "last_transaction_at": "2026-10-22T00:51:22Z",
       "created_at": "2026-07-10T15:38:43.503241Z",
       "updated_at": "2026-10-21T21:48:51.284755Z",
       "has_shop": false,
@@ -8095,7 +8041,7 @@
         "last_report_at": "2026-10-16T04:06:49Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -8176,7 +8122,7 @@
         "last_report_at": "2026-10-10T09:21:40Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -8246,19 +8192,19 @@
         "station_id": "70000001097832077",
         "fuel_type": "AI_95",
         "price": 73.99,
-        "updated_at": "2026-10-21T22:13:08Z"
+        "updated_at": "2026-10-22T00:13:07Z"
       },
       {
         "station_id": "70000001097832077",
         "fuel_type": "AI_92",
         "price": 69.99,
-        "updated_at": "2026-10-21T22:13:08Z"
+        "updated_at": "2026-10-22T00:13:07Z"
       },
       {
         "station_id": "70000001097832077",
         "fuel_type": "DT",
         "price": 90,
-        "updated_at": "2026-10-21T22:13:08Z"
+        "updated_at": "2026-10-22T00:13:07Z"
       }
     ],
     "recent_reports": []
@@ -8272,7 +8218,7 @@
       "address": "Москва, Дмитровское шоссе, вл11Б",
       "lat": 55.817654,
       "lng": 37.574719,
-      "last_transaction_at": "2026-10-21T21:41:04Z",
+      "last_transaction_at": "2026-10-22T00:40:41Z",
       "created_at": "2026-07-10T15:38:33.092864Z",
       "updated_at": "2026-10-21T21:50:48.651688Z",
       "has_shop": false,
@@ -8442,7 +8388,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "70000001041267507",
@@ -8524,7 +8470,7 @@
         "last_report_at": "2026-10-09T11:06:47Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -8615,7 +8561,7 @@
       "address": "Москва, улица Преображенский Вал, вл5",
       "lat": 55.794092,
       "lng": 37.714977,
-      "last_transaction_at": "2026-10-21T21:37:28Z",
+      "last_transaction_at": "2026-10-22T00:51:09Z",
       "created_at": "2026-07-10T15:38:33.009718Z",
       "updated_at": "2026-10-21T21:49:01.670862Z",
       "has_shop": false,
@@ -8660,13 +8606,13 @@
         "station_id": "4504127915050816",
         "fuel_type": "AI_95",
         "price": 72.15,
-        "updated_at": "2026-10-21T22:13:00Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       },
       {
         "station_id": "4504127915050816",
         "fuel_type": "AI_92",
         "price": 65.85,
-        "updated_at": "2026-10-21T22:13:00Z"
+        "updated_at": "2026-10-22T00:13:03Z"
       }
     ],
     "recent_reports": []
@@ -8680,7 +8626,7 @@
       "address": "Москва, проспект Севастопольский, 8 вл1",
       "lat": 55.689169,
       "lng": 37.604067,
-      "last_transaction_at": "2026-10-21T20:11:58Z",
+      "last_transaction_at": "2026-10-22T00:34:13Z",
       "created_at": "2026-07-10T15:38:36.995656Z",
       "updated_at": "2026-10-21T21:48:52.670645Z",
       "has_shop": true,
@@ -8726,7 +8672,7 @@
         "last_report_at": "2026-10-13T07:28:53Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -8756,7 +8702,7 @@
       "address": "Москва, проспект Волгоградский, 39 ст1",
       "lat": 55.715745,
       "lng": 37.712843,
-      "last_transaction_at": "2026-10-21T21:39:47Z",
+      "last_transaction_at": "2026-10-22T00:48:06Z",
       "created_at": "2026-07-10T15:38:41.545461Z",
       "updated_at": "2026-10-21T21:48:51.190018Z",
       "has_shop": true,
@@ -8806,7 +8752,7 @@
       "address": "Москва, шоссе Энтузиастов, 27 ст1",
       "lat": 55.756071,
       "lng": 37.737883,
-      "last_transaction_at": "2026-10-21T21:37:27Z",
+      "last_transaction_at": "2026-10-22T00:48:43Z",
       "created_at": "2026-07-10T15:38:41.489516Z",
       "updated_at": "2026-10-21T21:48:51.16314Z",
       "has_shop": true,
@@ -8852,7 +8798,7 @@
         "last_report_at": "2026-10-18T15:34:14Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -9147,7 +9093,7 @@
         "last_report_at": "2026-10-10T09:22:32Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -9223,7 +9169,7 @@
         "last_report_at": "2026-10-08T17:31:55Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -9238,7 +9184,7 @@
       "address": "Москва, Ростокинский проезд, 2",
       "lat": 55.81623,
       "lng": 37.679908,
-      "last_transaction_at": "2026-10-21T18:28:23Z",
+      "last_transaction_at": "2026-10-22T00:09:43Z",
       "created_at": "2026-07-10T15:38:35.218167Z",
       "updated_at": "2026-10-21T21:49:04.396593Z",
       "has_shop": false,
@@ -9319,7 +9265,7 @@
       "address": "Москва, Варшавское шоссе, вл24а",
       "lat": 55.685927,
       "lng": 37.622311,
-      "last_transaction_at": "2026-10-21T21:38:02Z",
+      "last_transaction_at": "2026-10-22T00:11:11Z",
       "created_at": "2026-07-10T15:38:40.817029Z",
       "updated_at": "2026-10-21T21:48:51.179013Z",
       "has_shop": true,
@@ -9375,7 +9321,7 @@
         "last_report_at": "2026-10-19T05:06:38Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -9391,7 +9337,7 @@
       "address": "Москва, улица Мнёвники, соор 5а",
       "lat": 55.771635,
       "lng": 37.495518,
-      "last_transaction_at": "2026-10-21T21:41:55Z",
+      "last_transaction_at": "2026-10-22T00:14:39Z",
       "created_at": "2026-07-10T15:38:37.089509Z",
       "updated_at": "2026-10-21T21:49:27.567089Z",
       "has_shop": true,
@@ -9445,7 +9391,7 @@
         "last_report_at": "2026-10-12T15:48:38Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -9460,7 +9406,7 @@
       "address": "Москва, улица Космонавтов, вл19",
       "lat": 55.821497,
       "lng": 37.66208,
-      "last_transaction_at": "2026-10-21T20:11:45Z",
+      "last_transaction_at": "2026-10-22T00:58:37Z",
       "created_at": "2026-07-10T15:38:41.999001Z",
       "updated_at": "2026-10-21T21:50:48.650834Z",
       "has_shop": true,
@@ -9505,7 +9451,7 @@
         "last_report_at": "2026-09-22T06:50:35Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -9570,7 +9516,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "NONE",
+    "queue_level": "UP_TO_25",
     "recent_reports": []
   },
   {
@@ -9643,7 +9589,7 @@
       "address": "Москва, 3-я Хорошёвская улица, 9 ст1",
       "lat": 55.780849,
       "lng": 37.500058,
-      "last_transaction_at": "2026-10-21T21:35:08Z",
+      "last_transaction_at": "2026-10-22T00:47:02Z",
       "created_at": "2026-07-10T15:38:33.951697Z",
       "updated_at": "2026-10-21T21:48:51.161868Z",
       "has_shop": true,
@@ -9714,7 +9660,7 @@
       "address": "Москва, Ростокинский проезд, вл11 ст1",
       "lat": 55.817949,
       "lng": 37.677871,
-      "last_transaction_at": "2026-10-21T21:34:25Z",
+      "last_transaction_at": "2026-10-22T00:01:19Z",
       "created_at": "2026-07-10T15:38:34.497281Z",
       "updated_at": "2026-10-21T21:51:21.535488Z",
       "has_shop": true,
@@ -9760,10 +9706,10 @@
         "last_report_at": "2026-08-09T10:45:22Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -9775,7 +9721,7 @@
       "address": "Москва, улица Мнёвники, 10 к1 ст1",
       "lat": 55.772705,
       "lng": 37.494916,
-      "last_transaction_at": "2026-10-21T21:23:06Z",
+      "last_transaction_at": "2026-10-22T00:32:08Z",
       "created_at": "2026-07-10T15:38:39.527284Z",
       "updated_at": "2026-10-21T21:49:01.665705Z",
       "has_shop": false,
@@ -10138,7 +10084,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "NONE",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "70000001036805057",
@@ -10243,7 +10189,7 @@
       "address": "Москва, Грайвороновская улица, 1",
       "lat": 55.71629,
       "lng": 37.725096,
-      "last_transaction_at": "2026-10-21T21:42:02Z",
+      "last_transaction_at": "2026-10-21T22:54:24Z",
       "created_at": "2026-07-10T15:38:41.256685Z",
       "updated_at": "2026-10-21T21:48:51.154Z",
       "has_shop": true,
@@ -10289,7 +10235,7 @@
         "last_report_at": "2026-10-16T18:05:08Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -10403,7 +10349,7 @@
         "station_id": "70000001064628657",
         "fuel_type": "GAS",
         "price": 59.99,
-        "updated_at": "2026-10-21T00:13:11Z"
+        "updated_at": "2026-10-22T00:13:07Z"
       }
     ],
     "recent_reports": []
@@ -10460,7 +10406,7 @@
         "station_id": "4504127908573252",
         "fuel_type": "AI_92",
         "price": 92.99,
-        "updated_at": "2026-10-21T22:13:09Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       }
     ],
     "recent_reports": []
@@ -10474,7 +10420,7 @@
       "address": "Москва, проспект Вернадского, 5а",
       "lat": 55.695958,
       "lng": 37.541153,
-      "last_transaction_at": "2026-10-21T21:40:40Z",
+      "last_transaction_at": "2026-10-22T00:41:28Z",
       "created_at": "2026-07-10T15:38:39.81889Z",
       "updated_at": "2026-10-21T21:49:04.935332Z",
       "has_shop": true,
@@ -10728,19 +10674,19 @@
         "station_id": "4504127908561098",
         "fuel_type": "AI_100",
         "price": 100.7,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       },
       {
         "station_id": "4504127908561098",
         "fuel_type": "AI_95",
         "price": 72.7,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       },
       {
         "station_id": "4504127908561098",
         "fuel_type": "AI_92",
         "price": 66.3,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       }
     ],
     "recent_reports": []
@@ -10810,7 +10756,7 @@
         "last_report_at": "2026-10-04T15:06:21Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -10883,7 +10829,7 @@
       "address": "Москва, Тимирязевская улица, 38а",
       "lat": 55.823956,
       "lng": 37.558378,
-      "last_transaction_at": "2026-10-21T21:32:39Z",
+      "last_transaction_at": "2026-10-22T00:56:32Z",
       "created_at": "2026-07-10T15:38:33.268695Z",
       "updated_at": "2026-10-21T21:48:51.283869Z",
       "has_shop": true,
@@ -10938,19 +10884,19 @@
         "station_id": "4504127908561093",
         "fuel_type": "AI_95",
         "price": 72.7,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:06Z"
       },
       {
         "station_id": "4504127908561093",
         "fuel_type": "AI_92",
         "price": 66.4,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:06Z"
       },
       {
         "station_id": "4504127908561093",
         "fuel_type": "DT",
         "price": 80.75,
-        "updated_at": "2026-10-21T22:13:03Z"
+        "updated_at": "2026-10-22T00:13:06Z"
       }
     ],
     "recent_reports": []
@@ -11000,7 +10946,7 @@
         "station_id": "70000001104398510",
         "fuel_type": "GAS",
         "price": 57.96,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:08Z"
       }
     ],
     "recent_reports": []
@@ -11059,7 +11005,7 @@
         "last_report_at": "2026-10-09T06:53:04Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -11075,7 +11021,7 @@
       "address": "Москва, проспект Андропова, вл22/30а",
       "lat": 55.684228,
       "lng": 37.663351,
-      "last_transaction_at": "2026-10-21T21:31:33Z",
+      "last_transaction_at": "2026-10-21T23:56:47Z",
       "created_at": "2026-07-10T15:38:36.86129Z",
       "updated_at": "2026-10-21T21:49:03.612007Z",
       "has_shop": true,
@@ -11193,11 +11139,11 @@
         "last_report_at": "2026-10-15T06:56:48Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -11255,7 +11201,7 @@
         "last_report_at": "2026-10-10T09:21:29Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -11314,7 +11260,7 @@
         "last_report_at": "2026-10-07T13:23:37Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": true,
     "queue_level": "UP_TO_25",
@@ -11375,7 +11321,7 @@
         "last_report_at": "2026-10-13T05:29:18Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -11451,19 +11397,19 @@
         "station_id": "4504127908573598",
         "fuel_type": "AI_100",
         "price": 134,
-        "updated_at": "2026-10-21T22:12:59Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       },
       {
         "station_id": "4504127908573598",
         "fuel_type": "AI_92",
         "price": 92.99,
-        "updated_at": "2026-10-21T22:12:59Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       },
       {
         "station_id": "4504127908573598",
         "fuel_type": "DT",
         "price": 89.99,
-        "updated_at": "2026-10-21T22:12:59Z"
+        "updated_at": "2026-10-22T00:13:01Z"
       }
     ],
     "recent_reports": []
@@ -11522,7 +11468,7 @@
         "station_id": "70000001091219270",
         "fuel_type": "DT",
         "price": 79.5,
-        "updated_at": "2026-10-21T22:13:00Z"
+        "updated_at": "2026-10-22T00:13:10Z"
       }
     ],
     "recent_reports": []
@@ -11558,7 +11504,7 @@
       {
         "station_id": "70000001019480848",
         "fuel_type": "AI_100",
-        "available": false,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 9,
@@ -11592,7 +11538,7 @@
         "last_report_at": "2026-10-21T10:13:02Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -11644,7 +11590,7 @@
         "last_report_at": "2026-10-10T09:21:34Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -11654,13 +11600,13 @@
         "station_id": "4504127912565515",
         "fuel_type": "AI_95",
         "price": 72.89,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       },
       {
         "station_id": "4504127912565515",
         "fuel_type": "DT",
         "price": 80.19,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       }
     ],
     "recent_reports": []
@@ -11764,7 +11710,7 @@
       "address": "Москва, Кутузовский проспект, 50",
       "lat": 55.73131,
       "lng": 37.484538,
-      "last_transaction_at": "2026-10-21T21:35:41Z",
+      "last_transaction_at": "2026-10-22T00:56:54Z",
       "created_at": "2026-07-10T15:38:41.649013Z",
       "updated_at": "2026-10-21T21:51:35.979916Z",
       "has_shop": true,
@@ -12002,7 +11948,7 @@
       {
         "station_id": "4504127908561081",
         "fuel_type": "AI_92",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 14,
@@ -12028,19 +11974,19 @@
         "station_id": "4504127908561081",
         "fuel_type": "AI_95",
         "price": 72.15,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:07Z"
       },
       {
         "station_id": "4504127908561081",
         "fuel_type": "AI_92",
         "price": 65.85,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:07Z"
       },
       {
         "station_id": "4504127908561081",
         "fuel_type": "DT",
         "price": 80.65,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:07Z"
       }
     ],
     "recent_reports": []
@@ -12054,7 +12000,7 @@
       "address": "Москва, Кутузовский проспект, 55 ст2",
       "lat": 55.729974,
       "lng": 37.484335,
-      "last_transaction_at": "2026-10-21T18:31:43Z",
+      "last_transaction_at": "2026-10-22T00:30:16Z",
       "created_at": "2026-07-10T15:38:43.297216Z",
       "updated_at": "2026-10-21T21:49:21.996197Z",
       "has_shop": true,
@@ -12113,7 +12059,7 @@
     "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001021274048",
@@ -12247,7 +12193,7 @@
       "address": "Москва, улица Плеханова, 7а",
       "lat": 55.755727,
       "lng": 37.759015,
-      "last_transaction_at": "2026-10-21T21:13:51Z",
+      "last_transaction_at": "2026-10-22T00:13:28Z",
       "created_at": "2026-07-10T15:38:36.73864Z",
       "updated_at": "2026-10-21T21:48:55.221202Z",
       "has_shop": true,
@@ -12293,11 +12239,11 @@
         "last_report_at": "2026-10-15T16:10:43Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -12662,14 +12608,14 @@
       {
         "station_id": "4504127912565519",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 29,
         "last_report_at": "2026-10-11T05:06:24Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -12704,7 +12650,7 @@
       "address": "Москва, улица Докукина, вл2",
       "lat": 55.837689,
       "lng": 37.65673,
-      "last_transaction_at": "2026-10-21T21:35:58Z",
+      "last_transaction_at": "2026-10-22T00:23:18Z",
       "created_at": "2026-07-10T15:38:38.492182Z",
       "updated_at": "2026-10-21T21:48:51.147652Z",
       "has_shop": true,
@@ -12811,7 +12757,7 @@
         "last_report_at": "2026-10-15T07:26:28Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -12906,25 +12852,25 @@
         "station_id": "4504127915778732",
         "fuel_type": "AI_100",
         "price": 99.9,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:00Z"
       },
       {
         "station_id": "4504127915778732",
         "fuel_type": "AI_95",
         "price": 73.43,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:00Z"
       },
       {
         "station_id": "4504127915778732",
         "fuel_type": "AI_92",
         "price": 66.23,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:00Z"
       },
       {
         "station_id": "4504127915778732",
         "fuel_type": "DT",
         "price": 81.1,
-        "updated_at": "2026-10-21T22:13:04Z"
+        "updated_at": "2026-10-22T00:13:00Z"
       }
     ],
     "recent_reports": []
@@ -12938,7 +12884,7 @@
       "address": "Москва, проспект Волгоградский, 79 ст1",
       "lat": 55.708947,
       "lng": 37.744176,
-      "last_transaction_at": "2026-10-21T21:29:25Z",
+      "last_transaction_at": "2026-10-22T00:13:55Z",
       "created_at": "2026-07-10T15:38:40.529739Z",
       "updated_at": "2026-10-21T21:49:04.409584Z",
       "has_shop": true,
@@ -13053,19 +12999,19 @@
         "station_id": "70000001093612710",
         "fuel_type": "AI_95",
         "price": 100.51,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       },
       {
         "station_id": "70000001093612710",
         "fuel_type": "AI_92",
         "price": 89.51,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       },
       {
         "station_id": "70000001093612710",
         "fuel_type": "DT",
         "price": 79.95,
-        "updated_at": "2026-10-21T22:13:05Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       }
     ],
     "recent_reports": []
@@ -13079,7 +13025,7 @@
       "address": "Москва, Стахановская улица, 5",
       "lat": 55.724022,
       "lng": 37.758944,
-      "last_transaction_at": "2026-10-21T21:27:54Z",
+      "last_transaction_at": "2026-10-22T00:23:32Z",
       "created_at": "2026-07-10T15:38:34.708088Z",
       "updated_at": "2026-10-21T21:48:51.278026Z",
       "has_shop": false,
@@ -13159,7 +13105,7 @@
       "address": "Москва, шоссе Энтузиастов, вл33Б",
       "lat": 55.762659,
       "lng": 37.770116,
-      "last_transaction_at": "2026-10-21T18:18:10Z",
+      "last_transaction_at": "2026-10-22T00:19:50Z",
       "created_at": "2026-07-10T15:38:38.129214Z",
       "updated_at": "2026-10-21T21:49:01.668898Z",
       "has_shop": true,
@@ -13241,7 +13187,7 @@
       "address": "Москва, Мичуринский проспект, 30а",
       "lat": 55.699428,
       "lng": 37.499991,
-      "last_transaction_at": "2026-10-21T21:38:08Z",
+      "last_transaction_at": "2026-10-22T00:32:03Z",
       "created_at": "2026-07-10T15:38:33.455905Z",
       "updated_at": "2026-10-21T21:48:55.216861Z",
       "has_shop": true,
@@ -13434,7 +13380,7 @@
       "address": "Москва, шоссе Энтузиастов, 56а ст1",
       "lat": 55.761872,
       "lng": 37.771983,
-      "last_transaction_at": "2026-10-21T20:56:15Z",
+      "last_transaction_at": "2026-10-22T00:59:17Z",
       "created_at": "2026-07-10T15:38:33.237147Z",
       "updated_at": "2026-10-21T21:51:00.489537Z",
       "has_shop": true,
@@ -13483,19 +13429,19 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001071318162",
         "fuel_type": "AI_95",
         "price": 71.9,
-        "updated_at": "2026-10-21T00:13:05Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       },
       {
         "station_id": "70000001071318162",
         "fuel_type": "AI_92",
         "price": 66.4,
-        "updated_at": "2026-10-21T00:13:05Z"
+        "updated_at": "2026-10-22T00:13:05Z"
       }
     ],
     "recent_reports": []
@@ -13509,7 +13455,7 @@
       "address": "Москва, улица Архитектора Власова, вл8а ст1",
       "lat": 55.677297,
       "lng": 37.549589,
-      "last_transaction_at": "2026-10-21T21:36:20Z",
+      "last_transaction_at": "2026-10-22T00:15:10Z",
       "created_at": "2026-07-10T15:38:42.042303Z",
       "updated_at": "2026-10-21T21:50:48.664551Z",
       "has_shop": true,
@@ -13624,7 +13570,7 @@
         "last_report_at": "2026-10-18T13:46:03Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -13640,7 +13586,7 @@
       "address": "Москва, проспект Волгоградский, соор48а",
       "lat": 55.707448,
       "lng": 37.747547,
-      "last_transaction_at": "2026-10-21T21:40:43Z",
+      "last_transaction_at": "2026-10-22T00:58:27Z",
       "created_at": "2026-07-10T15:38:41.504607Z",
       "updated_at": "2026-10-21T21:49:01.726008Z",
       "has_shop": false,
@@ -13686,7 +13632,7 @@
         "last_report_at": "2026-10-21T04:15:08Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -13715,7 +13661,7 @@
       "address": "Москва, проспект Рязанский, вл14 ст4",
       "lat": 55.724201,
       "lng": 37.763699,
-      "last_transaction_at": "2026-10-21T20:10:49Z",
+      "last_transaction_at": "2026-10-22T00:59:13Z",
       "created_at": "2026-07-10T15:38:43.268042Z",
       "updated_at": "2026-10-21T21:49:47.831611Z",
       "has_shop": true,
@@ -13781,7 +13727,7 @@
         "last_report_at": "2026-10-17T14:06:05Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -13912,19 +13858,19 @@
         "station_id": "70000001030665047",
         "fuel_type": "AI_95",
         "price": 77.9,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:11Z"
       },
       {
         "station_id": "70000001030665047",
         "fuel_type": "AI_92",
         "price": 75.9,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:11Z"
       },
       {
         "station_id": "70000001030665047",
         "fuel_type": "DT",
         "price": 86.9,
-        "updated_at": "2026-10-21T22:13:02Z"
+        "updated_at": "2026-10-22T00:13:11Z"
       }
     ],
     "recent_reports": []
