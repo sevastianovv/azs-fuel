@@ -12,7 +12,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 12:10:21",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "no",
@@ -78,6 +78,16 @@
     "confidence_base": 0.3729,
     "recent_comments": [
       {
+        "status": "no",
+        "detail": "Заправка не работает",
+        "created_at": "2026-10-23 18:01:04",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": true,
+        "on_site": true
+      },
+      {
         "status": "yes",
         "detail": "92, 95, ДТ",
         "created_at": "2026-10-23 10:31:00",
@@ -100,10 +110,20 @@
     "status": "no",
     "detail": "Заправка не работает",
     "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 11:13:20",
-    "confidence_base": 0.3729,
+    "confirmations": 2,
+    "last_at": "2026-10-23 20:05:44",
+    "confidence_base": 0.35,
     "recent_comments": [
+      {
+        "status": "no",
+        "detail": "Заправка не работает",
+        "created_at": "2026-10-23 20:05:44",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": false
+      },
       {
         "status": "no",
         "detail": "Заправка не работает",
@@ -112,33 +132,6 @@
         "author_reliable": true,
         "author_tier": 3,
         "acct_ok": true,
-        "on_site": true
-      }
-    ]
-  },
-  {
-    "osm_id": "usr_9i4V0wPOAc8",
-    "brand": "Кириши Авто Маркет",
-    "name": "Кириши Авто Маркет",
-    "addr": "ул Тельмана, 39",
-    "lat": 59.891026,
-    "lon": 30.48245,
-    "distance_km": 12.1,
-    "status": "no",
-    "detail": "Заправка не работает",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 08:56:06",
-    "confidence_base": 0.0,
-    "recent_comments": [
-      {
-        "status": "no",
-        "detail": "Заправка не работает",
-        "created_at": "2026-10-23 08:56:06",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": false,
         "on_site": true
       }
     ]
@@ -153,11 +146,28 @@
     "distance_km": 0.7,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
-    "confirmations": 1,
-    "last_at": "2026-10-23 17:43:29",
-    "confidence_base": 0.3729,
-    "recent_comments": []
+    "fuels_now": "95",
+    "confirmations": 2,
+    "last_at": "2026-10-23 20:50:59",
+    "confidence_base": 0.8323,
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ",
+        "created_at": "2026-10-23 19:53:24",
+        "edited": false,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, ДТ",
+        "created_at": "2026-10-23 17:43:29",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 2,
+        "acct_ok": true
+      }
+    ]
   },
   {
     "osm_id": "usr_61ViA7i5Nl0",
@@ -169,7 +179,7 @@
     "distance_km": 1.1,
     "status": "yes",
     "detail": "95, 95+, ДТ",
-    "fuels_now": "95,95+,100,ДТ",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 17:06:52",
     "confidence_base": 0.7104,
@@ -189,16 +199,6 @@
         "detail": "95, 100, ДТ",
         "created_at": "2026-10-23 16:26:21",
         "edited": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-22 18:53:12",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
         "on_site": true
       }
     ]
@@ -250,11 +250,18 @@
     "distance_km": 2.1,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "95,ДТ",
     "confirmations": 3,
-    "last_at": "2026-10-23 15:56:26",
+    "last_at": "2026-10-23 20:16:24",
     "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "95, ДТ",
+        "created_at": "2026-10-23 20:16:24",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 95+, ДТ",
@@ -274,13 +281,6 @@
         "author_tier": 2,
         "acct_ok": true,
         "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 100",
-        "created_at": "2026-10-23 11:36:52",
-        "edited": false,
-        "on_site": true
       }
     ]
   },
@@ -294,7 +294,7 @@
     "distance_km": 2.1,
     "status": "yes",
     "detail": "92, 95+, ДТ",
-    "fuels_now": "92,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 16:25:32",
     "confidence_base": 0.35,
@@ -341,7 +341,7 @@
     "distance_km": 2.4,
     "status": "yes",
     "detail": "",
-    "fuels_now": "95",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 15:56:20",
     "confidence_base": 0.35,
@@ -357,10 +357,10 @@
     "distance_km": 2.5,
     "status": "yes",
     "detail": "92, 95",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 3,
     "last_at": "2026-10-23 16:22:40",
-    "confidence_base": 0.8774,
+    "confidence_base": 0.7104,
     "recent_comments": [
       {
         "status": "yes",
@@ -404,7 +404,7 @@
     "distance_km": 2.6,
     "status": "yes",
     "detail": "",
-    "fuels_now": "95",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 16:33:13",
     "confidence_base": 0.35,
@@ -423,7 +423,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 12:56:19",
-    "confidence_base": 0.3729,
+    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "yes",
@@ -457,8 +457,8 @@
     "distance_km": 3.2,
     "status": "yes",
     "detail": "92, 95, ДТ",
-    "fuels_now": "92,95,ДТ",
-    "confirmations": 3,
+    "fuels_now": "",
+    "confirmations": 2,
     "last_at": "2026-10-23 17:21:04",
     "confidence_base": 0.7104,
     "recent_comments": [
@@ -487,16 +487,6 @@
         "author_tier": 1,
         "acct_ok": true,
         "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "98, ДТ",
-        "created_at": "2026-10-22 20:25:12",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": true
       }
     ]
   },
@@ -509,11 +499,11 @@
     "lon": 30.2463847,
     "distance_km": 3.2,
     "status": "yes",
-    "detail": "92, 95, 95+, 100, ДТ",
-    "fuels_now": "92,95,95+,100,ДТ",
+    "detail": "92, 95, 98, ДТ",
+    "fuels_now": "92,95,98,ДТ",
     "confirmations": 3,
-    "last_at": "2026-10-23 17:50:22",
-    "confidence_base": 0.8323,
+    "last_at": "2026-10-23 19:22:07",
+    "confidence_base": 0.9,
     "meta": {
       "f": [
         "dt",
@@ -523,6 +513,25 @@
       ]
     },
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ",
+        "created_at": "2026-10-23 19:22:07",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": true,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, 100, ДТ",
+        "created_at": "2026-10-23 17:50:22",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 2,
+        "acct_ok": true
+      },
       {
         "status": "yes",
         "detail": "95",
@@ -549,16 +558,6 @@
         "author_tier": 0,
         "acct_ok": true,
         "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "98, ДТ",
-        "created_at": "2026-10-22 20:29:06",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 1,
-        "acct_ok": true,
-        "on_site": true
       }
     ]
   },
@@ -573,10 +572,29 @@
     "status": "yes",
     "detail": "92, 95, 95+, 100, ДТ",
     "fuels_now": "92,95,95+,100,ДТ",
-    "confirmations": 2,
-    "last_at": "2026-10-23 17:51:02",
-    "confidence_base": 0.8323,
+    "confirmations": 3,
+    "last_at": "2026-10-23 19:21:46",
+    "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, 100, ДТ",
+        "created_at": "2026-10-23 19:21:46",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": true,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, 100, ДТ",
+        "created_at": "2026-10-23 17:51:02",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 2,
+        "acct_ok": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 95+, 100, ДТ · Лимит 30 л",
@@ -592,50 +610,6 @@
         "created_at": "2026-10-23 03:43:16",
         "edited": false,
         "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, 100, ДТ",
-        "created_at": "2026-10-22 20:28:32",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 1,
-        "acct_ok": true,
-        "on_site": true
-      }
-    ]
-  },
-  {
-    "osm_id": "usr_gRuRNkDefGA",
-    "brand": "Роснефть",
-    "name": "Роснефть",
-    "addr": "пр-кт КИМа, 32",
-    "lat": 59.95553668567598,
-    "lon": 30.241531133651737,
-    "distance_km": 3.3,
-    "status": "yes",
-    "detail": "92, 95+, 100, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 09:23:22",
-    "confidence_base": 0.0,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95+, 100, ДТ",
-        "created_at": "2026-10-23 09:23:22",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-23 03:58:19",
-        "edited": false,
-        "on_site": true
       }
     ]
   },
@@ -649,15 +623,15 @@
     "distance_km": 3.3,
     "status": "yes",
     "detail": "92, 95, 95+, 100, ДТ · Лимит 50 л",
-    "fuels_now": "92,95,100,ДТ",
+    "fuels_now": "92,95,100",
     "confirmations": 2,
-    "last_at": "2026-10-23 16:26:21",
+    "last_at": "2026-10-23 19:53:07",
     "confidence_base": 0.8323,
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92, 95, 100, ДТ",
-        "created_at": "2026-10-23 16:26:21",
+        "detail": "92, 95, 100",
+        "created_at": "2026-10-23 19:53:07",
         "edited": false,
         "on_site": true
       },
@@ -683,11 +657,18 @@
     "distance_km": 3.4,
     "status": "yes",
     "detail": "92, 95, ДТ",
-    "fuels_now": "",
-    "confirmations": 6,
-    "last_at": "2026-10-23 15:00:48",
-    "confidence_base": 0.8837,
+    "fuels_now": "95,ДТ",
+    "confirmations": 3,
+    "last_at": "2026-10-23 18:42:56",
+    "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "95, ДТ",
+        "created_at": "2026-10-23 18:42:56",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, ДТ",
@@ -761,7 +742,7 @@
     "status": "yes",
     "detail": "92, 95, 95+, 100, ДТ",
     "fuels_now": "",
-    "confirmations": 6,
+    "confirmations": 2,
     "last_at": "2026-10-23 15:01:06",
     "confidence_base": 0.3729,
     "recent_comments": [
@@ -838,9 +819,9 @@
     "status": "yes",
     "detail": "92, 95, 95+, 100, ДТ",
     "fuels_now": "",
-    "confirmations": 5,
+    "confirmations": 1,
     "last_at": "2026-10-23 13:23:42",
-    "confidence_base": 0.3729,
+    "confidence_base": 0.0,
     "meta": {
       "f": [
         "dt",
@@ -912,11 +893,21 @@
     "distance_km": 4.0,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 18:07:57",
-    "confidence_base": 0.7104,
+    "confidence_base": 0.35,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, ДТ",
+        "created_at": "2026-10-23 18:07:57",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95",
@@ -947,7 +938,7 @@
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
     "fuels_now": "",
-    "confirmations": 3,
+    "confirmations": 2,
     "last_at": "2026-10-23 15:29:56",
     "confidence_base": 0.7104,
     "recent_comments": [
@@ -989,40 +980,28 @@
     "lon": 30.240780115127567,
     "distance_km": 4.2,
     "status": "yes",
-    "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95",
-    "confirmations": 3,
+    "detail": "",
+    "fuels_now": "",
+    "confirmations": 1,
     "last_at": "2026-10-23 17:00:53",
     "confidence_base": 0.35,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-23 17:00:53",
-        "edited": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 07:35:24",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 06:49:15",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 3,
-        "acct_ok": true,
-        "on_site": true
-      }
-    ]
+    "recent_comments": []
+  },
+  {
+    "osm_id": "usr_gPDUCFlLPGo",
+    "brand": "Роснефть",
+    "name": "Роснефть",
+    "addr": "ул Нахимова, 18",
+    "lat": 59.94089039538271,
+    "lon": 30.226671695709232,
+    "distance_km": 4.2,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "92,95",
+    "confirmations": 1,
+    "last_at": "2026-10-23 19:51:02",
+    "confidence_base": 0.35,
+    "recent_comments": []
   },
   {
     "osm_id": "usr_qy4NfZvScgk",
@@ -1037,7 +1016,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 13:05:20",
-    "confidence_base": 0.3729,
+    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "yes",
@@ -1071,7 +1050,7 @@
     "distance_km": 4.4,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 16:25:51",
     "confidence_base": 0.35,
@@ -1087,7 +1066,7 @@
     "distance_km": 4.5,
     "status": "yes",
     "detail": "92, 95, ДТ",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 15:48:16",
     "confidence_base": 0.7104,
@@ -1120,7 +1099,7 @@
     "distance_km": 4.7,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 17:01:41",
     "confidence_base": 0.35,
@@ -1136,10 +1115,10 @@
     "distance_km": 4.7,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 3,
     "last_at": "2026-10-23 16:21:02",
-    "confidence_base": 0.9,
+    "confidence_base": 0.7104,
     "meta": {
       "f": [
         "dt",
@@ -1187,9 +1166,25 @@
     "distance_km": 4.8,
     "status": "yes",
     "detail": "",
+    "fuels_now": "92,95,100",
+    "confirmations": 1,
+    "last_at": "2026-10-23 20:16:47",
+    "confidence_base": 0.35,
+    "recent_comments": []
+  },
+  {
+    "osm_id": "usr_NpNrghu2L9M",
+    "brand": "Лукойл",
+    "name": "Лукойл",
+    "addr": "Свердловская наб, 9",
+    "lat": 59.95954166292617,
+    "lon": 30.38590103387833,
+    "distance_km": 4.9,
+    "status": "yes",
+    "detail": "",
     "fuels_now": "92,95",
     "confirmations": 1,
-    "last_at": "2026-10-23 16:24:48",
+    "last_at": "2026-10-23 20:45:50",
     "confidence_base": 0.35,
     "recent_comments": []
   },
@@ -1203,10 +1198,10 @@
     "distance_km": 4.9,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 15:11:31",
-    "confidence_base": 0.3729,
+    "fuels_now": "92,95,ДТ",
+    "confirmations": 2,
+    "last_at": "2026-10-23 20:49:25",
+    "confidence_base": 0.8323,
     "recent_comments": [
       {
         "status": "yes",
@@ -1230,7 +1225,7 @@
     "distance_km": 5.0,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 17:23:59",
     "confidence_base": 0.3729,
@@ -1256,11 +1251,18 @@
     "distance_km": 5.0,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 13:45:07",
-    "confidence_base": 0.3729,
+    "fuels_now": "92,95",
+    "confirmations": 2,
+    "last_at": "2026-10-23 20:57:28",
+    "confidence_base": 0.8323,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95",
+        "created_at": "2026-10-23 20:38:52",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 95+, ДТ",
@@ -1294,9 +1296,9 @@
     "status": "yes",
     "detail": "92, 95, 95+",
     "fuels_now": "",
-    "confirmations": 3,
+    "confirmations": 2,
     "last_at": "2026-10-23 12:10:29",
-    "confidence_base": 0.7104,
+    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "yes",
@@ -1339,9 +1341,16 @@
     "detail": "95",
     "fuels_now": "92,95",
     "confirmations": 2,
-    "last_at": "2026-10-23 18:17:50",
+    "last_at": "2026-10-23 19:57:32",
     "confidence_base": 0.7104,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95",
+        "created_at": "2026-10-23 19:57:32",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "95",
@@ -1350,13 +1359,6 @@
         "author_reliable": false,
         "author_tier": 0,
         "acct_ok": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-23 14:59:19",
-        "edited": false,
-        "on_site": true
       },
       {
         "status": "yes",
@@ -1380,7 +1382,7 @@
     "distance_km": 5.1,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 16:03:33",
     "confidence_base": 0.35,
@@ -1417,11 +1419,31 @@
     "distance_km": 5.1,
     "status": "yes",
     "detail": "92, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
-    "confirmations": 4,
+    "fuels_now": "",
+    "confirmations": 3,
     "last_at": "2026-10-23 18:25:36",
     "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95+, ДТ",
+        "created_at": "2026-10-23 18:25:36",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 2,
+        "acct_ok": false,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "95, 95+, ДТ",
+        "created_at": "2026-10-23 18:25:07",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 3,
+        "acct_ok": false,
+        "on_site": false
+      },
       {
         "status": "yes",
         "detail": "95, 95+, ДТ",
@@ -1456,7 +1478,7 @@
     "detail": "",
     "fuels_now": "92,95",
     "confirmations": 1,
-    "last_at": "2026-10-23 17:02:33",
+    "last_at": "2026-10-23 19:58:47",
     "confidence_base": 0.35,
     "recent_comments": []
   },
@@ -1470,7 +1492,7 @@
     "distance_km": 5.2,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 18:17:46",
     "confidence_base": 0.35,
@@ -1486,7 +1508,7 @@
     "distance_km": 5.3,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 15:41:27",
     "confidence_base": 0.35,
@@ -1502,9 +1524,9 @@
     "distance_km": 5.3,
     "status": "yes",
     "detail": "92, 95, 98, ДТ",
-    "fuels_now": "92,95,98,ДТ",
-    "confirmations": 4,
-    "last_at": "2026-10-23 18:05:01",
+    "fuels_now": "95",
+    "confirmations": 5,
+    "last_at": "2026-10-23 20:31:25",
     "confidence_base": 0.9,
     "meta": {
       "f": [
@@ -1515,6 +1537,23 @@
       ]
     },
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "95",
+        "created_at": "2026-10-23 20:31:25",
+        "edited": false,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ",
+        "created_at": "2026-10-23 18:05:01",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": true,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 98, ДТ",
@@ -1562,16 +1601,6 @@
         "author_tier": 1,
         "acct_ok": true,
         "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "98, ДТ",
-        "created_at": "2026-10-22 21:13:46",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": true
       }
     ]
   },
@@ -1585,11 +1614,38 @@
     "distance_km": 5.3,
     "status": "yes",
     "detail": "95, 95+, ДТ",
-    "fuels_now": "95,95+,ДТ",
-    "confirmations": 4,
-    "last_at": "2026-10-23 18:05:43",
+    "fuels_now": "95,100,ДТ",
+    "confirmations": 5,
+    "last_at": "2026-10-23 20:17:21",
     "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "95, 100, ДТ",
+        "created_at": "2026-10-23 20:17:21",
+        "edited": false,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "95, 95+, ДТ",
+        "created_at": "2026-10-23 18:05:43",
+        "edited": true,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": true,
+        "on_site": false
+      },
+      {
+        "status": "yes",
+        "detail": "95, 95+, ДТ",
+        "created_at": "2026-10-23 17:51:40",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 3,
+        "acct_ok": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "95, 95+, ДТ",
@@ -1617,26 +1673,6 @@
         "author_tier": 1,
         "acct_ok": true,
         "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "95, 95+, ДТ",
-        "created_at": "2026-10-22 21:12:18",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "95, 95+",
-        "created_at": "2026-10-22 18:53:26",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false,
-        "on_site": true
       }
     ]
   },
@@ -1650,11 +1686,21 @@
     "distance_km": 5.3,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 17:46:08",
     "confidence_base": 0.3729,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, ДТ",
+        "created_at": "2026-10-23 17:46:08",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 3,
+        "acct_ok": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 95+, 98, ДТ",
@@ -1679,7 +1725,7 @@
     "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 11:17:11",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "yes",
@@ -1795,49 +1841,6 @@
     ]
   },
   {
-    "osm_id": "usr_FDi_DX_wvTQ",
-    "brand": "Лукойл",
-    "name": "Лукойл",
-    "addr": "ул Замшина, 2",
-    "lat": 59.967812607400305,
-    "lon": 30.392845273017887,
-    "distance_km": 5.5,
-    "status": "yes",
-    "detail": "95, 95+, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 06:39:00",
-    "confidence_base": 0.0,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "95, 95+, ДТ",
-        "created_at": "2026-10-23 06:39:00",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "95, 95+, ДТ",
-        "created_at": "2026-10-23 05:53:44",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-22 21:13:05",
-        "edited": false,
-        "on_site": true
-      }
-    ]
-  },
-  {
     "osm_id": "usr_EiYHHQxPxl8",
     "brand": "Teboil",
     "name": "Teboil",
@@ -1847,8 +1850,8 @@
     "distance_km": 5.5,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
-    "confirmations": 3,
+    "fuels_now": "",
+    "confirmations": 2,
     "last_at": "2026-10-23 17:04:31",
     "confidence_base": 0.8837,
     "recent_comments": [
@@ -1903,11 +1906,21 @@
     "distance_km": 5.5,
     "status": "yes",
     "detail": "92, 95, ДТ",
-    "fuels_now": "92,95,ДТ",
+    "fuels_now": "",
     "confirmations": 3,
     "last_at": "2026-10-23 18:25:48",
     "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ",
+        "created_at": "2026-10-23 18:25:48",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 3,
+        "acct_ok": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 95+, ДТ",
@@ -1927,16 +1940,6 @@
         "author_tier": 3,
         "acct_ok": false,
         "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-22 21:06:48",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": true
       }
     ]
   },
@@ -1950,15 +1953,15 @@
     "distance_km": 5.6,
     "status": "yes",
     "detail": "92, 95, 95+",
-    "fuels_now": "",
-    "confirmations": 3,
-    "last_at": "2026-10-23 11:37:07",
-    "confidence_base": 0.7104,
+    "fuels_now": "92,95",
+    "confirmations": 2,
+    "last_at": "2026-10-23 18:55:18",
+    "confidence_base": 0.35,
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92, ДТ",
-        "created_at": "2026-10-23 11:37:07",
+        "detail": "92, 95",
+        "created_at": "2026-10-23 18:55:18",
         "edited": false,
         "on_site": true
       },
@@ -2068,6 +2071,22 @@
     ]
   },
   {
+    "osm_id": "usr_3D2fQNDFm6E",
+    "brand": "Газпромнефть",
+    "name": "Газпромнефть",
+    "addr": "ул Савушкина, 110",
+    "lat": 59.98493329534832,
+    "lon": 30.22871017456055,
+    "distance_km": 5.6,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "95",
+    "confirmations": 1,
+    "last_at": "2026-10-23 21:20:14",
+    "confidence_base": 0.35,
+    "recent_comments": []
+  },
+  {
     "osm_id": "usr_FWGiXOo-V8w",
     "brand": "Норд-Лайн",
     "name": "Норд-Лайн",
@@ -2123,11 +2142,21 @@
     "distance_km": 5.7,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
-    "confirmations": 5,
+    "fuels_now": "",
+    "confirmations": 3,
     "last_at": "2026-10-23 18:02:21",
-    "confidence_base": 0.8323,
+    "confidence_base": 0.3729,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, ДТ",
+        "created_at": "2026-10-23 18:02:21",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": true,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "95",
@@ -2176,7 +2205,7 @@
     "distance_km": 5.8,
     "status": "yes",
     "detail": "92, 95, 98, ДТ",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 3,
     "last_at": "2026-10-23 16:32:30",
     "confidence_base": 0.9,
@@ -2209,62 +2238,6 @@
     ]
   },
   {
-    "osm_id": "usr_j7Cs19bg3s8",
-    "brand": "Teboil",
-    "name": "Тебойл",
-    "addr": "ул Новороссийская, 15",
-    "lat": 59.99420261345819,
-    "lon": 30.354678667945343,
-    "distance_km": 5.8,
-    "status": "yes",
-    "detail": "95, 95+, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 07:07:29",
-    "confidence_base": 0.0,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "95, 95+, ДТ",
-        "created_at": "2026-10-23 07:07:29",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false
-      },
-      {
-        "status": "yes",
-        "detail": "95, ДТ",
-        "created_at": "2026-10-23 04:42:57",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": false,
-        "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "95, 95+, ДТ",
-        "created_at": "2026-10-23 04:19:28",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": true,
-        "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "95, 95+, ДТ",
-        "created_at": "2026-10-23 03:13:11",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": true,
-        "on_site": false
-      }
-    ]
-  },
-  {
     "osm_id": "12941595070",
     "brand": "Татнефть",
     "name": "Татнефть",
@@ -2274,7 +2247,7 @@
     "distance_km": 5.8,
     "status": "yes",
     "detail": "ДТ",
-    "fuels_now": "ДТ",
+    "fuels_now": "",
     "confirmations": 3,
     "last_at": "2026-10-23 17:02:23",
     "confidence_base": 0.9,
@@ -2337,10 +2310,10 @@
     "distance_km": 5.9,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "95",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 17:00:34",
-    "confidence_base": 0.7104,
+    "confidence_base": 0.35,
     "recent_comments": [
       {
         "status": "yes",
@@ -2371,11 +2344,18 @@
     "distance_km": 5.9,
     "status": "yes",
     "detail": "92, 95",
-    "fuels_now": "",
+    "fuels_now": "ДТ",
     "confirmations": 4,
-    "last_at": "2026-10-23 14:47:19",
+    "last_at": "2026-10-23 21:02:10",
     "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 100, ДТ",
+        "created_at": "2026-10-23 18:57:06",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95",
@@ -2384,13 +2364,6 @@
         "author_reliable": false,
         "author_tier": 0,
         "acct_ok": false
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 100, ДТ",
-        "created_at": "2026-10-23 14:42:34",
-        "edited": false,
-        "on_site": true
       },
       {
         "status": "yes",
@@ -2425,9 +2398,9 @@
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
     "fuels_now": "",
-    "confirmations": 2,
+    "confirmations": 1,
     "last_at": "2026-10-23 12:27:49",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "yes",
@@ -2474,7 +2447,7 @@
     "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 15:22:49",
-    "confidence_base": 0.7104,
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -2546,7 +2519,7 @@
     "distance_km": 6.0,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 15:43:58",
     "confidence_base": 0.35,
@@ -2565,7 +2538,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 11:36:02",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "yes",
@@ -2592,7 +2565,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 13:24:59",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": []
   },
   {
@@ -2605,15 +2578,15 @@
     "distance_km": 6.0,
     "status": "yes",
     "detail": "92, 95+, ДТ",
-    "fuels_now": "",
+    "fuels_now": "95",
     "confirmations": 3,
-    "last_at": "2026-10-23 14:59:38",
+    "last_at": "2026-10-23 20:17:19",
     "confidence_base": 0.9,
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92, 95, 100",
-        "created_at": "2026-10-23 14:59:38",
+        "detail": "95",
+        "created_at": "2026-10-23 20:17:19",
         "edited": false,
         "on_site": true
       },
@@ -2679,11 +2652,18 @@
     "distance_km": 6.0,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,98,100,ДТ",
+    "fuels_now": "92,95",
     "confirmations": 4,
-    "last_at": "2026-10-23 17:51:30",
+    "last_at": "2026-10-23 21:04:23",
     "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 100",
+        "created_at": "2026-10-23 19:51:41",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 95+, ДТ",
@@ -2701,13 +2681,6 @@
         "author_reliable": true,
         "author_tier": 2,
         "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 100",
-        "created_at": "2026-10-23 15:56:24",
-        "edited": false,
         "on_site": true
       },
       {
@@ -2770,11 +2743,21 @@
     "distance_km": 6.2,
     "status": "yes",
     "detail": "92, 95, 95+, 100, ДТ",
-    "fuels_now": "92,95,95+,100,ДТ",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 18:29:28",
     "confidence_base": 0.7104,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, 100, ДТ",
+        "created_at": "2026-10-23 18:29:28",
+        "edited": true,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false,
+        "on_site": false
+      },
       {
         "status": "yes",
         "detail": "92, 95, 100, ДТ",
@@ -2834,11 +2817,21 @@
     "distance_km": 6.2,
     "status": "yes",
     "detail": "95, 95+, ДТ",
-    "fuels_now": "95,95+,ДТ",
-    "confirmations": 2,
+    "fuels_now": "",
+    "confirmations": 1,
     "last_at": "2026-10-23 18:00:50",
     "confidence_base": 0.3729,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "95, 95+, ДТ",
+        "created_at": "2026-10-23 18:00:50",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": true,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "95, 95+, ДТ",
@@ -2848,13 +2841,6 @@
         "author_tier": 0,
         "acct_ok": true,
         "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "92",
-        "created_at": "2026-10-22 20:25:08",
-        "edited": false,
-        "on_site": true
       }
     ]
   },
@@ -2868,7 +2854,7 @@
     "distance_km": 6.2,
     "status": "yes",
     "detail": "95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 17:09:39",
     "confidence_base": 0.8837,
@@ -2908,16 +2894,6 @@
         "edited": false,
         "author_reliable": true,
         "author_tier": 2,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-22 19:18:02",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
         "acct_ok": true,
         "on_site": true
       }
@@ -2988,7 +2964,7 @@
     "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 12:35:05",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "meta": {
       "f": [
         "dt",
@@ -3042,7 +3018,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 12:35:47",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "yes",
@@ -3076,11 +3052,21 @@
     "distance_km": 6.7,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
-    "confirmations": 2,
+    "fuels_now": "",
+    "confirmations": 1,
     "last_at": "2026-10-23 17:58:47",
     "confidence_base": 0.3729,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, ДТ",
+        "created_at": "2026-10-23 17:58:47",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": true,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 95+, ДТ",
@@ -3115,7 +3101,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 11:17:40",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": []
   },
   {
@@ -3177,7 +3163,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 12:28:11",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": []
   },
   {
@@ -3192,8 +3178,8 @@
     "detail": "92, 95, 98, ДТ",
     "fuels_now": "92,95,98,ДТ",
     "confirmations": 3,
-    "last_at": "2026-10-23 18:35:14",
-    "confidence_base": 0.8323,
+    "last_at": "2026-10-23 20:48:45",
+    "confidence_base": 0.9,
     "meta": {
       "f": [
         "dt",
@@ -3203,6 +3189,25 @@
       ]
     },
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ",
+        "created_at": "2026-10-23 19:20:58",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ",
+        "created_at": "2026-10-23 18:35:14",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 2,
+        "acct_ok": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 100, ДТ",
@@ -3248,16 +3253,6 @@
         "author_reliable": true,
         "author_tier": 3,
         "acct_ok": true
-      },
-      {
-        "status": "yes",
-        "detail": "98, ДТ",
-        "created_at": "2026-10-22 19:46:41",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 3,
-        "acct_ok": true,
-        "on_site": true
       }
     ]
   },
@@ -3271,10 +3266,10 @@
     "distance_km": 7.0,
     "status": "yes",
     "detail": "",
-    "fuels_now": "",
+    "fuels_now": "92,95",
     "confirmations": 1,
-    "last_at": "2026-10-23 08:28:05",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-23 18:44:23",
+    "confidence_base": 0.35,
     "recent_comments": []
   },
   {
@@ -3287,7 +3282,7 @@
     "distance_km": 7.0,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 3,
     "last_at": "2026-10-23 16:46:51",
     "confidence_base": 0.8323,
@@ -3329,12 +3324,22 @@
     "lon": 30.234771966934208,
     "distance_km": 7.1,
     "status": "yes",
-    "detail": "92, 95, 95+, 98, ДТ",
-    "fuels_now": "92,95,95+,98,ДТ",
-    "confirmations": 3,
-    "last_at": "2026-10-23 16:59:41",
+    "detail": "92, 95, 95+, 100, ДТ",
+    "fuels_now": "92,95,95+,100,ДТ",
+    "confirmations": 4,
+    "last_at": "2026-10-23 19:18:00",
     "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, 100, ДТ",
+        "created_at": "2026-10-23 19:18:00",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 2,
+        "acct_ok": true,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 95+, 98, ДТ",
@@ -3406,9 +3411,9 @@
     "distance_km": 7.1,
     "status": "yes",
     "detail": "92, 95",
-    "fuels_now": "92,95,100",
+    "fuels_now": "92,95",
     "confirmations": 2,
-    "last_at": "2026-10-23 16:47:08",
+    "last_at": "2026-10-23 21:00:08",
     "confidence_base": 0.35,
     "recent_comments": [
       {
@@ -3458,6 +3463,22 @@
     ]
   },
   {
+    "osm_id": "usr_nw5AH_N6clQ",
+    "brand": "Лукойл",
+    "name": "Лукойл",
+    "addr": "ул Школьная, 91",
+    "lat": 59.9914843906142,
+    "lon": 30.196406638231828,
+    "distance_km": 7.4,
+    "status": "yes",
+    "detail": "92, 95, 95+, 98, 100, ДТ",
+    "fuels_now": "92,95,95+,98,100,ДТ",
+    "confirmations": 2,
+    "last_at": "2026-10-23 21:40:22",
+    "confidence_base": 0.7104,
+    "recent_comments": []
+  },
+  {
     "osm_id": "usr_rIUoPDEQUbo",
     "brand": "Газпромнефть",
     "name": "Газпромнефть",
@@ -3467,8 +3488,8 @@
     "distance_km": 7.4,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95",
-    "confirmations": 5,
+    "fuels_now": "",
+    "confirmations": 4,
     "last_at": "2026-10-23 16:17:19",
     "confidence_base": 0.9,
     "recent_comments": [
@@ -3611,7 +3632,7 @@
     "distance_km": 7.5,
     "status": "yes",
     "detail": "95, 95+, ДТ",
-    "fuels_now": "95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 16:29:41",
     "confidence_base": 0.3729,
@@ -3638,7 +3659,7 @@
     "distance_km": 7.6,
     "status": "yes",
     "detail": "ДТ",
-    "fuels_now": "ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 15:45:13",
     "confidence_base": 0.35,
@@ -3671,10 +3692,10 @@
     "distance_km": 7.7,
     "status": "yes",
     "detail": "92, 95, 98, ДТ",
-    "fuels_now": "",
+    "fuels_now": "92,95,100",
     "confirmations": 2,
-    "last_at": "2026-10-23 12:28:07",
-    "confidence_base": 0.8323,
+    "last_at": "2026-10-23 20:28:40",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -3686,8 +3707,8 @@
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92, 100, ДТ",
-        "created_at": "2026-10-23 12:28:07",
+        "detail": "92, 95, 100",
+        "created_at": "2026-10-23 20:28:40",
         "edited": false,
         "on_site": true
       },
@@ -3776,7 +3797,7 @@
     "distance_km": 7.8,
     "status": "yes",
     "detail": "ДТ",
-    "fuels_now": "ДТ",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 16:46:26",
     "confidence_base": 0.3729,
@@ -3811,10 +3832,10 @@
     "lon": 30.2793395,
     "distance_km": 7.9,
     "status": "yes",
-    "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,ДТ",
-    "confirmations": 2,
-    "last_at": "2026-10-23 16:32:22",
+    "detail": "",
+    "fuels_now": "92,95",
+    "confirmations": 1,
+    "last_at": "2026-10-23 19:54:21",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -3823,25 +3844,7 @@
         "95"
       ]
     },
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-23 16:32:22",
-        "edited": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 08:49:22",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": true,
-        "on_site": false
-      }
-    ]
+    "recent_comments": []
   },
   {
     "osm_id": "usr_k2pk3OtkMhs",
@@ -3853,10 +3856,10 @@
     "distance_km": 7.9,
     "status": "yes",
     "detail": "95, 95+",
-    "fuels_now": "92,95",
-    "confirmations": 4,
+    "fuels_now": "",
+    "confirmations": 3,
     "last_at": "2026-10-23 16:32:34",
-    "confidence_base": 0.9,
+    "confidence_base": 0.8323,
     "recent_comments": [
       {
         "status": "yes",
@@ -3916,7 +3919,7 @@
     "distance_km": 7.9,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 18:18:48",
     "confidence_base": 0.35,
@@ -3934,9 +3937,19 @@
     "detail": "92, 95, 95+, ДТ",
     "fuels_now": "92,95,95+,ДТ",
     "confirmations": 2,
-    "last_at": "2026-10-23 16:48:10",
-    "confidence_base": 0.35,
+    "last_at": "2026-10-23 18:41:15",
+    "confidence_base": 0.8323,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, ДТ",
+        "created_at": "2026-10-23 18:41:15",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 2,
+        "acct_ok": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 95+, ДТ",
@@ -3978,7 +3991,7 @@
     "distance_km": 8.0,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 17:51:38",
     "confidence_base": 0.35,
@@ -3994,7 +4007,7 @@
     "distance_km": 8.1,
     "status": "yes",
     "detail": "92, 95, ДТ",
-    "fuels_now": "92,95,ДТ",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 17:15:15",
     "confidence_base": 0.8323,
@@ -4039,9 +4052,9 @@
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
     "fuels_now": "",
-    "confirmations": 4,
+    "confirmations": 3,
     "last_at": "2026-10-23 13:57:00",
-    "confidence_base": 0.8774,
+    "confidence_base": 0.35,
     "recent_comments": [
       {
         "status": "yes",
@@ -4093,6 +4106,22 @@
     ]
   },
   {
+    "osm_id": "usr_yF_qW6DF-s8",
+    "brand": "Роснефть",
+    "name": "Роснефть",
+    "addr": "Пискарёвский пр-кт, 42",
+    "lat": 59.986758145550084,
+    "lon": 30.426552370190638,
+    "distance_km": 8.1,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "92,95,ДТ",
+    "confirmations": 1,
+    "last_at": "2026-10-23 19:53:13",
+    "confidence_base": 0.35,
+    "recent_comments": []
+  },
+  {
     "osm_id": "usr_bZMwNKmVZbM",
     "brand": "Татнефть",
     "name": "Татнефть",
@@ -4102,15 +4131,15 @@
     "distance_km": 8.1,
     "status": "yes",
     "detail": "92, 95, 98, ДТ",
-    "fuels_now": "92,95",
-    "confirmations": 4,
-    "last_at": "2026-10-23 16:47:50",
-    "confidence_base": 0.9,
+    "fuels_now": "95,100",
+    "confirmations": 3,
+    "last_at": "2026-10-23 20:43:40",
+    "confidence_base": 0.7104,
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-23 16:47:50",
+        "detail": "95, 100",
+        "created_at": "2026-10-23 20:43:40",
         "edited": false,
         "on_site": true
       },
@@ -4154,40 +4183,12 @@
     "lon": 30.380862549240902,
     "distance_km": 8.2,
     "status": "yes",
-    "detail": "95, 98, ДТ",
+    "detail": "",
     "fuels_now": "",
-    "confirmations": 2,
+    "confirmations": 1,
     "last_at": "2026-10-23 13:46:36",
     "confidence_base": 0.35,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92",
-        "created_at": "2026-10-23 13:46:36",
-        "edited": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "95, 98, ДТ",
-        "created_at": "2026-10-23 08:06:58",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "95, 95+, ДТ",
-        "created_at": "2026-10-23 04:56:33",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": true,
-        "on_site": true
-      }
-    ]
+    "recent_comments": []
   },
   {
     "osm_id": "usr_sO2RAtm-Xfk",
@@ -4199,7 +4200,7 @@
     "distance_km": 8.2,
     "status": "yes",
     "detail": "92, 95, 95+, 100, ДТ",
-    "fuels_now": "92,95,95+,100,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 16:13:25",
     "confidence_base": 0.3729,
@@ -4233,10 +4234,10 @@
     "distance_km": 8.2,
     "status": "yes",
     "detail": "92, 95, 95+, 100, ДТ",
-    "fuels_now": "92,95,95+,100,ДТ",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 16:13:39",
-    "confidence_base": 0.8837,
+    "confidence_base": 0.3729,
     "recent_comments": [
       {
         "status": "yes",
@@ -4270,15 +4271,15 @@
     "distance_km": 8.3,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "",
+    "fuels_now": "92,95,ДТ",
     "confirmations": 7,
-    "last_at": "2026-10-23 15:29:33",
+    "last_at": "2026-10-23 20:12:28",
     "confidence_base": 0.9,
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92, 95, 100",
-        "created_at": "2026-10-23 15:29:33",
+        "detail": "92, 95, ДТ",
+        "created_at": "2026-10-23 20:12:28",
         "edited": false,
         "on_site": true
       },
@@ -4353,43 +4354,6 @@
     ]
   },
   {
-    "osm_id": "usr_ZEMGpGoCP8s",
-    "brand": "Лукойл",
-    "name": "Лукойл",
-    "addr": "Витебский пр-кт, 10",
-    "lat": 59.879153808116705,
-    "lon": 30.348744392395023,
-    "distance_km": 8.3,
-    "status": "yes",
-    "detail": "95, 95+, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 08:16:07",
-    "confidence_base": 0.0,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "95, 95+, ДТ",
-        "created_at": "2026-10-23 08:16:07",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "95, 95+, ДТ",
-        "created_at": "2026-10-23 06:18:23",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 3,
-        "acct_ok": false,
-        "on_site": true
-      }
-    ]
-  },
-  {
     "osm_id": "usr_xAJthLrhhc8",
     "brand": "Лукойл",
     "name": "Лукойл",
@@ -4399,15 +4363,15 @@
     "distance_km": 8.3,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "",
-    "confirmations": 3,
-    "last_at": "2026-10-23 14:36:03",
-    "confidence_base": 0.8323,
+    "fuels_now": "95",
+    "confirmations": 2,
+    "last_at": "2026-10-23 20:03:30",
+    "confidence_base": 0.35,
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-23 14:36:03",
+        "detail": "95",
+        "created_at": "2026-10-23 20:03:30",
         "edited": false,
         "on_site": true
       },
@@ -4446,7 +4410,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 12:26:06",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": []
   },
   {
@@ -4462,6 +4426,22 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 13:10:47",
+    "confidence_base": 0.0,
+    "recent_comments": []
+  },
+  {
+    "osm_id": "usr_yuVh3tmdh8M",
+    "brand": "Лукойл",
+    "name": "Лукойл",
+    "addr": "Пискарёвский пр-кт, 46",
+    "lat": 59.98857151648565,
+    "lon": 30.429081022593785,
+    "distance_km": 8.4,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "95,100,ДТ",
+    "confirmations": 1,
+    "last_at": "2026-10-23 20:30:38",
     "confidence_base": 0.35,
     "recent_comments": []
   },
@@ -4475,7 +4455,7 @@
     "distance_km": 8.6,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 16:19:19",
     "confidence_base": 0.35,
@@ -4491,7 +4471,7 @@
     "distance_km": 8.6,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 16:04:33",
     "confidence_base": 0.8323,
@@ -4556,9 +4536,9 @@
     "status": "yes",
     "detail": "92, 95, 95+, 100, ДТ",
     "fuels_now": "",
-    "confirmations": 2,
+    "confirmations": 1,
     "last_at": "2026-10-23 12:07:03",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "yes",
@@ -4583,6 +4563,22 @@
     ]
   },
   {
+    "osm_id": "usr_-i50BdOMPAc",
+    "brand": "Газпромнефть",
+    "name": "Газпромнефть",
+    "addr": "ул Фучика, 8",
+    "lat": 59.881143250487106,
+    "lon": 30.376399509620033,
+    "distance_km": 8.8,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "95",
+    "confirmations": 1,
+    "last_at": "2026-10-23 20:26:12",
+    "confidence_base": 0.35,
+    "recent_comments": []
+  },
+  {
     "osm_id": "usr_KGejPO7DK8c",
     "brand": "Газпромнефть",
     "name": "Газпромнефть",
@@ -4591,12 +4587,30 @@
     "lon": 30.25023255497218,
     "distance_km": 8.8,
     "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 11:58:55",
-    "confidence_base": 0.35,
-    "recent_comments": []
+    "detail": "92, 95, ДТ",
+    "fuels_now": "92,95,ДТ",
+    "confirmations": 2,
+    "last_at": "2026-10-23 21:08:36",
+    "confidence_base": 0.8323,
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92",
+        "created_at": "2026-10-23 18:57:55",
+        "edited": false,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ",
+        "created_at": "2026-10-23 18:43:12",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 2,
+        "acct_ok": false,
+        "on_site": false
+      }
+    ]
   },
   {
     "osm_id": "usr_niOVxZHr8SE",
@@ -4608,7 +4622,7 @@
     "distance_km": 8.9,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95,100,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 17:37:58",
     "confidence_base": 0.35,
@@ -4623,12 +4637,21 @@
     "lon": 30.45593619346619,
     "distance_km": 9.0,
     "status": "yes",
-    "detail": "92, 95, 95+, 100, ДТ",
-    "fuels_now": "92,95,95+,100,ДТ",
-    "confirmations": 2,
-    "last_at": "2026-10-23 17:23:56",
-    "confidence_base": 0.7104,
+    "detail": "100",
+    "fuels_now": "100",
+    "confirmations": 3,
+    "last_at": "2026-10-23 20:07:03",
+    "confidence_base": 0.8774,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "100",
+        "created_at": "2026-10-23 20:07:03",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
+      },
       {
         "status": "yes",
         "detail": "92, 95, 95+, 100, ДТ",
@@ -4667,15 +4690,15 @@
     "distance_km": 9.0,
     "status": "yes",
     "detail": "92, 95, 98, ДТ",
-    "fuels_now": "92,95,ДТ",
+    "fuels_now": "92,95",
     "confirmations": 3,
-    "last_at": "2026-10-23 16:11:47",
+    "last_at": "2026-10-23 20:43:52",
     "confidence_base": 0.9,
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-23 16:11:47",
+        "detail": "92, 95",
+        "created_at": "2026-10-23 19:51:09",
         "edited": false,
         "on_site": true
       },
@@ -4739,10 +4762,10 @@
     "distance_km": 9.1,
     "status": "yes",
     "detail": "92, 95, 98, ДТ",
-    "fuels_now": "92,100",
+    "fuels_now": "",
     "confirmations": 3,
     "last_at": "2026-10-23 16:11:40",
-    "confidence_base": 0.7104,
+    "confidence_base": 0.35,
     "recent_comments": [
       {
         "status": "yes",
@@ -4791,39 +4814,12 @@
     "lon": 30.238717496395115,
     "distance_km": 9.1,
     "status": "yes",
-    "detail": "95, 95+, ДТ",
-    "fuels_now": "95,ДТ",
-    "confirmations": 2,
-    "last_at": "2026-10-23 17:51:31",
+    "detail": "",
+    "fuels_now": "92",
+    "confirmations": 1,
+    "last_at": "2026-10-23 20:47:10",
     "confidence_base": 0.35,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-23 14:52:39",
-        "edited": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "95, 95+, ДТ",
-        "created_at": "2026-10-23 09:04:02",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 3,
-        "acct_ok": false
-      },
-      {
-        "status": "yes",
-        "detail": "95, 95+, ДТ",
-        "created_at": "2026-10-22 19:25:33",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": true
-      }
-    ]
+    "recent_comments": []
   },
   {
     "osm_id": "usr_JntLf8V0u-M",
@@ -4835,7 +4831,7 @@
     "distance_km": 9.1,
     "status": "yes",
     "detail": "92, 95, 95+",
-    "fuels_now": "92,95,95+",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 16:56:32",
     "confidence_base": 0.3729,
@@ -4848,33 +4844,6 @@
         "author_reliable": true,
         "author_tier": 2,
         "acct_ok": true
-      }
-    ]
-  },
-  {
-    "osm_id": "usr_DIicNIDoJZA",
-    "brand": "Лукойл",
-    "name": "Лукойл",
-    "addr": "Витебский пр-кт, 17",
-    "lat": 59.87152783889898,
-    "lon": 30.352488756179813,
-    "distance_km": 9.2,
-    "status": "yes",
-    "detail": "95, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 08:14:23",
-    "confidence_base": 0.0,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "95, ДТ",
-        "created_at": "2026-10-23 08:14:23",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": true,
-        "on_site": true
       }
     ]
   },
@@ -4892,6 +4861,33 @@
     "confirmations": 1,
     "last_at": "2026-10-23 14:25:25",
     "confidence_base": 0.3729,
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, ДТ",
+        "created_at": "2026-10-23 14:25:25",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": false,
+        "on_site": true
+      }
+    ]
+  },
+  {
+    "osm_id": "usr__qtfzx1nM5Q",
+    "brand": "Teboil",
+    "name": "Teboil",
+    "addr": "Индустриальный пр-кт, 47",
+    "lat": 59.959773956896136,
+    "lon": 30.464430749416355,
+    "distance_km": 9.2,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "92,95",
+    "confirmations": 1,
+    "last_at": "2026-10-23 20:51:16",
+    "confidence_base": 0.35,
     "recent_comments": []
   },
   {
@@ -4903,11 +4899,11 @@
     "lon": 30.23643900174648,
     "distance_km": 9.2,
     "status": "yes",
-    "detail": "95, 95+, ДТ",
+    "detail": "",
     "fuels_now": "",
-    "confirmations": 2,
+    "confirmations": 1,
     "last_at": "2026-10-23 11:08:09",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": []
   },
   {
@@ -4919,29 +4915,12 @@
     "lon": 30.238241910906844,
     "distance_km": 9.2,
     "status": "yes",
-    "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,100",
-    "confirmations": 2,
-    "last_at": "2026-10-23 16:12:01",
+    "detail": "",
+    "fuels_now": "92,95,ДТ",
+    "confirmations": 1,
+    "last_at": "2026-10-23 21:03:43",
     "confidence_base": 0.35,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95, 100",
-        "created_at": "2026-10-23 16:12:01",
-        "edited": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 09:04:24",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 3,
-        "acct_ok": false
-      }
-    ]
+    "recent_comments": []
   },
   {
     "osm_id": "1888160724",
@@ -4956,7 +4935,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 11:35:23",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "meta": {
       "f": [
         "dt",
@@ -4976,11 +4955,18 @@
     "distance_km": 9.4,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 17:49:38",
-    "confidence_base": 0.7104,
+    "confidence_base": 0.35,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95",
+        "created_at": "2026-10-23 17:49:38",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 95+, ДТ",
@@ -4989,13 +4975,6 @@
         "author_reliable": true,
         "author_tier": 2,
         "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-23 08:10:58",
-        "edited": false,
         "on_site": true
       }
     ]
@@ -5011,7 +4990,7 @@
     "status": "yes",
     "detail": "92, 95, ДТ",
     "fuels_now": "",
-    "confirmations": 2,
+    "confirmations": 1,
     "last_at": "2026-10-23 14:09:53",
     "confidence_base": 0.35,
     "meta": {
@@ -5065,10 +5044,10 @@
     "distance_km": 9.5,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 16:24:59",
-    "confidence_base": 0.7104,
+    "confidence_base": 0.35,
     "recent_comments": [
       {
         "status": "yes",
@@ -5098,10 +5077,10 @@
     "distance_km": 9.5,
     "status": "yes",
     "detail": "92, 95, ДТ",
-    "fuels_now": "92,95,ДТ",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 16:14:32",
-    "confidence_base": 0.8323,
+    "confidence_base": 0.3729,
     "recent_comments": [
       {
         "status": "yes",
@@ -5135,7 +5114,7 @@
     "distance_km": 9.6,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,100,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 15:43:21",
     "confidence_base": 0.35,
@@ -5159,10 +5138,10 @@
     "distance_km": 9.6,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ · Очередь до 15 мин",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 4,
     "last_at": "2026-10-23 16:37:40",
-    "confidence_base": 0.9,
+    "confidence_base": 0.8774,
     "recent_comments": [
       {
         "status": "yes",
@@ -5216,7 +5195,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 13:21:05",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": []
   },
   {
@@ -5281,8 +5260,31 @@
     "detail": "",
     "fuels_now": "92,95,ДТ",
     "confirmations": 1,
-    "last_at": "2026-10-23 15:42:41",
+    "last_at": "2026-10-23 19:56:52",
     "confidence_base": 0.35,
+    "recent_comments": []
+  },
+  {
+    "osm_id": "698980342",
+    "brand": "Роснефть",
+    "name": "Роснефть",
+    "addr": "пр-кт Маршала Жукова, 10",
+    "lat": 59.8660948,
+    "lon": 30.2440353,
+    "distance_km": 9.8,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "92,95",
+    "confirmations": 1,
+    "last_at": "2026-10-23 20:11:15",
+    "confidence_base": 0.35,
+    "meta": {
+      "f": [
+        "dt",
+        "92",
+        "95"
+      ]
+    },
     "recent_comments": []
   },
   {
@@ -5298,7 +5300,7 @@
     "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 14:22:50",
-    "confidence_base": 0.8323,
+    "confidence_base": 0.3729,
     "recent_comments": [
       {
         "status": "yes",
@@ -5329,9 +5331,9 @@
     "distance_km": 9.8,
     "status": "yes",
     "detail": "",
-    "fuels_now": "",
+    "fuels_now": "95",
     "confirmations": 1,
-    "last_at": "2026-10-23 14:36:13",
+    "last_at": "2026-10-23 20:04:54",
     "confidence_base": 0.35,
     "meta": {
       "f": [
@@ -5352,9 +5354,9 @@
     "distance_km": 9.8,
     "status": "yes",
     "detail": "92, 95, 98, ДТ · Лимит 50 л",
-    "fuels_now": "92,95,98,ДТ",
+    "fuels_now": "92",
     "confirmations": 4,
-    "last_at": "2026-10-23 18:10:05",
+    "last_at": "2026-10-23 18:43:06",
     "confidence_base": 0.9,
     "meta": {
       "f": [
@@ -5365,6 +5367,23 @@
       ]
     },
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92",
+        "created_at": "2026-10-23 18:43:06",
+        "edited": false,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ · Лимит 50 л",
+        "created_at": "2026-10-23 18:10:05",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 3,
+        "acct_ok": true,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 98, ДТ",
@@ -5418,7 +5437,7 @@
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
     "fuels_now": "",
-    "confirmations": 4,
+    "confirmations": 2,
     "last_at": "2026-10-23 13:40:51",
     "confidence_base": 0.3729,
     "recent_comments": [
@@ -5471,10 +5490,10 @@
     "distance_km": 10.0,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 3,
     "last_at": "2026-10-23 16:48:08",
-    "confidence_base": 0.9,
+    "confidence_base": 0.8323,
     "recent_comments": [
       {
         "status": "yes",
@@ -5501,16 +5520,6 @@
         "author_tier": 1,
         "acct_ok": true,
         "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "95, 95+, ДТ",
-        "created_at": "2026-10-22 18:49:44",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": true,
-        "on_site": true
       }
     ]
   },
@@ -5524,8 +5533,8 @@
     "distance_km": 10.0,
     "status": "yes",
     "detail": "92, 95, ДТ",
-    "fuels_now": "92,95,ДТ",
-    "confirmations": 2,
+    "fuels_now": "",
+    "confirmations": 1,
     "last_at": "2026-10-23 17:16:49",
     "confidence_base": 0.3729,
     "meta": {
@@ -5565,13 +5574,6 @@
         "author_tier": 2,
         "acct_ok": true,
         "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "92",
-        "created_at": "2026-10-22 21:18:19",
-        "edited": false,
-        "on_site": true
       }
     ]
   },
@@ -5585,10 +5587,10 @@
     "distance_km": 10.0,
     "status": "yes",
     "detail": "",
-    "fuels_now": "",
+    "fuels_now": "95",
     "confirmations": 1,
-    "last_at": "2026-10-23 08:48:37",
-    "confidence_base": 0.0,
+    "last_at": "2026-10-23 20:49:30",
+    "confidence_base": 0.35,
     "recent_comments": []
   },
   {
@@ -5601,11 +5603,30 @@
     "distance_km": 10.0,
     "status": "yes",
     "detail": "92, 95, 98, ДТ",
-    "fuels_now": "92,95,98,ДТ",
+    "fuels_now": "92,95,100",
     "confirmations": 6,
-    "last_at": "2026-10-23 18:28:26",
+    "last_at": "2026-10-23 20:44:02",
     "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ",
+        "created_at": "2026-10-23 18:28:26",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 3,
+        "acct_ok": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ",
+        "created_at": "2026-10-23 17:43:25",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 2,
+        "acct_ok": true,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 98, ДТ",
@@ -5675,11 +5696,20 @@
     "distance_km": 10.0,
     "status": "yes",
     "detail": "95, 95+",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 3,
     "last_at": "2026-10-23 18:28:48",
-    "confidence_base": 0.9,
+    "confidence_base": 0.8323,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "95, 95+",
+        "created_at": "2026-10-23 18:28:48",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 3,
+        "acct_ok": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, ДТ",
@@ -5718,10 +5748,10 @@
     "distance_km": 10.0,
     "status": "yes",
     "detail": "92, 95, 98, ДТ",
-    "fuels_now": "92,95,ДТ",
+    "fuels_now": "92,95,100",
     "confirmations": 3,
-    "last_at": "2026-10-23 16:34:09",
-    "confidence_base": 0.9,
+    "last_at": "2026-10-23 20:50:30",
+    "confidence_base": 0.35,
     "meta": {
       "f": [
         "dt",
@@ -5780,33 +5810,6 @@
     ]
   },
   {
-    "osm_id": "usr_wEYxSZJDmXo",
-    "brand": "Газпромнефть",
-    "name": "Газпромнефть",
-    "addr": "ул Кржижановского, 10",
-    "lat": 59.931705253650904,
-    "lon": 30.477425368078787,
-    "distance_km": 10.1,
-    "status": "yes",
-    "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 06:58:52",
-    "confidence_base": 0.0,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 06:58:52",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false,
-        "on_site": false
-      }
-    ]
-  },
-  {
     "osm_id": "usr_QrUXg9GOQpw",
     "brand": "Татнефть",
     "name": "Татнефть",
@@ -5815,50 +5818,12 @@
     "lon": 30.408659577369693,
     "distance_km": 10.1,
     "status": "yes",
-    "detail": "92, 95, 98, ДТ",
+    "detail": "",
     "fuels_now": "",
-    "confirmations": 2,
+    "confirmations": 1,
     "last_at": "2026-10-23 13:35:42",
-    "confidence_base": 0.35,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-23 13:35:42",
-        "edited": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 98, ДТ",
-        "created_at": "2026-10-23 09:30:21",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 3,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 98, ДТ",
-        "created_at": "2026-10-23 03:53:14",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 3,
-        "acct_ok": true,
-        "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 98, ДТ · Лимит 50 л",
-        "created_at": "2026-10-23 03:30:30",
-        "edited": true,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false,
-        "on_site": false
-      }
-    ]
+    "confidence_base": 0.0,
+    "recent_comments": []
   },
   {
     "osm_id": "usr_fdiGxokGm00",
@@ -5869,40 +5834,12 @@
     "lon": 30.40700197219849,
     "distance_km": 10.1,
     "status": "yes",
-    "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "",
-    "confirmations": 2,
-    "last_at": "2026-10-23 14:37:45",
+    "detail": "",
+    "fuels_now": "92,95",
+    "confirmations": 1,
+    "last_at": "2026-10-23 21:04:59",
     "confidence_base": 0.35,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95, 100",
-        "created_at": "2026-10-23 14:37:45",
-        "edited": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 09:30:46",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 3,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 03:53:26",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 3,
-        "acct_ok": true,
-        "on_site": false
-      }
-    ]
+    "recent_comments": []
   },
   {
     "osm_id": "usr_4BMNid7qWnM",
@@ -5913,12 +5850,22 @@
     "lon": 30.365878343582157,
     "distance_km": 10.1,
     "status": "yes",
-    "detail": "92, 95, ДТ",
-    "fuels_now": "",
+    "detail": "92, 95, 95+, ДТ",
+    "fuels_now": "92,95,95+,ДТ",
     "confirmations": 3,
-    "last_at": "2026-10-23 15:02:27",
-    "confidence_base": 0.8323,
+    "last_at": "2026-10-23 19:15:33",
+    "confidence_base": 0.8837,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, ДТ",
+        "created_at": "2026-10-23 19:15:33",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": true,
+        "on_site": false
+      },
       {
         "status": "yes",
         "detail": "92, 95, ДТ",
@@ -5948,26 +5895,6 @@
         "author_tier": 2,
         "acct_ok": true,
         "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 04:30:12",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 1,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-22 18:49:37",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 3,
-        "acct_ok": true,
-        "on_site": false
       }
     ]
   },
@@ -5984,7 +5911,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 12:17:38",
-    "confidence_base": 0.3729,
+    "confidence_base": 0.0,
     "meta": {
       "f": [
         "dt",
@@ -6015,17 +5942,27 @@
     "distance_km": 10.4,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,100,ДТ",
+    "fuels_now": "92,95,ДТ",
     "confirmations": 2,
-    "last_at": "2026-10-23 18:12:57",
+    "last_at": "2026-10-23 19:50:38",
     "confidence_base": 0.8323,
     "recent_comments": [
       {
         "status": "yes",
         "detail": "92, 95, ДТ",
-        "created_at": "2026-10-23 16:11:47",
+        "created_at": "2026-10-23 19:50:38",
         "edited": false,
         "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, ДТ",
+        "created_at": "2026-10-23 18:12:57",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 3,
+        "acct_ok": true,
+        "on_site": false
       }
     ]
   },
@@ -6040,9 +5977,9 @@
     "status": "yes",
     "detail": "92, 95, 98, ДТ",
     "fuels_now": "",
-    "confirmations": 3,
+    "confirmations": 2,
     "last_at": "2026-10-23 14:07:54",
-    "confidence_base": 0.8837,
+    "confidence_base": 0.3729,
     "recent_comments": [
       {
         "status": "yes",
@@ -6086,7 +6023,7 @@
     "distance_km": 10.5,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 17:19:46",
     "confidence_base": 0.3729,
@@ -6150,7 +6087,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 12:22:55",
-    "confidence_base": 0.3729,
+    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "yes",
@@ -6174,7 +6111,7 @@
     "distance_km": 10.5,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95,ДТ",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 15:57:40",
     "confidence_base": 0.7104,
@@ -6190,9 +6127,9 @@
     "distance_km": 10.6,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95,100",
+    "fuels_now": "95",
     "confirmations": 1,
-    "last_at": "2026-10-23 16:33:52",
+    "last_at": "2026-10-23 18:57:29",
     "confidence_base": 0.35,
     "recent_comments": []
   },
@@ -6205,12 +6142,29 @@
     "lon": 30.488641083311453,
     "distance_km": 10.6,
     "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 11:36:29",
-    "confidence_base": 0.35,
-    "recent_comments": []
+    "detail": "92, 95, 95+, ДТ",
+    "fuels_now": "92,95,95+,100,ДТ",
+    "confirmations": 2,
+    "last_at": "2026-10-23 20:43:19",
+    "confidence_base": 0.7104,
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 95+, ДТ",
+        "created_at": "2026-10-23 20:43:19",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 100",
+        "created_at": "2026-10-23 20:30:42",
+        "edited": false,
+        "on_site": true
+      }
+    ]
   },
   {
     "osm_id": "usr_VyyJXEDiXbE",
@@ -6222,7 +6176,7 @@
     "distance_km": 10.7,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 17:27:21",
     "confidence_base": 0.3729,
@@ -6285,16 +6239,36 @@
     "distance_km": 10.9,
     "status": "yes",
     "detail": "95, 95+, ДТ",
-    "fuels_now": "95,95+,100,ДТ",
+    "fuels_now": "92,95,95+,100,ДТ",
     "confirmations": 6,
-    "last_at": "2026-10-23 18:28:13",
+    "last_at": "2026-10-23 20:28:27",
     "confidence_base": 0.9,
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "100",
-        "created_at": "2026-10-23 16:59:51",
+        "detail": "95, 95+, ДТ",
+        "created_at": "2026-10-23 20:28:27",
         "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 100, ДТ",
+        "created_at": "2026-10-23 19:57:38",
+        "edited": false,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "95, 95+, ДТ",
+        "created_at": "2026-10-23 18:28:13",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
         "on_site": true
       },
       {
@@ -6360,22 +6334,6 @@
     ]
   },
   {
-    "osm_id": "usr_zzLu7tY1Qs8",
-    "brand": "Лукойл",
-    "name": "Лукойл",
-    "addr": "Дальневосточный пр-кт, 43",
-    "lat": 59.893570072134146,
-    "lon": 30.460726161272866,
-    "distance_km": 10.9,
-    "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 08:19:50",
-    "confidence_base": 0.0,
-    "recent_comments": []
-  },
-  {
     "osm_id": "usr_7xen07bwBaM",
     "brand": "Лукойл",
     "name": "Лукойл",
@@ -6385,9 +6343,9 @@
     "distance_km": 10.9,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95,ДТ",
+    "fuels_now": "92,95",
     "confirmations": 1,
-    "last_at": "2026-10-23 17:50:09",
+    "last_at": "2026-10-23 20:49:47",
     "confidence_base": 0.35,
     "recent_comments": []
   },
@@ -6438,7 +6396,7 @@
     "distance_km": 11.0,
     "status": "yes",
     "detail": "92, 95, 98, ДТ",
-    "fuels_now": "92,95,98,100,ДТ",
+    "fuels_now": "",
     "confirmations": 4,
     "last_at": "2026-10-23 16:49:55",
     "confidence_base": 0.9,
@@ -6510,10 +6468,10 @@
     "distance_km": 11.0,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 3,
     "last_at": "2026-10-23 15:42:51",
-    "confidence_base": 0.9,
+    "confidence_base": 0.8323,
     "recent_comments": [
       {
         "status": "yes",
@@ -6553,7 +6511,7 @@
     "distance_km": 11.0,
     "status": "yes",
     "detail": "92, 95, 95+, 100, ДТ",
-    "fuels_now": "92,95,95+,100,ДТ",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 16:23:42",
     "confidence_base": 0.8323,
@@ -6586,43 +6544,12 @@
     "lon": 30.338865816593174,
     "distance_km": 11.1,
     "status": "yes",
-    "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "",
+    "detail": "",
+    "fuels_now": "92,95",
     "confirmations": 1,
-    "last_at": "2026-10-23 06:58:18",
-    "confidence_base": 0.0,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 06:58:18",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 06:02:29",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 05:34:23",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 2,
-        "acct_ok": true,
-        "on_site": false
-      }
-    ]
+    "last_at": "2026-10-23 20:38:35",
+    "confidence_base": 0.35,
+    "recent_comments": []
   },
   {
     "osm_id": "usr_WrLhv8oZDXM",
@@ -6634,11 +6561,18 @@
     "distance_km": 11.1,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,ДТ",
+    "fuels_now": "92,95",
     "confirmations": 5,
-    "last_at": "2026-10-23 17:51:38",
-    "confidence_base": 0.9,
+    "last_at": "2026-10-23 18:56:57",
+    "confidence_base": 0.8323,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95",
+        "created_at": "2026-10-23 18:56:57",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 95+, ДТ",
@@ -6647,13 +6581,6 @@
         "author_reliable": true,
         "author_tier": 2,
         "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-23 14:00:59",
-        "edited": false,
         "on_site": true
       },
       {
@@ -6728,11 +6655,21 @@
     "distance_km": 11.1,
     "status": "yes",
     "detail": "92, 95, ДТ",
-    "fuels_now": "",
-    "confirmations": 2,
-    "last_at": "2026-10-23 15:05:45",
-    "confidence_base": 0.8323,
+    "fuels_now": "92,95,ДТ",
+    "confirmations": 3,
+    "last_at": "2026-10-23 19:15:48",
+    "confidence_base": 0.8837,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ",
+        "created_at": "2026-10-23 19:15:48",
+        "edited": false,
+        "author_reliable": true,
+        "author_tier": 1,
+        "acct_ok": true,
+        "on_site": false
+      },
       {
         "status": "yes",
         "detail": "92, 95, ДТ",
@@ -6752,16 +6689,6 @@
       },
       {
         "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 04:28:06",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 1,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
         "detail": "92, 95, ДТ",
         "created_at": "2026-10-23 04:21:28",
         "edited": false,
@@ -6777,16 +6704,6 @@
         "author_reliable": true,
         "author_tier": 3,
         "acct_ok": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-22 18:52:05",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 3,
-        "acct_ok": true,
-        "on_site": false
       }
     ]
   },
@@ -6800,7 +6717,7 @@
     "distance_km": 11.2,
     "status": "yes",
     "detail": "98, ДТ",
-    "fuels_now": "98,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 17:20:58",
     "confidence_base": 0.3729,
@@ -6826,12 +6743,30 @@
     "lon": 30.431592464447025,
     "distance_km": 11.2,
     "status": "yes",
-    "detail": "",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 14:36:42",
-    "confidence_base": 0.35,
-    "recent_comments": []
+    "detail": "92, 95, ДТ · Лимит 30 л",
+    "fuels_now": "92,95,ДТ",
+    "confirmations": 2,
+    "last_at": "2026-10-23 20:27:03",
+    "confidence_base": 0.7104,
+    "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ · Лимит 30 л",
+        "created_at": "2026-10-23 20:27:03",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": false
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ",
+        "created_at": "2026-10-23 19:51:50",
+        "edited": false,
+        "on_site": true
+      }
+    ]
   },
   {
     "osm_id": "usr_rHCdJ3MNmfg",
@@ -6843,7 +6778,7 @@
     "distance_km": 11.2,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 17:50:24",
     "confidence_base": 0.35,
@@ -6860,10 +6795,35 @@
     "status": "yes",
     "detail": "95, 95+, ДТ",
     "fuels_now": "92,95,95+,ДТ",
-    "confirmations": 4,
-    "last_at": "2026-10-23 17:50:34",
+    "confirmations": 5,
+    "last_at": "2026-10-23 20:43:45",
     "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, ДТ",
+        "created_at": "2026-10-23 20:43:45",
+        "edited": false,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "95, 95+, ДТ",
+        "created_at": "2026-10-23 19:28:19",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
+      },
+      {
+        "status": "yes",
+        "detail": "95, 95+, ДТ",
+        "created_at": "2026-10-23 19:20:59",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": false
+      },
       {
         "status": "yes",
         "detail": "95, 95+, ДТ",
@@ -6883,13 +6843,6 @@
         "author_tier": 0,
         "acct_ok": false,
         "on_site": false
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-23 14:37:03",
-        "edited": false,
-        "on_site": true
       },
       {
         "status": "yes",
@@ -6916,6 +6869,22 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 11:17:13",
+    "confidence_base": 0.0,
+    "recent_comments": []
+  },
+  {
+    "osm_id": "usr_-x6q8n0N0FU",
+    "brand": "Роснефть",
+    "name": "Роснефть",
+    "addr": "пр-кт Народного Ополчения, 16",
+    "lat": 59.847982514812315,
+    "lon": 30.281577687881395,
+    "distance_km": 11.4,
+    "status": "yes",
+    "detail": "",
+    "fuels_now": "92,95,100",
+    "confirmations": 1,
+    "last_at": "2026-10-23 18:43:44",
     "confidence_base": 0.35,
     "recent_comments": []
   },
@@ -6929,10 +6898,10 @@
     "distance_km": 11.4,
     "status": "yes",
     "detail": "95, 95+, ДТ",
-    "fuels_now": "95,95+,ДТ",
-    "confirmations": 3,
+    "fuels_now": "",
+    "confirmations": 2,
     "last_at": "2026-10-23 15:38:10",
-    "confidence_base": 0.8837,
+    "confidence_base": 0.3729,
     "recent_comments": [
       {
         "status": "yes",
@@ -6983,13 +6952,6 @@
         "author_tier": 2,
         "acct_ok": true,
         "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-22 21:20:47",
-        "edited": false,
-        "on_site": true
       }
     ]
   },
@@ -7003,9 +6965,9 @@
     "distance_km": 11.4,
     "status": "yes",
     "detail": "",
-    "fuels_now": "",
-    "confirmations": 2,
-    "last_at": "2026-10-23 14:50:25",
+    "fuels_now": "92,100",
+    "confirmations": 1,
+    "last_at": "2026-10-23 20:25:05",
     "confidence_base": 0.35,
     "recent_comments": []
   },
@@ -7022,7 +6984,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 13:13:48",
-    "confidence_base": 0.3729,
+    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "yes",
@@ -7059,7 +7021,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 12:30:14",
-    "confidence_base": 0.3729,
+    "confidence_base": 0.0,
     "recent_comments": [
       {
         "status": "yes",
@@ -7083,8 +7045,8 @@
     "distance_km": 11.4,
     "status": "yes",
     "detail": "92, 95, 95+, 100, ДТ",
-    "fuels_now": "92,95,95+,100,ДТ",
-    "confirmations": 2,
+    "fuels_now": "",
+    "confirmations": 1,
     "last_at": "2026-10-23 16:52:10",
     "confidence_base": 0.35,
     "recent_comments": [
@@ -7119,11 +7081,18 @@
     "distance_km": 11.5,
     "status": "yes",
     "detail": "95, 95+, ДТ",
-    "fuels_now": "95,95+,ДТ",
-    "confirmations": 7,
-    "last_at": "2026-10-23 16:53:43",
+    "fuels_now": "92,95",
+    "confirmations": 6,
+    "last_at": "2026-10-23 20:38:56",
     "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95",
+        "created_at": "2026-10-23 20:38:56",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "95, 95+, ДТ",
@@ -7212,10 +7181,10 @@
     "distance_km": 11.5,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "",
+    "fuels_now": "92,95",
     "confirmations": 3,
-    "last_at": "2026-10-23 15:22:51",
-    "confidence_base": 0.9,
+    "last_at": "2026-10-23 20:50:35",
+    "confidence_base": 0.7104,
     "recent_comments": [
       {
         "status": "yes",
@@ -7266,11 +7235,28 @@
     "distance_km": 11.6,
     "status": "yes",
     "detail": "95, 95+, ДТ",
-    "fuels_now": "",
-    "confirmations": 5,
-    "last_at": "2026-10-23 15:34:59",
+    "fuels_now": "92,95,95+,ДТ",
+    "confirmations": 7,
+    "last_at": "2026-10-23 20:45:59",
     "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "95, 95+, ДТ",
+        "created_at": "2026-10-23 20:16:34",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true,
+        "on_site": true
+      },
+      {
+        "status": "yes",
+        "detail": "92, 95, 100, ДТ",
+        "created_at": "2026-10-23 18:44:57",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "95, 95+, ДТ",
@@ -7322,13 +7308,6 @@
       },
       {
         "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-23 05:41:18",
-        "edited": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
         "detail": "92, 95, 95+, ДТ",
         "created_at": "2026-10-23 05:08:05",
         "edited": false,
@@ -7361,7 +7340,7 @@
     "fuels_now": "",
     "confirmations": 5,
     "last_at": "2026-10-23 14:53:37",
-    "confidence_base": 0.9,
+    "confidence_base": 0.8837,
     "recent_comments": [
       {
         "status": "yes",
@@ -7447,16 +7426,6 @@
         "author_tier": 2,
         "acct_ok": false,
         "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-22 18:50:15",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 1,
-        "acct_ok": false,
-        "on_site": false
       }
     ]
   },
@@ -7470,7 +7439,7 @@
     "distance_km": 11.7,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 15:56:47",
     "confidence_base": 0.8323,
@@ -7504,10 +7473,10 @@
     "distance_km": 11.7,
     "status": "yes",
     "detail": "95, 95+, ДТ",
-    "fuels_now": "95",
+    "fuels_now": "",
     "confirmations": 3,
     "last_at": "2026-10-23 16:11:51",
-    "confidence_base": 0.9,
+    "confidence_base": 0.8323,
     "recent_comments": [
       {
         "status": "yes",
@@ -7559,7 +7528,7 @@
     "status": "yes",
     "detail": "92, 95, ДТ",
     "fuels_now": "",
-    "confirmations": 4,
+    "confirmations": 3,
     "last_at": "2026-10-23 14:24:52",
     "confidence_base": 0.9,
     "recent_comments": [
@@ -7612,11 +7581,18 @@
     "distance_km": 11.8,
     "status": "yes",
     "detail": "92, 95+, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 14:23:19",
-    "confidence_base": 0.3729,
+    "fuels_now": "92,95",
+    "confirmations": 2,
+    "last_at": "2026-10-23 18:57:04",
+    "confidence_base": 0.8323,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95",
+        "created_at": "2026-10-23 18:57:04",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95+, ДТ",
@@ -7639,7 +7615,7 @@
     "distance_km": 11.8,
     "status": "yes",
     "detail": "95, 95+, ДТ",
-    "fuels_now": "95,95+,ДТ",
+    "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 17:23:20",
     "confidence_base": 0.3729,
@@ -7683,11 +7659,18 @@
     "distance_km": 11.9,
     "status": "yes",
     "detail": "92, 95, ДТ",
-    "fuels_now": "",
+    "fuels_now": "92,95",
     "confirmations": 2,
-    "last_at": "2026-10-23 14:02:19",
+    "last_at": "2026-10-23 19:52:25",
     "confidence_base": 0.8323,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95",
+        "created_at": "2026-10-23 19:52:25",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, ДТ",
@@ -7696,13 +7679,6 @@
         "author_reliable": true,
         "author_tier": 2,
         "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95",
-        "created_at": "2026-10-23 12:56:01",
-        "edited": false,
         "on_site": true
       }
     ]
@@ -7717,11 +7693,20 @@
     "distance_km": 12.0,
     "status": "yes",
     "detail": "92, 95, 98, ДТ",
-    "fuels_now": "92,95,98,ДТ",
-    "confirmations": 9,
+    "fuels_now": "",
+    "confirmations": 7,
     "last_at": "2026-10-23 18:27:53",
     "confidence_base": 0.9,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95, 98, ДТ",
+        "created_at": "2026-10-23 18:27:53",
+        "edited": false,
+        "author_reliable": false,
+        "author_tier": 0,
+        "acct_ok": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 98, ДТ",
@@ -7818,7 +7803,7 @@
     "distance_km": 12.0,
     "status": "yes",
     "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "95",
+    "fuels_now": "",
     "confirmations": 7,
     "last_at": "2026-10-23 16:34:12",
     "confidence_base": 0.9,
@@ -7921,9 +7906,9 @@
     "distance_km": 12.0,
     "status": "yes",
     "detail": "",
-    "fuels_now": "92,95",
+    "fuels_now": "92,95,ДТ",
     "confirmations": 1,
-    "last_at": "2026-10-23 17:50:14",
+    "last_at": "2026-10-23 20:50:26",
     "confidence_base": 0.35,
     "recent_comments": []
   },
@@ -7937,22 +7922,22 @@
     "distance_km": 12.0,
     "status": "yes",
     "detail": "92, 95, 98, ДТ",
-    "fuels_now": "92,100,ДТ",
-    "confirmations": 3,
-    "last_at": "2026-10-23 15:56:26",
+    "fuels_now": "92,95,98,ДТ",
+    "confirmations": 2,
+    "last_at": "2026-10-23 20:03:52",
     "confidence_base": 0.8323,
     "recent_comments": [
       {
         "status": "yes",
-        "detail": "92, 100, ДТ",
-        "created_at": "2026-10-23 15:56:26",
+        "detail": "95",
+        "created_at": "2026-10-23 20:03:52",
         "edited": false,
         "on_site": true
       },
       {
         "status": "yes",
         "detail": "92, 95, 98, ДТ",
-        "created_at": "2026-10-23 11:55:54",
+        "created_at": "2026-10-23 19:27:19",
         "edited": false,
         "author_reliable": true,
         "author_tier": 3,
@@ -7980,10 +7965,10 @@
     "distance_km": 12.1,
     "status": "yes",
     "detail": "95",
-    "fuels_now": "92,95",
+    "fuels_now": "",
     "confirmations": 2,
     "last_at": "2026-10-23 15:56:51",
-    "confidence_base": 0.8323,
+    "confidence_base": 0.35,
     "recent_comments": [
       {
         "status": "yes",
@@ -8016,13 +8001,13 @@
     "detail": "95, 95+, ДТ",
     "fuels_now": "95",
     "confirmations": 2,
-    "last_at": "2026-10-23 15:57:20",
+    "last_at": "2026-10-23 18:57:50",
     "confidence_base": 0.35,
     "recent_comments": [
       {
         "status": "yes",
         "detail": "95",
-        "created_at": "2026-10-23 15:57:20",
+        "created_at": "2026-10-23 18:57:50",
         "edited": false,
         "on_site": true
       },
@@ -8060,7 +8045,7 @@
     "fuels_now": "",
     "confirmations": 1,
     "last_at": "2026-10-23 12:57:06",
-    "confidence_base": 0.35,
+    "confidence_base": 0.0,
     "recent_comments": []
   },
   {
@@ -8126,11 +8111,18 @@
     "distance_km": 12.2,
     "status": "yes",
     "detail": "92, 95, 100, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 15:11:02",
-    "confidence_base": 0.3729,
+    "fuels_now": "92,95",
+    "confirmations": 2,
+    "last_at": "2026-10-23 20:42:47",
+    "confidence_base": 0.8323,
     "recent_comments": [
+      {
+        "status": "yes",
+        "detail": "92, 95",
+        "created_at": "2026-10-23 20:42:47",
+        "edited": false,
+        "on_site": true
+      },
       {
         "status": "yes",
         "detail": "92, 95, 100, ДТ",
@@ -8183,76 +8175,6 @@
         "created_at": "2026-10-23 14:37:01",
         "edited": false,
         "on_site": true
-      }
-    ]
-  },
-  {
-    "osm_id": "usr_3rT7TdALfBA",
-    "brand": "Лукойл",
-    "name": "Лукойл",
-    "addr": "пр-кт Художников, 47",
-    "lat": 60.05579928663709,
-    "lon": 30.360584843975623,
-    "distance_km": 12.2,
-    "status": "yes",
-    "detail": "92, 95, ДТ",
-    "fuels_now": "",
-    "confirmations": 1,
-    "last_at": "2026-10-23 14:43:38",
-    "confidence_base": 0.35,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95, ДТ",
-        "created_at": "2026-10-23 14:43:38",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false,
-        "on_site": false
-      }
-    ]
-  },
-  {
-    "osm_id": "usr_PVV7uIDwPGs",
-    "brand": "Лукойл",
-    "name": "Лукойл",
-    "addr": "ул Орджоникидзе, 50",
-    "lat": 59.84320075682996,
-    "lon": 30.35452195968809,
-    "distance_km": 12.3,
-    "status": "yes",
-    "detail": "92, 95, 95+, ДТ",
-    "fuels_now": "92,95,95+,100,ДТ",
-    "confirmations": 2,
-    "last_at": "2026-10-23 17:50:59",
-    "confidence_base": 0.7104,
-    "recent_comments": [
-      {
-        "status": "yes",
-        "detail": "92, 95, 100",
-        "created_at": "2026-10-23 17:38:02",
-        "edited": false,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 15:51:17",
-        "edited": false,
-        "author_reliable": true,
-        "author_tier": 1,
-        "acct_ok": true,
-        "on_site": true
-      },
-      {
-        "status": "yes",
-        "detail": "92, 95, 95+, ДТ",
-        "created_at": "2026-10-23 03:56:50",
-        "edited": false,
-        "author_reliable": false,
-        "author_tier": 0,
-        "acct_ok": false
       }
     ]
   }
