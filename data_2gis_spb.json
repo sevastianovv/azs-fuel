@@ -28,7 +28,7 @@
       {
         "station_id": "5348552838969467",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 91,
@@ -44,7 +44,7 @@
         "last_report_at": "2026-10-29T13:33:39Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -54,7 +54,7 @@
         "station_id": "5348552838969467",
         "fuel_type": "AI_92",
         "price": 67.4,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       }
     ],
     "recent_reports": []
@@ -117,19 +117,19 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "5348552838739674",
         "fuel_type": "AI_95",
         "price": 72.5,
-        "updated_at": "2026-11-13T18:08:55Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552838739674",
         "fuel_type": "AI_92",
         "price": 67.5,
-        "updated_at": "2026-11-13T18:08:55Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       }
     ],
     "recent_reports": []
@@ -143,7 +143,7 @@
       "address": "Санкт-Петербург, проспект Добролюбова, 20 к6",
       "lat": 59.949726,
       "lng": 30.288496,
-      "last_transaction_at": "2026-11-13T21:50:55Z",
+      "last_transaction_at": "2026-11-14T00:20:44Z",
       "created_at": "2026-07-10T15:34:42.785494Z",
       "updated_at": "2026-11-13T20:37:26.261535Z",
       "has_shop": true,
@@ -203,7 +203,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -215,7 +215,7 @@
       "address": "Санкт-Петербург, Ждановская улица, 2а",
       "lat": 59.955054,
       "lng": 30.284205,
-      "last_transaction_at": "2026-11-13T21:48:20Z",
+      "last_transaction_at": "2026-11-14T00:35:36Z",
       "created_at": "2026-07-10T15:34:45.314532Z",
       "updated_at": "2026-11-13T20:37:28.704506Z",
       "has_shop": true,
@@ -322,10 +322,10 @@
         "last_report_at": "2026-10-17T23:38:43Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -337,7 +337,7 @@
       "address": "Санкт-Петербург, Боровая улица, 43 лит А",
       "lat": 59.91553,
       "lng": 30.344046,
-      "last_transaction_at": "2026-11-13T21:40:25Z",
+      "last_transaction_at": "2026-11-14T00:27:38Z",
       "created_at": "2026-07-10T15:34:43.967418Z",
       "updated_at": "2026-11-13T20:37:41.631954Z",
       "has_shop": true,
@@ -399,7 +399,7 @@
       "address": "Санкт-Петербург, набережная реки Фонтанки, 156 лит А",
       "lat": 59.915761,
       "lng": 30.280822,
-      "last_transaction_at": "2026-11-13T19:56:31Z",
+      "last_transaction_at": "2026-11-13T23:22:46Z",
       "created_at": "2026-07-10T15:34:46.440201Z",
       "updated_at": "2026-11-13T20:38:10.245212Z",
       "has_shop": false,
@@ -419,7 +419,7 @@
       {
         "station_id": "70000001059636538",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 40,
         "reports_count": 18,
@@ -435,17 +435,17 @@
         "last_report_at": "2026-10-29T13:34:33Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "70000001059636538",
         "fuel_type": "AI_92",
         "price": 67.4,
-        "updated_at": "2026-11-13T20:08:56Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       }
     ],
     "recent_reports": []
@@ -604,7 +604,7 @@
       "address": "Санкт-Петербург, Железноводская улица, 1а",
       "lat": 59.952864,
       "lng": 30.261897,
-      "last_transaction_at": "2026-11-13T20:42:09Z",
+      "last_transaction_at": "2026-11-14T00:21:31Z",
       "created_at": "2026-07-10T15:34:41.782871Z",
       "updated_at": "2026-11-13T20:37:26.257104Z",
       "has_shop": true,
@@ -663,7 +663,7 @@
     "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "NONE",
+    "queue_level": "UP_TO_25",
     "recent_reports": []
   },
   {
@@ -675,7 +675,7 @@
       "address": "Санкт-Петербург, набережная реки Смоленки, 27а лит А",
       "lat": 59.947969,
       "lng": 30.256616,
-      "last_transaction_at": "2026-11-13T21:07:10Z",
+      "last_transaction_at": "2026-11-13T23:09:24Z",
       "created_at": "2026-07-10T15:34:45.729462Z",
       "updated_at": "2026-11-13T20:37:29.772656Z",
       "has_shop": true,
@@ -721,13 +721,13 @@
         "station_id": "5348552838739673",
         "fuel_type": "AI_95",
         "price": 72.5,
-        "updated_at": "2026-11-13T20:08:56Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "5348552838739673",
         "fuel_type": "AI_92",
         "price": 67.5,
-        "updated_at": "2026-11-13T20:08:56Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       }
     ],
     "recent_reports": []
@@ -770,7 +770,7 @@
       {
         "station_id": "5348552838601946",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 11,
@@ -779,14 +779,14 @@
       {
         "station_id": "5348552838601946",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 24,
         "last_report_at": "2026-11-08T12:34:30Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -796,7 +796,7 @@
         "station_id": "5348552838601946",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       }
     ],
     "recent_reports": []
@@ -810,7 +810,7 @@
       "address": "Санкт-Петербург, улица Циолковского, 18",
       "lat": 59.909865,
       "lng": 30.289748,
-      "last_transaction_at": "2026-11-13T21:50:04Z",
+      "last_transaction_at": "2026-11-14T00:48:16Z",
       "created_at": "2026-07-10T15:34:47.509781Z",
       "updated_at": "2026-11-13T20:38:04.101261Z",
       "has_shop": true,
@@ -865,19 +865,19 @@
         "station_id": "70000001051057645",
         "fuel_type": "AI_95",
         "price": 73.38,
-        "updated_at": "2026-11-13T18:08:56Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "70000001051057645",
         "fuel_type": "AI_92",
         "price": 68.13,
-        "updated_at": "2026-11-13T18:08:56Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "70000001051057645",
         "fuel_type": "DT",
         "price": 82.75,
-        "updated_at": "2026-11-13T18:08:56Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       }
     ],
     "recent_reports": []
@@ -891,7 +891,7 @@
       "address": "Санкт-Петербург, Миргородская улица, 1а",
       "lat": 59.924867,
       "lng": 30.371958,
-      "last_transaction_at": "2026-11-13T21:38:46Z",
+      "last_transaction_at": "2026-11-14T00:21:16Z",
       "created_at": "2026-07-10T15:34:48.510706Z",
       "updated_at": "2026-11-13T20:37:29.735846Z",
       "has_shop": true,
@@ -941,25 +941,25 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "5348552838739670",
         "fuel_type": "AI_95",
         "price": 72.5,
-        "updated_at": "2026-11-13T18:08:52Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552838739670",
         "fuel_type": "AI_92",
         "price": 67.5,
-        "updated_at": "2026-11-13T18:08:52Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552838739670",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:08:52Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       }
     ],
     "recent_reports": []
@@ -973,7 +973,7 @@
       "address": "Санкт-Петербург, проспект Левашовский, 19 лит А",
       "lat": 59.967,
       "lng": 30.283861,
-      "last_transaction_at": "2026-11-13T21:33:12Z",
+      "last_transaction_at": "2026-11-13T22:27:01Z",
       "created_at": "2026-07-10T15:34:47.889344Z",
       "updated_at": "2026-11-13T20:37:29.754653Z",
       "has_shop": true,
@@ -1029,13 +1029,13 @@
         "station_id": "5348552838743563",
         "fuel_type": "AI_92",
         "price": 67.5,
-        "updated_at": "2026-11-13T18:08:55Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "5348552838743563",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:08:55Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       }
     ],
     "recent_reports": []
@@ -1105,7 +1105,7 @@
         "last_report_at": "2026-10-21T06:19:48Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -1115,25 +1115,25 @@
         "station_id": "5348552841393554",
         "fuel_type": "AI_98",
         "price": 102.9,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "5348552841393554",
         "fuel_type": "AI_95",
         "price": 73.9,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "5348552841393554",
         "fuel_type": "AI_92",
         "price": 68.4,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "5348552841393554",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       }
     ],
     "recent_reports": []
@@ -1147,7 +1147,7 @@
       "address": "Санкт-Петербург, набережная Обводного канала, 34",
       "lat": 59.913274,
       "lng": 30.358594,
-      "last_transaction_at": "2026-11-13T20:39:17Z",
+      "last_transaction_at": "2026-11-14T00:45:38Z",
       "created_at": "2026-07-10T15:34:48.656769Z",
       "updated_at": "2026-11-13T20:37:26.266334Z",
       "has_shop": true,
@@ -1209,7 +1209,7 @@
       "address": "Санкт-Петербург, проспект Малый В.О., 68 к1",
       "lat": 59.938758,
       "lng": 30.246386,
-      "last_transaction_at": "2026-11-13T21:43:19Z",
+      "last_transaction_at": "2026-11-14T00:28:30Z",
       "created_at": "2026-07-10T15:34:43.165026Z",
       "updated_at": "2026-11-13T20:37:30.710206Z",
       "has_shop": true,
@@ -1275,25 +1275,25 @@
         "station_id": "5348552838603549",
         "fuel_type": "AI_98",
         "price": 102.9,
-        "updated_at": "2026-11-13T18:09:06Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "5348552838603549",
         "fuel_type": "AI_95",
         "price": 73.9,
-        "updated_at": "2026-11-13T18:09:06Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "5348552838603549",
         "fuel_type": "AI_92",
         "price": 68.5,
-        "updated_at": "2026-11-13T18:09:06Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "5348552838603549",
         "fuel_type": "DT",
         "price": 83.5,
-        "updated_at": "2026-11-13T18:09:06Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       }
     ],
     "recent_reports": []
@@ -1307,7 +1307,7 @@
       "address": "Санкт-Петербург, проспект Малый В.О., 61",
       "lat": 59.938991,
       "lng": 30.24525,
-      "last_transaction_at": "2026-11-13T21:26:20Z",
+      "last_transaction_at": "2026-11-13T23:11:52Z",
       "created_at": "2026-07-10T15:34:43.539137Z",
       "updated_at": "2026-11-13T20:37:29.93446Z",
       "has_shop": true,
@@ -1373,25 +1373,25 @@
         "station_id": "5348552838629486",
         "fuel_type": "AI_100",
         "price": 100.5,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "5348552838629486",
         "fuel_type": "AI_95",
         "price": 72.5,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "5348552838629486",
         "fuel_type": "AI_92",
         "price": 67.5,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "5348552838629486",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       }
     ],
     "recent_reports": []
@@ -1443,14 +1443,14 @@
       {
         "station_id": "5348552840010437",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 9,
         "last_report_at": "2026-11-12T16:29:03Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -1460,7 +1460,7 @@
         "station_id": "5348552840010437",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       }
     ],
     "recent_reports": []
@@ -1474,7 +1474,7 @@
       "address": "Санкт-Петербург, Песочная набережная, 30 лит А",
       "lat": 59.970395,
       "lng": 30.285234,
-      "last_transaction_at": "2026-11-13T20:23:17Z",
+      "last_transaction_at": "2026-11-13T23:03:59Z",
       "created_at": "2026-07-10T15:34:47.704554Z",
       "updated_at": "2026-11-13T20:37:29.73764Z",
       "has_shop": true,
@@ -1530,7 +1530,7 @@
         "last_report_at": "2026-10-23T20:00:11Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -1616,7 +1616,7 @@
       "address": "Санкт-Петербург, Таврический переулок, 13",
       "lat": 59.950125,
       "lng": 30.384415,
-      "last_transaction_at": "2026-11-13T20:44:57Z",
+      "last_transaction_at": "2026-11-14T01:03:28Z",
       "created_at": "2026-07-10T15:34:42.487537Z",
       "updated_at": "2026-11-13T20:37:29.722967Z",
       "has_shop": false,
@@ -1666,19 +1666,19 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "5348552838739678",
         "fuel_type": "AI_95",
         "price": 72.5,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552838739678",
         "fuel_type": "AI_92",
         "price": 67.5,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       }
     ],
     "recent_reports": []
@@ -1692,7 +1692,7 @@
       "address": "Санкт-Петербург, переулок Декабристов, 9 лит А",
       "lat": 59.955597,
       "lng": 30.248345,
-      "last_transaction_at": "2026-11-13T21:46:48Z",
+      "last_transaction_at": "2026-11-14T00:49:50Z",
       "created_at": "2026-07-10T15:34:49.08486Z",
       "updated_at": "2026-11-13T20:37:26.251543Z",
       "has_shop": true,
@@ -1753,7 +1753,7 @@
       "address": "Санкт-Петербург, улица Розенштейна, 37",
       "lat": 59.904248,
       "lng": 30.286447,
-      "last_transaction_at": "2026-11-13T21:04:13Z",
+      "last_transaction_at": "2026-11-14T00:46:18Z",
       "created_at": "2026-07-10T15:34:45.968199Z",
       "updated_at": "2026-11-13T20:37:26.238598Z",
       "has_shop": true,
@@ -1814,7 +1814,7 @@
       "address": "Санкт-Петербург, Черниговская улица, 25",
       "lat": 59.903328,
       "lng": 30.336858,
-      "last_transaction_at": "2026-11-13T21:06:10Z",
+      "last_transaction_at": "2026-11-13T23:39:52Z",
       "created_at": "2026-07-10T15:34:49.511247Z",
       "updated_at": "2026-11-13T20:37:26.255456Z",
       "has_shop": true,
@@ -1885,7 +1885,7 @@
       "address": "Санкт-Петербург, Херсонский проезд, 4",
       "lat": 59.928857,
       "lng": 30.385809,
-      "last_transaction_at": "2026-11-13T21:40:22Z",
+      "last_transaction_at": "2026-11-14T00:35:26Z",
       "created_at": "2026-07-10T15:34:47.625443Z",
       "updated_at": "2026-11-13T20:37:26.259504Z",
       "has_shop": true,
@@ -1983,10 +1983,10 @@
         "last_report_at": "2026-10-05T11:39:46Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -1998,7 +1998,7 @@
       "address": "Санкт-Петербург, Днепропетровская улица, 20",
       "lat": 59.907451,
       "lng": 30.356114,
-      "last_transaction_at": "2026-11-13T19:21:39Z",
+      "last_transaction_at": "2026-11-14T00:46:33Z",
       "created_at": "2026-07-10T15:34:43.214283Z",
       "updated_at": "2026-11-13T20:37:33.51881Z",
       "has_shop": true,
@@ -2044,7 +2044,7 @@
         "last_report_at": "2026-10-15T03:40:51Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -2060,7 +2060,7 @@
       "address": "Санкт-Петербург, Кожевенная линия, 43",
       "lat": 59.926505,
       "lng": 30.241018,
-      "last_transaction_at": "2026-11-13T20:53:28Z",
+      "last_transaction_at": "2026-11-13T23:41:44Z",
       "created_at": "2026-07-10T15:34:48.739785Z",
       "updated_at": "2026-11-13T20:37:26.2464Z",
       "has_shop": true,
@@ -2119,7 +2119,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "recent_reports": []
   },
   {
@@ -2131,7 +2131,7 @@
       "address": "Санкт-Петербург, Аптекарская набережная, 16",
       "lat": 59.977431,
       "lng": 30.320852,
-      "last_transaction_at": "2026-11-13T21:40:57Z",
+      "last_transaction_at": "2026-11-13T22:59:37Z",
       "created_at": "2026-07-10T15:34:45.955503Z",
       "updated_at": "2026-11-13T20:37:29.740553Z",
       "has_shop": true,
@@ -2187,29 +2187,29 @@
         "last_report_at": "2026-10-22T20:01:00Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552838739671",
         "fuel_type": "AI_95",
         "price": 72.5,
-        "updated_at": "2026-11-13T18:08:55Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       },
       {
         "station_id": "5348552838739671",
         "fuel_type": "AI_92",
         "price": 67.5,
-        "updated_at": "2026-11-13T18:08:55Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       },
       {
         "station_id": "5348552838739671",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:08:55Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       }
     ],
     "recent_reports": []
@@ -2223,7 +2223,7 @@
       "address": "Санкт-Петербург, Выборгская набережная, 18",
       "lat": 59.977149,
       "lng": 30.327627,
-      "last_transaction_at": "2026-11-13T19:09:00Z",
+      "last_transaction_at": "2026-11-13T23:29:03Z",
       "created_at": "2026-07-10T15:34:47.904452Z",
       "updated_at": "2026-11-13T20:37:32.054906Z",
       "has_shop": false,
@@ -2268,7 +2268,7 @@
         "last_report_at": "2026-10-04T02:53:02Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -2283,7 +2283,7 @@
       "address": "Санкт-Петербург, Синопская набережная, 12 лит А",
       "lat": 59.927161,
       "lng": 30.388754,
-      "last_transaction_at": "2026-11-13T19:26:50Z",
+      "last_transaction_at": "2026-11-14T01:02:13Z",
       "created_at": "2026-07-10T15:34:47.210398Z",
       "updated_at": "2026-11-13T20:37:26.232684Z",
       "has_shop": false,
@@ -2316,7 +2316,7 @@
       "address": "Санкт-Петербург, Минеральная улица, 16 лит А",
       "lat": 59.965234,
       "lng": 30.372402,
-      "last_transaction_at": "2026-11-13T21:51:46Z",
+      "last_transaction_at": "2026-11-13T22:28:13Z",
       "created_at": "2026-07-10T15:34:41.733595Z",
       "updated_at": "2026-11-13T20:37:33.594974Z",
       "has_shop": false,
@@ -2372,19 +2372,19 @@
         "station_id": "5348552840479706",
         "fuel_type": "AI_95",
         "price": 72.1,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552840479706",
         "fuel_type": "AI_92",
         "price": 67.1,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552840479706",
         "fuel_type": "DT",
         "price": 82.7,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       }
     ],
     "recent_reports": []
@@ -2546,25 +2546,25 @@
         "station_id": "70000001110136496",
         "fuel_type": "AI_100",
         "price": 101.9,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "70000001110136496",
         "fuel_type": "AI_95",
         "price": 74.5,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "70000001110136496",
         "fuel_type": "AI_92",
         "price": 68.56,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "70000001110136496",
         "fuel_type": "DT",
         "price": 82.96,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       }
     ],
     "recent_reports": []
@@ -2637,7 +2637,7 @@
     "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -2649,7 +2649,7 @@
       "address": "Санкт-Петербург, проспект КИМа, 32а",
       "lat": 59.9556,
       "lng": 30.241396,
-      "last_transaction_at": "2026-11-13T21:31:39Z",
+      "last_transaction_at": "2026-11-13T23:43:39Z",
       "created_at": "2026-07-10T15:34:47.770205Z",
       "updated_at": "2026-11-13T20:38:02.773191Z",
       "has_shop": true,
@@ -2714,13 +2714,13 @@
         "station_id": "70000001050771078",
         "fuel_type": "AI_92",
         "price": 67.5,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       },
       {
         "station_id": "70000001050771078",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       }
     ],
     "recent_reports": []
@@ -2734,7 +2734,7 @@
       "address": "Санкт-Петербург, улица Глиняная, 23/1",
       "lat": 59.912767,
       "lng": 30.375646,
-      "last_transaction_at": "2026-11-13T20:52:06Z",
+      "last_transaction_at": "2026-11-14T00:56:16Z",
       "created_at": "2026-07-10T15:34:48.126777Z",
       "updated_at": "2026-11-13T20:37:54.4124Z",
       "has_shop": true,
@@ -2808,11 +2808,11 @@
         "last_report_at": "2026-09-11T13:21:25Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -2901,7 +2901,7 @@
       "address": "Санкт-Петербург, Лиговский проспект, 246т",
       "lat": 59.899531,
       "lng": 30.339406,
-      "last_transaction_at": "2026-11-13T21:33:56Z",
+      "last_transaction_at": "2026-11-14T00:42:43Z",
       "created_at": "2026-07-10T15:34:45.877528Z",
       "updated_at": "2026-11-13T20:37:26.249162Z",
       "has_shop": true,
@@ -3042,7 +3042,7 @@
       {
         "station_id": "5348552838740476",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 8,
@@ -3051,14 +3051,14 @@
       {
         "station_id": "5348552838740476",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 13,
         "last_report_at": "2026-10-23T20:16:44Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -3073,7 +3073,7 @@
       "address": "Санкт-Петербург, проспект Малый В.О., 79",
       "lat": 59.938602,
       "lng": 30.231483,
-      "last_transaction_at": "2026-11-13T16:42:23Z",
+      "last_transaction_at": "2026-11-13T23:30:45Z",
       "created_at": "2026-07-10T15:34:47.8206Z",
       "updated_at": "2026-11-13T20:38:58.556546Z",
       "has_shop": true,
@@ -3122,7 +3122,7 @@
       {
         "station_id": "70000001105301702",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 52,
@@ -3139,25 +3139,25 @@
         "station_id": "70000001105301702",
         "fuel_type": "AI_100",
         "price": 99.9,
-        "updated_at": "2026-11-13T20:08:55Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "70000001105301702",
         "fuel_type": "AI_95",
         "price": 73.84,
-        "updated_at": "2026-11-13T20:08:55Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "70000001105301702",
         "fuel_type": "AI_92",
         "price": 68.42,
-        "updated_at": "2026-11-13T20:08:55Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "70000001105301702",
         "fuel_type": "DT",
         "price": 83.37,
-        "updated_at": "2026-11-13T20:08:55Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       }
     ],
     "recent_reports": []
@@ -3231,7 +3231,7 @@
       "address": "Санкт-Петербург, Московский проспект, 102 лит А",
       "lat": 59.897174,
       "lng": 30.319732,
-      "last_transaction_at": "2026-11-13T20:02:45Z",
+      "last_transaction_at": "2026-11-13T23:25:39Z",
       "created_at": "2026-07-10T15:34:46.492076Z",
       "updated_at": "2026-11-13T20:38:04.058997Z",
       "has_shop": false,
@@ -3286,7 +3286,7 @@
         "last_report_at": "2026-10-18T11:38:06Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -3296,25 +3296,25 @@
         "station_id": "70000001051224071",
         "fuel_type": "AI_98",
         "price": 102.9,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       },
       {
         "station_id": "70000001051224071",
         "fuel_type": "AI_95",
         "price": 73.9,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       },
       {
         "station_id": "70000001051224071",
         "fuel_type": "AI_92",
         "price": 68.4,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       },
       {
         "station_id": "70000001051224071",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       }
     ],
     "recent_reports": []
@@ -3328,7 +3328,7 @@
       "address": "Санкт-Петербург, АЗС",
       "lat": 59.95956,
       "lng": 30.386512,
-      "last_transaction_at": "2026-11-13T21:32:16Z",
+      "last_transaction_at": "2026-11-13T22:25:05Z",
       "created_at": "2026-07-10T15:34:45.756636Z",
       "updated_at": "2026-11-13T20:37:36.237405Z",
       "has_shop": true,
@@ -3390,7 +3390,7 @@
       "address": "Санкт-Петербург, Литовская улица, 5 к2 лит А",
       "lat": 59.977428,
       "lng": 30.346752,
-      "last_transaction_at": "2026-11-13T21:10:47Z",
+      "last_transaction_at": "2026-11-13T23:11:19Z",
       "created_at": "2026-07-10T15:34:45.608121Z",
       "updated_at": "2026-11-13T20:37:26.255998Z",
       "has_shop": true,
@@ -3589,10 +3589,10 @@
         "last_report_at": "2026-09-11T20:17:47Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -3660,7 +3660,7 @@
         "last_report_at": "2026-10-12T15:50:44Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -3670,25 +3670,25 @@
         "station_id": "5348552838603678",
         "fuel_type": "AI_98",
         "price": 102.9,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       },
       {
         "station_id": "5348552838603678",
         "fuel_type": "AI_95",
         "price": 73.9,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       },
       {
         "station_id": "5348552838603678",
         "fuel_type": "AI_92",
         "price": 68.4,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       },
       {
         "station_id": "5348552838603678",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       }
     ],
     "recent_reports": []
@@ -3823,7 +3823,7 @@
         "last_report_at": "2026-09-26T17:35:11Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -3833,19 +3833,19 @@
         "station_id": "5348552838743566",
         "fuel_type": "AI_95",
         "price": 72.5,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "5348552838743566",
         "fuel_type": "AI_92",
         "price": 67.5,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "5348552838743566",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       }
     ],
     "recent_reports": []
@@ -3915,19 +3915,19 @@
         "station_id": "5348552838735514",
         "fuel_type": "AI_95",
         "price": 73.97,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "5348552838735514",
         "fuel_type": "AI_92",
         "price": 68.66,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "5348552838735514",
         "fuel_type": "DT",
         "price": 83.53,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       }
     ],
     "recent_reports": []
@@ -3941,7 +3941,7 @@
       "address": "Санкт-Петербург, Малоохтинский проспект, 16 лит А",
       "lat": 59.934453,
       "lng": 30.40221,
-      "last_transaction_at": "2026-11-13T21:49:28Z",
+      "last_transaction_at": "2026-11-14T00:27:21Z",
       "created_at": "2026-07-10T15:34:46.152493Z",
       "updated_at": "2026-11-13T20:37:52.028055Z",
       "has_shop": true,
@@ -4013,7 +4013,7 @@
       "address": "Санкт-Петербург, проспект Обуховской Обороны, 3 лит А",
       "lat": 59.920208,
       "lng": 30.394682,
-      "last_transaction_at": "2026-11-13T21:41:25Z",
+      "last_transaction_at": "2026-11-13T21:53:08Z",
       "created_at": "2026-07-10T15:34:41.102507Z",
       "updated_at": "2026-11-13T20:37:29.697828Z",
       "has_shop": true,
@@ -4079,19 +4079,19 @@
         "station_id": "5348552838739672",
         "fuel_type": "AI_95",
         "price": 72.5,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       },
       {
         "station_id": "5348552838739672",
         "fuel_type": "AI_92",
         "price": 67.5,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       },
       {
         "station_id": "5348552838739672",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       }
     ],
     "recent_reports": []
@@ -4256,7 +4256,7 @@
       "address": "Санкт-Петербург, Белоостровская улица, 8",
       "lat": 59.985386,
       "lng": 30.326539,
-      "last_transaction_at": "2026-11-13T21:18:02Z",
+      "last_transaction_at": "2026-11-13T23:35:41Z",
       "created_at": "2026-07-10T15:34:41.950052Z",
       "updated_at": "2026-11-13T20:37:28.727611Z",
       "has_shop": true,
@@ -4327,7 +4327,7 @@
       "address": "Санкт-Петербург, Шотландская улица, 14",
       "lat": 59.909061,
       "lng": 30.239521,
-      "last_transaction_at": "2026-11-13T21:48:48Z",
+      "last_transaction_at": "2026-11-14T00:50:45Z",
       "created_at": "2026-07-10T15:34:43.022016Z",
       "updated_at": "2026-11-13T20:37:34.773189Z",
       "has_shop": true,
@@ -4469,7 +4469,7 @@
       "address": "Санкт-Петербург, Замшина улица, 2",
       "lat": 59.967864,
       "lng": 30.392682,
-      "last_transaction_at": "2026-11-13T18:39:26Z",
+      "last_transaction_at": "2026-11-13T23:29:57Z",
       "created_at": "2026-07-10T15:34:45.593519Z",
       "updated_at": "2026-11-13T20:37:26.253321Z",
       "has_shop": true,
@@ -4515,7 +4515,7 @@
         "last_report_at": "2026-10-02T13:22:24Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -4615,7 +4615,7 @@
       "address": "Санкт-Петербург, проспект Полюстровский, 73 лит А",
       "lat": 59.979889,
       "lng": 30.367514,
-      "last_transaction_at": "2026-11-13T21:48:00Z",
+      "last_transaction_at": "2026-11-13T22:23:17Z",
       "created_at": "2026-07-10T15:34:48.475311Z",
       "updated_at": "2026-11-13T20:37:33.578424Z",
       "has_shop": true,
@@ -4721,7 +4721,7 @@
         "station_id": "70000001103191203",
         "fuel_type": "GAS",
         "price": 48.89,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       }
     ],
     "recent_reports": []
@@ -4735,7 +4735,7 @@
       "address": "Санкт-Петербург, АГЗС",
       "lat": 59.897312,
       "lng": 30.368057,
-      "last_transaction_at": "2026-11-13T14:42:03Z",
+      "last_transaction_at": "2026-11-13T23:29:53Z",
       "created_at": "2026-07-10T15:34:42.087864Z",
       "updated_at": "2026-11-06T12:39:55.485745Z",
       "has_shop": false,
@@ -4766,7 +4766,7 @@
       "address": "Санкт-Петербург, Свердловская набережная, 58 к4 лит А",
       "lat": 59.954985,
       "lng": 30.407892,
-      "last_transaction_at": "2026-11-13T21:47:13Z",
+      "last_transaction_at": "2026-11-13T22:20:50Z",
       "created_at": "2026-07-10T15:34:49.572391Z",
       "updated_at": "2026-11-13T20:37:26.248132Z",
       "has_shop": true,
@@ -4838,7 +4838,7 @@
       "address": "Санкт-Петербург, проспект Шаумяна, 15 лит А",
       "lat": 59.937732,
       "lng": 30.414876,
-      "last_transaction_at": "2026-11-13T21:14:43Z",
+      "last_transaction_at": "2026-11-13T22:06:49Z",
       "created_at": "2026-07-10T15:34:42.474318Z",
       "updated_at": "2026-11-13T20:37:26.259581Z",
       "has_shop": false,
@@ -4899,7 +4899,7 @@
       "address": "Санкт-Петербург, Химический переулок, 1 к1 лит А",
       "lat": 59.890976,
       "lng": 30.280767,
-      "last_transaction_at": "2026-11-13T18:38:54Z",
+      "last_transaction_at": "2026-11-13T21:53:01Z",
       "created_at": "2026-07-10T15:34:46.467713Z",
       "updated_at": "2026-11-13T20:38:18.777291Z",
       "has_shop": true,
@@ -4920,7 +4920,7 @@
       {
         "station_id": "70000001066613631",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 27,
@@ -4938,14 +4938,14 @@
       {
         "station_id": "70000001066613631",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 38,
         "last_report_at": "2026-10-13T06:02:33Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -4954,19 +4954,19 @@
         "station_id": "70000001066613631",
         "fuel_type": "AI_95",
         "price": 73.87,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       },
       {
         "station_id": "70000001066613631",
         "fuel_type": "AI_92",
         "price": 68.54,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       },
       {
         "station_id": "70000001066613631",
         "fuel_type": "DT",
         "price": 83,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       }
     ],
     "recent_reports": []
@@ -5035,19 +5035,19 @@
         "station_id": "5348552840479697",
         "fuel_type": "AI_95",
         "price": 72.8,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       },
       {
         "station_id": "5348552840479697",
         "fuel_type": "AI_92",
         "price": 67.7,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       },
       {
         "station_id": "5348552840479697",
         "fuel_type": "DT",
         "price": 83,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       }
     ],
     "recent_reports": []
@@ -5061,7 +5061,7 @@
       "address": "Санкт-Петербург, улица Маршала Говорова, 35 к3",
       "lat": 59.890693,
       "lng": 30.280032,
-      "last_transaction_at": "2026-11-13T21:33:21Z",
+      "last_transaction_at": "2026-11-14T00:41:49Z",
       "created_at": "2026-07-10T15:34:42.545284Z",
       "updated_at": "2026-11-13T20:37:56.602535Z",
       "has_shop": true,
@@ -5121,19 +5121,19 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001045498994",
         "fuel_type": "AI_92",
         "price": 67.7,
-        "updated_at": "2026-11-13T18:09:01Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "70000001045498994",
         "fuel_type": "DT",
         "price": 83,
-        "updated_at": "2026-11-13T18:09:01Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       }
     ],
     "recent_reports": []
@@ -5178,7 +5178,7 @@
       {
         "station_id": "70000001062269865",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": false,
         "queue_level": "UP_TO_25",
         "limit_liters": 0,
         "reports_count": 31,
@@ -5196,14 +5196,14 @@
       {
         "station_id": "70000001062269865",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "UP_TO_25",
         "limit_liters": 30,
         "reports_count": 46,
         "last_report_at": "2026-09-30T04:43:10Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -5213,19 +5213,19 @@
         "station_id": "70000001062269865",
         "fuel_type": "AI_100",
         "price": 99.9,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "70000001062269865",
         "fuel_type": "AI_92",
         "price": 67.7,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "70000001062269865",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       }
     ],
     "recent_reports": []
@@ -5260,7 +5260,7 @@
       {
         "station_id": "70000001050784848",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 32,
@@ -5269,7 +5269,7 @@
       {
         "station_id": "70000001050784848",
         "fuel_type": "AI_92",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 35,
@@ -5289,25 +5289,25 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "FROM_25_TO_50",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "70000001050784848",
         "fuel_type": "AI_95",
         "price": 73.53,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       },
       {
         "station_id": "70000001050784848",
         "fuel_type": "AI_92",
         "price": 68.38,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       },
       {
         "station_id": "70000001050784848",
         "fuel_type": "DT",
         "price": 83.16,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       }
     ],
     "recent_reports": []
@@ -5321,7 +5321,7 @@
       "address": "Санкт-Петербург, Волковский проспект, 61",
       "lat": 59.890609,
       "lng": 30.354627,
-      "last_transaction_at": "2026-11-13T17:52:46Z",
+      "last_transaction_at": "2026-11-13T23:41:31Z",
       "created_at": "2026-07-10T15:34:48.087581Z",
       "updated_at": "2026-11-13T20:37:33.585191Z",
       "has_shop": true,
@@ -5367,7 +5367,7 @@
         "last_report_at": "2026-09-16T13:57:14Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -5377,19 +5377,19 @@
         "station_id": "5348552840479689",
         "fuel_type": "AI_95",
         "price": 72.8,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:08:51Z"
       },
       {
         "station_id": "5348552840479689",
         "fuel_type": "AI_92",
         "price": 67.7,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:08:51Z"
       },
       {
         "station_id": "5348552840479689",
         "fuel_type": "DT",
         "price": 83,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:08:51Z"
       }
     ],
     "recent_reports": []
@@ -5403,7 +5403,7 @@
       "address": "Санкт-Петербург, Лабораторная улица, 19",
       "lat": 59.978582,
       "lng": 30.382599,
-      "last_transaction_at": "2026-11-13T08:48:58Z",
+      "last_transaction_at": "2026-11-14T00:27:52Z",
       "created_at": "2026-07-10T15:34:50.109385Z",
       "updated_at": "2026-11-13T20:38:04.06174Z",
       "has_shop": false,
@@ -5465,7 +5465,7 @@
       "address": "Санкт-Петербург, Торжковская улица, 19 лит А",
       "lat": 59.991537,
       "lng": 30.319897,
-      "last_transaction_at": "2026-11-13T20:48:40Z",
+      "last_transaction_at": "2026-11-14T00:54:09Z",
       "created_at": "2026-07-10T15:34:42.249616Z",
       "updated_at": "2026-11-13T20:37:37.761094Z",
       "has_shop": true,
@@ -5546,7 +5546,7 @@
       "address": "Санкт-Петербург, проспект Маршала Блюхера, 2 к1",
       "lat": 59.986972,
       "lng": 30.35913,
-      "last_transaction_at": "2026-11-13T20:41:51Z",
+      "last_transaction_at": "2026-11-13T23:45:56Z",
       "created_at": "2026-07-10T15:34:44.640338Z",
       "updated_at": "2026-11-13T20:37:28.722815Z",
       "has_shop": true,
@@ -5659,7 +5659,7 @@
       "address": "Санкт-Петербург, Большой Сампсониевский проспект, 89 лит А",
       "lat": 59.991318,
       "lng": 30.333158,
-      "last_transaction_at": "2026-11-13T21:48:14Z",
+      "last_transaction_at": "2026-11-14T00:30:42Z",
       "created_at": "2026-07-10T15:34:49.92784Z",
       "updated_at": "2026-11-13T20:37:34.790678Z",
       "has_shop": true,
@@ -5731,7 +5731,7 @@
       "address": "Санкт-Петербург, проспект Маршала Блюхера, 2 к7",
       "lat": 59.986574,
       "lng": 30.362286,
-      "last_transaction_at": "2026-11-13T19:23:51Z",
+      "last_transaction_at": "2026-11-13T22:43:06Z",
       "created_at": "2026-07-10T15:34:48.046718Z",
       "updated_at": "2026-11-13T20:37:30.687369Z",
       "has_shop": true,
@@ -5787,7 +5787,7 @@
         "last_report_at": "2026-10-01T11:19:01Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -5797,25 +5797,25 @@
         "station_id": "5348552838603996",
         "fuel_type": "AI_98",
         "price": 102.9,
-        "updated_at": "2026-11-13T18:08:53Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "5348552838603996",
         "fuel_type": "AI_95",
         "price": 73.9,
-        "updated_at": "2026-11-13T18:08:53Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "5348552838603996",
         "fuel_type": "AI_92",
         "price": 68.4,
-        "updated_at": "2026-11-13T18:08:53Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "5348552838603996",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:08:53Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       }
     ],
     "recent_reports": []
@@ -5892,7 +5892,7 @@
       {
         "station_id": "5348552841241565",
         "fuel_type": "AI_100",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 4,
         "last_report_at": "2026-09-13T04:27:51Z"
@@ -5900,7 +5900,7 @@
       {
         "station_id": "5348552841241565",
         "fuel_type": "AI_95",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 5,
         "last_report_at": "2026-09-13T04:27:51Z"
@@ -5908,7 +5908,7 @@
       {
         "station_id": "5348552841241565",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 5,
@@ -5940,7 +5940,7 @@
       "address": "Санкт-Петербург, Оборонная улица, 30 лит А",
       "lat": 59.892779,
       "lng": 30.255967,
-      "last_transaction_at": "2026-11-13T18:24:33Z",
+      "last_transaction_at": "2026-11-14T00:48:25Z",
       "created_at": "2026-07-10T15:34:41.257758Z",
       "updated_at": "2026-11-13T20:37:26.253825Z",
       "has_shop": false,
@@ -5973,7 +5973,7 @@
       "address": "Санкт-Петербург, Бухарестская улица, 12",
       "lat": 59.889809,
       "lng": 30.362204,
-      "last_transaction_at": "2026-11-13T20:51:28Z",
+      "last_transaction_at": "2026-11-14T00:35:16Z",
       "created_at": "2026-07-10T15:34:41.913025Z",
       "updated_at": "2026-11-13T20:37:26.265479Z",
       "has_shop": true,
@@ -6028,7 +6028,7 @@
         "last_report_at": "2026-09-26T14:34:03Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -6072,7 +6072,7 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -6139,7 +6139,7 @@
         "last_report_at": "2026-11-10T17:31:41Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -6149,25 +6149,25 @@
         "station_id": "70000001051224326",
         "fuel_type": "AI_98",
         "price": 102.9,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "70000001051224326",
         "fuel_type": "AI_95",
         "price": 73.9,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "70000001051224326",
         "fuel_type": "AI_92",
         "price": 68.4,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "70000001051224326",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       }
     ],
     "recent_reports": []
@@ -6227,29 +6227,29 @@
         "last_report_at": "2026-10-01T15:44:40Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552840479725",
         "fuel_type": "AI_95",
         "price": 72.8,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "5348552840479725",
         "fuel_type": "AI_92",
         "price": 67.7,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "5348552840479725",
         "fuel_type": "DT",
         "price": 83,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       }
     ],
     "recent_reports": []
@@ -6284,7 +6284,7 @@
       {
         "station_id": "70000001033179671",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 10,
@@ -6319,19 +6319,19 @@
         "station_id": "70000001033179671",
         "fuel_type": "AI_95",
         "price": 71.9,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "70000001033179671",
         "fuel_type": "AI_92",
         "price": 67.2,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "70000001033179671",
         "fuel_type": "DT",
         "price": 82.7,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       }
     ],
     "recent_reports": []
@@ -6345,7 +6345,7 @@
       "address": "Санкт-Петербург, Хрустальная улица, 22а",
       "lat": 59.907444,
       "lng": 30.405027,
-      "last_transaction_at": "2026-11-13T17:16:25Z",
+      "last_transaction_at": "2026-11-13T23:50:08Z",
       "created_at": "2026-07-10T15:34:49.906247Z",
       "updated_at": "2026-11-13T20:37:33.580921Z",
       "has_shop": false,
@@ -6399,13 +6399,13 @@
         "station_id": "5348552840479727",
         "fuel_type": "AI_92",
         "price": 67.2,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "5348552840479727",
         "fuel_type": "DT",
         "price": 82.7,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       }
     ],
     "recent_reports": []
@@ -6419,7 +6419,7 @@
       "address": "Санкт-Петербург, улица Карбышева, 5",
       "lat": 59.991251,
       "lng": 30.349139,
-      "last_transaction_at": "2026-11-13T18:54:18Z",
+      "last_transaction_at": "2026-11-13T22:12:47Z",
       "created_at": "2026-07-10T15:34:49.028482Z",
       "updated_at": "2026-11-13T20:37:29.936357Z",
       "has_shop": true,
@@ -6475,7 +6475,7 @@
         "last_report_at": "2026-10-13T04:52:05Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -6485,19 +6485,19 @@
         "station_id": "5348552838629485",
         "fuel_type": "AI_95",
         "price": 72.8,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "5348552838629485",
         "fuel_type": "AI_92",
         "price": 67.5,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "5348552838629485",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       }
     ],
     "recent_reports": []
@@ -6550,7 +6550,7 @@
       {
         "station_id": "70000001111066453",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 38,
@@ -6566,19 +6566,19 @@
         "station_id": "70000001111066453",
         "fuel_type": "AI_95",
         "price": 73.53,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "70000001111066453",
         "fuel_type": "AI_92",
         "price": 68.38,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "70000001111066453",
         "fuel_type": "DT",
         "price": 83.15,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       }
     ],
     "recent_reports": []
@@ -6644,7 +6644,7 @@
         "last_report_at": "2026-10-12T17:56:23Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "UP_TO_25",
@@ -6659,7 +6659,7 @@
       "address": "Санкт-Петербург, Октябрьская набережная, 1 лит А",
       "lat": 59.916558,
       "lng": 30.417157,
-      "last_transaction_at": "2026-11-13T21:40:07Z",
+      "last_transaction_at": "2026-11-13T23:03:11Z",
       "created_at": "2026-07-10T15:34:47.917616Z",
       "updated_at": "2026-11-13T20:37:32.0563Z",
       "has_shop": true,
@@ -6705,7 +6705,7 @@
         "last_report_at": "2026-09-18T04:30:29Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -6715,19 +6715,19 @@
         "station_id": "5348552840761846",
         "fuel_type": "AI_95",
         "price": 72.6,
-        "updated_at": "2026-11-13T18:09:00Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       },
       {
         "station_id": "5348552840761846",
         "fuel_type": "AI_92",
         "price": 67.6,
-        "updated_at": "2026-11-13T18:09:00Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       },
       {
         "station_id": "5348552840761846",
         "fuel_type": "DT",
         "price": 82.8,
-        "updated_at": "2026-11-13T18:09:00Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       }
     ],
     "recent_reports": []
@@ -6780,35 +6780,35 @@
       {
         "station_id": "5348552838735374",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 65,
         "last_report_at": "2026-10-13T16:25:28Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552838735374",
         "fuel_type": "AI_95",
         "price": 72.97,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "5348552838735374",
         "fuel_type": "AI_92",
         "price": 67.82,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "5348552838735374",
         "fuel_type": "DT",
         "price": 82.59,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       }
     ],
     "recent_reports": []
@@ -6875,7 +6875,7 @@
         "station_id": "70000001063603885",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       }
     ],
     "recent_reports": []
@@ -6889,7 +6889,7 @@
       "address": "Санкт-Петербург, Московский проспект, 156а лит А",
       "lat": 59.881504,
       "lng": 30.321076,
-      "last_transaction_at": "2026-11-13T19:15:58Z",
+      "last_transaction_at": "2026-11-14T00:40:31Z",
       "created_at": "2026-07-10T15:34:43.768246Z",
       "updated_at": "2026-11-13T20:37:30.677459Z",
       "has_shop": true,
@@ -6948,31 +6948,31 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "NONE",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "5348552838603677",
         "fuel_type": "AI_98",
         "price": 102.9,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "5348552838603677",
         "fuel_type": "AI_95",
         "price": 73.9,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "5348552838603677",
         "fuel_type": "AI_92",
         "price": 68.4,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "5348552838603677",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       }
     ],
     "recent_reports": []
@@ -7028,7 +7028,7 @@
       "address": "Санкт-Петербург, улица Савушкина, 106",
       "lat": 59.984242,
       "lng": 30.244433,
-      "last_transaction_at": "2026-11-13T21:47:56Z",
+      "last_transaction_at": "2026-11-13T23:03:16Z",
       "created_at": "2026-07-10T15:34:42.754463Z",
       "updated_at": "2026-11-13T20:37:33.560529Z",
       "has_shop": true,
@@ -7188,7 +7188,7 @@
       "address": "Санкт-Петербург, улица Генерала Хрулёва, 2",
       "lat": 59.995649,
       "lng": 30.298618,
-      "last_transaction_at": "2026-11-13T20:01:08Z",
+      "last_transaction_at": "2026-11-14T00:00:36Z",
       "created_at": "2026-07-10T15:34:48.153553Z",
       "updated_at": "2026-11-13T20:37:26.251541Z",
       "has_shop": true,
@@ -7222,7 +7222,7 @@
         "last_report_at": "2026-09-20T15:43:12Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -7237,7 +7237,7 @@
       "address": "Санкт-Петербург, улица Генерала Хрулёва, 14а",
       "lat": 59.9941,
       "lng": 30.283206,
-      "last_transaction_at": "2026-11-13T21:35:45Z",
+      "last_transaction_at": "2026-11-13T23:04:45Z",
       "created_at": "2026-07-10T15:34:48.141324Z",
       "updated_at": "2026-11-13T20:37:33.582929Z",
       "has_shop": true,
@@ -7283,7 +7283,7 @@
         "last_report_at": "2026-10-17T18:42:20Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -7321,7 +7321,7 @@
       {
         "station_id": "5348552840479693",
         "fuel_type": "AI_100",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 14,
@@ -7355,7 +7355,7 @@
         "last_report_at": "2026-09-20T19:28:13Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -7365,13 +7365,13 @@
         "station_id": "5348552840479693",
         "fuel_type": "AI_92",
         "price": 67.6,
-        "updated_at": "2026-11-13T18:08:55Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552840479693",
         "fuel_type": "DT",
         "price": 82.8,
-        "updated_at": "2026-11-13T18:08:55Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       }
     ],
     "recent_reports": []
@@ -7448,11 +7448,11 @@
         "last_report_at": "2026-10-01T15:54:10Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -7464,7 +7464,7 @@
       "address": "Санкт-Петербург, Новороссийская улица, 15",
       "lat": 59.993991,
       "lng": 30.354662,
-      "last_transaction_at": "2026-11-13T21:32:44Z",
+      "last_transaction_at": "2026-11-14T01:03:51Z",
       "created_at": "2026-07-10T15:34:42.638646Z",
       "updated_at": "2026-11-13T20:37:40.565332Z",
       "has_shop": true,
@@ -7543,7 +7543,7 @@
       "address": "Санкт-Петербург, проспект Маршала Блюхера, 39 лит А",
       "lat": 59.975586,
       "lng": 30.406669,
-      "last_transaction_at": "2026-11-13T20:51:45Z",
+      "last_transaction_at": "2026-11-13T23:29:54Z",
       "created_at": "2026-07-10T15:34:43.410431Z",
       "updated_at": "2026-11-13T20:38:27.025339Z",
       "has_shop": true,
@@ -7635,7 +7635,7 @@
       {
         "station_id": "5348552840479720",
         "fuel_type": "AI_92",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 25,
@@ -7654,19 +7654,19 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552840479720",
         "fuel_type": "AI_92",
         "price": 67.2,
-        "updated_at": "2026-11-13T20:08:56Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       },
       {
         "station_id": "5348552840479720",
         "fuel_type": "DT",
         "price": 82.7,
-        "updated_at": "2026-11-13T20:08:56Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       }
     ],
     "recent_reports": []
@@ -7680,7 +7680,7 @@
       "address": "Санкт-Петербург, Магнитогорская улица, 34 лит А",
       "lat": 59.940738,
       "lng": 30.432602,
-      "last_transaction_at": "2026-11-13T21:07:21Z",
+      "last_transaction_at": "2026-11-13T22:52:28Z",
       "created_at": "2026-07-10T15:34:45.338258Z",
       "updated_at": "2026-11-13T20:37:34.785243Z",
       "has_shop": true,
@@ -7798,7 +7798,7 @@
         "last_report_at": "2026-10-11T02:30:53Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -7814,7 +7814,7 @@
       "address": "Санкт-Петербург, Рощинская улица, 46а",
       "lat": 59.881083,
       "lng": 30.343475,
-      "last_transaction_at": "2026-11-13T18:32:09Z",
+      "last_transaction_at": "2026-11-13T22:23:30Z",
       "created_at": "2026-07-10T15:34:49.584497Z",
       "updated_at": "2026-11-13T20:37:33.585213Z",
       "has_shop": true,
@@ -7835,7 +7835,7 @@
       {
         "station_id": "5348552840479717",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 17,
@@ -7853,14 +7853,14 @@
       {
         "station_id": "5348552840479717",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "UP_TO_25",
         "limit_liters": 30,
         "reports_count": 24,
         "last_report_at": "2026-09-18T21:52:24Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -7870,19 +7870,19 @@
         "station_id": "5348552840479717",
         "fuel_type": "AI_95",
         "price": 72.8,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "5348552840479717",
         "fuel_type": "AI_92",
         "price": 67.7,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "5348552840479717",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       }
     ],
     "recent_reports": []
@@ -8013,7 +8013,7 @@
         "last_report_at": "2026-09-30T13:11:00Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -8023,25 +8023,25 @@
         "station_id": "5348552840960996",
         "fuel_type": "AI_100",
         "price": 100.4,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552840960996",
         "fuel_type": "AI_95",
         "price": 72.6,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552840960996",
         "fuel_type": "AI_92",
         "price": 67.6,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552840960996",
         "fuel_type": "DT",
         "price": 82.8,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       }
     ],
     "recent_reports": []
@@ -8055,7 +8055,7 @@
       "address": "Санкт-Петербург, Софийская улица, 1",
       "lat": 59.888185,
       "lng": 30.38088,
-      "last_transaction_at": "2026-11-13T19:06:44Z",
+      "last_transaction_at": "2026-11-13T22:49:18Z",
       "created_at": "2026-07-10T15:34:44.301552Z",
       "updated_at": "2026-11-13T20:37:26.253716Z",
       "has_shop": true,
@@ -8100,7 +8100,7 @@
         "last_report_at": "2026-10-01T05:55:56Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -8217,7 +8217,7 @@
       "address": "Санкт-Петербург, Кушелевская дорога, 9",
       "lat": 59.990696,
       "lng": 30.376852,
-      "last_transaction_at": "2026-11-13T19:08:45Z",
+      "last_transaction_at": "2026-11-13T23:09:14Z",
       "created_at": "2026-07-10T15:34:43.274038Z",
       "updated_at": "2026-11-13T20:37:26.257688Z",
       "has_shop": true,
@@ -8287,7 +8287,7 @@
       "address": "Санкт-Петербург, проспект Коломяжский, 15Б",
       "lat": 59.999097,
       "lng": 30.300453,
-      "last_transaction_at": "2026-11-13T19:57:14Z",
+      "last_transaction_at": "2026-11-13T22:56:39Z",
       "created_at": "2026-07-10T15:34:49.5588Z",
       "updated_at": "2026-11-13T20:37:32.070304Z",
       "has_shop": true,
@@ -8333,7 +8333,7 @@
         "last_report_at": "2026-10-13T05:59:18Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -8343,19 +8343,19 @@
         "station_id": "5348552840757195",
         "fuel_type": "AI_95",
         "price": 72.8,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       },
       {
         "station_id": "5348552840757195",
         "fuel_type": "AI_92",
         "price": 67.5,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       },
       {
         "station_id": "5348552840757195",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       }
     ],
     "recent_reports": []
@@ -8390,7 +8390,7 @@
       {
         "station_id": "5348552838739680",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 12,
@@ -8488,7 +8488,7 @@
         "last_report_at": "2026-11-05T15:15:57Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -8497,25 +8497,25 @@
         "station_id": "70000001051224171",
         "fuel_type": "AI_98",
         "price": 102.9,
-        "updated_at": "2026-11-13T18:09:00Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       },
       {
         "station_id": "70000001051224171",
         "fuel_type": "AI_95",
         "price": 73.9,
-        "updated_at": "2026-11-13T18:09:00Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       },
       {
         "station_id": "70000001051224171",
         "fuel_type": "AI_92",
         "price": 68.4,
-        "updated_at": "2026-11-13T18:09:00Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       },
       {
         "station_id": "70000001051224171",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:09:00Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       }
     ],
     "recent_reports": []
@@ -8529,7 +8529,7 @@
       "address": "Санкт-Петербург, Партизанская улица, 17а",
       "lat": 59.947348,
       "lng": 30.434903,
-      "last_transaction_at": "2026-11-13T21:39:58Z",
+      "last_transaction_at": "2026-11-14T01:04:00Z",
       "created_at": "2026-07-10T15:34:43.570694Z",
       "updated_at": "2026-11-13T20:37:33.58066Z",
       "has_shop": true,
@@ -8579,25 +8579,25 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552840479710",
         "fuel_type": "AI_95",
         "price": 72.6,
-        "updated_at": "2026-11-13T18:09:01Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "5348552840479710",
         "fuel_type": "AI_92",
         "price": 67.6,
-        "updated_at": "2026-11-13T18:09:01Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "5348552840479710",
         "fuel_type": "DT",
         "price": 82.8,
-        "updated_at": "2026-11-13T18:09:01Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       }
     ],
     "recent_reports": []
@@ -8633,7 +8633,7 @@
       {
         "station_id": "5348552838737699",
         "fuel_type": "AI_98",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 10,
@@ -8667,7 +8667,7 @@
         "last_report_at": "2026-10-23T20:17:19Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -8676,25 +8676,25 @@
         "station_id": "5348552838737699",
         "fuel_type": "AI_98",
         "price": 99.9,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       },
       {
         "station_id": "5348552838737699",
         "fuel_type": "AI_95",
         "price": 72.8,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       },
       {
         "station_id": "5348552838737699",
         "fuel_type": "AI_92",
         "price": 67.3,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       },
       {
         "station_id": "5348552838737699",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       }
     ],
     "recent_reports": []
@@ -8763,7 +8763,7 @@
         "last_report_at": "2026-10-09T14:33:47Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -8778,7 +8778,7 @@
       "address": "Санкт-Петербург, Витебский проспект, 10а",
       "lat": 59.879481,
       "lng": 30.348487,
-      "last_transaction_at": "2026-11-13T21:26:30Z",
+      "last_transaction_at": "2026-11-14T00:14:13Z",
       "created_at": "2026-07-10T15:34:47.432216Z",
       "updated_at": "2026-11-13T20:37:26.246551Z",
       "has_shop": true,
@@ -8839,7 +8839,7 @@
       "address": "Санкт-Петербург, улица Возрождения, 36",
       "lat": 59.879588,
       "lng": 30.279044,
-      "last_transaction_at": "2026-11-13T21:18:05Z",
+      "last_transaction_at": "2026-11-13T22:08:15Z",
       "created_at": "2026-07-10T15:34:49.252445Z",
       "updated_at": "2026-11-13T20:38:13.848906Z",
       "has_shop": true,
@@ -8885,7 +8885,7 @@
         "last_report_at": "2026-10-02T13:29:23Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -8894,19 +8894,19 @@
         "station_id": "70000001062639588",
         "fuel_type": "AI_95",
         "price": 73.41,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "70000001062639588",
         "fuel_type": "AI_92",
         "price": 68.13,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "70000001062639588",
         "fuel_type": "DT",
         "price": 82.96,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       }
     ],
     "recent_reports": []
@@ -8920,7 +8920,7 @@
       "address": "Санкт-Петербург, улица Салова, 74 к1",
       "lat": 59.882615,
       "lng": 30.366816,
-      "last_transaction_at": "2026-11-13T21:25:32Z",
+      "last_transaction_at": "2026-11-13T23:21:36Z",
       "created_at": "2026-07-10T15:34:49.403512Z",
       "updated_at": "2026-11-13T20:37:26.243366Z",
       "has_shop": true,
@@ -9069,7 +9069,7 @@
         "station_id": "5348552840009955",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:08:59Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       }
     ],
     "recent_reports": []
@@ -9083,7 +9083,7 @@
       "address": "Санкт-Петербург, проспект Богатырский, 12 к2",
       "lat": 59.997634,
       "lng": 30.274577,
-      "last_transaction_at": "2026-11-13T19:58:54Z",
+      "last_transaction_at": "2026-11-13T22:45:21Z",
       "created_at": "2026-07-10T15:34:48.577776Z",
       "updated_at": "2026-11-13T20:37:39.696103Z",
       "has_shop": true,
@@ -9205,7 +9205,7 @@
         "station_id": "5348552838604003",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:51Z"
       }
     ],
     "recent_reports": []
@@ -9219,7 +9219,7 @@
       "address": "Санкт-Петербург, Благодатная улица, 10а",
       "lat": 59.876187,
       "lng": 30.306632,
-      "last_transaction_at": "2026-11-13T21:35:44Z",
+      "last_transaction_at": "2026-11-14T00:49:36Z",
       "created_at": "2026-07-10T15:34:45.136541Z",
       "updated_at": "2026-11-13T20:37:26.257767Z",
       "has_shop": true,
@@ -9290,7 +9290,7 @@
       "address": "Санкт-Петербург, проспект Испытателей, 2 к1 лит А",
       "lat": 60.001563,
       "lng": 30.314011,
-      "last_transaction_at": "2026-11-13T17:17:05Z",
+      "last_transaction_at": "2026-11-13T22:15:20Z",
       "created_at": "2026-07-10T15:34:49.814876Z",
       "updated_at": "2026-11-13T20:38:14.296274Z",
       "has_shop": false,
@@ -9327,13 +9327,13 @@
       {
         "station_id": "70000001063874230",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 7,
         "last_report_at": "2026-10-03T14:17:13Z"
       }
     ],
-    "status": "PARTIALLY_AVAILABLE",
+    "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -9342,7 +9342,7 @@
         "station_id": "70000001063874230",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       }
     ],
     "recent_reports": []
@@ -9378,7 +9378,7 @@
       {
         "station_id": "70000001052037411",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": false,
         "queue_level": "FROM_25_TO_50",
         "limit_liters": 0,
         "reports_count": 26,
@@ -9405,41 +9405,41 @@
       {
         "station_id": "70000001052037411",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "UP_TO_25",
         "limit_liters": 0,
         "reports_count": 55,
         "last_report_at": "2026-09-21T15:20:04Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001052037411",
         "fuel_type": "AI_100",
         "price": 99.9,
-        "updated_at": "2026-11-13T18:09:00Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "70000001052037411",
         "fuel_type": "AI_95",
         "price": 72.1,
-        "updated_at": "2026-11-13T18:09:00Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "70000001052037411",
         "fuel_type": "AI_92",
         "price": 67.57,
-        "updated_at": "2026-11-13T18:09:00Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "70000001052037411",
         "fuel_type": "DT",
         "price": 82.96,
-        "updated_at": "2026-11-13T18:09:00Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       }
     ],
     "recent_reports": []
@@ -9453,7 +9453,7 @@
       "address": "Санкт-Петербург, Благодатная улица, 48",
       "lat": 59.876698,
       "lng": 30.336951,
-      "last_transaction_at": "2026-11-13T20:44:49Z",
+      "last_transaction_at": "2026-11-13T23:10:48Z",
       "created_at": "2026-07-10T15:34:45.363653Z",
       "updated_at": "2026-11-13T20:37:33.593876Z",
       "has_shop": true,
@@ -9508,19 +9508,19 @@
         "station_id": "5348552840479687",
         "fuel_type": "AI_95",
         "price": 72.8,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "5348552840479687",
         "fuel_type": "AI_92",
         "price": 67.7,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "5348552840479687",
         "fuel_type": "DT",
         "price": 83,
-        "updated_at": "2026-11-13T18:09:02Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       }
     ],
     "recent_reports": []
@@ -9583,25 +9583,25 @@
     "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001113051941",
         "fuel_type": "AI_95",
         "price": 74.16,
-        "updated_at": "2026-11-13T20:08:56Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       },
       {
         "station_id": "70000001113051941",
         "fuel_type": "AI_92",
         "price": 69.05,
-        "updated_at": "2026-11-13T20:08:56Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       },
       {
         "station_id": "70000001113051941",
         "fuel_type": "DT",
         "price": 83.56,
-        "updated_at": "2026-11-13T20:08:56Z"
+        "updated_at": "2026-11-13T22:08:59Z"
       }
     ],
     "recent_reports": []
@@ -9636,7 +9636,7 @@
       {
         "station_id": "5348552841674354",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 25,
@@ -9654,29 +9654,29 @@
       {
         "station_id": "5348552841674354",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 35,
         "last_report_at": "2026-10-11T16:08:48Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "NONE",
+    "queue_level": "UP_TO_25",
     "prices": [
       {
         "station_id": "5348552841674354",
         "fuel_type": "AI_95",
         "price": 74.16,
-        "updated_at": "2026-11-13T20:08:55Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       },
       {
         "station_id": "5348552841674354",
         "fuel_type": "AI_92",
         "price": 69.06,
-        "updated_at": "2026-11-13T20:08:55Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       }
     ],
     "recent_reports": []
@@ -9690,7 +9690,7 @@
       "address": "Санкт-Петербург, Заневский проспект, 75",
       "lat": 59.934296,
       "lng": 30.441918,
-      "last_transaction_at": "2026-11-13T21:09:04Z",
+      "last_transaction_at": "2026-11-13T22:49:43Z",
       "created_at": "2026-07-10T15:34:42.588626Z",
       "updated_at": "2026-11-13T20:37:26.246394Z",
       "has_shop": true,
@@ -9739,7 +9739,7 @@
     "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -9784,7 +9784,7 @@
         "station_id": "70000001109866001",
         "fuel_type": "GAS",
         "price": 50.9,
-        "updated_at": "2026-11-13T18:09:00Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       }
     ],
     "recent_reports": []
@@ -9943,7 +9943,7 @@
       "address": "Санкт-Петербург, улица Салова, 82 к3",
       "lat": 59.878128,
       "lng": 30.361123,
-      "last_transaction_at": "2026-11-13T18:06:26Z",
+      "last_transaction_at": "2026-11-13T23:59:09Z",
       "created_at": "2026-07-10T15:34:47.036529Z",
       "updated_at": "2026-11-10T09:21:12.672894Z",
       "has_shop": false,
@@ -10027,7 +10027,7 @@
       {
         "station_id": "5348552840268770",
         "fuel_type": "AI_100",
-        "available": true,
+        "available": null,
         "queue_level": "OVER_50",
         "limit_liters": 30,
         "reports_count": 14,
@@ -10054,14 +10054,14 @@
       {
         "station_id": "5348552840268770",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 55,
         "last_report_at": "2026-09-28T16:59:58Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -10071,19 +10071,19 @@
         "station_id": "5348552840268770",
         "fuel_type": "AI_100",
         "price": 99.9,
-        "updated_at": "2026-11-13T20:08:55Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "5348552840268770",
         "fuel_type": "AI_92",
         "price": 69.06,
-        "updated_at": "2026-11-13T20:08:55Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "5348552840268770",
         "fuel_type": "DT",
         "price": 83.53,
-        "updated_at": "2026-11-13T20:08:55Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       }
     ],
     "recent_reports": []
@@ -10097,7 +10097,7 @@
       "address": "Санкт-Петербург, проспект Непокорённых, 15 лит А",
       "lat": 59.995319,
       "lng": 30.380603,
-      "last_transaction_at": "2026-11-13T17:57:46Z",
+      "last_transaction_at": "2026-11-13T22:29:27Z",
       "created_at": "2026-07-10T15:34:48.932957Z",
       "updated_at": "2026-11-13T20:37:33.519646Z",
       "has_shop": true,
@@ -10146,7 +10146,7 @@
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -10187,7 +10187,7 @@
       {
         "station_id": "5348552840181557",
         "fuel_type": "AI_92",
-        "available": false,
+        "available": null,
         "queue_level": "NONE",
         "reports_count": 2,
         "last_report_at": "2026-10-08T21:39:16Z"
@@ -10210,19 +10210,19 @@
         "station_id": "5348552840181557",
         "fuel_type": "AI_95",
         "price": 71.9,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "5348552840181557",
         "fuel_type": "AI_92",
         "price": 67.2,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "5348552840181557",
         "fuel_type": "DT",
         "price": 82.7,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       }
     ],
     "recent_reports": []
@@ -10289,7 +10289,7 @@
       {
         "station_id": "70000001110358124",
         "fuel_type": "AI_100",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 10,
@@ -10298,7 +10298,7 @@
       {
         "station_id": "70000001110358124",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": false,
         "queue_level": "UP_TO_25",
         "limit_liters": 30,
         "reports_count": 18,
@@ -10307,7 +10307,7 @@
       {
         "station_id": "70000001110358124",
         "fuel_type": "AI_92",
-        "available": true,
+        "available": false,
         "queue_level": "UP_TO_25",
         "limit_liters": 30,
         "reports_count": 17,
@@ -10316,14 +10316,14 @@
       {
         "station_id": "70000001110358124",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "UP_TO_25",
         "limit_liters": 30,
         "reports_count": 23,
         "last_report_at": "2026-09-27T03:23:23Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "NOT_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -10333,25 +10333,25 @@
         "station_id": "70000001110358124",
         "fuel_type": "AI_100",
         "price": 99.9,
-        "updated_at": "2026-11-13T18:08:53Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       },
       {
         "station_id": "70000001110358124",
         "fuel_type": "AI_95",
         "price": 73.6,
-        "updated_at": "2026-11-13T18:08:53Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       },
       {
         "station_id": "70000001110358124",
         "fuel_type": "AI_92",
         "price": 68.5,
-        "updated_at": "2026-11-13T18:08:53Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       },
       {
         "station_id": "70000001110358124",
         "fuel_type": "DT",
         "price": 83,
-        "updated_at": "2026-11-13T18:08:53Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       }
     ],
     "recent_reports": []
@@ -10467,7 +10467,7 @@
       "address": "Санкт-Петербург, улица Фучика, 6 к3",
       "lat": 59.878671,
       "lng": 30.370365,
-      "last_transaction_at": "2026-11-13T21:42:49Z",
+      "last_transaction_at": "2026-11-14T00:48:39Z",
       "created_at": "2026-07-10T15:34:47.691401Z",
       "updated_at": "2026-11-13T20:37:28.704826Z",
       "has_shop": true,
@@ -10526,7 +10526,7 @@
     "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -10538,7 +10538,7 @@
       "address": "Санкт-Петербург, проспект Юрия Гагарина, 2 к2",
       "lat": 59.873207,
       "lng": 30.336999,
-      "last_transaction_at": "2026-11-13T21:31:56Z",
+      "last_transaction_at": "2026-11-13T23:16:20Z",
       "created_at": "2026-07-10T15:34:50.764714Z",
       "updated_at": "2026-11-13T20:37:28.729348Z",
       "has_shop": true,
@@ -10574,7 +10574,7 @@
         "last_report_at": "2026-09-18T10:31:54Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "UP_TO_25",
@@ -10645,7 +10645,7 @@
         "last_report_at": "2026-11-08T13:22:38Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "UP_TO_25",
@@ -10654,25 +10654,25 @@
         "station_id": "70000001062822050",
         "fuel_type": "AI_98",
         "price": 102.9,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "70000001062822050",
         "fuel_type": "AI_95",
         "price": 73.9,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "70000001062822050",
         "fuel_type": "AI_92",
         "price": 68.4,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "70000001062822050",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:09:03Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       }
     ],
     "recent_reports": []
@@ -10790,7 +10790,7 @@
       "address": "Санкт-Петербург, улица Ворошилова, 10",
       "lat": 59.924881,
       "lng": 30.445423,
-      "last_transaction_at": "2026-11-13T21:11:26Z",
+      "last_transaction_at": "2026-11-14T01:00:29Z",
       "created_at": "2026-07-10T15:34:47.731659Z",
       "updated_at": "2026-11-13T20:37:26.256701Z",
       "has_shop": true,
@@ -10840,7 +10840,6 @@
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
-    "can_use_canister": true,
     "recent_reports": []
   },
   {
@@ -10852,7 +10851,7 @@
       "address": "Санкт-Петербург, проспект Непокорённых, 53 лит А",
       "lat": 59.99375,
       "lng": 30.391461,
-      "last_transaction_at": "2026-11-13T19:14:11Z",
+      "last_transaction_at": "2026-11-14T00:29:41Z",
       "created_at": "2026-07-10T15:34:45.980783Z",
       "updated_at": "2026-11-13T20:37:31.090024Z",
       "has_shop": true,
@@ -10898,7 +10897,7 @@
         "last_report_at": "2026-10-05T14:24:54Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -10954,7 +10953,7 @@
       "address": "Санкт-Петербург, проспект Богатырский, 17",
       "lat": 60.000887,
       "lng": 30.261885,
-      "last_transaction_at": "2026-11-13T21:42:04Z",
+      "last_transaction_at": "2026-11-14T00:29:16Z",
       "created_at": "2026-07-10T15:34:43.798435Z",
       "updated_at": "2026-11-13T20:37:26.258789Z",
       "has_shop": true,
@@ -11057,7 +11056,7 @@
       {
         "station_id": "70000001105991745",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 6,
@@ -11075,14 +11074,14 @@
       {
         "station_id": "70000001105991745",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 17,
         "last_report_at": "2026-09-27T02:31:29Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -11182,7 +11181,7 @@
         "last_report_at": "2026-09-20T09:38:20Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": true,
     "queue_level": "NONE",
@@ -11197,7 +11196,7 @@
       "address": "Санкт-Петербург, Кузнецовская улица, 35",
       "lat": 59.87186,
       "lng": 30.345642,
-      "last_transaction_at": "2026-11-13T20:39:21Z",
+      "last_transaction_at": "2026-11-13T22:51:12Z",
       "created_at": "2026-07-10T15:34:44.356967Z",
       "updated_at": "2026-11-13T20:37:32.273902Z",
       "has_shop": true,
@@ -11252,34 +11251,34 @@
         "last_report_at": "2026-11-13T16:49:45Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "5348552839763921",
         "fuel_type": "AI_98",
         "price": 102.9,
-        "updated_at": "2026-11-13T18:09:01Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "5348552839763921",
         "fuel_type": "AI_95",
         "price": 73.9,
-        "updated_at": "2026-11-13T18:09:01Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "5348552839763921",
         "fuel_type": "AI_92",
         "price": 68.4,
-        "updated_at": "2026-11-13T18:09:01Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       },
       {
         "station_id": "5348552839763921",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:09:01Z"
+        "updated_at": "2026-11-13T22:08:54Z"
       }
     ],
     "recent_reports": []
@@ -11420,19 +11419,19 @@
         "station_id": "70000001110487458",
         "fuel_type": "AI_95",
         "price": 73.21,
-        "updated_at": "2026-11-13T18:08:56Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       },
       {
         "station_id": "70000001110487458",
         "fuel_type": "AI_92",
         "price": 68,
-        "updated_at": "2026-11-13T18:08:56Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       },
       {
         "station_id": "70000001110487458",
         "fuel_type": "DT",
         "price": 83.37,
-        "updated_at": "2026-11-13T18:08:56Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       }
     ],
     "recent_reports": []
@@ -11530,7 +11529,7 @@
         "last_report_at": "2026-09-15T08:49:32Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": true,
     "queue_level": "NONE",
@@ -11545,7 +11544,7 @@
       "address": "Санкт-Петербург, улица Стасовой, 13",
       "lat": 59.968242,
       "lng": 30.439871,
-      "last_transaction_at": "2026-11-13T17:02:34Z",
+      "last_transaction_at": "2026-11-14T00:06:43Z",
       "created_at": "2026-07-10T15:34:50.137022Z",
       "updated_at": "2026-11-13T20:37:33.610089Z",
       "has_shop": false,
@@ -11597,13 +11596,13 @@
         "station_id": "5348552840479721",
         "fuel_type": "AI_92",
         "price": 67.1,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       },
       {
         "station_id": "5348552840479721",
         "fuel_type": "DT",
         "price": 82.6,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:08:58Z"
       }
     ],
     "recent_reports": []
@@ -11660,7 +11659,7 @@
         "last_report_at": "2026-10-11T15:31:11Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": true,
     "queue_level": "NONE",
@@ -11675,7 +11674,7 @@
       "address": "Санкт-Петербург, Школьная улица, 100",
       "lat": 59.990815,
       "lng": 30.221422,
-      "last_transaction_at": "2026-11-13T21:25:50Z",
+      "last_transaction_at": "2026-11-14T00:07:57Z",
       "created_at": "2026-07-10T15:34:44.752378Z",
       "updated_at": "2026-11-13T20:38:04.070142Z",
       "has_shop": true,
@@ -11730,7 +11729,7 @@
         "last_report_at": "2026-10-02T23:27:17Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -11739,19 +11738,19 @@
         "station_id": "70000001051057670",
         "fuel_type": "AI_95",
         "price": 72.1,
-        "updated_at": "2026-11-13T18:08:56Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "70000001051057670",
         "fuel_type": "AI_92",
         "price": 67.57,
-        "updated_at": "2026-11-13T18:08:56Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "70000001051057670",
         "fuel_type": "DT",
         "price": 82.96,
-        "updated_at": "2026-11-13T18:08:56Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       }
     ],
     "recent_reports": []
@@ -11847,7 +11846,7 @@
       "address": "Санкт-Петербург, Пискарёвский проспект, 43 к2",
       "lat": 59.982826,
       "lng": 30.425546,
-      "last_transaction_at": "2026-11-13T21:43:42Z",
+      "last_transaction_at": "2026-11-13T23:31:30Z",
       "created_at": "2026-07-10T15:34:44.831731Z",
       "updated_at": "2026-11-13T20:37:26.258693Z",
       "has_shop": true,
@@ -11906,7 +11905,7 @@
     "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -11918,7 +11917,7 @@
       "address": "Санкт-Петербург, Бестужевская улица, 52 к2",
       "lat": 59.977532,
       "lng": 30.433165,
-      "last_transaction_at": "2026-11-13T21:04:35Z",
+      "last_transaction_at": "2026-11-13T22:56:56Z",
       "created_at": "2026-07-10T15:34:48.462825Z",
       "updated_at": "2026-11-13T20:37:32.395266Z",
       "has_shop": true,
@@ -11996,7 +11995,7 @@
       {
         "station_id": "70000001068791972",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 24,
@@ -12014,14 +12013,14 @@
       {
         "station_id": "70000001068791972",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 16,
         "last_report_at": "2026-10-06T11:20:34Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -12030,19 +12029,19 @@
         "station_id": "70000001068791972",
         "fuel_type": "AI_95",
         "price": 72.66,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       },
       {
         "station_id": "70000001068791972",
         "fuel_type": "AI_92",
         "price": 68.12,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       },
       {
         "station_id": "70000001068791972",
         "fuel_type": "DT",
         "price": 82.28,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       }
     ],
     "recent_reports": []
@@ -12090,7 +12089,7 @@
         "station_id": "70000001103954249",
         "fuel_type": "GAS",
         "price": 49.9,
-        "updated_at": "2026-11-13T18:09:04Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       }
     ],
     "recent_reports": []
@@ -12194,25 +12193,25 @@
     "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "prices": [
       {
         "station_id": "70000001105298945",
         "fuel_type": "AI_95",
         "price": 74.49,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "70000001105298945",
         "fuel_type": "AI_92",
         "price": 69.07,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       },
       {
         "station_id": "70000001105298945",
         "fuel_type": "DT",
         "price": 82.93,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:56Z"
       }
     ],
     "recent_reports": []
@@ -12267,7 +12266,7 @@
       "address": "Санкт-Петербург, Уманский переулок, 70 к2 лит А",
       "lat": 59.966221,
       "lng": 30.448729,
-      "last_transaction_at": "2026-11-13T15:10:41Z",
+      "last_transaction_at": "2026-11-13T21:56:24Z",
       "created_at": "2026-07-10T15:34:50.460003Z",
       "updated_at": "2026-11-13T20:37:33.582966Z",
       "has_shop": true,
@@ -12288,7 +12287,7 @@
       {
         "station_id": "5348552840479726",
         "fuel_type": "AI_95",
-        "available": null,
+        "available": true,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 11,
@@ -12297,7 +12296,7 @@
       {
         "station_id": "5348552840479726",
         "fuel_type": "AI_92",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 30,
         "reports_count": 11,
@@ -12323,13 +12322,13 @@
         "station_id": "5348552840479726",
         "fuel_type": "AI_92",
         "price": 67.6,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       },
       {
         "station_id": "5348552840479726",
         "fuel_type": "DT",
         "price": 82.8,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:09:00Z"
       }
     ],
     "recent_reports": []
@@ -12343,7 +12342,7 @@
       "address": "Санкт-Петербург, Софийская улица, 18 лит А",
       "lat": 59.878956,
       "lng": 30.397749,
-      "last_transaction_at": "2026-11-13T21:03:33Z",
+      "last_transaction_at": "2026-11-13T22:18:18Z",
       "created_at": "2026-07-10T15:34:50.677353Z",
       "updated_at": "2026-11-13T20:37:30.685832Z",
       "has_shop": true,
@@ -12388,7 +12387,7 @@
         "last_report_at": "2026-10-18T18:41:17Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -12398,19 +12397,19 @@
         "station_id": "5348552838603676",
         "fuel_type": "AI_95",
         "price": 73.9,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "5348552838603676",
         "fuel_type": "AI_92",
         "price": 68.4,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       },
       {
         "station_id": "5348552838603676",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:08:54Z"
+        "updated_at": "2026-11-13T22:08:57Z"
       }
     ],
     "recent_reports": []
@@ -12486,7 +12485,7 @@
       {
         "station_id": "70000001114591163",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 14,
@@ -12504,14 +12503,14 @@
       {
         "station_id": "70000001114591163",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 19,
         "last_report_at": "2026-10-07T13:54:38Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -12520,19 +12519,19 @@
         "station_id": "70000001114591163",
         "fuel_type": "AI_95",
         "price": 73.55,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "70000001114591163",
         "fuel_type": "AI_92",
         "price": 68.35,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "70000001114591163",
         "fuel_type": "DT",
         "price": 83.33,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       }
     ],
     "recent_reports": []
@@ -12583,7 +12582,7 @@
       {
         "station_id": "70000001051224199",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "NONE",
         "reports_count": 6,
         "last_report_at": "2026-09-11T05:52:11Z"
@@ -12598,7 +12597,7 @@
         "station_id": "70000001051224199",
         "fuel_type": "DT",
         "price": 82.4,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       }
     ],
     "recent_reports": []
@@ -12665,7 +12664,7 @@
         "station_id": "5348552840009954",
         "fuel_type": "DT",
         "price": 82.9,
-        "updated_at": "2026-11-13T18:09:05Z"
+        "updated_at": "2026-11-13T22:09:01Z"
       }
     ],
     "recent_reports": []
@@ -12679,7 +12678,7 @@
       "address": "Санкт-Петербург, Пискарёвский проспект, 42 лит А",
       "lat": 59.986695,
       "lng": 30.426289,
-      "last_transaction_at": "2026-11-13T21:15:00Z",
+      "last_transaction_at": "2026-11-13T22:32:17Z",
       "created_at": "2026-07-10T15:34:44.216606Z",
       "updated_at": "2026-11-13T20:37:33.583167Z",
       "has_shop": true,
@@ -12734,13 +12733,13 @@
         "station_id": "5348552840479711",
         "fuel_type": "AI_92",
         "price": 67.6,
-        "updated_at": "2026-11-13T18:08:56Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552840479711",
         "fuel_type": "DT",
         "price": 82.8,
-        "updated_at": "2026-11-13T18:08:56Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       }
     ],
     "recent_reports": []
@@ -12754,7 +12753,7 @@
       "address": "Санкт-Петербург, проспект Сизова, 19",
       "lat": 60.01115,
       "lng": 30.276477,
-      "last_transaction_at": "2026-11-13T18:40:39Z",
+      "last_transaction_at": "2026-11-13T22:24:44Z",
       "created_at": "2026-07-10T15:34:48.221889Z",
       "updated_at": "2026-11-13T20:37:30.693363Z",
       "has_shop": true,
@@ -12820,25 +12819,25 @@
         "station_id": "5348552838603997",
         "fuel_type": "AI_98",
         "price": 102.9,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       },
       {
         "station_id": "5348552838603997",
         "fuel_type": "AI_95",
         "price": 73.9,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       },
       {
         "station_id": "5348552838603997",
         "fuel_type": "AI_92",
         "price": 68.4,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       },
       {
         "station_id": "5348552838603997",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:55Z"
       }
     ],
     "recent_reports": []
@@ -12852,7 +12851,7 @@
       "address": "Санкт-Петербург, улица Седова, 43/2",
       "lat": 59.886129,
       "lng": 30.421762,
-      "last_transaction_at": "2026-11-13T20:42:35Z",
+      "last_transaction_at": "2026-11-13T22:40:15Z",
       "created_at": "2026-07-10T15:34:49.524598Z",
       "updated_at": "2026-11-13T20:37:35.993109Z",
       "has_shop": true,
@@ -12891,14 +12890,14 @@
       {
         "station_id": "5348553839138950",
         "fuel_type": "DT",
-        "available": null,
+        "available": false,
         "queue_level": "OVER_50",
         "limit_liters": 30,
         "reports_count": 35,
         "last_report_at": "2026-11-01T19:58:10Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 30,
@@ -12908,19 +12907,19 @@
         "station_id": "5348553839138950",
         "fuel_type": "AI_95",
         "price": 73.48,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "5348553839138950",
         "fuel_type": "AI_92",
         "price": 69,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       },
       {
         "station_id": "5348553839138950",
         "fuel_type": "DT",
         "price": 82.78,
-        "updated_at": "2026-11-13T18:08:58Z"
+        "updated_at": "2026-11-13T22:08:53Z"
       }
     ],
     "recent_reports": []
@@ -12934,7 +12933,7 @@
       "address": "Санкт-Петербург, Пискарёвский проспект, 46/1 лит А",
       "lat": 59.988407,
       "lng": 30.428674,
-      "last_transaction_at": "2026-11-13T21:40:52Z",
+      "last_transaction_at": "2026-11-14T00:57:27Z",
       "created_at": "2026-07-10T15:34:48.642711Z",
       "updated_at": "2026-11-13T20:37:26.242238Z",
       "has_shop": true,
@@ -12991,7 +12990,7 @@
     "status": "AVAILABLE",
     "closed": false,
     "closed_by_schedule": true,
-    "queue_level": "UP_TO_25",
+    "queue_level": "NONE",
     "recent_reports": []
   },
   {
@@ -13003,7 +13002,7 @@
       "address": "Санкт-Петербург, Школьная улица, 77",
       "lat": 59.992852,
       "lng": 30.207866,
-      "last_transaction_at": "2026-11-13T18:08:35Z",
+      "last_transaction_at": "2026-11-14T00:18:34Z",
       "created_at": "2026-07-10T15:34:50.213887Z",
       "updated_at": "2026-11-13T20:37:30.703329Z",
       "has_shop": true,
@@ -13059,7 +13058,7 @@
         "last_report_at": "2026-11-11T18:27:10Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "limit_liters": 40,
@@ -13069,25 +13068,25 @@
         "station_id": "5348552838603669",
         "fuel_type": "AI_98",
         "price": 102.9,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552838603669",
         "fuel_type": "AI_95",
         "price": 72.9,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552838603669",
         "fuel_type": "AI_92",
         "price": 68.4,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "5348552838603669",
         "fuel_type": "DT",
         "price": 83.4,
-        "updated_at": "2026-11-13T18:08:57Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       }
     ],
     "recent_reports": []
@@ -13122,7 +13121,7 @@
       {
         "station_id": "70000001111161976",
         "fuel_type": "AI_95",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 38,
@@ -13140,14 +13139,14 @@
       {
         "station_id": "70000001111161976",
         "fuel_type": "DT",
-        "available": true,
+        "available": null,
         "queue_level": "NONE",
         "limit_liters": 0,
         "reports_count": 35,
         "last_report_at": "2026-11-01T06:49:33Z"
       }
     ],
-    "status": "AVAILABLE",
+    "status": "PARTIALLY_AVAILABLE",
     "closed": false,
     "closed_by_schedule": false,
     "queue_level": "NONE",
@@ -13156,19 +13155,19 @@
         "station_id": "70000001111161976",
         "fuel_type": "AI_95",
         "price": 72.99,
-        "updated_at": "2026-11-13T18:09:06Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "70000001111161976",
         "fuel_type": "AI_92",
         "price": 67.79,
-        "updated_at": "2026-11-13T18:09:06Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       },
       {
         "station_id": "70000001111161976",
         "fuel_type": "DT",
         "price": 82.77,
-        "updated_at": "2026-11-13T18:09:06Z"
+        "updated_at": "2026-11-13T22:08:52Z"
       }
     ],
     "recent_reports": []
